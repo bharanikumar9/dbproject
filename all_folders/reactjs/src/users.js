@@ -1,6 +1,10 @@
 import Home from ".";
 import React, { createRef } from "react";
 import { Button } from 'reactstrap';
+import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup'
+import { Col, Row, Form } from "react-bootstrap";
+
 
 class Users extends React.Component {
     constructor(props) {
@@ -49,27 +53,47 @@ class Users extends React.Component {
                         <h1> Users </h1>
                     </div>
 
-                    <main>
+                    <div className="container-body">
+
+
+
+<div style={{ padding: 20 }} >
+
+    <Row xs={1} md={3}>
 
                         {
                             items.map((item) => (
-                                <div >
-                                    <h2> {item.display_name} </h2>
-                                    <h4>{item.reputation} </h4>
-                                    joined on {item.creation_date}
-                                </div>
-                                // <Button color="primary" className="px-4" style={{ margin: '10px' }} >
-                                //     <a className="boxhead" href={`/matches/${item.match_id}`}>
-                                //         <div className="boxed" >
-                                //             <h2> {item.title} </h2>
-                                //             <h4>{item.body} </h4>
-                                //             upvotes {item.upvotes} downvotes {item.downvotes} created on {item.creation_date}
-                                //         </div>
-                                //     </a>
-                                // </Button>
+                                <Col>
+                                            <Card className="mb-3" key={item.user_id} style={{ padding: 0 }}>
+                                                <Card.Body style={{ padding: 5 }}>
+                                                <a href= {`/users/${item.user_id}`}>
+                                                    <Card.Header>
+                                                        {item.display_name}
+                                                    </Card.Header>
+                                                    </a>
+                                                    &nbsp;
+                                                    <Card.Text>
+                                                        <h5>
+                                                        {item.reputation}
+                                                        
+                                                        </h5>
+                                                    </Card.Text>
+                                                    <Card.Text>
+                                                        <h5>
+                                                        
+                                                        joined on {item.creation_date}
+                                                        </h5>
+                                                    </Card.Text>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                
+                                
                             ))
                         }
-                    </main>
+                        </Row>
+
+                        </div>
 
                     <left>
                         <Button onClick={this.Decreasepage} >
@@ -82,6 +106,7 @@ class Users extends React.Component {
                         </Button>
                     </right>
 
+                </div>
                 </div>
 
                 <style jsx>{`
@@ -96,6 +121,13 @@ class Users extends React.Component {
 				h1,h4{
 					text-align: center;
 				}
+                .container-body{
+                    padding-left: 300px;
+                    padding-top: 20px;
+                    // position: fixed;
+                    z-index: 10;
+                    // box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1)
+                }
 
 				main{
 					text-align: center;
