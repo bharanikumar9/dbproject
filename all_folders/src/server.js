@@ -218,6 +218,31 @@ app.get("/questions/:question_id", async (req, res) => {
 });
 
 
+app.get("/answers/:question_id", async (req, res) => {
+    try {
+        const { question_id } = req.params;
+        const allTodos = await pool.query(`SELECT  answers.answer_id , answers.question_id , users.display_name ,  body  ,answers.user_id ,  answers.creation_date, answers.upvotes ,answers.downvotes  from answers , users
+        where  question_id = $1  and users.user_id = answers.user_id order by upvotes`
+            , [question_id]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+
+app.get("/comments/:question_id", async (req, res) => {
+    try {
+        const { question_id } = req.params;
+        const allTodos = await pool.query(` select display_name, comment_id ,answer_id , score ,  body  ,users.user_id ,  a.creation_date , display_name from users, ( SELECT  comment_id ,answer_id , score ,  body  ,user_id ,  creation_date  from answer_comments where answer_id in  (select answer_id from answers where question_id = $1)
+       ) a where a.user_id = users.user_id order by answer_id,creation_date`
+            , [question_id]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
 app.get("/users/:user_id", async (req, res) => {
     try {
         const { user_id } = req.params;

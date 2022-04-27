@@ -50,7 +50,6 @@ function Main_page() {
 
   const handleChange = (val) => {
     setValue(val);
-    console.log(val);
 
   }
 
@@ -62,7 +61,7 @@ function Main_page() {
       <Home />
 
       <div className='container-body'>
-        <ToggleButtonGroup type="radio" name="options" defaultValue={1} onChange={handleChange}>
+        <ToggleButtonGroup style={{ marginLeft: '470px' }} type="radio" name="options" defaultValue={1} onChange={handleChange}>
           <ToggleButton id="tbg-radio-1" value={1}>
             Popular questions
           </ToggleButton> <h3>&nbsp;</h3>
@@ -74,8 +73,10 @@ function Main_page() {
           </ToggleButton> <h3>&nbsp;</h3>
           <ToggleButton id="tbg-radio-4" value={4}>
             Popular tags
-          </ToggleButton> <h3>&nbsp;</h3>
+          </ToggleButton>
         </ToggleButtonGroup>
+
+
 
         {value == 1 ?
           (

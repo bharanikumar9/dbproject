@@ -26,6 +26,9 @@ class Ask_question extends React.Component {
                 <Home />
                 <div className="container-body">
 
+                    <h5>Form to ask questions</h5>
+
+
 
                 </div>
 
@@ -39,7 +42,7 @@ class Ask_question extends React.Component {
 				}
 
                 .container-body{
-                    padding-left: 0px;
+                    padding-left: 350px;
                     padding-top: 60px;
                     // position: fixed;
                     z-index: 10;

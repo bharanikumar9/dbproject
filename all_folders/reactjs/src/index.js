@@ -12,24 +12,16 @@ export default function Home() {
         <Navbar className="fixed-top" bg="light" expand="lg" sticky="top" >
           <Container>
             <Navbar.Brand href="#" style={{ marginLeft: '20px' }}>Discussion Forum</Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
-              <Nav
-                className="me-auto my-2 my-lg-0"
-                style={{ maxHeight: '100px' }}
-                navbarScroll
-              >
-              </Nav>
-              <Form style={{ position: 'center' }} className="d-flex">
-                <FormControl
-                  type="search"
-                  placeholder="Search"
-                  className="me-2"
-                  aria-label="Search"
-                />
-                <Button variant="outline-success">Search</Button>
-              </Form>
-            </Navbar.Collapse>
+            <Nav
+              style={{ maxHeight: '100px' }}
+              navbarScroll
+            >
+            </Nav>
+
+            <div className="float-right">
+              <Button href="/questions/ask" variant="success">Ask a question</Button>
+            </div>
+
           </Container>
 
         </Navbar>

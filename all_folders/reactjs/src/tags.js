@@ -87,12 +87,12 @@ class Tags extends React.Component {
 
 
                         <left>
-                            <Button onClick={this.Decreasepage} >
+                            <Button variant="primary" onClick={this.Decreasepage} >
                                 Previous Page
                             </Button>
                         </left>
                         <right>
-                            <Button onClick={this.Incrementpage}>
+                            <Button variant="primary" onClick={this.Incrementpage}>
                                 Next Page
                             </Button>
                         </right>
