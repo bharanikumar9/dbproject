@@ -12,7 +12,9 @@ import Questions from "./questions";
 import Tags from "./tags";
 import Users from "./users";
 import Add_User from "./User_Add";
-
+import View_profile from "./profile";
+import TagDetails from "./tagDetails";
+import Login from "./Login";
 export default function App() {
 	return (
 
@@ -27,6 +29,9 @@ export default function App() {
 					<Route exact path="/" element={<Main_page />} />
 					<Route exact path="/Signup" element={<Add_User />} />
 					<Route exact path="/questions/ask" element={<Ask_question />} />
+					<Route exact path="/users/:user_id" element={<View_profile />} />
+					<Route exact path="/tags/:tag_id" element={<TagDetails />} />
+					<Route exact path="/Login" element={<Login />} />
 
 
 
