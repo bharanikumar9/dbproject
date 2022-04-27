@@ -33,15 +33,15 @@ function Main_page() {
     fetchdata(api1).then(data => {
       setTopquestions(data)
     })
-    // const api4 = `http://localhost:5000/recentquestions`;
-    // fetchdata(api4).then(data => {
-    //   setRecentquestions(data)
-    // })
-    const api2 = `http://localhost:5000/topusers`;
+    const api4 = `http://localhost:5000/recentquestions/0/10`;
+    fetchdata(api4).then(data => {
+      setRecentquestions(data)
+    })
+    const api2 = `http://localhost:5000/topusers/0/10`;
     fetchdata(api2).then(data => {
       setTopUsers(data)
     })
-    const api3 = `http://localhost:5000/toptags`;
+    const api3 = `http://localhost:5000/toptags/0/10`;
     fetchdata(api3).then(data => {
       setTopTags(data)
     })
@@ -82,11 +82,11 @@ function Main_page() {
             <div>
               {
                 topquestions.map((item) => (
-                  <div style={{ padding: 30 }} >
+                  <div style={{ padding: 20 }} >
 
                     <Card style={{ marginLeft: '0px', marginRight: '10px' }}>
                       <Card.Body>
-                        <a href={`/questions/${item.question_id}`}>
+                        <a style={{ textDecoration: 'none' }} href={`/questions/${item.question_id}`}>
                           <Card.Title>
                             {item.title}
                           </Card.Title>
@@ -113,6 +113,108 @@ function Main_page() {
             </div>
           )
           : null}
+
+        {value == 2 ?
+          (
+            <div>
+              {
+                recentquestions.map((item) => (
+                  <div style={{ padding: 20 }} >
+
+                    <Card style={{ marginLeft: '0px', marginRight: '10px' }}>
+                      <Card.Body>
+                        <a style={{ textDecoration: 'none' }} href={`/questions/${item.question_id}`}>
+                          <Card.Title>
+                            {item.title}
+                          </Card.Title>
+                        </a>
+
+                        <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
+
+                        <Button size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
+                        {item.tag_2 ? <Button size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
+                        {item.tag_3 ? <Button size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
+                        {item.tag_4 ? <Button size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
+                        {item.tag_5 ? <Button size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
+                        {item.tag_6 ? <Button size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
+
+
+                        <Card.Text>
+                          upvotes {item.upvotes} downvotes {item.downvotes}
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
+                ))
+              }
+            </div>
+          )
+          : null}
+
+
+
+        {value == 3 ?
+          (
+            <div>
+              {
+                topusers.map((item) => (
+                  <div style={{ padding: 20 }} >
+
+                    <Card style={{ marginLeft: '0px', marginRight: '10px' }}>
+                      <Card.Body>
+                        <a style={{ textDecoration: 'none' }} href={`/user/${item.user_id}`}>
+                          <Card.Title>
+                            {item.display_name}
+                          </Card.Title>
+                        </a>
+
+                        <Card.Subtitle className="mb-2 text-muted">joined on {item.creation_date}</Card.Subtitle>
+
+                        <Card.Text>
+                          viewed {item.views} times <br></br>
+                          Reputation {item.reputation}
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
+                ))
+              }
+            </div>
+          )
+          : null}
+
+        {value == 4 ?
+          (
+            <div>
+              {
+                toptags.map((item) => (
+                  <div className='center' style={{ padding: 20 }} >
+
+                    <Card style={{ marginLeft: '0px', marginRight: '10px' }}>
+                      <Card.Body>
+                        <a style={{ textDecoration: 'none' }} href={`/tag/${item.tag_id}`}>
+                          <Card.Title>
+                            {item.tag_name}
+                          </Card.Title>
+                        </a>
+
+                        <Card.Subtitle className="mb-2 text-muted">related to course #{item.course_id}</Card.Subtitle>
+
+                        <Card.Text>
+                          tagged {item.count} times
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
+                ))
+              }
+            </div>
+          )
+          : null}
+
+
+
+
       </div>
 
 
@@ -122,6 +224,9 @@ function Main_page() {
 
           .container {
             position: relative
+          }
+          .center {
+            text - align: center;
           }
           .container-body{
             padding-left: 350px;
@@ -150,7 +255,7 @@ function Main_page() {
           }
 
           a{
-              text - decoration: none;
+            text - decoration: none;
           }
 
 

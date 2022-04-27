@@ -3,7 +3,6 @@ const cors = require("cors");
 require('dotenv').config({ path: __dirname + '/dbproj.env' })
 
 const session = require('express-session')
-var crypto = require('crypto');
 
 
 
@@ -78,9 +77,7 @@ app.post('/register', async (req, res) => {
 
         req.session.user = {
             id: user.id,
-            firstname: user.firstname,
-            surname: user.surname,
-            email: user.email,
+            name: user.name,
         }
 
         res.status(200)
@@ -144,6 +141,52 @@ app.get("/questions/:offset/:limit", async (req, res) => {
         console.error(err.message);
     }
 });
+
+
+app.get("/recentquestions/:offset/:limit", async (req, res) => {
+    try {
+        const { offset, limit } = req.params;
+        const allTodos = await pool.query(`SELECT questions.question_id,questions.title, questions.body, users.display_name, 
+        questions.creation_date, questions.tag_1, questions.tag_2, questions.tag_3, questions.tag_4,
+        questions.tag_5, questions.tag_6, questions.upvotes, questions.downvotes from questions,users 
+        where questions.user_id = users.user_id ORDER BY creation_date ASC, view_count DESC,upvotes DESC, downvotes ASC
+        OFFSET $1 LIMIT $2`
+            , [offset, limit]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+app.get("/topusers/:offset/:limit", async (req, res) => {
+    try {
+        const { offset, limit } = req.params;
+        const allTodos = await pool.query(`SELECT * from users
+        ORDER BY views DESC, reputation DESC 
+        OFFSET $1 LIMIT $2`
+            , [offset, limit]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+app.get("/toptags/:offset/:limit", async (req, res) => {
+    try {
+        const { offset, limit } = req.params;
+        const allTodos = await pool.query(`select tag_id, tag_name,course_id, count(tag_name) from tags_courses,questions where 
+        (tag_1 = tag_name or tag_2 = tag_name or tag_3 = tag_name or tag_4 = tag_name or tag_5 = tag_name or tag_6 = tag_name) 
+        group by tag_id,tag_name,course_id order by count(tag_name) DESC
+        OFFSET $1 LIMIT $2`
+            , [offset, limit]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+
+
 
 
 app.get("/users/:offset/:limit", async (req, res) => {
