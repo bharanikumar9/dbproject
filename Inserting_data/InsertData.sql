@@ -1,38 +1,34 @@
-INSERT INTO users VALUES (0,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (1,'Jeff Atwood','#$8llx;bm}n2',51,'El Cerrito, CA','<p><a href="https://blog.codinghorror.com/stack-overflow-none-of-us-is-as-dumb-as-all-of-us/" rel="nofollow noreferrer">Stack Overflow Valued Associate #00001</a></p>
+INSERT INTO users VALUES (1,'Jeff Atwood','hibAERWPRQQM4',42,'El Cerrito, CA','<p><a href="https://blog.codinghorror.com/stack-overflow-none-of-us-is-as-dumb-as-all-of-us/" rel="nofollow noreferrer">Stack Overflow Valued Associate #00001</a></p>
 <p>Wondering how our software development process works? <a href="https://www.youtube.com/watch?v=qM4zMofsI7w" rel="nofollow noreferrer">Take a look!</a></p>
 <p>Find me <a href="https://twitter.com/codinghorror" rel="nofollow noreferrer">on twitter</a>, or <a href="https://blog.codinghorror.com/" rel="nofollow noreferrer">read my blog</a>. Don''t say I didn''t warn you <em>because I totally did</em>.</p>
 <p>However, <a href="https://blog.codinghorror.com/farewell-stack-exchange/" rel="nofollow noreferrer">I no longer work at Stack Exchange, Inc</a>. I''ll miss you all. Well, <em>some</em> of you, anyway. :)</p>','2008-07-31T14:22:31.287Z',0,62005,3402,1312,589137);
-INSERT INTO users VALUES (2,'Geoff Dalgas','N=bq)m$;SC"QC',37,'Corvallis, OR','<p>Dev #2 who helped create Stack Overflow currently working at Microsoft. I love all people willing to share their knowledge. Without community we are nothing.</p>
+INSERT INTO users VALUES (2,'Geoff Dalgas','eZlCBhLjkaVgtq',33,'Corvallis, OR','<p>Dev #2 who helped create Stack Overflow currently working at Microsoft. I love all people willing to share their knowledge. Without community we are nothing.</p>
 <p>Find me on:</p>
 <p><a href="http://www.twitter.com/SuperDalgas" rel="nofollow noreferrer">Twitter</a>
 <br><br>
 <a href="http://blog.stackoverflow.com/2009/05/welcome-stack-overflow-valued-associate-00003/">Stack Overflow Valued Associate #00003</a></p>','2008-07-31T14:22:31.287Z',0,5938,670,88,30612);
-INSERT INTO users VALUES (3,'Jarrod Dixon',']cu+K3nnI-ZY',51,'Johnson City, TN, USA','<p>Former <a href="http://blog.stackoverflow.com/2009/01/welcome-stack-overflow-valued-associate-00002/">Developer on the Stack Overflow team</a>.</p>
+INSERT INTO users VALUES (3,'Jarrod Dixon','tmDTaUwdI1',56,'Johnson City, TN, USA','<p>Former <a href="http://blog.stackoverflow.com/2009/01/welcome-stack-overflow-valued-associate-00002/">Developer on the Stack Overflow team</a>.</p>
 <p>Was dubbed <strong>SALTY SAILOR</strong> by Jeff Atwood, as filth and flarn would oft-times fly when dealing with a particularly nasty bug!</p>
 <ul>
 <li>Twitter me: <a href="http://twitter.com/jarrod_dixon" rel="nofollow noreferrer">jarrod_dixon</a></li>
 <li>Email me: jarrod.m.dixon@gmail.com</li>
-</ul>','2008-07-31T14:22:31.287Z',0,15567,7922,100,28727);
-INSERT INTO users VALUES (4,'Joel Spolsky','I)=uozDY',58,'New York, NY','<p>In 2000 I co-founded Fog Creek Software, where we created lots of cool things like the <a href="https://fogbugz.com" rel="nofollow noreferrer">FogBugz bug tracker</a>, <a href="https://trello.com" rel="nofollow noreferrer">Trello</a>, and <a href="https://glitch.com" rel="nofollow noreferrer">Glitch</a>. I also worked with <a href="https://stackoverflow.com/users/1/jeff-atwood">Jeff Atwood</a> to create <a href="https://stackoverflow.com">Stack Overflow</a> and served as CEO of Stack Overflow from 2010-2019.</p>
+</ul>','2008-07-31T14:22:31.287Z',1,15567,7922,100,28727);
+INSERT INTO users VALUES (4,'Joel Spolsky','IuvYmFVGDwEL',26,'New York, NY','<p>In 2000 I co-founded Fog Creek Software, where we created lots of cool things like the <a href="https://fogbugz.com" rel="nofollow noreferrer">FogBugz bug tracker</a>, <a href="https://trello.com" rel="nofollow noreferrer">Trello</a>, and <a href="https://glitch.com" rel="nofollow noreferrer">Glitch</a>. I also worked with <a href="https://stackoverflow.com/users/1/jeff-atwood">Jeff Atwood</a> to create <a href="https://stackoverflow.com">Stack Overflow</a> and served as CEO of Stack Overflow from 2010-2019.</p>
 
 <p>Today I serve as the chairman of the board for Stack Overflow, Glitch, and <a href="https://hash.ai" rel="nofollow noreferrer">HASH</a>.</p>
 
-<p>I served as a paratrooper in the Israeli army, graduated from Yale University in 1991, and spent time on the Excel team at Microsoft where I was the program manager responsible for the launch of VBA in Excel 5.0. I''ve also written four books, do a lot of Arduino stuff, and talk too much about Barry''s Bootcamp and Burning Man.</p>','2008-07-31T14:22:31.317Z',1,32886,855,100,82558);
-INSERT INTO users VALUES (5,'Jon Galloway','/[S)^/M>sM/',32,'San Diego, CA','<p>Technical Evangelist at Microsoft, specializing in ASP.NET MVC.</p>
+<p>I served as a paratrooper in the Israeli army, graduated from Yale University in 1991, and spent time on the Excel team at Microsoft where I was the program manager responsible for the launch of VBA in Excel 5.0. I''ve also written four books, do a lot of Arduino stuff, and talk too much about Barry''s Bootcamp and Burning Man.</p>','2008-07-31T14:22:31.317Z',0,32886,855,100,82558);
+INSERT INTO users VALUES (5,'Jon Galloway','wwgrI7abcBE',20,'San Diego, CA','<p>Technical Evangelist at Microsoft, specializing in ASP.NET MVC.</p>
 
 <p>I don''t use this site anymore because the moderators close or delete far too many of the useful questions.</p>','2008-07-31T14:22:31.317Z',0,51030,789,34,14281);
-INSERT INTO users VALUES (6,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (7,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (8,'Eggs McLaren','bfdyBoVnm&T',51,'','<p>This is a puppet test account I use to validate "regular user" stuff on the site</p>
-<p>-- <a href="http://stackoverflow.com/users/1/jeff-atwood" rel="nofollow">Jeff Atwood</a>','2008-07-31T21:33:24.057Z',0,1787,12,9,8499);
-INSERT INTO users VALUES (9,'Kevin Dente','&qx":1;?#~XT2i',30,'Lafayette, CA, United States','<p>Independent software engineer</p>','2008-07-31T21:35:26.517Z',0,24234,47,4,7028);
-INSERT INTO users VALUES (10,'Sneakers O''Toole','hB''j3w)rGaSY',34,'Morganton, North Carolina United States','<p>I''m not takin'' my sneakers off!
+INSERT INTO users VALUES (8,'Eggs McLaren','FwQ8NERhRQ',59,'','<p>This is a puppet test account I use to validate "regular user" stuff on the site</p>
+<p>-- <a href="http://stackoverflow.com/users/1/jeff-atwood" rel="nofollow">Jeff Atwood</a>','2008-07-31T21:33:24.057Z',1,1787,12,9,8499);
+INSERT INTO users VALUES (9,'Kevin Dente','lpFOx0zNblW3',41,'Lafayette, CA, United States','<p>Independent software engineer</p>','2008-07-31T21:35:26.517Z',0,24234,47,4,7028);
+INSERT INTO users VALUES (10,'Sneakers O''Toole','BncRWlYehgi5',22,'Morganton, North Carolina United States','<p>I''m not takin'' my sneakers off!
 <br><br>
 Actually, <b>I''m a test account</b>, used to help debug problems here on StackOverflow.</p>','2008-07-31T21:57:06.240Z',0,101,0,0,4853);
-INSERT INTO users VALUES (11,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (12,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (13,'Chris Jester-Young','`?z):dI,A)%Q]',36,'Raleigh, NC, USA','<p>I use they/them to refer to myself in the third person. However, I will answer to any pronoun and you may use any pronoun to refer to me without fear of violating the <a href="https://meta.stackexchange.com/q/334900/13">code of conduct</a>.</p>
+INSERT INTO users VALUES (11,'Anonymous User','ojRo1jON',52,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
+INSERT INTO users VALUES (13,'Chris Jester-Young','Nqm4KjN9k',48,'Raleigh, NC, USA','<p>I use they/them to refer to myself in the third person. However, I will answer to any pronoun and you may use any pronoun to refer to me without fear of violating the <a href="https://meta.stackexchange.com/q/334900/13">code of conduct</a>.</p>
 <hr />
 <p>Quick links:</p>
 <ul>
@@ -44,10 +40,10 @@ INSERT INTO users VALUES (13,'Chris Jester-Young','`?z):dI,A)%Q]',36,'Raleigh, N
 <p>All the code snippets I post on Stack Overflow are licensed under <a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow noreferrer">CC0</a>, unless otherwise specified.<sup>†</sup> In short: Free as in <a href="http://en.wikipedia.org/wiki/Free_love" rel="nofollow noreferrer">free love</a>. Reuse to your heart''s content! :-D</p>
 <p>(This does not in any way contradict the site policy of licensing everything under CC-Wiki; it simply gives users even more freedom. In particular, you are not obliged to link back to SO when you use my code snippets.)</p>
 <p><sup>†</sup> This additional CC0 licence applies to my code snippets on Stack Overflow only. It does not apply to other Stack Exchange sites that my profile might happen to get copied to. In particular, I do not grant this licence to my posts on <a href="http://codegolf.stackexchange.com/">Code Golf Stack Exchange</a>.</p>','2008-08-01T04:18:04.943Z',0,211717,5212,210,43541);
-INSERT INTO users VALUES (16,'Rodrigo Sieiro','/Gx+Iy$U\<1)',41,'Uberlândia, Minas Gerais, Brazil','<p>iOS Developer at Airtime.</p>
+INSERT INTO users VALUES (16,'Rodrigo Sieiro','O7eluQiDN0dD8',45,'Uberlândia, Minas Gerais, Brazil','<p>iOS Developer at Airtime.</p>
 
 <p>Amateur barista, runner, tattoo enthusiast.</p>','2008-08-01T12:01:53.023Z',0,585,51,5,1391);
-INSERT INTO users VALUES (17,'Nick Berardi','t8Ri6|@jZ(X',51,'Issaquah, WA','<p>In my spare time when not working as a software developer, I contribute to a couple open source projects that I am quite proud of:</p>
+INSERT INTO users VALUES (17,'Nick Berardi','EoWLibvhq3JidD',29,'Issaquah, WA','<p>In my spare time when not working as a software developer, I contribute to a couple open source projects that I am quite proud of:</p>
 
 <ul>
 <li><p><a href="http://code.google.com/p/elmah" rel="nofollow noreferrer">ELMAH</a> (Error Logging Modules and Handlers) is an application-wide error logging facility that is completely pluggable. </p></li>
@@ -60,16 +56,16 @@ INSERT INTO users VALUES (17,'Nick Berardi','t8Ri6|@jZ(X',51,'Issaquah, WA','<p>
 <ul>
 <li>Co-authors of <a href="https://rads.stackoverflow.com/amzn/click/0470410957" rel="nofollow noreferrer">ASP.NET MVC 1.0 Website Programming: Problem - Design - Solution</a> published by Wrox and released in June 2009.</li>
 </ul>','2008-08-01T12:02:21.617Z',0,53337,887,216,5520);
-INSERT INTO users VALUES (19,'Mads Kristiansen','*l{kw+O&g',55,'Denmark, Europe','','2008-08-01T12:05:14.233Z',1,2283,38,16,1115);
-INSERT INTO users VALUES (20,'Tom','tsohe(Uduw/B4',35,'Atlanta, GA','','2008-08-01T12:09:11.010Z',0,14538,370,38,2079);
-INSERT INTO users VALUES (22,'Matt MacLean','OxA(<<$"@[8',21,'New Brunswick, Canada','<p>Working backwards to achieve customer outcomes.</p>','2008-08-01T12:11:11.897Z',0,18434,210,6,1483);
-INSERT INTO users VALUES (23,'Jax','+}*;{>Ue[i[kg',59,'Charlotte, NC, United States','','2008-08-01T12:11:43.703Z',1,6597,660,9,1104);
-INSERT INTO users VALUES (24,'sanmiguel','ma4c})R%:<Tl',37,'London, United Kingdom','<p>-behaviour(gen_ale_drinker).</p>','2008-08-01T12:12:53.453Z',0,4260,550,3,625);
-INSERT INTO users VALUES (25,'CodingWithoutComments','F2%%TS{fHF',25,'Seattle, Washington United States','<p>a man, a plan, a canal, panama</p>','2008-08-01T12:15:23.243Z',0,34558,541,83,13758);
-INSERT INTO users VALUES (26,'Shawn','P!\uBWAq*xBQ',27,'San Francisco, CA','<p>a long time ago i found an xss vuln here and took down the entire site<br/><br/>
-userid 26, respect</p>','2008-08-01T12:18:14.520Z',0,18729,565,67,4517);
-INSERT INTO users VALUES (27,'denny','6I:GKp\sK&b~',38,'Winchester, VA','<p>I write shitty, buggy code...but that''s okay.</p>','2008-08-01T12:21:40.020Z',0,1481,382,3,487);
-INSERT INTO users VALUES (29,'Michael Haren','!SC`Jhqtnh9H!*',57,'Ohio','<ul>
+INSERT INTO users VALUES (19,'Mads Kristiansen','Evs9H1zoVUgx',39,'Denmark, Europe','','2008-08-01T12:05:14.233Z',0,2283,38,16,1115);
+INSERT INTO users VALUES (20,'Tom','CCMT64Sk',44,'Atlanta, GA','','2008-08-01T12:09:11.010Z',0,14538,370,38,2079);
+INSERT INTO users VALUES (22,'Matt MacLean','Cy7oDSxjD',57,'New Brunswick, Canada','<p>Working backwards to achieve customer outcomes.</p>','2008-08-01T12:11:11.897Z',1,18434,210,6,1483);
+INSERT INTO users VALUES (23,'Jax','s8tLNA1J',21,'Charlotte, NC, United States','','2008-08-01T12:11:43.703Z',0,6597,660,9,1104);
+INSERT INTO users VALUES (24,'sanmiguel','uJV6dfHeWxuJ',37,'London, United Kingdom','<p>-behaviour(gen_ale_drinker).</p>','2008-08-01T12:12:53.453Z',0,4260,550,3,625);
+INSERT INTO users VALUES (25,'CodingWithoutComments','leuMZ3tMA2ccah',20,'Seattle, Washington United States','<p>a man, a plan, a canal, panama</p>','2008-08-01T12:15:23.243Z',0,34558,541,83,13758);
+INSERT INTO users VALUES (26,'Shawn','guJsW549gpdGl',56,'San Francisco, CA','<p>a long time ago i found an xss vuln here and took down the entire site<br/><br/>
+userid 26, respect</p>','2008-08-01T12:18:14.520Z',1,18729,565,67,4517);
+INSERT INTO users VALUES (27,'denny','HUeaT6mkbS',58,'Winchester, VA','<p>I write shitty, buggy code...but that''s okay.</p>','2008-08-01T12:21:40.020Z',1,1481,382,3,487);
+INSERT INTO users VALUES (29,'Michael Haren','tgpTJMRl8V',29,'Ohio','<ul>
 <li>These days I''m a .net/sql software guy</li>
 <li>I have plenty of experience on the LAMP stack, too</li>
 <li>Currently toying with RoR, ObjC. and stumbling my way through LINQ to Entities</li>
@@ -81,20 +77,20 @@ INSERT INTO users VALUES (29,'Michael Haren','!SC`Jhqtnh9H!*',57,'Ohio','<ul>
 
 <p>This is a personal account and not affiliated with my employer.</p>
 
-<p>#SOreadytohelp</p>','2008-08-01T12:24:53.820Z',1,100634,5920,180,5926);
-INSERT INTO users VALUES (30,'Grant','%66fMc=t>ZEG%',23,'Georgia','<p>Lead (and only) programmer for respectable hardware company.</p>','2008-08-01T12:25:44.817Z',0,11619,147,8,1559);
-INSERT INTO users VALUES (32,'TimM','M2^A^IF~',35,'Alabama','I live in meteor crater.  I hate ObjC.','2008-08-01T12:31:17.783Z',0,1855,5,1,424);
-INSERT INTO users VALUES (33,'John','eeB<P)\aS//',53,'Southampton, United Kingdom','<p>I am software developer primary working with Microsoft technologies and you can find me on <a href="http://twitter.com/johnkilmister" rel="nofollow noreferrer">Twitter</a> or on <a href="http://blueboxes.co.uk/" rel="nofollow noreferrer">my blog</a></p>
-<p>#SOreadytohelp</p>','2008-08-01T12:32:10.963Z',0,28102,2829,29,2131);
-INSERT INTO users VALUES (34,'Karl Seguin','{T&Bm(:Q1Cs',20,'Ottawa, Canada','Check out my <a href="http://tinyurl.com/5jaae2" rel="nofollow">free ebook</a>','2008-08-01T12:39:52.493Z',0,20948,51,9,1920);
-INSERT INTO users VALUES (35,'Greg Hurlman','fH9Rzr>v+w',19,'Washington, DC','<p>Solution Architect on the Parature team at Microsoft based in Washington, DC.<br/>
+<p>#SOreadytohelp</p>','2008-08-01T12:24:53.820Z',0,100634,5920,180,5926);
+INSERT INTO users VALUES (30,'Grant','MZorFM2m',30,'Georgia','<p>Lead (and only) programmer for respectable hardware company.</p>','2008-08-01T12:25:44.817Z',0,11619,147,8,1559);
+INSERT INTO users VALUES (32,'TimM','OeLgBvm4tn',51,'Alabama','I live in meteor crater.  I hate ObjC.','2008-08-01T12:31:17.783Z',0,1855,5,1,424);
+INSERT INTO users VALUES (33,'John','Cfsh50Myw2',59,'Southampton, United Kingdom','<p>I am software developer primary working with Microsoft technologies and you can find me on <a href="http://twitter.com/johnkilmister" rel="nofollow noreferrer">Twitter</a> or on <a href="http://blueboxes.co.uk/" rel="nofollow noreferrer">my blog</a></p>
+<p>#SOreadytohelp</p>','2008-08-01T12:32:10.963Z',1,28102,2829,29,2131);
+INSERT INTO users VALUES (34,'Karl Seguin','elXJ2alek',25,'Ottawa, Canada','Check out my <a href="http://tinyurl.com/5jaae2" rel="nofollow">free ebook</a>','2008-08-01T12:39:52.493Z',0,20948,51,9,1920);
+INSERT INTO users VALUES (35,'Greg Hurlman','de4t6Ul2B8',34,'Washington, DC','<p>Solution Architect on the Parature team at Microsoft based in Washington, DC.<br/>
 <br/>
 Coder for 25 years, .Net developer since 2001.<br/>
 <br/>
 Twitter: @justcallme98<br />
 <br />
 Xbox Live Gamertag: ExitNinetyEight</p>','2008-08-01T12:43:07.713Z',0,17437,459,213,1698);
-INSERT INTO users VALUES (36,'Pat','|`tX.p{TocW',21,'NC, United States','<p>Fool stack developer, living in NC.  </p>
+INSERT INTO users VALUES (36,'Pat','tZ29SAN4',51,'NC, United States','<p>Fool stack developer, living in NC.  </p>
 
 <p>.NET Core on the back<br>
 Whatever on the front (AngularJS is current thing)  </p>
@@ -104,50 +100,50 @@ To me, it emphasizes teamwork.</p>
 
 <p><a href="https://gist.github.com/patHyatt/369ed8f051d5919daa016030ceee44e8" rel="nofollow noreferrer">Tools/Configurations</a><br>
 <a href="http://www.patrickhyatt.com" rel="nofollow noreferrer">Personal blog</a></p>','2008-08-01T12:43:55.683Z',0,5260,460,11,613);
-INSERT INTO users VALUES (37,'Wally Lawless','Z]=emPHoez',58,'Georgetown, Canada','<p>I''m a professional developer that used to work in PHP every day. These days I work primarily with JavaScript-based technologies and Front-End software.</p>','2008-08-01T12:44:00.723Z',1,7439,263,18,968);
-INSERT INTO users VALUES (38,'Ian Burris','0arhgciV+mITB`',33,'West Bloomfield, Michigan United States','','2008-08-01T12:44:28.833Z',0,6029,75,0,644);
-INSERT INTO users VALUES (39,'huseyint','&''Xa[y=}r}y',22,'Istanbul, Turkey','<p>Livin'' and breathin'' .NET!</p>','2008-08-01T12:44:55.743Z',0,14742,579,21,1831);
-INSERT INTO users VALUES (40,'Kevin','r8cf!y-F6f1',21,'Philadelphia, PA','','2008-08-01T12:48:12.353Z',0,12879,650,97,1403);
-INSERT INTO users VALUES (41,'Redbaron','CCsRt4pq,$nUp',36,'Canada','','2008-08-01T12:56:51.897Z',0,1028,66,9,225);
-INSERT INTO users VALUES (42,'Coincoin','Qs4Y;};bBzq}',51,'Montreal, Canada','A guy with the attention span of a dead goldfish who has been having a blast in the industry for more than 10 years.
+INSERT INTO users VALUES (37,'Wally Lawless','dy5m18Utt10vSi',48,'Georgetown, Canada','<p>I''m a professional developer that used to work in PHP every day. These days I work primarily with JavaScript-based technologies and Front-End software.</p>','2008-08-01T12:44:00.723Z',0,7439,263,18,968);
+INSERT INTO users VALUES (38,'Ian Burris','oKjC6mIRb',58,'West Bloomfield, Michigan United States','','2008-08-01T12:44:28.833Z',1,6029,75,0,644);
+INSERT INTO users VALUES (39,'huseyint','mvjfYZcC8pMode',49,'Istanbul, Turkey','<p>Livin'' and breathin'' .NET!</p>','2008-08-01T12:44:55.743Z',0,14742,579,21,1831);
+INSERT INTO users VALUES (40,'Kevin','UqDSCKZZlYvZw',33,'Philadelphia, PA','','2008-08-01T12:48:12.353Z',0,12879,650,97,1403);
+INSERT INTO users VALUES (41,'Redbaron','jEp88VxvvA8gkg',53,'Canada','','2008-08-01T12:56:51.897Z',0,1028,66,9,225);
+INSERT INTO users VALUES (42,'Coincoin','rFjGDu31AJuk',42,'Montreal, Canada','A guy with the attention span of a dead goldfish who has been having a blast in the industry for more than 10 years.
 
 Mostly specialized in game and graphics programming, from custom software 3D renderers to accelerated hardware pipeline programming.','2008-08-01T13:00:11.640Z',0,26376,373,46,1302);
-INSERT INTO users VALUES (43,'Justin',']0D@03EZtGivB|',37,'United States','<p>Co-founder and CTO at <a href="http://www.thirdandgrove.com/" rel="nofollow">Third and Grove</a>, <a href="http://www.justinemond.com/pro-web-project-management/" rel="nofollow">published author</a>, lover of beer, Director of Safety at the Black Mesa Research Facility.</p>','2008-08-01T13:02:27.907Z',0,2863,306,48,481);
-INSERT INTO users VALUES (44,'Tom Grochowicz','D`rq{JwD=I',49,'Austin, TX','<p>More of a lurker than an asker.</p>
+INSERT INTO users VALUES (43,'Justin','ZerlkOux1Fwjx',18,'United States','<p>Co-founder and CTO at <a href="http://www.thirdandgrove.com/" rel="nofollow">Third and Grove</a>, <a href="http://www.justinemond.com/pro-web-project-management/" rel="nofollow">published author</a>, lover of beer, Director of Safety at the Black Mesa Research Facility.</p>','2008-08-01T13:02:27.907Z',0,2863,306,48,481);
+INSERT INTO users VALUES (44,'Tom Grochowicz','bJVjGJ32ZU2',25,'Austin, TX','<p>More of a lurker than an asker.</p>
 
 <p>Currently working with Javascript, Python, and whatever else is necessary.</p>','2008-08-01T13:03:39.327Z',0,5025,39,8,421);
-INSERT INTO users VALUES (45,'Bob','Snv{k!JX`K',38,'United States','','2008-08-01T13:04:45.017Z',0,93168,72,21,2629);
-INSERT INTO users VALUES (46,'sven','eO?{}(zZX+Q08',45,'Belgium','','2008-08-01T13:13:21.413Z',0,17626,516,23,1359);
-INSERT INTO users VALUES (48,'Mat','=Yd1@m{]',38,'London, United Kingdom','','2008-08-01T13:25:15.757Z',0,6546,108,29,705);
-INSERT INTO users VALUES (49,'Leon Bambrick','UW_=/Ek`E',37,'Australia','<p>Living the dream. 
-creator of <a href="http://TimeSnapper.com" rel="nofollow noreferrer">http://TimeSnapper.com</a>, <a href="http://NimbleText.com" rel="nofollow noreferrer">http://NimbleText.com</a>, <a href="http://secretGeek.net" rel="nofollow noreferrer">http://secretGeek.net</a>, <a href="http://YouMustGet.It" rel="nofollow noreferrer">http://YouMustGet.It</a> and <a href="https://YourFirstProduct.com" rel="nofollow noreferrer">https://YourFirstProduct.com</a></p>','2008-08-01T13:29:21.053Z',0,25294,1131,19,1472);
-INSERT INTO users VALUES (50,'helloandre','>I@Qqp+[~rHVh',53,'London, UK','<p>I''m <a href="https://andre.blue" rel="nofollow noreferrer">Andre Bluehs</a>. I build websites.</p>','2008-08-01T13:29:54.810Z',0,10207,815,50,1986);
-INSERT INTO users VALUES (51,'Yaakov Ellis','-*w4&oB]&',57,'Israel','<p>Husband, father, learner, and programmer. Trying to live life as it should be lived.</p>
+INSERT INTO users VALUES (45,'Bob','IIqqVSV8kL',56,'United States','','2008-08-01T13:04:45.017Z',1,93168,72,21,2629);
+INSERT INTO users VALUES (46,'sven','GuJMGEAnrY107',24,'Belgium','','2008-08-01T13:13:21.413Z',0,17626,516,23,1359);
+INSERT INTO users VALUES (48,'Mat','R3tQuRelbs5',24,'London, United Kingdom','','2008-08-01T13:25:15.757Z',0,6546,108,29,705);
+INSERT INTO users VALUES (49,'Leon Bambrick','9tLk7agieikp',57,'Australia','<p>Living the dream. 
+creator of <a href="http://TimeSnapper.com" rel="nofollow noreferrer">http://TimeSnapper.com</a>, <a href="http://NimbleText.com" rel="nofollow noreferrer">http://NimbleText.com</a>, <a href="http://secretGeek.net" rel="nofollow noreferrer">http://secretGeek.net</a>, <a href="http://YouMustGet.It" rel="nofollow noreferrer">http://YouMustGet.It</a> and <a href="https://YourFirstProduct.com" rel="nofollow noreferrer">https://YourFirstProduct.com</a></p>','2008-08-01T13:29:21.053Z',1,25294,1131,19,1472);
+INSERT INTO users VALUES (50,'helloandre','UQQsbCtsvS',30,'London, UK','<p>I''m <a href="https://andre.blue" rel="nofollow noreferrer">Andre Bluehs</a>. I build websites.</p>','2008-08-01T13:29:54.810Z',0,10207,815,50,1986);
+INSERT INTO users VALUES (51,'Yaakov Ellis','cMA1kM7G6xOYe0',21,'Israel','<p>Husband, father, learner, and programmer. Trying to live life as it should be lived.</p>
 <p>Developer @ Stack Overflow since 10/2013. Currently Staff Software Engineer and Tech Lead on the Public Platform team, and Community Advocate. Email me at <em>yaakov@stackoverflow.com</em>.</p>
-<p>Former Team Lead &amp; Principal Web Dev, Internal Dev Team through 4/2019.</p>','2008-08-01T13:31:13.187Z',1,39274,2922,45,3944);
-INSERT INTO users VALUES (52,'saniul','c*mCO9PLX_PZ}',38,'London, United Kingdom','','2008-08-01T13:33:31.543Z',0,2973,399,50,439);
-INSERT INTO users VALUES (55,'Ryan Fox','U2Jq$}HsV',24,'Toronto, Ontario, Canada','<p>Computer Engineer</p>','2008-08-01T13:40:09.767Z',0,9784,280,152,1155);
-INSERT INTO users VALUES (56,'doekman','x*xS%Xz|!W-',49,'Groningen, Netherlands','<p>I''m both a Mac and Windows user. I like programming web applications. My languages of choice are Python, Javascript and C#.</p>','2008-08-01T13:53:45.607Z',0,17962,247,6,932);
-INSERT INTO users VALUES (57,'Chad Paulson','Mg)inLBQN#jO',18,'Chicago, Illinois United States','','2008-08-01T13:53:49.363Z',0,158,1,0,107);
-INSERT INTO users VALUES (58,'cmcculloh','`Y80/U^]dB^hr',59,'Indianapolis, IN','<p>Lead Front-End Engineer at Salesforce.</p>
+<p>Former Team Lead &amp; Principal Web Dev, Internal Dev Team through 4/2019.</p>','2008-08-01T13:31:13.187Z',0,39274,2922,45,3944);
+INSERT INTO users VALUES (52,'saniul','EzueDl93kO',57,'London, United Kingdom','','2008-08-01T13:33:31.543Z',1,2973,399,50,439);
+INSERT INTO users VALUES (55,'Ryan Fox','fQHdW7XOmX',49,'Toronto, Ontario, Canada','<p>Computer Engineer</p>','2008-08-01T13:40:09.767Z',0,9784,280,152,1155);
+INSERT INTO users VALUES (56,'doekman','yoWjzQPYoKu7f',45,'Groningen, Netherlands','<p>I''m both a Mac and Windows user. I like programming web applications. My languages of choice are Python, Javascript and C#.</p>','2008-08-01T13:53:45.607Z',0,17962,247,6,932);
+INSERT INTO users VALUES (57,'Chad Paulson','Wwuv44RApF8',37,'Chicago, Illinois United States','','2008-08-01T13:53:49.363Z',0,158,1,0,107);
+INSERT INTO users VALUES (58,'cmcculloh','6mMdVc6g',56,'Indianapolis, IN','<p>Lead Front-End Engineer at Salesforce.</p>
 <p>Co-Author of HTML, XHTML and CSS All-in-one Desk Reference for Dummies.</p>
 <p>Graduated from IU with a Bachelors of Media Arts and Science and a Certificate in Applied Computer Science.</p>
 <p>Tech Editor for Building Facebook Applications for Dummies and Building Websites All-in-one for Dummies 2nd Edition.</p>
 <p>Creator and maintainer of the (long-since defunct) Status-bar Calculator Firefox and Chrome extensions.</p>
 <p>Well over a decade of professional JS experience, three years professional Java E-Commerce experience, and four years professional experience with PHP.</p>
 <p>Taught Server Side Programming with PHP and Mobile Applications Development at IUPUI.</p>','2008-08-01T13:56:33.807Z',1,45404,1076,55,2075);
-INSERT INTO users VALUES (59,'saint_groceon','?lC`1eF)',43,'Houston, TX','I tend to program Python, PHP, VBA (sigh), and C++ every now and then.','2008-08-01T14:02:13.030Z',0,6027,24,4,333);
-INSERT INTO users VALUES (60,'Dave Ward','0%*W3Xv%@F2!3',58,'Atlanta, GA','<p>Full stack .NET/JavaScript consultant specializing in architecture and development for sites, hybrid apps, and APIs built on web technologies.</p>','2008-08-01T14:04:09.017Z',1,58244,2104,228,3751);
-INSERT INTO users VALUES (61,'Bernard','mt2Hyi%)B2',33,'Auckland, New Zealand','<p>Programmer and wearer of many hats.</p>','2008-08-01T14:21:00.573Z',0,44440,1355,241,1994);
-INSERT INTO users VALUES (62,'Liron Yahdav','9N+HorNko3n',19,'San Francisco, CA','<p>I''ll fill this out someday.</p>','2008-08-01T14:21:21.930Z',0,9122,1220,11,932);
-INSERT INTO users VALUES (63,'JimDaniel','F7J*qYghcm',32,'Atlanta, GA','<p>I am a programmer with seven years experience. My current technology interests are Ruby, Rails, Objective C, iOS.</p>','2008-08-01T14:25:17.443Z',0,12263,158,12,976);
-INSERT INTO users VALUES (64,'t3rse','O5]U&w%y2',49,'United States','<p>Software developer based in Sioux Falls, South Dakota but of Ugandan extraction. Interests include photography, chess, literature, and sports.</p>','2008-08-01T14:27:12.480Z',0,9890,261,7,961);
-INSERT INTO users VALUES (67,'Rex M','6e(;V#]M',37,'United States','<p>Manager, Builder Tools @ Amazon. I''m hiring! Previously Engineering Director @ Inmar; Qorvo, Volvo. Author of <a href="https://github.com/rexm/handlebars.net" rel="nofollow noreferrer">Handlebars.Net</a>.<br /><br />
+INSERT INTO users VALUES (59,'saint_groceon','dtq4w4Lee7XM',58,'Houston, TX','I tend to program Python, PHP, VBA (sigh), and C++ every now and then.','2008-08-01T14:02:13.030Z',1,6027,24,4,333);
+INSERT INTO users VALUES (60,'Dave Ward','BzW7Rmi8',35,'Atlanta, GA','<p>Full stack .NET/JavaScript consultant specializing in architecture and development for sites, hybrid apps, and APIs built on web technologies.</p>','2008-08-01T14:04:09.017Z',0,58244,2104,228,3751);
+INSERT INTO users VALUES (61,'Bernard','SB4CMUZsc5zhoM',29,'Auckland, New Zealand','<p>Programmer and wearer of many hats.</p>','2008-08-01T14:21:00.573Z',0,44440,1355,241,1994);
+INSERT INTO users VALUES (62,'Liron Yahdav','NdhLXFIFEME1Q',31,'San Francisco, CA','<p>I''ll fill this out someday.</p>','2008-08-01T14:21:21.930Z',0,9122,1220,11,932);
+INSERT INTO users VALUES (63,'JimDaniel','7PWopd9ySM',50,'Atlanta, GA','<p>I am a programmer with seven years experience. My current technology interests are Ruby, Rails, Objective C, iOS.</p>','2008-08-01T14:25:17.443Z',0,12263,158,12,976);
+INSERT INTO users VALUES (64,'t3rse','aSzI2pSk',33,'United States','<p>Software developer based in Sioux Falls, South Dakota but of Ugandan extraction. Interests include photography, chess, literature, and sports.</p>','2008-08-01T14:27:12.480Z',0,9890,261,7,961);
+INSERT INTO users VALUES (67,'Rex M','DSJ8EKBV8tt0R',55,'United States','<p>Manager, Builder Tools @ Amazon. I''m hiring! Previously Engineering Director @ Inmar; Qorvo, Volvo. Author of <a href="https://github.com/rexm/handlebars.net" rel="nofollow noreferrer">Handlebars.Net</a>.<br /><br />
 Connect with me on <a href="http://twitter.com/rexm" rel="nofollow noreferrer">Twitter @rexm</a> or <a href="http://github.com/rexm" rel="nofollow noreferrer">GitHub @rexm</a>, or directly at rex@rexmorgan.net.</p>
-<p>Opinions mine, not Amazon''s. He/him.</p>','2008-08-01T14:49:18.473Z',0,138135,4201,781,10366);
-INSERT INTO users VALUES (68,'Jonathan','<YmW8qg.>4$',29,'Minneapolis, Minnesota, United States','','2008-08-01T14:52:56.327Z',0,1295,22,3,214);
-INSERT INTO users VALUES (70,'Tim Boland','13:D8[\vXsl<W',40,'Cincinnati, OH','Web App Developer','2008-08-01T15:02:45.980Z',0,9991,74,4,499);
-INSERT INTO users VALUES (71,'Dillie-O','!`|@Sx5V[#Uy~',25,'Prescott, AZ','<p>Senior Software Engineer for <a href="http://freshconsulting.com" rel="nofollow">Fresh Consulting</a>. </p>
+<p>Opinions mine, not Amazon''s. He/him.</p>','2008-08-01T14:49:18.473Z',1,138135,4201,781,10366);
+INSERT INTO users VALUES (68,'Jonathan','pqwtARu6mliz3M',48,'Minneapolis, Minnesota, United States','','2008-08-01T14:52:56.327Z',0,1295,22,3,214);
+INSERT INTO users VALUES (70,'Tim Boland','I0rpZBNrJuMWW',25,'Cincinnati, OH','Web App Developer','2008-08-01T15:02:45.980Z',0,9991,74,4,499);
+INSERT INTO users VALUES (71,'Dillie-O','9qYPTSXzmhP',57,'Prescott, AZ','<p>Senior Software Engineer for <a href="http://freshconsulting.com" rel="nofollow">Fresh Consulting</a>. </p>
 
 <p>See my <a href="http://careers.stackoverflow.com/dillieo">Careers CV</a> for geekish details.</p>
 
@@ -155,11 +151,11 @@ INSERT INTO users VALUES (71,'Dillie-O','!`|@Sx5V[#Uy~',25,'Prescott, AZ','<p>Se
 
 <p><em>Bonum, Veritas, Pulcher, Techne.</em></p>
 
-<p><em>Living. Loving. Forgiving. Never giving up...</em></p>','2008-08-01T15:05:56.503Z',0,28669,1450,21,3000);
-INSERT INTO users VALUES (72,'pix0r','s.~O<#}{JKy',57,'Carlsbad, CA, United States','<p>Computer nerd</p>','2008-08-01T15:09:58.697Z',1,30871,1267,21,1812);
-INSERT INTO users VALUES (73,'Joe Fontana','{efOVtB?',51,'United States','','2008-08-01T15:12:05.870Z',0,2218,79,5,212);
-INSERT INTO users VALUES (75,'Ryan Ahearn','&]JcEqhq',33,'Baltimore, MD','<p>I am a software engineer whose job includes coding in about every language that''s ever been involved in the web.  Ruby, C, C++, PHP, Java, Javascript, Python, and Perl.</p>','2008-08-01T15:54:25.720Z',0,7746,718,13,580);
-INSERT INTO users VALUES (76,'Pete','B>S93)/Zn',27,'Delaware, OH','<p>My name is Pete Shearer. I am a professional software developer with almost a decade of experience. I started working with VBA, then VB6 - earning my MCSD, on to classic ASP with VBScript, and now C# and ASP.Net. I mostly use Sql Server 2008 for back end development.
+<p><em>Living. Loving. Forgiving. Never giving up...</em></p>','2008-08-01T15:05:56.503Z',1,28669,1450,21,3000);
+INSERT INTO users VALUES (72,'pix0r','B85RLNtqwr',43,'Carlsbad, CA, United States','<p>Computer nerd</p>','2008-08-01T15:09:58.697Z',0,30871,1267,21,1812);
+INSERT INTO users VALUES (73,'Joe Fontana','FBJKsbn64',38,'United States','','2008-08-01T15:12:05.870Z',0,2218,79,5,212);
+INSERT INTO users VALUES (75,'Ryan Ahearn','wxogWHfq99A5',34,'Baltimore, MD','<p>I am a software engineer whose job includes coding in about every language that''s ever been involved in the web.  Ruby, C, C++, PHP, Java, Javascript, Python, and Perl.</p>','2008-08-01T15:54:25.720Z',0,7746,718,13,580);
+INSERT INTO users VALUES (76,'Pete','3Kqm4dWwavpivO',59,'Delaware, OH','<p>My name is Pete Shearer. I am a professional software developer with almost a decade of experience. I started working with VBA, then VB6 - earning my MCSD, on to classic ASP with VBScript, and now C# and ASP.Net. I mostly use Sql Server 2008 for back end development.
 </p>
 
 <p>I''ve worked for banks, hospitals, consulting companies, a small software development company, and now a health care services company.
@@ -168,70 +164,70 @@ INSERT INTO users VALUES (76,'Pete','B>S93)/Zn',27,'Delaware, OH','<p>My name is
 <p>My blog title is a blatant ripoff of Joel on Software, but I consider it more of an homage!
 </p>
 
-<p>I am married, have 3 kids, and live in Ohio. GO BUCKS!!!</p>','2008-08-01T15:56:38.010Z',0,3963,284,15,381);
-INSERT INTO users VALUES (77,'Darren Kopp','>}HWICeW',42,'North Potomac, MD, USA','<p>I''m a software developer from Utah working in the Washington, DC metro area.</p>','2008-08-01T16:02:03.927Z',0,74111,430,49,3442);
-INSERT INTO users VALUES (78,'A Salim','nk-2mg<FrT',35,'Canada','<p>@theshady</p>','2008-08-01T16:03:23.347Z',0,1317,10,2,347);
-INSERT INTO users VALUES (79,'Adam Ernst','u!rwJ@sKM',43,'New York, NY','<p>I''m an iOS developer based in New York City. I made one of the first 500 apps on the App Store with <a href="http://www.itrans.info/" rel="nofollow">iTrans, my NYC subway app</a>. I did the Khan Academy iPad app and the Turntable.fm iPhone app.</p>
+<p>I am married, have 3 kids, and live in Ohio. GO BUCKS!!!</p>','2008-08-01T15:56:38.010Z',1,3963,284,15,381);
+INSERT INTO users VALUES (77,'Darren Kopp','fZsPjRFCOEwYxa',46,'North Potomac, MD, USA','<p>I''m a software developer from Utah working in the Washington, DC metro area.</p>','2008-08-01T16:02:03.927Z',0,74111,430,49,3442);
+INSERT INTO users VALUES (78,'A Salim','Z7LZTpl3kD',37,'Canada','<p>@theshady</p>','2008-08-01T16:03:23.347Z',0,1317,10,2,347);
+INSERT INTO users VALUES (79,'Adam Ernst','aMaj0Mchwy7f',43,'New York, NY','<p>I''m an iOS developer based in New York City. I made one of the first 500 apps on the App Store with <a href="http://www.itrans.info/" rel="nofollow">iTrans, my NYC subway app</a>. I did the Khan Academy iPad app and the Turntable.fm iPhone app.</p>
 
 <p>Now I <a href="http://www.adamernst.com/" rel="nofollow">blog</a> and work at Facebook on their iOS app.</p>','2008-08-01T16:05:09.163Z',0,48754,411,38,1534);
-INSERT INTO users VALUES (80,'alumb','l1B~lQQ8noi',32,'Vancouver, Canada','<p>I''m a banana. My spoon is too big.</p>','2008-08-01T16:11:11.427Z',0,4381,145,7,1158);
-INSERT INTO users VALUES (81,'MattH',';cZ8Y!~A,k',59,'United States','','2008-08-01T16:28:33.453Z',1,1967,63,5,369);
-INSERT INTO users VALUES (82,'xyz','}V"xwvgu',53,'','','2008-08-01T16:28:35.497Z',0,25998,1398,15,2061);
-INSERT INTO users VALUES (83,'Zack Peterson','$)"/dED,DKV)Qi',39,'Des Moines, Iowa, United States','<p>Specializes in the design and creation of web and desktop applications. Contributes in all aspects of the software development process such as: requirements analysis and product definition; prototyping; choosing architecture and framework; interface design; database design; installation and integration; documentation and training; gathering feedback; and maintenance.</p>','2008-08-01T16:31:56.940Z',0,54362,1981,63,3184);
-INSERT INTO users VALUES (85,'Paul Wicks','s7l1Ea,<E|v',31,'United States','','2008-08-01T16:38:08.627Z',0,58531,477,89,1297);
-INSERT INTO users VALUES (86,'svrist','L{7?9u>&',38,'Denmark','<ul>
+INSERT INTO users VALUES (80,'alumb','wIFuS93jND3VLq',56,'Vancouver, Canada','<p>I''m a banana. My spoon is too big.</p>','2008-08-01T16:11:11.427Z',1,4381,145,7,1158);
+INSERT INTO users VALUES (81,'MattH','w8LksfPGB',29,'United States','','2008-08-01T16:28:33.453Z',0,1967,63,5,369);
+INSERT INTO users VALUES (82,'xyz','L5pmymu7TC',20,'','','2008-08-01T16:28:35.497Z',0,25998,1398,15,2061);
+INSERT INTO users VALUES (83,'Zack Peterson','p53a2C28IHl3d',26,'Des Moines, Iowa, United States','<p>Specializes in the design and creation of web and desktop applications. Contributes in all aspects of the software development process such as: requirements analysis and product definition; prototyping; choosing architecture and framework; interface design; database design; installation and integration; documentation and training; gathering feedback; and maintenance.</p>','2008-08-01T16:31:56.940Z',0,54362,1981,63,3184);
+INSERT INTO users VALUES (85,'Paul Wicks','fr0ddmYXGhmA',48,'United States','','2008-08-01T16:38:08.627Z',0,58531,477,89,1297);
+INSERT INTO users VALUES (86,'svrist','LFkFSaKl80',39,'Denmark','<ul>
 <li>Developer/Architect (Python, Elm, PostgreSQL etc)</li>
 <li>Former Developer (Java, C#, Silverlight/WPF)</li>
 <li>Former consultant</li>
 </ul>
 
 <p>from Copenhagen, Denmark, Europe</p>','2008-08-01T16:45:58.800Z',0,6812,1765,60,632);
-INSERT INTO users VALUES (87,'DylanJ','{VYt5XHpb8RA',51,'Germany','','2008-08-01T16:59:16.603Z',0,2205,25,8,222);
-INSERT INTO users VALUES (88,'ESRogs','VQ^au<w`U1H',52,'','','2008-08-01T17:09:52.793Z',0,2211,462,6,286);
-INSERT INTO users VALUES (91,'Michael Stum','(C*5%<#8.pbX',18,'Raleigh, NC, United States','<p>The same thing we do every night, Pinky. Try to take over the world!</p>
+INSERT INTO users VALUES (87,'DylanJ','Jl8p8DcJuy5R',21,'Germany','','2008-08-01T16:59:16.603Z',0,2205,25,8,222);
+INSERT INTO users VALUES (88,'ESRogs','HVP9Py1JNVY',45,'','','2008-08-01T17:09:52.793Z',0,2211,462,6,286);
+INSERT INTO users VALUES (91,'Michael Stum','4Zd3KxWE',19,'Raleigh, NC, United States','<p>The same thing we do every night, Pinky. Try to take over the world!</p>
 <p>Full-Stack Developer on <a href="https://stackoverflow.com/enterprise">Stack Overflow Enterprise</a>, working to make our little corner of the Internet better for all of us.</p>','2008-08-01T17:55:22.200Z',0,171675,7248,55,14140);
-INSERT INTO users VALUES (92,'Justin Standard','9qZfJ"SmM"oH{',25,'California','<p>I am a software developer in southern California. My favorite languages are Python and Scala.  I have a ton of experience in JavaLand.</p>
+INSERT INTO users VALUES (92,'Justin Standard','9W00fBaWonC',52,'California','<p>I am a software developer in southern California. My favorite languages are Python and Scala.  I have a ton of experience in JavaLand.</p>
 
 <p>I can also shoot a bow and arrow, change a clutch, bake chocolate-chip-bacon-cookies, pull a mean shot of espresso, and probably dozens of other unrelated things.</p>','2008-08-01T17:55:41.827Z',0,21129,728,39,3367);
-INSERT INTO users VALUES (93,'MojoFilter','W0*JUyk}+a',43,'Crystal River, Florida United States','','2008-08-01T18:23:58.790Z',0,11949,721,16,792);
-INSERT INTO users VALUES (94,'Stephen R.','tToHW[fsWSFn$',34,'Chicago, IL','','2008-08-01T18:26:19.067Z',0,114,3,0,74);
-INSERT INTO users VALUES (95,'Marek Grzenkowicz','%~~S#+OY]|''M2Z',30,'Poland','<p>SQL Server → .NET → SharePoint → Informatica PowerCenter → Hadoop → Python / Data analytics</p>
+INSERT INTO users VALUES (93,'MojoFilter','K3hutiNuGm4H4',56,'Crystal River, Florida United States','','2008-08-01T18:23:58.790Z',1,11949,721,16,792);
+INSERT INTO users VALUES (94,'Stephen R.','jTRurocGVE',27,'Chicago, IL','','2008-08-01T18:26:19.067Z',0,114,3,0,74);
+INSERT INTO users VALUES (95,'Marek Grzenkowicz','yQxRwZic',31,'Poland','<p>SQL Server → .NET → SharePoint → Informatica PowerCenter → Hadoop → Python / Data analytics</p>
 
 <p><a href="http://www.linkedin.com/in/marekgrzenkowicz" rel="nofollow noreferrer">LinkedIn</a> | <a href="http://www.last.fm/user/chopeen" rel="nofollow noreferrer">Last.fm</a> | <a href="https://github.com/chopeen" rel="nofollow noreferrer">GitHub</a></p>','2008-08-01T18:28:24.817Z',0,16402,2964,154,3076);
-INSERT INTO users VALUES (96,'Chris Marasti-Georg','<g9peRDZi',42,'Pittsburgh, PA','<p>Bowler with a programming problem.</p>','2008-08-01T18:33:48.240Z',0,33298,1020,102,2059);
-INSERT INTO users VALUES (99,'Jason Pratt','J2B+yaKB^a#~K',37,'Pittsburgh, PA','Game Developer<br>
+INSERT INTO users VALUES (96,'Chris Marasti-Georg','02MvJTMmQvX',55,'Pittsburgh, PA','<p>Bowler with a programming problem.</p>','2008-08-01T18:33:48.240Z',1,33298,1020,102,2059);
+INSERT INTO users VALUES (99,'Jason Pratt','xO5m713bZqc',19,'Pittsburgh, PA','Game Developer<br>
 Favorite language: Python','2008-08-01T19:25:50.707Z',0,12207,157,56,504);
-INSERT INTO users VALUES (100,'Eric Haskins','esp*R%`T',46,'Elkhorn, WI','<p>
+INSERT INTO users VALUES (100,'Eric Haskins','QJarXKma6h',29,'Elkhorn, WI','<p>
 I''m a geek. What else do you want to know?
 </p>','2008-08-01T20:41:59.493Z',0,8317,616,12,2412);
-INSERT INTO users VALUES (101,'Peter Burns','x9''fT2!kZ',38,'San Francisco, CA','<p>I like my dynamic languages dynamic (Javascript, Python, Ruby) and my static types strong (Haskell).  Though in a pinch I have been known to code in C, Java, and C#.</p>
+INSERT INTO users VALUES (101,'Peter Burns','R5hgpS9T6',50,'San Francisco, CA','<p>I like my dynamic languages dynamic (Javascript, Python, Ruby) and my static types strong (Haskell).  Though in a pinch I have been known to code in C, Java, and C#.</p>
 
 <p>Currently working for Google.</p>','2008-08-01T20:47:39.030Z',0,43183,568,64,2065);
-INSERT INTO users VALUES (102,'Bill','$e&xg>ffu7',32,'Westervoort, Netherlands','<p>I''m a software engineer, and I''ve been spending a lot of time using C# lately.</p>','2008-08-01T22:04:10.763Z',0,13781,2522,38,1183);
-INSERT INTO users VALUES (103,'svec','#pgAlPK+W)',40,'Raleigh, NC, USA','<p>I''m an embedded software engineer and all around nice guy.</p>
+INSERT INTO users VALUES (102,'Bill','p306Vlo0dJ',31,'Westervoort, Netherlands','<p>I''m a software engineer, and I''ve been spending a lot of time using C# lately.</p>','2008-08-01T22:04:10.763Z',0,13781,2522,38,1183);
+INSERT INTO users VALUES (103,'svec','ehI0VTGFNb',44,'Raleigh, NC, USA','<p>I''m an embedded software engineer and all around nice guy.</p>
 
 <p>I make robots. I used to make chips.</p>
 
 <p><a href="https://chrissvec.com" rel="nofollow noreferrer">https://chrissvec.com</a></p>
 
 <p><a href="http://www.linkedin.com/in/christophersvec" rel="nofollow noreferrer"><a href="http://www.linkedin.com/in/christophersvec" rel="nofollow noreferrer">http://www.linkedin.com/in/christophersvec</a></a></p>','2008-08-01T22:31:22.487Z',0,3457,200,8,559);
-INSERT INTO users VALUES (104,'Ted Dziuba','xv%&x+xJ',48,'California','We gonna kick some nerd ass up in here.','2008-08-01T23:16:18.903Z',0,2325,9,4,2418);
-INSERT INTO users VALUES (105,'Ryan Eastabrook','0$''jfAF''6m3',18,'Happy Valley, OR, USA','<p>CTO at Scrum.org</p>','2008-08-01T23:29:32.760Z',0,3915,112,5,485);
-INSERT INTO users VALUES (106,'EndangeredMassa','A#.3oTiZ{5u}#H',18,'Chicago, IL','','2008-08-02T00:12:12.737Z',0,16734,761,110,2767);
-INSERT INTO users VALUES (107,'Wilson','Nue;6Kb.;ak=}5',29,'Sydney, Australia','<p>General-purpose tech guy</p>
+INSERT INTO users VALUES (104,'Ted Dziuba','i5a463yo4EK3',56,'California','We gonna kick some nerd ass up in here.','2008-08-01T23:16:18.903Z',1,2325,9,4,2418);
+INSERT INTO users VALUES (105,'Ryan Eastabrook','7bwxDDs38',19,'Happy Valley, OR, USA','<p>CTO at Scrum.org</p>','2008-08-01T23:29:32.760Z',0,3915,112,5,485);
+INSERT INTO users VALUES (106,'EndangeredMassa','W1XQ34gZ3E74pO',24,'Chicago, IL','','2008-08-02T00:12:12.737Z',0,16734,761,110,2767);
+INSERT INTO users VALUES (107,'Wilson','SmNLZSUxbAZ',38,'Sydney, Australia','<p>General-purpose tech guy</p>
 
 <p>Twitter: @wafonso</p>','2008-08-02T00:14:14.153Z',0,711,10,1,111);
-INSERT INTO users VALUES (108,'Greg','twz#4hQ*0',41,'Rochester, NY, USA','','2008-08-02T00:19:35.607Z',0,3661,355,5,389);
-INSERT INTO users VALUES (109,'Kalid','h|@$lCAj',54,'Seattle, WA','<p>I''m always up for new programming tricks.</p>','2008-08-02T00:20:47.820Z',0,21208,136,3,549);
-INSERT INTO users VALUES (111,'saalon',']Yx,c-kNH5;68',24,'Pittsburgh, PA','<p>Writer, Filmmaker, Programmer.</p>
+INSERT INTO users VALUES (108,'Greg','STExHirhjW6St',33,'Rochester, NY, USA','','2008-08-02T00:19:35.607Z',0,3661,355,5,389);
+INSERT INTO users VALUES (109,'Kalid','V3CWZUEty',26,'Seattle, WA','<p>I''m always up for new programming tricks.</p>','2008-08-02T00:20:47.820Z',0,21208,136,3,549);
+INSERT INTO users VALUES (111,'saalon','UetM2Wg6Ovz',57,'Pittsburgh, PA','<p>Writer, Filmmaker, Programmer.</p>
 
-<p>Or something like that.</p>','2008-08-02T03:35:55.553Z',0,3644,663,3,503);
-INSERT INTO users VALUES (112,'Jesse Beder','KD6(}a!6vPP?v}',32,'Chicago, IL, United States','<p>Googler, mathematician.<br><br>
+<p>Or something like that.</p>','2008-08-02T03:35:55.553Z',1,3644,663,3,503);
+INSERT INTO users VALUES (112,'Jesse Beder','kLgzgCN7wgCu',21,'Chicago, IL, United States','<p>Googler, mathematician.<br><br>
 Check out Optia, a puzzle game for iOS, or yaml-cpp, a YAML parser/emitter library in C++.</p>','2008-08-02T05:39:11.330Z',0,31390,1217,178,2552);
-INSERT INTO users VALUES (113,'tlrobinson','RH?//rG^=e',19,'San Francisco, CA','','2008-08-02T05:39:54.150Z',0,2662,178,58,396);
-INSERT INTO users VALUES (114,'Craig Smitham','+?un0=goXY|?6',36,'','','2008-08-02T05:40:36.787Z',0,2655,64,4,260);
-INSERT INTO users VALUES (115,'UnkwnTech','s#W-2)D3\GxL',42,'Madison, Wisconsin, United States','<p>The desire to attempt the impossible is a key trait of most great programmers.</p>','2008-08-02T05:44:40.553Z',0,82898,2981,486,4639);
-INSERT INTO users VALUES (116,'Mark Harrison','25rv.9t`/}0V',23,'Piedmont, CA','<p>I''m a Software Engineer at Google where I work on machine learning planning systems.</p>
+INSERT INTO users VALUES (113,'tlrobinson','I5VRBBX8',43,'San Francisco, CA','','2008-08-02T05:39:54.150Z',0,2662,178,58,396);
+INSERT INTO users VALUES (114,'Craig Smitham','NJhNzaLwcSx',57,'','','2008-08-02T05:40:36.787Z',1,2655,64,4,260);
+INSERT INTO users VALUES (115,'UnkwnTech','2BOgbrNgOey',24,'Madison, Wisconsin, United States','<p>The desire to attempt the impossible is a key trait of most great programmers.</p>','2008-08-02T05:44:40.553Z',0,82898,2981,486,4639);
+INSERT INTO users VALUES (116,'Mark Harrison','QVgSUo6sk',25,'Piedmont, CA','<p>I''m a Software Engineer at Google where I work on machine learning planning systems.</p>
 
 <p>From 2001-2015 I was the Pixar Tech Lead of the Data Management Group. My 50-year charter was to store and catalog all data and metadata related to the Studio''s feature films.  This system ("Templar") is in use to this day.</p>
 
@@ -242,35 +238,39 @@ INSERT INTO users VALUES (116,'Mark Harrison','25rv.9t`/}0V',23,'Piedmont, CA','
 <p>Feel free to drop me a line!</p>
 
 <p>marhar@gmail.com</p>','2008-08-02T05:51:57.153Z',0,280129,2614,39,23736);
-INSERT INTO users VALUES (117,'Peter Coulton','U_EWtf>jQ+',45,'Middlesbrough, United Kingdom','','2008-08-02T05:54:20.440Z',0,52401,949,30,1094);
-INSERT INTO users VALUES (118,'Brian Willis','kv"N+m:_[%]',38,'Wellington, New Zealand','<p>I live over at brianwillis.com</p>
+INSERT INTO users VALUES (117,'Peter Coulton','CBAVYn777RJAkW',49,'Middlesbrough, United Kingdom','','2008-08-02T05:54:20.440Z',0,52401,949,30,1094);
+INSERT INTO users VALUES (118,'Brian Willis','s2nvQgD6E',37,'Wellington, New Zealand','<p>I live over at brianwillis.com</p>
 
 <p>Come say hi.</p>','2008-08-02T06:12:32.960Z',0,20634,2209,14,738);
-INSERT INTO users VALUES (119,'Jesse Ezell','j&''#tZhIpk@bL_',24,'','test','2008-08-02T06:16:23.953Z',0,189,1,0,136);
-INSERT INTO users VALUES (120,'hitec','$|]t[dwli,e!Mk',27,'Mumbai, India','<p>System.StackOverflowException</p>','2008-08-02T06:23:02.970Z',0,1207,157,0,320);
-INSERT INTO users VALUES (121,'ricree','d!(<:pkEG',32,'','','2008-08-02T07:34:46.760Z',0,32999,396,25,574);
-INSERT INTO users VALUES (122,'Mike Stone',')1;dR*M9',59,'Sunnyvale, CA','<p>I am a programmer by hobby and by profession.  At work, I (currently) mostly work with Java and web technologies, but I enjoy playing with other languages as well.  Ruby is my favorite language to use, and so I try to work with it whenever I find the opportunity (and it makes sense).</p>
+INSERT INTO users VALUES (119,'Jesse Ezell','QeK9M8Ztbomvb',51,'','test','2008-08-02T06:16:23.953Z',0,189,1,0,136);
+INSERT INTO users VALUES (120,'hitec','TBMyD3FFyrktd',36,'Mumbai, India','<p>System.StackOverflowException</p>','2008-08-02T06:23:02.970Z',0,1207,157,0,320);
+INSERT INTO users VALUES (121,'ricree','Az2Gom8t',37,'','','2008-08-02T07:34:46.760Z',0,32999,396,25,574);
+INSERT INTO users VALUES (122,'Mike Stone','QCkhfPyK0',22,'Sunnyvale, CA','<p>I am a programmer by hobby and by profession.  At work, I (currently) mostly work with Java and web technologies, but I enjoy playing with other languages as well.  Ruby is my favorite language to use, and so I try to work with it whenever I find the opportunity (and it makes sense).</p>
 
-<p>My operating system of choice is Linux (specifically Ubuntu), and my editor of choice is Emacs (I was converted by a combination of my current coworkers and articles from Steve Yegge).</p>','2008-08-02T07:56:07.917Z',1,43530,522,51,3164);
-INSERT INTO users VALUES (14,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (15,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (18,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (21,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (28,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (31,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (47,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (53,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (54,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (65,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (66,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (69,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (74,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (84,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (89,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (90,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (97,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (98,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
-INSERT INTO users VALUES (110,'Anonymous User','g1D_~N-u=f2nSq',45,'','','2008-08-01T00:59:11.147Z',0,4783,0,0,3065);
+<p>My operating system of choice is Linux (specifically Ubuntu), and my editor of choice is Emacs (I was converted by a combination of my current coworkers and articles from Steve Yegge).</p>','2008-08-02T07:56:07.917Z',0,43530,522,51,3164);
+INSERT INTO users VALUES (0,'Anonymous User0','@&iNS(1Z',55,'','','2008-08-01T00:59:11.147Z',1,4783,0,0,3064);
+INSERT INTO users VALUES (84,'Anonymous User1','@&iNS(1Z',55,'','','2008-08-01T00:59:11.147Z',1,4783,0,0,3065);
+INSERT INTO users VALUES (69,'Anonymous User2','@&iNS(1Z',56,'','','2009-08-01T00:59:11.147Z',1,4784,1,1,3066);
+INSERT INTO users VALUES (97,'Anonymous User3','@&iNS(1Z',57,'','','2010-08-01T00:59:11.147Z',1,4785,2,2,3067);
+INSERT INTO users VALUES (65,'Anonymous User4','@&iNS(1Z',58,'','','2013-08-01T00:59:11.147Z',1,4786,3,3,3068);
+INSERT INTO users VALUES (98,'Anonymous User5','@&iNS(1Z',59,'','','2013-08-01T00:59:11.147Z',1,4787,4,4,3069);
+INSERT INTO users VALUES (15,'Anonymous User6','@&iNS(1Z',60,'','','2013-08-01T00:59:11.147Z',1,4788,5,5,3070);
+INSERT INTO users VALUES (21,'Anonymous User7','@&iNS(1Z',61,'','','2013-08-01T00:59:11.147Z',1,4789,6,6,3071);
+INSERT INTO users VALUES (28,'Anonymous User8','@&iNS(1Z',62,'','','2013-08-01T00:59:11.147Z',1,4790,7,7,3072);
+INSERT INTO users VALUES (74,'Anonymous User9','@&iNS(1Z',63,'','','2016-08-01T00:59:11.147Z',1,4791,8,8,3073);
+INSERT INTO users VALUES (54,'Anonymous User10','@&iNS(1Z',64,'','','2017-08-01T00:59:11.147Z',1,4792,9,9,3074);
+INSERT INTO users VALUES (90,'Anonymous User11','@&iNS(1Z',65,'','','2018-08-01T00:59:11.147Z',1,4793,10,10,3075);
+INSERT INTO users VALUES (6,'Anonymous User12','@&iNS(1Z',66,'','','2019-08-01T00:59:11.147Z',1,4794,11,11,3076);
+INSERT INTO users VALUES (89,'Anonymous User13','@&iNS(1Z',67,'','','2013-08-01T00:59:11.147Z',1,4795,12,12,3077);
+INSERT INTO users VALUES (31,'Anonymous User14','@&iNS(1Z',68,'','','2013-08-01T00:59:11.147Z',1,4796,13,13,3078);
+INSERT INTO users VALUES (14,'Anonymous User15','@&iNS(1Z',69,'','','2013-08-01T00:59:11.147Z',1,4797,14,14,3079);
+INSERT INTO users VALUES (66,'Anonymous User16','@&iNS(1Z',70,'','','2013-08-01T00:59:11.147Z',1,4798,15,15,3080);
+INSERT INTO users VALUES (53,'Anonymous User17','@&iNS(1Z',71,'','','2013-08-01T00:59:11.147Z',1,4799,16,16,3081);
+INSERT INTO users VALUES (7,'Anonymous User18','@&iNS(1Z',72,'','','2013-08-01T00:59:11.147Z',1,4800,17,17,3082);
+INSERT INTO users VALUES (12,'Anonymous User19','@&iNS(1Z',73,'','','2013-08-01T00:59:11.147Z',1,4801,18,18,3083);
+INSERT INTO users VALUES (47,'Anonymous User20','@&iNS(1Z',74,'','','2013-08-01T00:59:11.147Z',1,4802,19,19,3084);
+INSERT INTO users VALUES (18,'Anonymous User21','@&iNS(1Z',75,'','','2013-08-01T00:59:11.147Z',1,4803,20,20,3085);
+INSERT INTO users VALUES (110,'Anonymous User22','@&iNS(1Z',76,'','','2013-08-01T00:59:11.147Z',1,4804,21,21,3086);
 INSERT INTO courses VALUES (1,'CS-1',' zocsnooglzxvapuzgszqi xamajs qnxmukpl ');
 INSERT INTO courses VALUES (2,'CS-2','rggl  dtxhzxcp wmjiziaabw ryimxoemwr');
 INSERT INTO courses VALUES (3,'CS-3','kibs    niexwwkmgmrblrsuvaq ');
@@ -14991,7 +14991,7 @@ and reg_num &lt;= ''DE''     -- and so is this one
 <p>I imagine that SQL server sees ''DE2245'' as greater than ''DE'', and so excludes the row.</p>
 
 <p>My question: How do I get SQL server to include all rows that start with ''DE''? </p>',118,20,'2009-02-03T04:15:39.753Z',10,93,'sql','sql-server','sql-server-2005',NULL,NULL,NULL);
-INSERT INTO answers VALUES (7,'<p>An explicit cast to <code>double</code> like this isn''t necessary:</p>
+INSERT INTO answers VALUES (7,4,'','<p>An explicit cast to <code>double</code> like this isn''t necessary:</p>
 
 <pre><code>double trans = (double) trackBar1.Value / 5000.0;
 </code></pre>
@@ -15000,8 +15000,8 @@ INSERT INTO answers VALUES (7,'<p>An explicit cast to <code>double</code> like t
 
 <pre><code>double trans = trackBar1.Value / 5000.0;
 double trans = trackBar1.Value / 5000d;
-</code></pre>',9,3,'2008-07-31T22:17:57.883Z',24,27);
-INSERT INTO answers VALUES (12,'<p>Here''s how I do it</p>
+</code></pre>',9,99,'2008-07-31T22:17:57.883Z',21,49);
+INSERT INTO answers VALUES (12,11,'','<p>Here''s how I do it</p>
 
 <pre class="lang-csharp prettyprint-override"><code>var ts = new TimeSpan(DateTime.UtcNow.Ticks - dt.Ticks);
 double delta = Math.Abs(ts.TotalSeconds);
@@ -15043,18 +15043,18 @@ int years = Convert.ToInt32(Math.Floor((double)ts.Days / 365));
 return years &lt;= 1 ? "one year ago" : years + " years ago";
 </code></pre>
 
-<p>Suggestions? Comments? Ways to improve this algorithm?</p>',1,72,'2008-07-31T23:56:41.303Z',44,92);
-INSERT INTO answers VALUES (22,'<p>The best way that I know of because of leap years and everything is:</p>
+<p>Suggestions? Comments? Ways to improve this algorithm?</p>',1,25,'2008-07-31T23:56:41.303Z',58,64);
+INSERT INTO answers VALUES (22,9,'','<p>The best way that I know of because of leap years and everything is:</p>
 
 <pre class="lang-cs prettyprint-override"><code>DateTime birthDate = new DateTime(2000,3,1);
 int age = (int)Math.Floor((DateTime.Now - birthDate).TotalDays / 365.25D);
-</code></pre>',17,75,'2008-08-01T12:07:19.500Z',47,72);
-INSERT INTO answers VALUES (26,'<p>The answer by phpguy is correct but I think there is a lot of confusion in the  additional details there.</p>
+</code></pre>',17,91,'2008-08-01T12:07:19.500Z',90,88);
+INSERT INTO answers VALUES (26,17,'Mat Scales','<p>The answer by phpguy is correct but I think there is a lot of confusion in the  additional details there.</p>
 
 <p>The basic answer is in a <code>BLOB</code> data type / attribute domain. <strong>BLOB</strong> is short for Binary Large Object and that column data type is specific for handling binary data.</p>
 
-<p>See <a href="http://dev.mysql.com/doc/refman/5.7/en/blob.html" rel="noreferrer">the relevant manual page for MySQL</a>.</p>',48,16,'2008-08-01T12:16:22.167Z',25,41);
-INSERT INTO answers VALUES (27,'<p>@jeff</p>
+<p>See <a href="http://dev.mysql.com/doc/refman/5.7/en/blob.html" rel="noreferrer">the relevant manual page for MySQL</a>.</p>',48,58,'2008-08-01T12:16:22.167Z',39,61);
+INSERT INTO answers VALUES (27,11,'','<p>@jeff</p>
 <p>IMHO yours seems a little long. However it does seem a little more robust with support for &quot;yesterday&quot; and &quot;years&quot;.  But in my experience when this is used, the person is most likely to view the content in the first 30 days. It is only the really hardcore people that come after that. So, I usually elect to keep this short and simple.</p>
 <p>This is the method I am currently using in one of my websites. This returns only a relative day, hour and time.  And then the user has to slap on &quot;ago&quot; in the output.</p>
 <pre><code>public static string ToLongString(this TimeSpan time)
@@ -15075,11 +15075,11 @@ INSERT INTO answers VALUES (27,'<p>@jeff</p>
 
     return output.Trim();
 }
-</code></pre>',17,70,'2008-08-01T12:17:19.357Z',77,75);
-INSERT INTO answers VALUES (29,'<p>There are no HTTP headers that will report the clients timezone so far although it has been suggested to include it in the HTTP specification.</p>
+</code></pre>',17,29,'2008-08-01T12:17:19.357Z',65,78);
+INSERT INTO answers VALUES (29,13,'','<p>There are no HTTP headers that will report the clients timezone so far although it has been suggested to include it in the HTTP specification.</p>
 
-<p>If it was me, I would probably try to fetch the timezone using clientside JavaScript and then submit it to the server using Ajax or something.</p>',19,50,'2008-08-01T12:19:17.417Z',47,6);
-INSERT INTO answers VALUES (30,'<p>I''ve had no trouble using the BSD sockets API in C++, in GNU/Linux. Here''s the sample program I used:</p>
+<p>If it was me, I would probably try to fetch the timezone using clientside JavaScript and then submit it to the server using Ajax or something.</p>',19,4,'2008-08-01T12:19:17.417Z',14,37);
+INSERT INTO answers VALUES (30,25,'','<p>I''ve had no trouble using the BSD sockets API in C++, in GNU/Linux. Here''s the sample program I used:</p>
 
 <pre><code>#include &lt;sys/socket.h&gt;
 
@@ -15090,17 +15090,17 @@ main()
 }
 </code></pre>
 
-<p>So my take on this is that z/OS is probably the complicating factor here, however, because I''ve never used z/OS before, much less programmed in it, I can''t say this definitively. :-P</p>',13,86,'2008-08-01T12:22:40.797Z',87,75);
-INSERT INTO answers VALUES (33,'<p><code>Math.Floor</code> rounds down, <code>Math.Ceiling</code> rounds up, and <code>Math.Truncate</code> rounds towards zero. Thus, <code>Math.Truncate</code> is like <code>Math.Floor</code> for positive numbers, and like <code>Math.Ceiling</code> for negative numbers. Here''s the <a href="https://msdn.microsoft.com/en-us/library/system.math.truncate.aspx" rel="noreferrer">reference</a>.</p>
+<p>So my take on this is that z/OS is probably the complicating factor here, however, because I''ve never used z/OS before, much less programmed in it, I can''t say this definitively. :-P</p>',13,65,'2008-08-01T12:22:40.797Z',8,17);
+INSERT INTO answers VALUES (33,14,'','<p><code>Math.Floor</code> rounds down, <code>Math.Ceiling</code> rounds up, and <code>Math.Truncate</code> rounds towards zero. Thus, <code>Math.Truncate</code> is like <code>Math.Floor</code> for positive numbers, and like <code>Math.Ceiling</code> for negative numbers. Here''s the <a href="https://msdn.microsoft.com/en-us/library/system.math.truncate.aspx" rel="noreferrer">reference</a>.</p>
 <p>For completeness, <code>Math.Round</code> rounds to the nearest integer. If the number is exactly midway between two integers, then it rounds towards the even one. <a href="https://msdn.microsoft.com/en-us/library/system.math.round.aspx" rel="noreferrer">Reference.</a></p>
-<p>See also: <a href="https://stackoverflow.com/questions/14/whats-the-difference-between-math-floor-and-math-truncate-in-c/580252#580252">Pax Diablo''s answer</a>. Highly recommended!</p>',13,12,'2008-08-01T12:26:39.773Z',97,97);
-INSERT INTO answers VALUES (44,'<p>Consider using a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.manualresetevent" rel="nofollow noreferrer">ManualResetEvent</a> to block the main thread at the end of its processing, and call <code>Reset()</code> on it once the timer''s processing has finished.  If this is something that needs to run continuously, consider moving this into a service process instead of a console app.</p>',35,5,'2008-08-01T12:55:42.413Z',86,3);
-INSERT INTO answers VALUES (45,'<p>You can use something like <code>Console.ReadLine()</code> to block the main thread, so other background threads (like timer threads) will still work. You may also use an <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.autoresetevent" rel="noreferrer">AutoResetEvent</a> to block the execution, then (when you need to) you can call Set() method on that AutoResetEvent object to release the main thread. Also ensure that your reference to Timer object doesn''t go out of scope and garbage collected.</p>',39,78,'2008-08-01T12:56:37.920Z',44,48);
-INSERT INTO answers VALUES (49,'<p><a href="https://web.archive.org/web/20180330233216/http://www.brokenbuild.com/blog/2006/08/15/mysql-triggers-how-do-you-abort-an-insert-update-or-delete-with-a-trigger/" rel="noreferrer">Here is one hack</a> that may work. It isn''t clean, but it looks like it might work:</p>
+<p>See also: <a href="https://stackoverflow.com/questions/14/whats-the-difference-between-math-floor-and-math-truncate-in-c/580252#580252">Pax Diablo''s answer</a>. Highly recommended!</p>',13,14,'2008-08-01T12:26:39.773Z',85,91);
+INSERT INTO answers VALUES (44,39,'','<p>Consider using a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.manualresetevent" rel="nofollow noreferrer">ManualResetEvent</a> to block the main thread at the end of its processing, and call <code>Reset()</code> on it once the timer''s processing has finished.  If this is something that needs to run continuously, consider moving this into a service process instead of a console app.</p>',35,17,'2008-08-01T12:55:42.413Z',14,99);
+INSERT INTO answers VALUES (45,39,'','<p>You can use something like <code>Console.ReadLine()</code> to block the main thread, so other background threads (like timer threads) will still work. You may also use an <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.autoresetevent" rel="noreferrer">AutoResetEvent</a> to block the execution, then (when you need to) you can call Set() method on that AutoResetEvent object to release the main thread. Also ensure that your reference to Timer object doesn''t go out of scope and garbage collected.</p>',39,70,'2008-08-01T12:56:37.920Z',48,65);
+INSERT INTO answers VALUES (49,24,'','<p><a href="https://web.archive.org/web/20180330233216/http://www.brokenbuild.com/blog/2006/08/15/mysql-triggers-how-do-you-abort-an-insert-update-or-delete-with-a-trigger/" rel="noreferrer">Here is one hack</a> that may work. It isn''t clean, but it looks like it might work:</p>
 
-<p>Essentially, you just try to update a column that doesn''t exist.</p>',43,56,'2008-08-01T13:02:51.900Z',69,32);
-INSERT INTO answers VALUES (51,'<p>Why don''t you want to use triggers?  They are a good thing if you use them correctly.  If you use them as a way to enforce referential integrity that is when they go from good to bad.  But if you use them for monitoring, they are not really considered taboo.</p>',17,82,'2008-08-01T13:07:52.810Z',29,23);
-INSERT INTO answers VALUES (56,'<p>Give your submit buttons the same name like this:</p>
+<p>Essentially, you just try to update a column that doesn''t exist.</p>',43,73,'2008-08-01T13:02:51.900Z',16,21);
+INSERT INTO answers VALUES (51,36,'','<p>Why don''t you want to use triggers?  They are a good thing if you use them correctly.  If you use them as a way to enforce referential integrity that is when they go from good to bad.  But if you use them for monitoring, they are not really considered taboo.</p>',17,47,'2008-08-01T13:07:52.810Z',50,24);
+INSERT INTO answers VALUES (56,48,'','<p>Give your submit buttons the same name like this:</p>
 
 <pre><code>&lt;input type="submit" name="submitButton" value="Previous Page" /&gt;
 &lt;input type="submit" name="submitButton" value="Next Page" /&gt;
@@ -15115,8 +15115,8 @@ ElseIf Request.Form("submitButton") = "Next Page" Then
 End If
 </code></pre>
 
-<p>Reference: <em><a href="http://www.chami.com/tips/internet/042599I.html" rel="noreferrer">Using multiple submit buttons on a single form</a></em></p>',39,93,'2008-08-01T13:10:16.473Z',79,9);
-INSERT INTO answers VALUES (58,'<p>Change the previous button type into a button like this:  </p>
+<p>Reference: <em><a href="http://www.chami.com/tips/internet/042599I.html" rel="noreferrer">Using multiple submit buttons on a single form</a></em></p>',39,7,'2008-08-01T13:10:16.473Z',33,25);
+INSERT INTO answers VALUES (58,48,'','<p>Change the previous button type into a button like this:  </p>
 
 <pre><code>&lt;input type="button" name="prev" value="Previous Page" /&gt;
 </code></pre>
@@ -15124,8 +15124,8 @@ INSERT INTO answers VALUES (58,'<p>Change the previous button type into a button
 <p>Now the <em>Next</em> button would be the default, plus you could also add the <code>default</code> attribute to it so that your browser will highlight it like so:</p>
 
 <pre><code>&lt;input type="submit" name="next" value="Next Page" default /&gt;
-</code></pre>',37,38,'2008-08-01T13:14:30.303Z',24,89);
-INSERT INTO answers VALUES (62,'<p><strong>The problem is that the Distinct
+</code></pre>',37,32,'2008-08-01T13:14:30.303Z',98,89);
+INSERT INTO answers VALUES (62,59,'','<p><strong>The problem is that the Distinct
  operator does not grant that it will
  maintain the original order of
  values.</strong></p>
@@ -15134,15 +15134,15 @@ INSERT INTO answers VALUES (62,'<p><strong>The problem is that the Distinct
 
 <pre><code>var names = (from DataRow dr in dataTable.Rows
              select (string)dr["Name"]).Distinct().OrderBy( name =&gt; name );
-</code></pre>',45,81,'2008-08-01T13:18:37.640Z',12,84);
-INSERT INTO answers VALUES (68,'<p>It is very simple with the <code>Skip</code> and <code>Take</code> extension methods.</p>
+</code></pre>',45,3,'2008-08-01T13:18:37.640Z',12,72);
+INSERT INTO answers VALUES (68,66,'','<p>It is very simple with the <code>Skip</code> and <code>Take</code> extension methods.</p>
 
 <pre><code>var query = from i in ideas
             select i;
 
 var paggedCollection = query.Skip(startIndex).Take(count);
-</code></pre>',17,97,'2008-08-01T13:22:04.483Z',57,5);
-INSERT INTO answers VALUES (71,'<p>Here''s a general description of a technique for calculating pi that I learnt in high school.</p>
+</code></pre>',17,84,'2008-08-01T13:22:04.483Z',74,5);
+INSERT INTO answers VALUES (71,19,'Leon Bambrick','<p>Here''s a general description of a technique for calculating pi that I learnt in high school.</p>
 
 <p>I only share this because I think it is simple enough that anyone can remember it, indefinitely, plus it teaches you the concept of "Monte-Carlo" methods -- which are statistical methods of arriving at answers that don''t immediately appear to be deducible through random processes.</p>
 
@@ -15154,8 +15154,8 @@ INSERT INTO answers VALUES (71,'<p>Here''s a general description of a technique 
 
 <p>Since the area of the square is r times r, you can deduce that the area of the semi circle is x times r times r (that is, x times r squared). Hence x times 4 will give you pi. </p>
 
-<p>This is not a quick method to use. But it''s a nice example of a Monte Carlo method. And if you look around, you may find that many problems otherwise outside your computational skills can be solved by such methods.</p>',49,99,'2008-08-01T13:37:59.723Z',85,3);
-INSERT INTO answers VALUES (73,'<p>@Jax: The <code>extern "C"</code> thing matters, very very much. If a header file doesn''t have one, then (unless it''s a C++-only header file), you would have to enclose your <code>#include</code> with it:</p>
+<p>This is not a quick method to use. But it''s a nice example of a Monte Carlo method. And if you look around, you may find that many problems otherwise outside your computational skills can be solved by such methods.</p>',49,42,'2008-08-01T13:37:59.723Z',11,19);
+INSERT INTO answers VALUES (73,25,'','<p>@Jax: The <code>extern "C"</code> thing matters, very very much. If a header file doesn''t have one, then (unless it''s a C++-only header file), you would have to enclose your <code>#include</code> with it:</p>
 
 <pre><code>extern "C" {
 #include &lt;sys/socket.h&gt;
@@ -15163,10 +15163,10 @@ INSERT INTO answers VALUES (73,'<p>@Jax: The <code>extern "C"</code> thing matte
 }
 </code></pre>
 
-<p>Basically, anytime where a C++ program wants to link to C-based facilities, the <code>extern "C"</code> is vital. In practical terms, it means that the names used in external references will not be mangled, like normal C++ names would. <a href="http://www.parashift.com/c++-faq-lite/mixing-c-and-cpp.html" rel="noreferrer">Reference.</a></p>',13,65,'2008-08-01T13:40:16.443Z',89,35);
-INSERT INTO answers VALUES (76,'<p>I believe the easiest way would be to follow Jeff''s own advice and have a look around the existing code. Try looking at WordPress, Drupal, Joomla, and other well-known PHP-based CMS to see how their API hooks look and feel. This way you can even get ideas you may have not thought of previously to make things a little more robust.</p>
-<p>A more direct answer would be to write general files that they would &quot;include_once&quot; into their file that would provide the usability they would need. This would be broken up into categories and NOT provided in one MASSIVE &quot;hooks.php&quot; file. Be careful though, because what ends up happening is that files that they include end up having more and more dependencies and functionality improves. Try to keep API dependencies low. I.E fewer files for them to include.</p>',50,83,'2008-08-01T13:44:35.843Z',54,40);
-INSERT INTO answers VALUES (77,'<p>You could use an Observer pattern.  A simple functional way to accomplish this:</p>
+<p>Basically, anytime where a C++ program wants to link to C-based facilities, the <code>extern "C"</code> is vital. In practical terms, it means that the names used in external references will not be mangled, like normal C++ names would. <a href="http://www.parashift.com/c++-faq-lite/mixing-c-and-cpp.html" rel="noreferrer">Reference.</a></p>',13,90,'2008-08-01T13:40:16.443Z',24,41);
+INSERT INTO answers VALUES (76,42,'','<p>I believe the easiest way would be to follow Jeff''s own advice and have a look around the existing code. Try looking at WordPress, Drupal, Joomla, and other well-known PHP-based CMS to see how their API hooks look and feel. This way you can even get ideas you may have not thought of previously to make things a little more robust.</p>
+<p>A more direct answer would be to write general files that they would &quot;include_once&quot; into their file that would provide the usability they would need. This would be broken up into categories and NOT provided in one MASSIVE &quot;hooks.php&quot; file. Be careful though, because what ends up happening is that files that they include end up having more and more dependencies and functionality improves. Try to keep API dependencies low. I.E fewer files for them to include.</p>',50,41,'2008-08-01T13:44:35.843Z',71,86);
+INSERT INTO answers VALUES (77,42,'','<p>You could use an Observer pattern.  A simple functional way to accomplish this:</p>
 
 <pre><code>&lt;?php
 
@@ -15245,20 +15245,20 @@ echo $str;
 
 <p>For this example source code, you must declare all your plugins before the actual source code that you want to be extendable.  I''ve included an example of how to handle single or multiple values being passed to the plugin.  The hardest part of this is writing the actual documentation which lists what arguments get passed to each hook.</p>
 
-<p>This is just one method of accomplishing a plugin system in PHP.  There are better alternatives, I suggest you check out the WordPress Documentation for more information.</p>',40,46,'2008-08-01T13:46:00.097Z',7,82);
-INSERT INTO answers VALUES (78,'<p>It sounds like <code>this.Opacity</code> is a double value, and the compiler doesn''t like you trying to cram a decimal value into it.</p>',55,64,'2008-08-01T13:53:06.357Z',6,2);
-INSERT INTO answers VALUES (82,'<p>Have a DTS job (or a job that is started by a windows service) that runs at a given interval. Each time it is run, it gets information about the given table by using the system <a href="http://msdn.microsoft.com/en-us/library/ms186778.aspx" rel="noreferrer">INFORMATION_SCHEMA</a> tables, and records this data in the data repository. Compare the data returned regarding the structure of the table with the data returned the previous time. If it is different, then you know that the structure has changed.</p>
+<p>This is just one method of accomplishing a plugin system in PHP.  There are better alternatives, I suggest you check out the WordPress Documentation for more information.</p>',40,73,'2008-08-01T13:46:00.097Z',68,73);
+INSERT INTO answers VALUES (78,4,'','<p>It sounds like <code>this.Opacity</code> is a double value, and the compiler doesn''t like you trying to cram a decimal value into it.</p>',55,59,'2008-08-01T13:53:06.357Z',8,53);
+INSERT INTO answers VALUES (82,36,'','<p>Have a DTS job (or a job that is started by a windows service) that runs at a given interval. Each time it is run, it gets information about the given table by using the system <a href="http://msdn.microsoft.com/en-us/library/ms186778.aspx" rel="noreferrer">INFORMATION_SCHEMA</a> tables, and records this data in the data repository. Compare the data returned regarding the structure of the table with the data returned the previous time. If it is different, then you know that the structure has changed.</p>
 
 <p>Example query to return information regarding all of the columns in table ABC (ideally listing out just the columns from the INFORMATION_SCHEMA table that you want, instead of using *select ** like I do here):</p>
 
 <pre><code>select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME = ''ABC''
 </code></pre>
 
-<p>You would monitor different columns and INFORMATION_SCHEMA views depending on how exactly you define "changes to a table".</p>',51,58,'2008-08-01T14:06:28.560Z',91,19);
-INSERT INTO answers VALUES (84,'<p>If you use a return type of <code>IEnumerable</code>, you can return your <strong>query</strong> variable directly.</p>',60,34,'2008-08-01T14:10:55.757Z',72,62);
-INSERT INTO answers VALUES (86,'<p><strong>A more generic answer for the generic question &quot;Decimal vs Double?&quot;:</strong></p>
-<p><strong>Decimal</strong> is for monetary calculations to preserve precision. <strong>Double</strong> is for scientific calculations that do not get affected by small differences. Since Double is a type that is native to the CPU (internal representation is stored in <em>base 2</em>), calculations made with Double perform better than Decimal (which is represented in <em>base 10</em> internally).</p>',39,43,'2008-08-01T14:23:28.087Z',49,41);
-INSERT INTO answers VALUES (87,'<p>One framework I''m considering would be for a blogging platform. Since just about any possible view of data you would want would be sorted by date, I was thinking about this structure:</p>
+<p>You would monitor different columns and INFORMATION_SCHEMA views depending on how exactly you define "changes to a table".</p>',51,88,'2008-08-01T14:06:28.560Z',59,52);
+INSERT INTO answers VALUES (84,16,'','<p>If you use a return type of <code>IEnumerable</code>, you can return your <strong>query</strong> variable directly.</p>',60,30,'2008-08-01T14:10:55.757Z',68,19);
+INSERT INTO answers VALUES (86,4,'','<p><strong>A more generic answer for the generic question &quot;Decimal vs Double?&quot;:</strong></p>
+<p><strong>Decimal</strong> is for monetary calculations to preserve precision. <strong>Double</strong> is for scientific calculations that do not get affected by small differences. Since Double is a type that is native to the CPU (internal representation is stored in <em>base 2</em>), calculations made with Double perform better than Decimal (which is represented in <em>base 10</em> internally).</p>',39,94,'2008-08-01T14:23:28.087Z',14,86);
+INSERT INTO answers VALUES (87,85,'','<p>One framework I''m considering would be for a blogging platform. Since just about any possible view of data you would want would be sorted by date, I was thinking about this structure:</p>
 
 <p>One directory per content node:</p>
 
@@ -15279,28 +15279,28 @@ INSERT INTO answers VALUES (87,'<p>One framework I''m considering would be for a
 <pre><code>glob("content/*/tags/funny");  
 </code></pre>
 
-<p>Would return paths including all articles tagged "funny".</p>',59,17,'2008-08-01T14:26:22.793Z',93,10);
-INSERT INTO answers VALUES (92,'<p><a href="http://svnbook.red-bean.com/" rel="noreferrer">Version Control with Subversion</a></p>
+<p>Would return paths including all articles tagged "funny".</p>',59,10,'2008-08-01T14:26:22.793Z',21,53);
+INSERT INTO answers VALUES (92,90,'','<p><a href="http://svnbook.red-bean.com/" rel="noreferrer">Version Control with Subversion</a></p>
 
-<p>A very good resource for source control in general. Not really TortoiseSVN specific, though.</p>',61,29,'2008-08-01T14:45:37.403Z',54,59);
-INSERT INTO answers VALUES (93,'<p>From my experience, and from what I''ve read across the internet, the answer is "No," it is not guaranteed.  It depends on CPU speed, operating system, flavor of Linux, etc.</p>',25,14,'2008-08-01T14:46:53.097Z',93,52);
-INSERT INTO answers VALUES (99,'<blockquote>
+<p>A very good resource for source control in general. Not really TortoiseSVN specific, though.</p>',61,70,'2008-08-01T14:45:37.403Z',94,73);
+INSERT INTO answers VALUES (93,88,'','<p>From my experience, and from what I''ve read across the internet, the answer is "No," it is not guaranteed.  It depends on CPU speed, operating system, flavor of Linux, etc.</p>',25,21,'2008-08-01T14:46:53.097Z',90,54);
+INSERT INTO answers VALUES (99,88,'','<blockquote>
   <p>The actual resolution of gettimeofday() depends on the hardware architecture. Intel processors as well as SPARC machines offer high resolution timers that measure microseconds. Other hardware architectures fall back to the system''s timer, which is typically set to 100 Hz. In such cases, the time resolution will be less accurate. </p>
 </blockquote>
 
-<p>I obtained this answer from <a href="http://web.archive.org/web/20160711223333/http://www.informit.com/guides/content.aspx?g=cplusplus&amp;seqNum=272" rel="nofollow noreferrer">High Resolution Time Measurement and Timers, Part I</a></p>',25,55,'2008-08-01T14:55:08.477Z',80,73);
-INSERT INTO answers VALUES (103,'<p>JavaScript is the easiest way to get the client''s local time. I would suggest using an <a href="http://en.wikipedia.org/wiki/XMLHttpRequest" rel="noreferrer">XMLHttpRequest</a> to send back the local time, and if that fails, fall back to the timezone detected based on their IP address.</p>
+<p>I obtained this answer from <a href="http://web.archive.org/web/20160711223333/http://www.informit.com/guides/content.aspx?g=cplusplus&amp;seqNum=272" rel="nofollow noreferrer">High Resolution Time Measurement and Timers, Part I</a></p>',25,82,'2008-08-01T14:55:08.477Z',64,67);
+INSERT INTO answers VALUES (103,13,'','<p>JavaScript is the easiest way to get the client''s local time. I would suggest using an <a href="http://en.wikipedia.org/wiki/XMLHttpRequest" rel="noreferrer">XMLHttpRequest</a> to send back the local time, and if that fails, fall back to the timezone detected based on their IP address.</p>
 
-<p>As far as geolocation, I''ve used <a href="http://www.maxmind.com/app/ip-location" rel="noreferrer">MaxMind GeoIP</a> on several projects and it works well, though I''m not sure if they provide timezone data. It''s a service you pay for and they provide monthly updates to your database. They provide wrappers in several web languages.</p>',72,7,'2008-08-01T15:11:59.987Z',42,99);
-INSERT INTO answers VALUES (107,'<p>I guess in a managed environment, a leak would be you keeping an unnecessary reference to a large chunk of memory around.</p>',61,22,'2008-08-01T15:19:25.900Z',10,76);
-INSERT INTO answers VALUES (110,'<p>I will concur with Bernard as to in .net what a mem leak would be.</p>
+<p>As far as geolocation, I''ve used <a href="http://www.maxmind.com/app/ip-location" rel="noreferrer">MaxMind GeoIP</a> on several projects and it works well, though I''m not sure if they provide timezone data. It''s a service you pay for and they provide monthly updates to your database. They provide wrappers in several web languages.</p>',72,67,'2008-08-01T15:11:59.987Z',90,61);
+INSERT INTO answers VALUES (107,104,'','<p>I guess in a managed environment, a leak would be you keeping an unnecessary reference to a large chunk of memory around.</p>',61,25,'2008-08-01T15:19:25.900Z',99,55);
+INSERT INTO answers VALUES (110,104,'','<p>I will concur with Bernard as to in .net what a mem leak would be.</p>
 
 <p>You could profile your application to see its memory use, and determine that if its managing a lot of memory when it should not be you could say it has a leak.</p>
 
 <p>In managed terms I will put my neck on the line to say it does go away once the process is killed/removed.</p>
 
-<p>Unmanaged code is its own beast and if a leak exists within it, it will follow a standard mem. leak definition.</p>',36,95,'2008-08-01T15:23:33.817Z',47,26);
-INSERT INTO answers VALUES (112,'<p>The best explanation I''ve seen is in Chapter 7 of the free <a href="http://codebetter.com/karlseguin/2008/06/25/foundations-of-programming-ebook/" rel="noreferrer">Foundations of Programming e-book</a>.</p>
+<p>Unmanaged code is its own beast and if a leak exists within it, it will follow a standard mem. leak definition.</p>',36,45,'2008-08-01T15:23:33.817Z',79,26);
+INSERT INTO answers VALUES (112,104,'','<p>The best explanation I''ve seen is in Chapter 7 of the free <a href="http://codebetter.com/karlseguin/2008/06/25/foundations-of-programming-ebook/" rel="noreferrer">Foundations of Programming e-book</a>.</p>
 
 <p>Basically, in <strong>.NET</strong> a memory leak occurs when referenced objects are rooted and thus cannot be garbage collected. This occurs accidentally when you hold on to references beyond the intended scope.</p>
 
@@ -15310,17 +15310,17 @@ INSERT INTO answers VALUES (112,'<p>The best explanation I''ve seen is in Chapte
 
 <p>Of course, a good memory profile will let you see your object graphs and explore the nesting/referencing of your objects to see where references are coming from and what root object is responsible (<a href="http://www.red-gate.com/products/ants_memory_profiler/index.htm" rel="noreferrer">red-gate ants profile</a>, JetBrains dotMemory, <a href="http://memprofiler.com/" rel="noreferrer">memprofiler</a> are really good choices, or you can use the text-only <strong>WinDbg</strong> and <strong>SOS</strong>, but I''d strongly recommend a commercial/visual product unless you''re a real guru).</p>
 
-<p>I believe unmanaged code is subject to its typical memory leaks, except that shared references are managed by the garbage collector. I could be wrong about this last point.</p>',34,76,'2008-08-01T15:28:12.543Z',41,96);
-INSERT INTO answers VALUES (113,'<p>I''ll second Diago''s answer.  I use TortoiseSVN on Vista x64 pretty heavily.</p>
+<p>I believe unmanaged code is subject to its typical memory leaks, except that shared references are managed by the garbage collector. I could be wrong about this last point.</p>',34,18,'2008-08-01T15:28:12.543Z',30,22);
+INSERT INTO answers VALUES (113,108,'','<p>I''ll second Diago''s answer.  I use TortoiseSVN on Vista x64 pretty heavily.</p>
 
-<p>I did upgrade directly from an older version to 1.5.2 though, and never used 1.5.1.  Have you tried 1.5.2?</p>',60,53,'2008-08-01T15:32:11.337Z',72,20);
-INSERT INTO answers VALUES (114,'<p>TortoiseSVN in combination with VisualSVN for Visual Studio.</p>',17,27,'2008-08-01T15:32:42.473Z',55,20);
-INSERT INTO answers VALUES (116,'<p>I too get explorer crashes in Vista (I''m not in the 64Bit version though). I''m using Vista Super Saijen (or whatever they are calling the most expensive version). I''m not having any bugs with Tortoise.</p>
+<p>I did upgrade directly from an older version to 1.5.2 though, and never used 1.5.1.  Have you tried 1.5.2?</p>',60,30,'2008-08-01T15:32:11.337Z',9,12);
+INSERT INTO answers VALUES (114,108,'','<p>TortoiseSVN in combination with VisualSVN for Visual Studio.</p>',17,8,'2008-08-01T15:32:42.473Z',44,46);
+INSERT INTO answers VALUES (116,108,'','<p>I too get explorer crashes in Vista (I''m not in the 64Bit version though). I''m using Vista Super Saijen (or whatever they are calling the most expensive version). I''m not having any bugs with Tortoise.</p>
 
 <p>My explorer does, however, crash about every other day (sometimes multiple times a day if it''s having an "off" day). I''m not positive it''s being caused by TortoiseSVN though. From what I hear, the explorer just crashes a lot in Vista...</p>
 
-<p>Have you tried uninstalling Tortoise and using Windows for a day or two and seeing if it still crashes? Do you restart your computer at least once a day (It seems the longer I go between restarts, the worse the crashes get)?</p>',58,3,'2008-08-01T15:34:43.873Z',67,19);
-INSERT INTO answers VALUES (124,'<p>I wound up using this. It is a kind of a hack, but it actually works pretty well. </p>
+<p>Have you tried uninstalling Tortoise and using Windows for a day or two and seeing if it still crashes? Do you restart your computer at least once a day (It seems the longer I go between restarts, the worse the crashes get)?</p>',58,61,'2008-08-01T15:34:43.873Z',57,23);
+INSERT INTO answers VALUES (124,80,'','<p>I wound up using this. It is a kind of a hack, but it actually works pretty well. </p>
 
 <p>The only thing is you have to be very careful with your semicolons. : D</p>
 
@@ -15330,16 +15330,16 @@ var strSqlSplit:Array = strSql.split(";");
 for (i = 0; i &lt; strSqlSplit.length; i++){
     NonQuery(strSqlSplit[i].toString());
 }
-</code></pre>',26,53,'2008-08-01T16:09:47.687Z',28,15);
-INSERT INTO answers VALUES (127,'<p>This has religious war potential, but it seems to me that if you''re using a getter/setter, you should use it internally as well - using both will lead to maintenance problems down the road (e.g. somebody adds code to a setter that <em>needs</em> to run every time that property is set, and the property is being set internally w/o that setter being called).</p>',35,87,'2008-08-01T16:13:47.600Z',54,24);
-INSERT INTO answers VALUES (128,'<p>It depends on how the property is used. For example, say you have a student object that has a name property. You could use your Get method to pull the name from the database, if it hasn''t been retrieved already. This way you are reducing unnecessary calls to the database.</p>
+</code></pre>',26,93,'2008-08-01T16:09:47.687Z',16,97);
+INSERT INTO answers VALUES (127,126,'','<p>This has religious war potential, but it seems to me that if you''re using a getter/setter, you should use it internally as well - using both will lead to maintenance problems down the road (e.g. somebody adds code to a setter that <em>needs</em> to run every time that property is set, and the property is being set internally w/o that setter being called).</p>',35,91,'2008-08-01T16:13:47.600Z',3,43);
+INSERT INTO answers VALUES (128,126,'','<p>It depends on how the property is used. For example, say you have a student object that has a name property. You could use your Get method to pull the name from the database, if it hasn''t been retrieved already. This way you are reducing unnecessary calls to the database.</p>
 
-<p>Now let''s say you have a private integer counter in your object that counts the number of times the name has been called. You may want to not use the Get method from inside the object because it would produce an invalid count.</p>',26,76,'2008-08-01T16:19:04.283Z',93,16);
-INSERT INTO answers VALUES (133,'<p>This may be too basic or limited of a solution, but couldn''t you do a <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#split(java.lang.String)" rel="nofollow noreferrer"><code>String.split()</code></a> on each line of the file, remembering the result array of the first line to generate the XML, and just spit each line''s array data out with the proper XML elements padding each iteration of a loop?</p>',59,18,'2008-08-01T16:31:43.430Z',16,26);
-INSERT INTO answers VALUES (135,'<p>Rolling your own PHP solution will certainly work though I''m not sure if there is a good way to automatically duplicate the schema from one DB to the other (maybe this was your question).</p>
+<p>Now let''s say you have a private integer counter in your object that counts the number of times the name has been called. You may want to not use the Get method from inside the object because it would produce an invalid count.</p>',26,59,'2008-08-01T16:19:04.283Z',83,65);
+INSERT INTO answers VALUES (133,123,'','<p>This may be too basic or limited of a solution, but couldn''t you do a <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#split(java.lang.String)" rel="nofollow noreferrer"><code>String.split()</code></a> on each line of the file, remembering the result array of the first line to generate the XML, and just spit each line''s array data out with the proper XML elements padding each iteration of a loop?</p>',59,98,'2008-08-01T16:31:43.430Z',50,16);
+INSERT INTO answers VALUES (135,129,'','<p>Rolling your own PHP solution will certainly work though I''m not sure if there is a good way to automatically duplicate the schema from one DB to the other (maybe this was your question).</p>
 
-<p>If you are just copying data, and/or you need custom code anyway to convert between modified schemas between the two DB''s, I would recommend using PHP 5.2+ and the PDO libraries.  You''ll be able to connect using PDO ODBC (and use MSSQL drivers).  I had a lot of problems getting large text fields and multi-byte characters from MSSQL into PHP using other libraries.</p>',72,99,'2008-08-01T16:36:42.080Z',6,31);
-INSERT INTO answers VALUES (139,'<blockquote>
+<p>If you are just copying data, and/or you need custom code anyway to convert between modified schemas between the two DB''s, I would recommend using PHP 5.2+ and the PDO libraries.  You''ll be able to connect using PDO ODBC (and use MSSQL drivers).  I had a lot of problems getting large text fields and multi-byte characters from MSSQL into PHP using other libraries.</p>',72,23,'2008-08-01T16:36:42.080Z',37,54);
+INSERT INTO answers VALUES (139,126,'','<blockquote>
   <p>Am I just going overboard here?</p>
 </blockquote>
 
@@ -15366,31 +15366,31 @@ protected function _getName() {
 <pre><code>$name = $this-&gt;_getName();
 </code></pre>
 
-<p>This way you can still use that first argument for something else (like sending a flag for whether or not to used cached data here perhaps).</p>',72,71,'2008-08-01T16:43:30.880Z',66,93);
-INSERT INTO answers VALUES (141,'<p>Another tool to try would be the <a href="http://www.sqlmaestro.com" rel="nofollow noreferrer">SQLMaestro suite</a>. It is a little tricky nailing down the precise tool, but they have a variety of tools, both free and for purchase that handle a wide variety of tasks for multiple database platforms. I''d suggest trying the Data Wizard tool first for MySQL, since I believe that will have the proper &quot;import&quot; tool you need.</p>',71,7,'2008-08-01T16:47:54.927Z',35,53);
-INSERT INTO answers VALUES (142,'<p>Well, it seems with C# 3.0 properties'' default implementation, the decision is taken for you; you HAVE to set the property using the (possibly private) property setter.</p>
+<p>This way you can still use that first argument for something else (like sending a flag for whether or not to used cached data here perhaps).</p>',72,38,'2008-08-01T16:43:30.880Z',85,93);
+INSERT INTO answers VALUES (141,129,'','<p>Another tool to try would be the <a href="http://www.sqlmaestro.com" rel="nofollow noreferrer">SQLMaestro suite</a>. It is a little tricky nailing down the precise tool, but they have a variety of tools, both free and for purchase that handle a wide variety of tasks for multiple database platforms. I''d suggest trying the Data Wizard tool first for MySQL, since I believe that will have the proper &quot;import&quot; tool you need.</p>',71,24,'2008-08-01T16:47:54.927Z',83,46);
+INSERT INTO answers VALUES (142,126,'','<p>Well, it seems with C# 3.0 properties'' default implementation, the decision is taken for you; you HAVE to set the property using the (possibly private) property setter.</p>
 
-<p>I personally only use the private member-behind when not doing so would cause the object to fall in an less than desirable state, such as when initializing or when caching/lazy loading is involved.</p>',42,11,'2008-08-01T16:56:55.830Z',71,19);
-INSERT INTO answers VALUES (143,'<p>As stated in some of the comments: Sometimes you should, sometimes you shouldn''t. The great part about private variables is that you are able to see all the places they are used when you change something. If your getter/setter does something you need, use it. If it doesn''t matter you decide.</p>
+<p>I personally only use the private member-behind when not doing so would cause the object to fall in an less than desirable state, such as when initializing or when caching/lazy loading is involved.</p>',42,73,'2008-08-01T16:56:55.830Z',48,25);
+INSERT INTO answers VALUES (143,126,'','<p>As stated in some of the comments: Sometimes you should, sometimes you shouldn''t. The great part about private variables is that you are able to see all the places they are used when you change something. If your getter/setter does something you need, use it. If it doesn''t matter you decide.</p>
 
-<p>The opposite case could be made that if you use the getter/setter and somebody changes the getter/setter they have to analyze all the places the getter and setter is used internally to see if it messes something up.</p>',86,16,'2008-08-01T17:01:27.240Z',49,36);
-INSERT INTO answers VALUES (148,'<p>Is the play link a link to the actual mp3 file or to some javascript code that pops up a player? </p>
+<p>The opposite case could be made that if you use the getter/setter and somebody changes the getter/setter they have to analyze all the places the getter and setter is used internally to see if it messes something up.</p>',86,34,'2008-08-01T17:01:27.240Z',92,0);
+INSERT INTO answers VALUES (148,146,'','<p>Is the play link a link to the actual mp3 file or to some javascript code that pops up a player? </p>
 
 <p>If the latter, you can easily add your own logging code in there to track the number of hits to it.</p>
 
-<p>If the former, you''ll need something that can track the web server log itself and make that distinction. My hosting plan comes with webalizer, which does this nicely.</p>',71,31,'2008-08-01T17:24:24.290Z',98,28);
-INSERT INTO answers VALUES (149,'<p>As of .Net 1.1 the only available method is reaching into the java libraries.</p>
+<p>If the former, you''ll need something that can track the web server log itself and make that distinction. My hosting plan comes with webalizer, which does this nicely.</p>',71,24,'2008-08-01T17:24:24.290Z',25,90);
+INSERT INTO answers VALUES (149,145,'','<p>As of .Net 1.1 the only available method is reaching into the java libraries.</p>
 
 <p><a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2003/june/using-jsharp-class-libraries-to-compress-files-and-data-with-csharp" rel="nofollow noreferrer">Using the Zip Classes in the J# Class Libraries to Compress Files and Data with C#</a></p>
 
-<p>Not sure if this has changed in recent versions.</p>',80,69,'2008-08-01T17:28:24.253Z',26,83);
-INSERT INTO answers VALUES (151,'<p>I''ve always used the SharpZip Library.</p>
+<p>Not sure if this has changed in recent versions.</p>',80,1,'2008-08-01T17:28:24.253Z',83,66);
+INSERT INTO answers VALUES (151,145,'','<p>I''ve always used the SharpZip Library.</p>
 
-<p><a href="http://sharpdevelop.net/OpenSource/SharpZipLib/Download.aspx" rel="noreferrer">Here''s a link</a></p>',44,45,'2008-08-01T17:30:56.277Z',86,31);
-INSERT INTO answers VALUES (153,'<p>You could even set up an Apache .htaccess directive that converts *.mp3 requests into the querystring dubayou is working with.  It might be an elegant way to keep the direct request and still be able to slipstream log function into the response.</p>',59,97,'2008-08-01T17:42:04.723Z',50,79);
-INSERT INTO answers VALUES (155,'<p>I used to have lots of Explorer crashes (on 32-bit) caused by Tortoise. They seem to have gone away since I used the Include/Exclude path settings in the "Icon Overlays" configuration of TSVN. Constraining icon overlays to specific directories where I keep my source made this much more stable.</p>',9,0,'2008-08-01T17:47:54.727Z',34,23);
-INSERT INTO answers VALUES (158,'<p>Use your httpd log files. Install <a href="http://awstats.sourceforge.net/" rel="noreferrer">http://awstats.sourceforge.net/</a></p>',70,95,'2008-08-01T17:51:55.407Z',62,22);
-INSERT INTO answers VALUES (159,'<p>Strictly speaking, a memory leak is consuming memory that is "no longer used" by the program.</p>
+<p><a href="http://sharpdevelop.net/OpenSource/SharpZipLib/Download.aspx" rel="noreferrer">Here''s a link</a></p>',44,71,'2008-08-01T17:30:56.277Z',2,44);
+INSERT INTO answers VALUES (153,146,'','<p>You could even set up an Apache .htaccess directive that converts *.mp3 requests into the querystring dubayou is working with.  It might be an elegant way to keep the direct request and still be able to slipstream log function into the response.</p>',59,31,'2008-08-01T17:42:04.723Z',56,51);
+INSERT INTO answers VALUES (155,108,'','<p>I used to have lots of Explorer crashes (on 32-bit) caused by Tortoise. They seem to have gone away since I used the Include/Exclude path settings in the "Icon Overlays" configuration of TSVN. Constraining icon overlays to specific directories where I keep my source made this much more stable.</p>',9,64,'2008-08-01T17:47:54.727Z',93,4);
+INSERT INTO answers VALUES (158,146,'','<p>Use your httpd log files. Install <a href="http://awstats.sourceforge.net/" rel="noreferrer">http://awstats.sourceforge.net/</a></p>',70,66,'2008-08-01T17:51:55.407Z',38,62);
+INSERT INTO answers VALUES (159,104,'','<p>Strictly speaking, a memory leak is consuming memory that is "no longer used" by the program.</p>
 
 <p>"No longer used" has more than one meaning, it could mean "no more reference to it", that is, totally unrecoverable, or it could mean, referenced, recoverable, unused but the program keeps the references anyway. Only the later applies to .Net for <strong>perfectly managed objects</strong>. However, not all classes are perfect and at some point an underlying unmanaged implementation could leak resources permanently for that process.</p>
 
@@ -15398,9 +15398,9 @@ INSERT INTO answers VALUES (159,'<p>Strictly speaking, a memory leak is consumin
 
 <p>You know an application has a memory problem when monitoring shows that more and more memory is allocated to your process <strong>after each garbage collection cycle</strong>. In such case, you are either keeping too much in memory, or some underlying unmanaged implementation is leaking.</p>
 
-<p>For most leaks, resources are recovered when the process is terminated, however some resources are not always recovered in some precise cases, GDI cursor handles are notorious for that. Of course, if you have an interprocess communication mechanism, memory allocated in the other process would not be freed until that process frees it or terminates.</p>',42,21,'2008-08-01T17:52:46.293Z',21,27);
-INSERT INTO answers VALUES (160,'<p>The best way that I have found is the <a href="http://www.mysql.com/products/tools/migration-toolkit/" rel="noreferrer">MySQL Migration Toolkit</a> provided by MySQL.  I have used it successfully for some large migration projects.</p>',17,57,'2008-08-01T17:54:08.163Z',30,47);
-INSERT INTO answers VALUES (161,'<p>I would define memory leaks as an object not freeing up all the memory allocated after it has completed. I have found this can happen in your application if you are using Windows API and COM (i.e. unmanaged code that has a bug in it or is not being managed correctly), in the framework and in third party components. I have also found not tiding up after using certain objects like pens can cause the issue.</p>
+<p>For most leaks, resources are recovered when the process is terminated, however some resources are not always recovered in some precise cases, GDI cursor handles are notorious for that. Of course, if you have an interprocess communication mechanism, memory allocated in the other process would not be freed until that process frees it or terminates.</p>',42,42,'2008-08-01T17:52:46.293Z',4,15);
+INSERT INTO answers VALUES (160,129,'','<p>The best way that I have found is the <a href="http://www.mysql.com/products/tools/migration-toolkit/" rel="noreferrer">MySQL Migration Toolkit</a> provided by MySQL.  I have used it successfully for some large migration projects.</p>',17,55,'2008-08-01T17:54:08.163Z',14,82);
+INSERT INTO answers VALUES (161,104,'','<p>I would define memory leaks as an object not freeing up all the memory allocated after it has completed. I have found this can happen in your application if you are using Windows API and COM (i.e. unmanaged code that has a bug in it or is not being managed correctly), in the framework and in third party components. I have also found not tiding up after using certain objects like pens can cause the issue.</p>
 
 <p>I personally have suffered Out of Memory Exceptions which can be caused but are not exclusive to memory leaks in dot net applications. (OOM can also come from pinning see <a href="https://blogs.msdn.com/yunjin/archive/2004/01/27/63642.aspx" rel="noreferrer">Pinning Artical</a>). If you are not getting OOM errors or need to confirm if it is a memory leak causing it then the only way is to profile your application.</p>
 
@@ -15412,8 +15412,8 @@ INSERT INTO answers VALUES (161,'<p>I would define memory leaks as an object not
 
 <p>c)If you are using unmanaged code/windows API''s that these are dealt with correctly after. (some have clean up methods to release resources)</p>
 
-<p>Hope this helps.</p>',33,24,'2008-08-01T17:57:14.117Z',23,61);
-INSERT INTO answers VALUES (166,'<p>You can do it by adding the following anywhere in your code </p>
+<p>Hope this helps.</p>',33,31,'2008-08-01T17:57:14.117Z',60,75);
+INSERT INTO answers VALUES (166,163,'','<p>You can do it by adding the following anywhere in your code </p>
 
 <pre><code>$Id:$
 </code></pre>
@@ -15425,8 +15425,8 @@ INSERT INTO answers VALUES (166,'<p>You can do it by adding the following anywhe
 
 <p>and when checked in the server replaced $Id:$ with the current revision number.  I also <a href="http://www.compuphase.com/svnrev.htm" rel="nofollow noreferrer">found this reference</a>.</p>
 
-<p>There is also <strong>$Date:$</strong>, <strong>$Rev:$</strong>, <strong>$Revision:$</strong></p>',17,61,'2008-08-01T18:08:16.590Z',19,57);
-INSERT INTO answers VALUES (167,'<p>You could use conditional comments to get IE and Firefox to do different things</p>
+<p>There is also <strong>$Date:$</strong>, <strong>$Rev:$</strong>, <strong>$Revision:$</strong></p>',17,80,'2008-08-01T18:08:16.590Z',52,21);
+INSERT INTO answers VALUES (167,164,'','<p>You could use conditional comments to get IE and Firefox to do different things</p>
 
 <pre><code>&lt;![if !IE]&gt;
 &lt;p&gt; Firefox only code&lt;/p&gt;
@@ -15437,33 +15437,33 @@ INSERT INTO answers VALUES (167,'<p>You could use conditional comments to get IE
 &lt;![endif]--&gt;
 </code></pre>
 
-<p>The browsers themselves will ignore code that isn''t meant for them to read.</p>',30,27,'2008-08-01T18:08:53.080Z',34,86);
-INSERT INTO answers VALUES (169,'<p>Personally, I feel like it''s important to remain consistent.  If you have getters and setters, use them.  The only time I would access a field directly is when the accessor has a lot of overhead.  It may feel like you''re bloating your code unnecessarily, but it can certainly save a whole lot of headache in the future.  The classic example:</p>
+<p>The browsers themselves will ignore code that isn''t meant for them to read.</p>',30,87,'2008-08-01T18:08:53.080Z',90,52);
+INSERT INTO answers VALUES (169,126,'','<p>Personally, I feel like it''s important to remain consistent.  If you have getters and setters, use them.  The only time I would access a field directly is when the accessor has a lot of overhead.  It may feel like you''re bloating your code unnecessarily, but it can certainly save a whole lot of headache in the future.  The classic example:</p>
 
-<p>Later on, you may desire to change the way that field works.  Maybe it should be calculated on-the-fly or maybe you would like to use a different type for the backing store.  If you are accessing properties directly, a change like that can break an awful lot of code in one swell foop.</p>',93,61,'2008-08-01T18:23:59.040Z',57,33);
-INSERT INTO answers VALUES (170,'<p>Looks like Jeff is using <a href="https://web.archive.org/web/20090130045625/http://confluence.public.thoughtworks.org/display/CCNET/What+is+CruiseControl.NET" rel="nofollow noreferrer">CruiseControl.NET</a> based on some leafing through the podcast transcripts. This seems to have automated deployment capabilities from source control to production. Might this be where the insertion is happening?</p>',59,5,'2008-08-01T18:24:30.550Z',66,90);
-INSERT INTO answers VALUES (183,'<p>Maybe this might help: <a href="http://jsefa.sourceforge.net/quick-tutorial.html" rel="noreferrer">JSefa</a></p>
+<p>Later on, you may desire to change the way that field works.  Maybe it should be calculated on-the-fly or maybe you would like to use a different type for the backing store.  If you are accessing properties directly, a change like that can break an awful lot of code in one swell foop.</p>',93,57,'2008-08-01T18:23:59.040Z',46,43);
+INSERT INTO answers VALUES (170,163,'','<p>Looks like Jeff is using <a href="https://web.archive.org/web/20090130045625/http://confluence.public.thoughtworks.org/display/CCNET/What+is+CruiseControl.NET" rel="nofollow noreferrer">CruiseControl.NET</a> based on some leafing through the podcast transcripts. This seems to have automated deployment capabilities from source control to production. Might this be where the insertion is happening?</p>',59,11,'2008-08-01T18:24:30.550Z',59,86);
+INSERT INTO answers VALUES (183,123,'','<p>Maybe this might help: <a href="http://jsefa.sourceforge.net/quick-tutorial.html" rel="noreferrer">JSefa</a></p>
 
-<p>You can read CSV file with this tool and serialize it to XML.</p>',86,64,'2008-08-01T18:51:12.090Z',17,41);
-INSERT INTO answers VALUES (190,'<p>I don''t understand why you would want to do this. It sounds almost like cargo cult coding.</p>
+<p>You can read CSV file with this tool and serialize it to XML.</p>',86,74,'2008-08-01T18:51:12.090Z',10,70);
+INSERT INTO answers VALUES (190,123,'','<p>I don''t understand why you would want to do this. It sounds almost like cargo cult coding.</p>
 
 <p>Converting a CSV file to XML doesn''t add any value. Your program is already reading the CSV file, so arguing that you need XML doesn''t work.</p>
 
-<p>On the other hand, reading the CSV file, doing <em>something</em> with the values, and then serializing to XML does make sense (well, as much as using XML can make sense... ;)) but you would supposedly already have a means of serializing to XML.</p>',55,22,'2008-08-01T19:21:57.517Z',38,42);
-INSERT INTO answers VALUES (195,'<p>This is one of the "hard problems" surrounding development. As far as I know there are no perfect solutions. </p>
+<p>On the other hand, reading the CSV file, doing <em>something</em> with the values, and then serializing to XML does make sense (well, as much as using XML can make sense... ;)) but you would supposedly already have a means of serializing to XML.</p>',55,52,'2008-08-01T19:21:57.517Z',76,89);
+INSERT INTO answers VALUES (195,173,'','<p>This is one of the "hard problems" surrounding development. As far as I know there are no perfect solutions. </p>
 
 <p>If you only need to store the database structure and not the data you can export the database as SQL queries. (in Enterprise Manager: Right click on database -> Generate SQL script. I recommend setting the "create one file per object" on the options tab) You can then commit these text files to svn and make use of svn''s diff and logging functions. </p>
 
 <p>I have this tied together with a Batch script that takes a couple parameters and sets up the database. I also added some additional queries that enter default data like user types and the admin user. (If you want more info on this, post something and I can put the script somewhere accessible)</p>
 
-<p>If you need to keep all of the data as well, I recommend keeping a back up of the database and using Redgate (<a href="http://www.red-gate.com/" rel="noreferrer">http://www.red-gate.com/</a>) products to do the comparisons. They don''t come cheap, but they are worth every penny.</p>',80,70,'2008-08-01T19:28:25.447Z',61,27);
-INSERT INTO answers VALUES (197,'<p>Hey, I''m still stuck in that camp too. The third party application we have to support is FINALLY going to 2K5, so we''re almost out of the wood. But I feel your pain 8^D</p>
+<p>If you need to keep all of the data as well, I recommend keeping a back up of the database and using Redgate (<a href="http://www.red-gate.com/" rel="noreferrer">http://www.red-gate.com/</a>) products to do the comparisons. They don''t come cheap, but they are worth every penny.</p>',80,1,'2008-08-01T19:28:25.447Z',59,56);
+INSERT INTO answers VALUES (197,194,'','<p>Hey, I''m still stuck in that camp too. The third party application we have to support is FINALLY going to 2K5, so we''re almost out of the wood. But I feel your pain 8^D</p>
 
 <p>That said, from everything I heard from our DBA, the key is to convert the database to 8.0 format first, and then go to 2005. I believe they used the built in migration/upgrade tools for this. There are some big steps between 6.5 and 8.0 that are better solved there than going from 6.5 to 2005 directly.</p>
 
-<p>Your BIGGEST pain, if you didn''t know already, is that DTS is gone in favor of SSIS. There is a shell type module that will run your existing DTS packages, but you''re going to want to manually recreate them all in SSIS. Ease of this will depend on the complexity of the packages themselves, but I''ve done a few at work so far and they''ve been pretty smooth.</p>',71,17,'2008-08-01T19:34:49.067Z',87,29);
-INSERT INTO answers VALUES (206,'<p>You can try turning Check-constraints off on the DataSet (it''s in its properties), or altering the properties of that relationship, and change the key to a simple reference - up to you.</p>',35,18,'2008-08-01T19:52:14.227Z',67,77);
-INSERT INTO answers VALUES (207,'<p>To set the <em>Apache</em> (<em>not the PHP</em>) log, the easiest way to do this would be to do:</p>
+<p>Your BIGGEST pain, if you didn''t know already, is that DTS is gone in favor of SSIS. There is a shell type module that will run your existing DTS packages, but you''re going to want to manually recreate them all in SSIS. Ease of this will depend on the complexity of the packages themselves, but I''ve done a few at work so far and they''ve been pretty smooth.</p>',71,65,'2008-08-01T19:34:49.067Z',75,47);
+INSERT INTO answers VALUES (206,134,'','<p>You can try turning Check-constraints off on the DataSet (it''s in its properties), or altering the properties of that relationship, and change the key to a simple reference - up to you.</p>',35,82,'2008-08-01T19:52:14.227Z',62,44);
+INSERT INTO answers VALUES (207,176,'','<p>To set the <em>Apache</em> (<em>not the PHP</em>) log, the easiest way to do this would be to do:</p>
 
 <pre><code>&lt;VirtualHost IP:Port&gt;
    # Stuff,
@@ -15474,20 +15474,20 @@ INSERT INTO answers VALUES (207,'<p>To set the <em>Apache</em> (<em>not the PHP<
 
 <p>If there is no leading "/" it is assumed to be relative.</p>
 
-<p><a href="http://httpd.apache.org/docs/1.3/mod/core.html#errorlog" rel="noreferrer">Apache Error Log Page</a></p>',50,99,'2008-08-01T19:58:45.837Z',41,65);
-INSERT INTO answers VALUES (210,'<p>I don''t know the ASP.NET side of the problem but .NET has a pretty powerful class: <a href="https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo" rel="nofollow noreferrer">System.Globalization.CultureInfo</a>. You can use the following code to parse a string containing a double value:</p>
+<p><a href="http://httpd.apache.org/docs/1.3/mod/core.html#errorlog" rel="noreferrer">Apache Error Log Page</a></p>',50,71,'2008-08-01T19:58:45.837Z',0,62);
+INSERT INTO answers VALUES (210,192,'','<p>I don''t know the ASP.NET side of the problem but .NET has a pretty powerful class: <a href="https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo" rel="nofollow noreferrer">System.Globalization.CultureInfo</a>. You can use the following code to parse a string containing a double value:</p>
 
 <pre><code>double d = double.Parse("100.20", CultureInfo.CurrentCulture);
 //  -- OR --
 double d = double.Parse("100.20", CultureInfo.CurrentUICulture);
 </code></pre>
 
-<p>If ASP.NET somehow (i.e. using HTTP Request headers) passes current user''s CultureInfo to either CultureInfo.CurrentCulture or CultureInfo.CurrentUICulture, these will work fine.</p>',39,50,'2008-08-01T20:02:08.357Z',65,41);
-INSERT INTO answers VALUES (212,'<p>You can''t please everyone.  If I enter ten as 10.000, and someone enters ten thousand as 10.000, you cannot handle that without some knowledge of the culture of the input.  Detect the culture somehow (browser, system setting - what is the use case?  ASP?  Internal app, or open to the world?), or provide an example of the expected formatting, and use the most lenient parser you can.  Probably something like:</p>
+<p>If ASP.NET somehow (i.e. using HTTP Request headers) passes current user''s CultureInfo to either CultureInfo.CurrentCulture or CultureInfo.CurrentUICulture, these will work fine.</p>',39,67,'2008-08-01T20:02:08.357Z',17,6);
+INSERT INTO answers VALUES (212,192,'Chris Marasti-Georg','<p>You can''t please everyone.  If I enter ten as 10.000, and someone enters ten thousand as 10.000, you cannot handle that without some knowledge of the culture of the input.  Detect the culture somehow (browser, system setting - what is the use case?  ASP?  Internal app, or open to the world?), or provide an example of the expected formatting, and use the most lenient parser you can.  Probably something like:</p>
 
 <pre><code>double d = Double.Parse("5,000.00", NumberStyles.Any, CultureInfo.InvariantCulture);
-</code></pre>',96,66,'2008-08-01T20:05:12.750Z',56,42);
-INSERT INTO answers VALUES (229,'<p>Another function, not by me but found on the web and refined it a bit:</p>
+</code></pre>',96,1,'2008-08-01T20:05:12.750Z',15,31);
+INSERT INTO answers VALUES (229,9,'','<p>Another function, not by me but found on the web and refined it a bit:</p>
 
 <pre><code>public static int GetAge(DateTime birthDate)
 {
@@ -15501,21 +15501,21 @@ INSERT INTO answers VALUES (229,'<p>Another function, not by me but found on the
 }
 </code></pre>
 
-<p>Just two things that come into my mind: What about people from countries that do not use the Gregorian calendar? DateTime.Now is in the server-specific culture I think. I have absolutely zero knowledge about actually working with Asian calendars and I do not know if there is an easy way to convert dates between calendars, but just in case you''re wondering about those Chinese guys from the year 4660 :-)</p>',91,71,'2008-08-01T21:46:12.313Z',47,64);
-INSERT INTO answers VALUES (233,'<p>From what I''ve seen, there are a few registry keys that set the default mail client. One of them is:</p>
+<p>Just two things that come into my mind: What about people from countries that do not use the Gregorian calendar? DateTime.Now is in the server-specific culture I think. I have absolutely zero knowledge about actually working with Asian calendars and I do not know if there is an easy way to convert dates between calendars, but just in case you''re wondering about those Chinese guys from the year 4660 :-)</p>',91,66,'2008-08-01T21:46:12.313Z',75,68);
+INSERT INTO answers VALUES (233,231,'','<p>From what I''ve seen, there are a few registry keys that set the default mail client. One of them is:</p>
 <p>System Key: <code>[HKEY_CLASSES_ROOT\mailto\shell\open\command]</code></p>
 <p>Value Name: <code>(Default)</code></p>
 <p>Data Type: <code>REG_SZ</code> (String Value)</p>
 <p>Value Data: <code>Mail program command-line</code>.</p>
 <p>I''m not familiar  with <code>Delphi 7</code>, but I''m sure there are some <em>registry editing libraries</em> there that you could use to modify this value.</p>
-<p>Some places list more than this <em>key</em>, others just this key, so you may need to test a little bit to find the proper one(s).</p>',71,10,'2008-08-01T22:12:30.170Z',16,51);
-INSERT INTO answers VALUES (236,'<p>The default behaviour for error_log() is to output to the Apache error log. If this isn''t happening check your php.ini settings for the error_log directive. Leave it unset to use the Apache log file for the current vhost.</p>',48,71,'2008-08-01T22:20:05.117Z',95,46);
-INSERT INTO answers VALUES (238,'<p>The functionality you''re looking for is traditionally called an UPSERT. Atleast knowing what it''s called might help you find what you''re looking for.</p>
+<p>Some places list more than this <em>key</em>, others just this key, so you may need to test a little bit to find the proper one(s).</p>',71,38,'2008-08-01T22:12:30.170Z',76,6);
+INSERT INTO answers VALUES (236,176,'','<p>The default behaviour for error_log() is to output to the Apache error log. If this isn''t happening check your php.ini settings for the error_log directive. Leave it unset to use the Apache log file for the current vhost.</p>',48,12,'2008-08-01T22:20:05.117Z',55,28);
+INSERT INTO answers VALUES (238,234,'','<p>The functionality you''re looking for is traditionally called an UPSERT. Atleast knowing what it''s called might help you find what you''re looking for.</p>
 
 <p>I don''t think SQL Server 2005 has any great ways of doing this. 2008 introduces the MERGE statement that can be used to accomplish this as shown in: <a href="http://www.databasejournal.com/features/mssql/article.php/3739131" rel="noreferrer">http://www.databasejournal.com/features/mssql/article.php/3739131</a> or <a href="http://blogs.conchango.com/davidportas/archive/2007/11/14/SQL-Server-2008-MERGE.aspx" rel="noreferrer">http://blogs.conchango.com/davidportas/archive/2007/11/14/SQL-Server-2008-MERGE.aspx</a></p>
 
-<p>Merge was available in the beta of 2005, but they removed it out in the final release.</p>',34,19,'2008-08-01T22:22:37.823Z',89,22);
-INSERT INTO answers VALUES (243,'<p>What the upsert/merge is doing is something to the effect of...</p>
+<p>Merge was available in the beta of 2005, but they removed it out in the final release.</p>',34,35,'2008-08-01T22:22:37.823Z',39,73);
+INSERT INTO answers VALUES (243,234,'','<p>What the upsert/merge is doing is something to the effect of...</p>
 
 <pre><code>IF EXISTS (SELECT * FROM [Table] WHERE Id = X)
    UPDATE [Table] SET...
@@ -15523,9 +15523,9 @@ ELSE
    INSERT INTO [Table]
 </code></pre>
 
-<p>So hopefully the combination of those articles and this pseudo code can get things moving.</p>',71,63,'2008-08-01T22:31:36.137Z',77,65);
-INSERT INTO answers VALUES (258,'<p>I think the best you can do in this case is to take their input and then show them what you think they meant. If they disagree, show them the format you''re expecting and get them to enter it again.</p>',55,36,'2008-08-01T23:17:53.657Z',79,43);
-INSERT INTO answers VALUES (266,'<p>Any assemblies that are expected to be in the GAC should stay in the GAC. This includes System.web.dll or any other 3rd party dll that you''ll deploy to the GAC in production. This means a new developer would have to install these assemblies.</p>
+<p>So hopefully the combination of those articles and this pseudo code can get things moving.</p>',71,72,'2008-08-01T22:31:36.137Z',65,3);
+INSERT INTO answers VALUES (258,192,'','<p>I think the best you can do in this case is to take their input and then show them what you think they meant. If they disagree, show them the format you''re expecting and get them to enter it again.</p>',55,88,'2008-08-01T23:17:53.657Z',18,92);
+INSERT INTO answers VALUES (266,265,'','<p>Any assemblies that are expected to be in the GAC should stay in the GAC. This includes System.web.dll or any other 3rd party dll that you''ll deploy to the GAC in production. This means a new developer would have to install these assemblies.</p>
 
 <p>All other 3rd party assemblies should be references through a relative path. My typical structure is:</p>
 
@@ -15547,25 +15547,25 @@ INSERT INTO answers VALUES (266,'<p>Any assemblies that are expected to be in th
 
 <p>Aside from that, */bin  */bin/* obj  should be in your global ignore path.</p>
 
-<p>With this setup, all references to assemblies are either through the GAC (so should work across all computers), or relative to each project within your solution.</p>',34,91,'2008-08-01T23:40:28.463Z',18,96);
-INSERT INTO answers VALUES (268,'<p>Is this a .Net specific question?</p>
+<p>With this setup, all references to assemblies are either through the GAC (so should work across all computers), or relative to each project within your solution.</p>',34,80,'2008-08-01T23:40:28.463Z',35,59);
+INSERT INTO answers VALUES (268,265,'','<p>Is this a .Net specific question?</p>
 
 <p>Generally the best practice is to not check in anything which is built automatically from files that are already in SCM.  All of that is ideally created as part of your automatic build process.</p>
 
-<p>If the <code>bin</code> directory you''re referring to contains third-party binaries, rather than a build of your project, ignore (downvote?) this advice.</p>',101,95,'2008-08-01T23:44:05.883Z',71,30);
-INSERT INTO answers VALUES (269,'<p>Yes, I thought about that, but I soon figured out that another Domain-Specific-Language (DSL) would be a bit too much.</p>
+<p>If the <code>bin</code> directory you''re referring to contains third-party binaries, rather than a build of your project, ignore (downvote?) this advice.</p>',101,11,'2008-08-01T23:44:05.883Z',38,84);
+INSERT INTO answers VALUES (269,260,'','<p>Yes, I thought about that, but I soon figured out that another Domain-Specific-Language (DSL) would be a bit too much.</p>
 
 <p>Essentially, they need to interact with my gamestate in possibly unpredictable ways. For example, a card could have a rule "When this cards enter play, all your undead minions gain +3 attack against flying enemies, except when the enemy is blessed". As trading card games are turn based, the GameState Manager will fire OnStageX events and let the cards modify other cards or the GameState in whatever way the card needs.</p>
 
 <p>If I try to create a DSL, I have to implement a rather large feature set and possibly constantly update it, which shifts the maintenance work to another part without actually removing it.</p>
 
-<p>That''s why I wanted to stay with a "real" .NET language to essentially be able to just fire the event and let the card manipulate the gamestate in whatever way (within the limits of the code access security).</p>',91,84,'2008-08-01T23:49:57.103Z',24,85);
-INSERT INTO answers VALUES (290,'<p>I know that Visual Studio itself (at least in 2003 version) references the IE dll directly to render the "Design View".</p>
+<p>That''s why I wanted to stay with a "real" .NET language to essentially be able to just fire the event and let the card manipulate the gamestate in whatever way (within the limits of the code access security).</p>',91,32,'2008-08-01T23:49:57.103Z',26,73);
+INSERT INTO answers VALUES (290,174,'Sean','<p>I know that Visual Studio itself (at least in 2003 version) references the IE dll directly to render the "Design View".</p>
 
 <p>It may be worth looking into that.</p>
 
-<p>Otherwise, I can''t think of anything beyond the Web Browser control.</p>',106,41,'2008-08-02T00:42:35.310Z',63,76);
-INSERT INTO answers VALUES (291,'<p>Looking around, and using some C# 3.0 features we can do this:</p>
+<p>Otherwise, I can''t think of anything beyond the Web Browser control.</p>',106,55,'2008-08-02T00:42:35.310Z',88,5);
+INSERT INTO answers VALUES (291,289,'','<p>Looking around, and using some C# 3.0 features we can do this:</p>
 
 <pre><code>foreach (KeyValuePair&lt;string,int&gt; item in keywordCounts.OrderBy(key=&gt; key.Value))
 { 
@@ -15573,8 +15573,8 @@ INSERT INTO answers VALUES (291,'<p>Looking around, and using some C# 3.0 featur
 }
 </code></pre>
 
-<p>This is the cleanest way I''ve seen and is similar to the Ruby way of handling hashes.</p>',109,73,'2008-08-02T00:43:38.837Z',98,32);
-INSERT INTO answers VALUES (292,'<p>On a high level, you have no other choice than to walk through the whole Dictionary and look at each value.</p>
+<p>This is the cleanest way I''ve seen and is similar to the Ruby way of handling hashes.</p>',109,32,'2008-08-02T00:43:38.837Z',16,16);
+INSERT INTO answers VALUES (292,289,'','<p>On a high level, you have no other choice than to walk through the whole Dictionary and look at each value.</p>
 
 <p>Maybe this helps:
 <a href="http://bytes.com/forum/thread563638.html" rel="noreferrer">http://bytes.com/forum/thread563638.html</a>
@@ -15593,12 +15593,12 @@ myList.Sort(
         return firstPair.Value.CompareTo(nextPair.Value);
     }
 );
-</code></pre>',91,76,'2008-08-02T00:47:48.797Z',85,95);
-INSERT INTO answers VALUES (297,'<p>I usually just specify this in an <code>.htaccess</code> file <em>or</em> the <code>vhost.conf</code> on the domain I''m working on. Add this to one of these files:</p>
+</code></pre>',91,40,'2008-08-02T00:47:48.797Z',21,13);
+INSERT INTO answers VALUES (297,176,'','<p>I usually just specify this in an <code>.htaccess</code> file <em>or</em> the <code>vhost.conf</code> on the domain I''m working on. Add this to one of these files:</p>
 
 <pre><code>php_admin_value error_log "/var/www/vhosts/example.com/error_log"
-</code></pre>',40,14,'2008-08-02T01:10:41.027Z',27,44);
-INSERT INTO answers VALUES (298,'<p>Use:</p>
+</code></pre>',40,34,'2008-08-02T01:10:41.027Z',99,91);
+INSERT INTO answers VALUES (298,289,'','<p>Use:</p>
 
 <pre><code>using System.Linq.Enumerable;
 ...
@@ -15618,8 +15618,8 @@ myList.Sort(
 <pre><code>var myList = aDictionary.ToList();
 
 myList.Sort((pair1,pair2) =&gt; pair1.Value.CompareTo(pair2.Value));
-</code></pre>',49,38,'2008-08-02T01:15:42.123Z',0,58);
-INSERT INTO answers VALUES (304,'<p>Try removing the <code>0x</code> first and then call <code>Encoding.UTF8.GetString</code>. I think that may work.</p>
+</code></pre>',49,23,'2008-08-02T01:15:42.123Z',59,31);
+INSERT INTO answers VALUES (304,109,'','<p>Try removing the <code>0x</code> first and then call <code>Encoding.UTF8.GetString</code>. I think that may work.</p>
 
 <p>Essentially: 0x44004500</p>
 
@@ -15634,8 +15634,8 @@ INSERT INTO answers VALUES (304,'<p>Try removing the <code>0x</code> first and t
 72 00 = r
 </code></pre>
 
-<p>So it''s definitely a Unicode/UTF format with two bytes/character.</p>',91,36,'2008-08-02T01:38:14.077Z',86,32);
-INSERT INTO answers VALUES (307,'<p><a href="https://www.codeproject.com/Articles/8656/C-Script-The-Missing-Puzzle-Piece" rel="nofollow noreferrer">Oleg Shilo''s C# Script solution (at The Code Project</a>) really is a great introduction to providing script abilities in your application.</p>
+<p>So it''s definitely a Unicode/UTF format with two bytes/character.</p>',91,35,'2008-08-02T01:38:14.077Z',49,70);
+INSERT INTO answers VALUES (307,260,'','<p><a href="https://www.codeproject.com/Articles/8656/C-Script-The-Missing-Puzzle-Piece" rel="nofollow noreferrer">Oleg Shilo''s C# Script solution (at The Code Project</a>) really is a great introduction to providing script abilities in your application.</p>
 
 <p>A different approach would be to consider a language that is specifically built for scripting, such as <a href="https://en.wikipedia.org/wiki/IronRuby" rel="nofollow noreferrer">IronRuby</a>, <a href="https://en.wikipedia.org/wiki/IronPython" rel="nofollow noreferrer">IronPython</a>, or <a href="https://en.wikipedia.org/wiki/Lua_%28programming_language%29" rel="nofollow noreferrer">Lua</a>.</p>
 
@@ -15649,10 +15649,10 @@ INSERT INTO answers VALUES (307,'<p><a href="https://www.codeproject.com/Article
 <p>That codebase is a great read if you want to learn about building a compiler in .NET.</p>
 
 <p>A different angle altogether is to try <a href="https://en.wikipedia.org/wiki/PowerShell" rel="nofollow noreferrer">PowerShell</a>. There are numerous examples of embedding PowerShell into an application -- here''s a thorough project on the topic: 
-<a href="http://code.msdn.microsoft.com/PowerShellTunnel/Wiki/View.aspx?title=PowerShellTunnel%20Reference" rel="nofollow noreferrer" title="PowerShell Tunnel">Powershell Tunnel</a></p>',49,18,'2008-08-02T01:49:46.220Z',29,82);
-INSERT INTO answers VALUES (310,'<p>Most database engines should support dumping your database into a file. I know MySQL does, anyway. This will just be a text file, so you could submit that to Subversion, or whatever you use. It''d be easy to run a diff on the files too.</p>',55,33,'2008-08-02T01:56:51.573Z',64,41);
-INSERT INTO answers VALUES (329,'<p>One guideline is to call <a href="http://www.php.net/session_regenerate_id" rel="nofollow noreferrer">session_regenerate_id</a> every time a session''s security level changes.  This helps prevent session hijacking.</p>',59,93,'2008-08-02T02:43:42.790Z',25,54);
-INSERT INTO answers VALUES (331,'<p>I think one of the major problems (which is being addressed in PHP 6) is register_globals. Right now one of the standard methods used to avoid <code>register_globals</code> is to use the <code>$_REQUEST</code>, <code>$_GET</code> or <code>$_POST</code> arrays.</p>
+<a href="http://code.msdn.microsoft.com/PowerShellTunnel/Wiki/View.aspx?title=PowerShellTunnel%20Reference" rel="nofollow noreferrer" title="PowerShell Tunnel">Powershell Tunnel</a></p>',49,38,'2008-08-02T01:49:46.220Z',43,43);
+INSERT INTO answers VALUES (310,308,'','<p>Most database engines should support dumping your database into a file. I know MySQL does, anyway. This will just be a text file, so you could submit that to Subversion, or whatever you use. It''d be easy to run a diff on the files too.</p>',55,58,'2008-08-02T01:56:51.573Z',10,83);
+INSERT INTO answers VALUES (329,328,'','<p>One guideline is to call <a href="http://www.php.net/session_regenerate_id" rel="nofollow noreferrer">session_regenerate_id</a> every time a session''s security level changes.  This helps prevent session hijacking.</p>',59,97,'2008-08-02T02:43:42.790Z',75,19);
+INSERT INTO answers VALUES (331,328,'','<p>I think one of the major problems (which is being addressed in PHP 6) is register_globals. Right now one of the standard methods used to avoid <code>register_globals</code> is to use the <code>$_REQUEST</code>, <code>$_GET</code> or <code>$_POST</code> arrays.</p>
 
 <p>The "correct" way to do it (as of 5.2, although it''s a little buggy there, but stable as of 6, which is coming soon) is through <a href="http://us.php.net/filter" rel="nofollow noreferrer">filters</a>.</p>
 
@@ -15669,34 +15669,34 @@ INSERT INTO answers VALUES (331,'<p>I think one of the major problems (which is 
 <p>or even just:</p>
 
 <pre><code>$username = filter_input(INPUT_POST, ''username'');
-</code></pre>',58,85,'2008-08-02T02:55:07.743Z',1,64);
-INSERT INTO answers VALUES (332,'<p>I would be a bit reluctant to use nested classes here.  What if you created an abstract base class for a "multimedia driver" to handle the back-end stuff (workhorse), and a separate class for the front-end work?  The front-end class could take a pointer/reference to an implemented driver class (for the appropriate media type and situation) and perform the abstract operations on the workhorse structure.</p>
+</code></pre>',58,77,'2008-08-02T02:55:07.743Z',69,22);
+INSERT INTO answers VALUES (332,330,'','<p>I would be a bit reluctant to use nested classes here.  What if you created an abstract base class for a "multimedia driver" to handle the back-end stuff (workhorse), and a separate class for the front-end work?  The front-end class could take a pointer/reference to an implemented driver class (for the appropriate media type and situation) and perform the abstract operations on the workhorse structure.</p>
 
 <p>My philosophy would be to go ahead and make both structures accessible to the client in a polished way, just under the assumption they would be used in tandem.</p>
 
-<p>I would reference something like a <a href="http://qt-project.org/doc/qt-4.8/qtextdocument.html" rel="noreferrer">QTextDocument</a> in Qt.  You provide a direct interface to the bare metal data handling, but pass the authority along to an object like a QTextEdit to do the manipulation.</p>',59,36,'2008-08-02T03:00:24.613Z',14,64);
-INSERT INTO answers VALUES (335,'<p>This is pretty trivial and obvious, but be sure to <a href="http://www.php.net/session_destroy" rel="nofollow noreferrer">session_destroy</a> after every use. This can be difficult to implement if the user does not log out explicitly, so a timer can be set to do this.</p>
+<p>I would reference something like a <a href="http://qt-project.org/doc/qt-4.8/qtextdocument.html" rel="noreferrer">QTextDocument</a> in Qt.  You provide a direct interface to the bare metal data handling, but pass the authority along to an object like a QTextEdit to do the manipulation.</p>',59,11,'2008-08-02T03:00:24.613Z',72,32);
+INSERT INTO answers VALUES (335,328,'','<p>This is pretty trivial and obvious, but be sure to <a href="http://www.php.net/session_destroy" rel="nofollow noreferrer">session_destroy</a> after every use. This can be difficult to implement if the user does not log out explicitly, so a timer can be set to do this.</p>
 
-<p>Here is a good <a href="http://www.elated.com/articles/javascript-timers-with-settimeout-and-setinterval/" rel="nofollow noreferrer">tutorial</a> on setTimer() and clearTimer().</p>',50,13,'2008-08-02T03:16:19.480Z',1,37);
-INSERT INTO answers VALUES (339,'<p>I was glad to find <a href="https://web.archive.org/web/20170323034837/http://coding.derkeiler.com/Archive/C_CPP/comp.lang.c/2004-02/1382.html" rel="nofollow noreferrer">a good conversation</a> on this subject, as I hadn''t really given it much thought before.</p>
+<p>Here is a good <a href="http://www.elated.com/articles/javascript-timers-with-settimeout-and-setinterval/" rel="nofollow noreferrer">tutorial</a> on setTimer() and clearTimer().</p>',50,74,'2008-08-02T03:16:19.480Z',51,80);
+INSERT INTO answers VALUES (339,336,'','<p>I was glad to find <a href="https://web.archive.org/web/20170323034837/http://coding.derkeiler.com/Archive/C_CPP/comp.lang.c/2004-02/1382.html" rel="nofollow noreferrer">a good conversation</a> on this subject, as I hadn''t really given it much thought before.</p>
 <p>In summary, signed is a good general choice - even when you''re dead sure all the numbers are positive - if you''re going to do arithmetic on the variable (like in a typical for loop case).</p>
 <p>unsigned starts to make more sense when:</p>
 <ul>
 <li>You''re going to do <strong>bitwise things</strong> like masks, or</li>
 <li>You''re <strong>desperate</strong> to to take advantage of the sign bit <strong>for that extra positive range</strong> .</li>
 </ul>
-<p>Personally, I like signed because I don''t trust myself to stay consistent and avoid mixing the two types (like the article warns against).</p>',59,31,'2008-08-02T03:49:21.987Z',10,36);
-INSERT INTO answers VALUES (342,'<p>Personally, I''ve played with several of the built-in options on an XML-heavy project and have settled on <a href="http://docs.python.org/lib/module-xml.dom.pulldom.html" rel="noreferrer">pulldom</a> as the best choice for less complex documents.</p>
+<p>Personally, I like signed because I don''t trust myself to stay consistent and avoid mixing the two types (like the article warns against).</p>',59,73,'2008-08-02T03:49:21.987Z',32,80);
+INSERT INTO answers VALUES (342,337,'','<p>Personally, I''ve played with several of the built-in options on an XML-heavy project and have settled on <a href="http://docs.python.org/lib/module-xml.dom.pulldom.html" rel="noreferrer">pulldom</a> as the best choice for less complex documents.</p>
 
 <p>Especially for small simple stuff, I like the event-driven theory of parsing rather than setting up a whole slew of callbacks for a relatively simple structure.  <a href="http://www.prescod.net/python/pulldom.html" rel="noreferrer">Here is a good quick discussion of how to use the API</a>.</p>
 
-<p>What I like: you can handle the parsing in a <code>for</code> loop rather than using callbacks.  You also delay full parsing (the "pull" part) and only get additional detail when you call <code>expandNode()</code>.  This satisfies my general requirement for "responsible" efficiency without sacrificing ease of use and simplicity.</p>',59,12,'2008-08-02T04:01:34.600Z',47,76);
-INSERT INTO answers VALUES (344,'<p>You might be able to use IronRuby for that. </p>
+<p>What I like: you can handle the parsing in a <code>for</code> loop rather than using callbacks.  You also delay full parsing (the "pull" part) and only get additional detail when you call <code>expandNode()</code>.  This satisfies my general requirement for "responsible" efficiency without sacrificing ease of use and simplicity.</p>',59,13,'2008-08-02T04:01:34.600Z',96,88);
+INSERT INTO answers VALUES (344,260,'','<p>You might be able to use IronRuby for that. </p>
 
 <p>Otherwise I''d suggest you have a directory where you place precompiled assemblies. Then you could have a reference in the DB to the assembly and class, and use reflection to load the proper assemblies at runtime.</p>
 
-<p>If you really want to compile at run-time you could use the CodeDOM, then you could use reflection to load the dynamic assembly. <a href="https://docs.microsoft.com/dotnet/api/microsoft.csharp.csharpcodeprovider" rel="nofollow noreferrer">Microsoft documentation article which might help</a>.</p>',100,59,'2008-08-02T04:18:15.517Z',67,78);
-INSERT INTO answers VALUES (347,'<p>In your example above, when ''i'' will always be positive and a higher range would be beneficial, unsigned would be useful. Like if you''re using ''declare'' statements, such as: </p>
+<p>If you really want to compile at run-time you could use the CodeDOM, then you could use reflection to load the dynamic assembly. <a href="https://docs.microsoft.com/dotnet/api/microsoft.csharp.csharpcodeprovider" rel="nofollow noreferrer">Microsoft documentation article which might help</a>.</p>',100,83,'2008-08-02T04:18:15.517Z',87,57);
+INSERT INTO answers VALUES (347,336,'','<p>In your example above, when ''i'' will always be positive and a higher range would be beneficial, unsigned would be useful. Like if you''re using ''declare'' statements, such as: </p>
 
 <pre><code>#declare BIT1 (unsigned int 1)
 #declare BIT32 (unsigned int reallybignumber)
@@ -15706,8 +15706,8 @@ INSERT INTO answers VALUES (347,'<p>In your example above, when ''i'' will alway
 
 <p>However, if you''re doing an accounting program where the people are irresponsible with their money and are constantly in the red, you will most definitely want to use ''signed''.</p>
 
-<p>I do agree with saint though that a good rule of thumb is to use signed, which C actually defaults to, so you''re covered.</p>',50,19,'2008-08-02T04:31:54.803Z',65,15);
-INSERT INTO answers VALUES (352,'<p>Take a look at the CHECKSUM command:</p>
+<p>I do agree with saint though that a good rule of thumb is to use signed, which C actually defaults to, so you''re covered.</p>',50,82,'2008-08-02T04:31:54.803Z',44,2);
+INSERT INTO answers VALUES (352,36,'','<p>Take a look at the CHECKSUM command:</p>
 
 <pre><code>SELECT CHECKSUM_AGG(BINARY_CHECKSUM(*)) FROM sample_table WITH (NOLOCK);
 </code></pre>
@@ -15717,18 +15717,18 @@ INSERT INTO answers VALUES (352,'<p>Take a look at the CHECKSUM command:</p>
 <p><a href="http://msdn.microsoft.com/en-us/library/aa258245(SQL.80).aspx" rel="noreferrer">CHECKSUM</a></p>
 
 <p>Here''s how I used it to rebuild cache dependencies when tables changed:<br>
-<a href="http://weblogs.asp.net/jgalloway/archive/2005/05/07/406056.aspx" rel="noreferrer">ASP.NET 1.1 database cache dependency (without triggers)</a></p>',5,40,'2008-08-02T05:20:22.397Z',72,93);
-INSERT INTO answers VALUES (354,'<p><code>size_t</code> is often a good choice for this, or <code>size_type</code> if you''re using an STL class.</p>',116,61,'2008-08-02T05:51:57.247Z',34,63);
-INSERT INTO answers VALUES (356,'<p>For Oracle, I use <a href="http://www.toadsoft.com/" rel="noreferrer">Toad</a>, which can dump a schema to a number of discrete files (e.g., one file per table).  I have some scripts that manage this collection in Perforce, but I think it should be easily doable in just about any revision control system.</p>',116,44,'2008-08-02T06:05:04.770Z',48,66);
-INSERT INTO answers VALUES (359,'<p>You could use any of the DLR languages, which provide a way to really easily host your own scripting platform. However, you don''t have to use a scripting language for this. You could use C# and compile it with the C# code provider. As long as you load it in its own AppDomain, you can load and unload it to your heart''s content.</p>',119,31,'2008-08-02T06:16:23.967Z',1,12);
-INSERT INTO answers VALUES (360,'<p>In Ruby on Rails, there''s a concept of a <a href="http://wiki.rubyonrails.org/rails/pages/UnderstandingMigrations" rel="noreferrer">migration</a> -- a quick script to change the database.</p>
+<a href="http://weblogs.asp.net/jgalloway/archive/2005/05/07/406056.aspx" rel="noreferrer">ASP.NET 1.1 database cache dependency (without triggers)</a></p>',5,97,'2008-08-02T05:20:22.397Z',87,49);
+INSERT INTO answers VALUES (354,336,'','<p><code>size_t</code> is often a good choice for this, or <code>size_type</code> if you''re using an STL class.</p>',116,3,'2008-08-02T05:51:57.247Z',85,10);
+INSERT INTO answers VALUES (356,308,'','<p>For Oracle, I use <a href="http://www.toadsoft.com/" rel="noreferrer">Toad</a>, which can dump a schema to a number of discrete files (e.g., one file per table).  I have some scripts that manage this collection in Perforce, but I think it should be easily doable in just about any revision control system.</p>',116,55,'2008-08-02T06:05:04.770Z',5,78);
+INSERT INTO answers VALUES (359,260,'Jesse Ezell','<p>You could use any of the DLR languages, which provide a way to really easily host your own scripting platform. However, you don''t have to use a scripting language for this. You could use C# and compile it with the C# code provider. As long as you load it in its own AppDomain, you can load and unload it to your heart''s content.</p>',119,23,'2008-08-02T06:16:23.967Z',5,91);
+INSERT INTO answers VALUES (360,308,'','<p>In Ruby on Rails, there''s a concept of a <a href="http://wiki.rubyonrails.org/rails/pages/UnderstandingMigrations" rel="noreferrer">migration</a> -- a quick script to change the database.</p>
 
 <p>You generate a migration file, which has rules to increase the db version (such as adding a column) and rules to downgrade the version (such as removing a column). Each migration is numbered, and a table keeps track of your current db version.</p>
 
 <p>To <em>migrate up</em>, you run a command called "db:migrate" which looks at your version and applies the needed scripts. You can migrate down in a similar way.</p>
 
-<p>The migration scripts themselves are kept in a version control system -- whenever you change the database you check in a new script, and any developer can apply it to bring their local db to the latest version.</p>',109,88,'2008-08-02T06:23:33.737Z',70,59);
-INSERT INTO answers VALUES (362,'<p>There are several ways to do this. Common methods use recursion, memoization, or dynamic programming. The basic idea is that you produce a list of all strings of length 1, then in each iteration, for all strings produced in the last iteration, add that string concatenated with each character in the string individually. (the variable index in the code below keeps track of the start of the last and the next iteration)</p>
+<p>The migration scripts themselves are kept in a version control system -- whenever you change the database you check in a new script, and any developer can apply it to bring their local db to the latest version.</p>',109,72,'2008-08-02T06:23:33.737Z',16,41);
+INSERT INTO answers VALUES (362,361,'','<p>There are several ways to do this. Common methods use recursion, memoization, or dynamic programming. The basic idea is that you produce a list of all strings of length 1, then in each iteration, for all strings produced in the last iteration, add that string concatenated with each character in the string individually. (the variable index in the code below keeps track of the start of the last and the next iteration)</p>
 
 <p>Some pseudocode:</p>
 
@@ -15742,9 +15742,9 @@ for iteration n in 1 to y:
       list.add(s + c)
 </code></pre>
 
-<p>you''d then need to remove all strings less than x in length, they''ll be the first (x-1) * len(originalString) entries in the list.</p>',80,14,'2008-08-02T07:48:07.607Z',32,49);
-INSERT INTO answers VALUES (363,'<p>There''s a PHP5 "database migration framework" called Ruckusing. I haven''t used it, but the <a href="http://code.google.com/p/ruckusing/wiki/CompleteExamples" rel="noreferrer">examples</a> show the idea, if you use the language to create the database as and when needed, you only have to track source files.</p>',117,11,'2008-08-02T07:48:56.107Z',37,15);
-INSERT INTO answers VALUES (364,'<p>I just whipped this up quick in Ruby:</p>
+<p>you''d then need to remove all strings less than x in length, they''ll be the first (x-1) * len(originalString) entries in the list.</p>',80,25,'2008-08-02T07:48:07.607Z',80,9);
+INSERT INTO answers VALUES (363,308,'','<p>There''s a PHP5 "database migration framework" called Ruckusing. I haven''t used it, but the <a href="http://code.google.com/p/ruckusing/wiki/CompleteExamples" rel="noreferrer">examples</a> show the idea, if you use the language to create the database as and when needed, you only have to track source files.</p>',117,43,'2008-08-02T07:48:56.107Z',22,75);
+INSERT INTO answers VALUES (364,361,'Mike Stone','<p>I just whipped this up quick in Ruby:</p>
 
 <pre><code>def perms(x, y, possible_characters)
   all = [""]
@@ -15768,8 +15768,8 @@ end
 
 <p>Anyways, the idea behind the code is start with string of length 0, then keep track of all the strings of length Z where Z is the current size in the iteration.  Then, go through each string and append each character onto each string.  Finally at the end, remove any that were below the x threshold and return the result.</p>
 
-<p>I didn''t test it with potentially meaningless input (null character list, weird values of x and y, etc).</p>',122,80,'2008-08-02T07:56:07.933Z',38,8);
-INSERT INTO answers VALUES (367,'<p><strong>High Resolution, Low Overhead Timing for Intel Processors</strong></p>
+<p>I didn''t test it with potentially meaningless input (null character list, weird values of x and y, etc).</p>',122,57,'2008-08-02T07:56:07.933Z',22,37);
+INSERT INTO answers VALUES (367,88,'','<p><strong>High Resolution, Low Overhead Timing for Intel Processors</strong></p>
 
 <p>If you''re on Intel hardware, here''s how to read the CPU real-time instruction counter.  It will tell you the number of CPU cycles executed since the processor was booted.  This is probably the finest-grained counter you can get for performance measurement.</p>
 
@@ -15809,8 +15809,8 @@ main()
     printf("%lld\n",y);
     printf("it took this long to call printf: %lld\n",y-x);
 }
-</code></pre>',116,93,'2008-08-02T08:08:22.230Z',87,57);
-INSERT INTO answers VALUES (384,'<p>This warning is there because Java is not actually storing type information at run-time in an object that uses generics.  Thus, if <code>object</code> is actually a <code>List&lt;String&gt;</code>, there will be no <code>ClassCastException</code> at run-time except until an item is accessed from the list that doesn''t match the generic type defined in the variable.  </p>
+</code></pre>',116,79,'2008-08-02T08:08:22.230Z',11,62);
+INSERT INTO answers VALUES (384,382,'Mike Stone','<p>This warning is there because Java is not actually storing type information at run-time in an object that uses generics.  Thus, if <code>object</code> is actually a <code>List&lt;String&gt;</code>, there will be no <code>ClassCastException</code> at run-time except until an item is accessed from the list that doesn''t match the generic type defined in the variable.  </p>
 
 <p>This can cause further complications if items are added to the list, with this incorrect generic type information.  Any code still holding a reference to the list but with the correct generic type information will now have an inconsistent list.  </p>
 
@@ -15819,8 +15819,8 @@ INSERT INTO answers VALUES (384,'<p>This warning is there because Java is not ac
 <pre><code>List&lt;?&gt; list = (List&lt;?&gt;) object;
 </code></pre>
 
-<p>However, note that you will not be able to use certain methods such as add because the compiler doesn''t know if you are trying to add an object of incorrect type.  The above will work in a lot of situations, but if you have to use add, or some similarly restricted method, you will just have to suffer the yellow underline in Eclipse (or a <code>SuppressWarning</code> annotation).</p>',122,26,'2008-08-02T08:58:48.430Z',31,3);
-INSERT INTO answers VALUES (388,'<p>I''m not sure why you would want to do this in the first place. The resulting set for any moderately large values of x and y will be huge, and will grow exponentially as x and/or y get bigger. </p>
+<p>However, note that you will not be able to use certain methods such as add because the compiler doesn''t know if you are trying to add an object of incorrect type.  The above will work in a lot of situations, but if you have to use add, or some similarly restricted method, you will just have to suffer the yellow underline in Eclipse (or a <code>SuppressWarning</code> annotation).</p>',122,79,'2008-08-02T08:58:48.430Z',42,50);
+INSERT INTO answers VALUES (388,361,'','<p>I''m not sure why you would want to do this in the first place. The resulting set for any moderately large values of x and y will be huge, and will grow exponentially as x and/or y get bigger. </p>
 
 <p>Lets say your set of possible characters is the 26 lowercase letters of the alphabet, and you ask your application to generate all permutations where length = 5. Assuming you don''t run out of memory you''ll get 11,881,376 (i.e. 26 to the power of 5) strings back. Bump that length up to 6, and you''ll get 308,915,776 strings back. These numbers get painfully large, very quickly.</p>
 
@@ -15850,21 +15850,21 @@ INSERT INTO answers VALUES (388,'<p>I''m not sure why you would want to do this 
         }
     }
 }
-</code></pre>',118,57,'2008-08-02T09:40:54.693Z',6,46);
-INSERT INTO answers VALUES (451,'<p>Yahoo uses a method called Sender ID, which can be configured at <a href="http://old.openspf.org/wizard.html?mydomain=stackoverflow.com" rel="nofollow noreferrer">The SPF Setup Wizard</a> and entered in to your DNS.  Also one of the important ones for Exchange, Hotmail, AOL, Yahoo, and others is to have a Reverse DNS for your domain.  Those will knock out most of the issues.  However you can never prevent a person intentionally blocking your or custom rules.</p>',17,16,'2008-08-02T13:45:57.197Z',13,91);
-INSERT INTO answers VALUES (473,'<p>No, what you''re doing is fine. Don''t let those people confuse you.</p>
+</code></pre>',118,57,'2008-08-02T09:40:54.693Z',83,74);
+INSERT INTO answers VALUES (451,371,'','<p>Yahoo uses a method called Sender ID, which can be configured at <a href="http://old.openspf.org/wizard.html?mydomain=stackoverflow.com" rel="nofollow noreferrer">The SPF Setup Wizard</a> and entered in to your DNS.  Also one of the important ones for Exchange, Hotmail, AOL, Yahoo, and others is to have a Reverse DNS for your domain.  Those will knock out most of the issues.  However you can never prevent a person intentionally blocking your or custom rules.</p>',17,70,'2008-08-02T13:45:57.197Z',74,55);
+INSERT INTO answers VALUES (473,470,'','<p>No, what you''re doing is fine. Don''t let those people confuse you.</p>
 
 <p>If you''ve written the web services with .net then the reference proxies generated by .net are going to be quite suitable. The situation you describe (where you are both producer and consumer) is the ideal situation.</p>
 
 <p>If you need to connect to a web services that is <em>unknown</em> at compile time, then you would want a more dynamic approach, where you deduce the ''shape'' of the web service. </p>
 
-<p>But start by using the auto generated proxy class, and don''t worry about it until you hit a limitation. And when you do -- come back to stack overflow ;-)</p>',49,96,'2008-08-02T15:33:13.390Z',56,41);
-INSERT INTO answers VALUES (530,'<p>Doesn''t this depend on the hardware as well as number of threads and stuff?</p>
+<p>But start by using the auto generated proxy class, and don''t worry about it until you hit a limitation. And when you do -- come back to stack overflow ;-)</p>',49,2,'2008-08-02T15:33:13.390Z',29,53);
+INSERT INTO answers VALUES (530,264,'','<p>Doesn''t this depend on the hardware as well as number of threads and stuff?</p>
 
-<p>I would make a simple test and run it with increasing amounts of threads hammering and see what seems best.</p>',86,38,'2008-08-02T18:21:21.993Z',16,96);
-INSERT INTO answers VALUES (532,'<p>Maven helps quite a lot with this problem when I''m coding java. We commit the pom.xml to the scs and the maven repository contains all our dependencies.
-For me that seems like a nice way to do it.</p>',86,22,'2008-08-02T18:30:34.673Z',3,32);
-INSERT INTO answers VALUES (568,'<p>Well, in Java an int is a primitive while an Integer is an Object. Meaning, if you made a new Integer:</p>
+<p>I would make a simple test and run it with increasing amounts of threads hammering and see what seems best.</p>',86,94,'2008-08-02T18:21:21.993Z',82,55);
+INSERT INTO answers VALUES (532,265,'','<p>Maven helps quite a lot with this problem when I''m coding java. We commit the pom.xml to the scs and the maven repository contains all our dependencies.
+For me that seems like a nice way to do it.</p>',86,91,'2008-08-02T18:30:34.673Z',70,49);
+INSERT INTO answers VALUES (568,564,'','<p>Well, in Java an int is a primitive while an Integer is an Object. Meaning, if you made a new Integer:</p>
 
 <pre><code>Integer i = new Integer(6);
 </code></pre>
@@ -15892,17 +15892,17 @@ INSERT INTO answers VALUES (568,'<p>Well, in Java an int is a primitive while an
 
 <p><a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html" rel="noreferrer">Integer object javadoc</a></p>
 
-<p><a href="http://mindprod.com/jgloss/intvsinteger.html" rel="noreferrer">Integer Ojbect vs. int primitive comparison</a></p>',58,95,'2008-08-02T22:05:08.093Z',42,62);
-INSERT INTO answers VALUES (583,'<p>In C#, int is just an <strong><em>alias</em></strong> for <code>System.Int32</code>, string for <code>System.String</code>, double for <code>System.Double</code> etc...</p>
+<p><a href="http://mindprod.com/jgloss/intvsinteger.html" rel="noreferrer">Integer Ojbect vs. int primitive comparison</a></p>',58,78,'2008-08-02T22:05:08.093Z',60,42);
+INSERT INTO answers VALUES (583,564,'','<p>In C#, int is just an <strong><em>alias</em></strong> for <code>System.Int32</code>, string for <code>System.String</code>, double for <code>System.Double</code> etc...</p>
 
-<p>Personally I prefer int, string, double, etc. because they don''t require a <code>using System;</code> statement :) A silly reason, I know...</p>',39,90,'2008-08-02T23:37:10.077Z',55,63);
-INSERT INTO answers VALUES (586,'<p>I''ve taken to hand-coding all of my DDL (creates/alter/delete) statements, adding them to my .sln as text files, and using normal versioning (using subversion, but any revision control should work). This way, I not only get the benefit of versioning, but updating live from dev/stage is the same process for code and database - tags, branches and so on work all the same.</p>
+<p>Personally I prefer int, string, double, etc. because they don''t require a <code>using System;</code> statement :) A silly reason, I know...</p>',39,76,'2008-08-02T23:37:10.077Z',89,66);
+INSERT INTO answers VALUES (586,580,'','<p>I''ve taken to hand-coding all of my DDL (creates/alter/delete) statements, adding them to my .sln as text files, and using normal versioning (using subversion, but any revision control should work). This way, I not only get the benefit of versioning, but updating live from dev/stage is the same process for code and database - tags, branches and so on work all the same.</p>
 
-<p>Otherwise, I agree redgate is expensive if you don''t have a company buying it for you. If you can get a company to buy it for you though, it really is worth it!</p>',34,34,'2008-08-02T23:51:09.410Z',50,27);
-INSERT INTO answers VALUES (590,'<p>If you have a company buying it, Toad from Quest Software has this kind of management functionality built in.  It''s basically a two-click operation to compare two schemas and generate a sync script from one to the other.</p>
+<p>Otherwise, I agree redgate is expensive if you don''t have a company buying it for you. If you can get a company to buy it for you though, it really is worth it!</p>',34,72,'2008-08-02T23:51:09.410Z',16,11);
+INSERT INTO answers VALUES (590,580,'','<p>If you have a company buying it, Toad from Quest Software has this kind of management functionality built in.  It''s basically a two-click operation to compare two schemas and generate a sync script from one to the other.</p>
 
-<p>They have editions for most of the popular databases, including of course Sql Server.</p>',116,19,'2008-08-03T00:22:03.997Z',37,8);
-INSERT INTO answers VALUES (591,'<p>I work the same way Karl does, by keeping all of my SQL scripts for creating and altering tables in a text file that I keep in source control.  In fact, to avoid the problem of having to have a script examine the live database to determine what ALTERs to run, I usually work like this:</p>
+<p>They have editions for most of the popular databases, including of course Sql Server.</p>',116,32,'2008-08-03T00:22:03.997Z',6,16);
+INSERT INTO answers VALUES (591,580,'','<p>I work the same way Karl does, by keeping all of my SQL scripts for creating and altering tables in a text file that I keep in source control.  In fact, to avoid the problem of having to have a script examine the live database to determine what ALTERs to run, I usually work like this:</p>
 
 <ul>
 <li>On the first version, I place everything during testing into one SQL script, and treat all tables as a CREATE.  This means I end up dropping and readding tables a lot during testing, but that''s not a big deal early into the project (since I''m usually hacking the data I''m using at that point anyway).</li>
@@ -15910,8 +15910,8 @@ INSERT INTO answers VALUES (591,'<p>I work the same way Karl does, by keeping al
 <li>Depending on how I''m deploying the DB changes, I''ll also usually put a version table in the DB that holds the version of the DB.  Then, rather than make any human decisions about which scripts to run, whatever code I have running the create/upgrade scripts uses the version to determine what to run.</li>
 </ul>
 
-<p>The one thing this will not do is help if part of what you''re moving from test to production is data, but if you want to manage structure and not pay for a nice, but expensive DB management package, is really not very difficult.  I''ve also found it''s a pretty good way of keeping mental track of your DB.</p>',111,5,'2008-08-03T00:37:03.903Z',69,96);
-INSERT INTO answers VALUES (595,'<p>The canonical way is to use the built-in cursor iterator.</p>
+<p>The one thing this will not do is help if part of what you''re moving from test to production is data, but if you want to manage structure and not pay for a nice, but expensive DB management package, is really not very difficult.  I''ve also found it''s a pretty good way of keeping mental track of your DB.</p>',111,4,'2008-08-03T00:37:03.903Z',97,0);
+INSERT INTO answers VALUES (595,594,'','<p>The canonical way is to use the built-in cursor iterator.</p>
 
 <pre><code>curs.execute(''select * from people'')
 for row in curs:
@@ -15959,11 +15959,11 @@ maxValue = curs.fetchone()[0]
 while row:
     print row
     row = curs.fetchone()
-</code></pre>',116,75,'2008-08-03T01:17:36.393Z',4,97);
-INSERT INTO answers VALUES (597,'<p>I agree that scripting everything is the best way to go and is what I advocate at work.  You should script everything from DB and object creation to populating your lookup tables.</p>
+</code></pre>',116,64,'2008-08-03T01:17:36.393Z',70,49);
+INSERT INTO answers VALUES (597,580,'','<p>I agree that scripting everything is the best way to go and is what I advocate at work.  You should script everything from DB and object creation to populating your lookup tables.</p>
 
-<p>Anything you do in UI only won''t translate (especially for changes... not so much for first deployments) and will end up requiring a tools like what Redgate offers.</p>',76,96,'2008-08-03T01:38:02.640Z',28,40);
-INSERT INTO answers VALUES (608,'<p>I''ll add to the excellent answers given above, and talk about boxing and unboxing, and how this applies to Java (although C# has it too). I''ll use just Java terminology because I am more <em>au fait</em> with that.</p>
+<p>Anything you do in UI only won''t translate (especially for changes... not so much for first deployments) and will end up requiring a tools like what Redgate offers.</p>',76,96,'2008-08-03T01:38:02.640Z',36,22);
+INSERT INTO answers VALUES (608,564,'','<p>I''ll add to the excellent answers given above, and talk about boxing and unboxing, and how this applies to Java (although C# has it too). I''ll use just Java terminology because I am more <em>au fait</em> with that.</p>
 
 <p>As the answers mentioned, <code>int</code> is just a number (called the <em>unboxed</em> type), whereas <code>Integer</code> is an object (which contains the number, hence a <em>boxed</em> type). In Java terms, that means (apart from not being able to call methods on <code>int</code>), you cannot store <code>int</code> or other non-object types in collections (<code>List</code>, <code>Map</code>, etc.). In order to store them, you must first box them up in its corresponding boxed type.</p>
 
@@ -15995,8 +15995,8 @@ int remove() {
 
 <p>It must be noted that despite the brevity in the Java 5 version, both versions generate identical bytecode. Thus, although auto-boxing and auto-unboxing are very convenient because you write less code, these operations <em>do</em> happens behind the scenes, with the same runtime costs, so you still have to be aware of their existence.</p>
 
-<p>Hope this helps!</p>',13,39,'2008-08-03T02:32:50.690Z',96,48);
-INSERT INTO answers VALUES (669,'<p>If you are choosing an encryption method for your login system then speed is not your friend, Jeff had a to-and-frow with Thomas Ptacek about passwords and the <a href="http://chargen.matasano.com/chargen/2007/9/7/enough-with-the-rainbow-tables-what-you-need-to-know-about-s.html" rel="noreferrer">conclusion</a> was that you should use the slowest, most secure encryption method you can afford to. </p>
+<p>Hope this helps!</p>',13,34,'2008-08-03T02:32:50.690Z',94,2);
+INSERT INTO answers VALUES (669,657,'','<p>If you are choosing an encryption method for your login system then speed is not your friend, Jeff had a to-and-frow with Thomas Ptacek about passwords and the <a href="http://chargen.matasano.com/chargen/2007/9/7/enough-with-the-rainbow-tables-what-you-need-to-know-about-s.html" rel="noreferrer">conclusion</a> was that you should use the slowest, most secure encryption method you can afford to. </p>
 
 <blockquote>
   <p>From Thomas Ptacek''s blog:<br>
@@ -16009,8 +16009,8 @@ INSERT INTO answers VALUES (669,'<p>If you are choosing an encryption method for
   <p>The password attack game is scored in time taken to crack password X. With rainbow tables, that time depends on how big your table needs to be and how fast you can search it. With incremental crackers, the time depends on how fast you can make the password hash function run.</p>
   
   <p>The better you can optimize your password hash function, the faster your password hash function gets, the weaker your scheme is. MD5 and SHA1, even conventional block ciphers like DES, are designed to be fast. MD5, SHA1, and DES are weak password hashes. On modern CPUs, raw crypto building blocks like DES and MD5 can be bitsliced, vectorized, and parallelized to make password searches lightning fast. Game-over FPGA implementations cost only hundreds of dollars. </p>
-</blockquote>',117,48,'2008-08-03T12:48:36.657Z',33,76);
-INSERT INTO answers VALUES (679,'<p>I would use JavaScript to submit the form. The function would be triggered by the OnKeyPress event of the form element and would detect whether the <kbd>Enter</kbd> key was selected. If this is the case, it will submit the form.</p>
+</blockquote>',117,24,'2008-08-03T12:48:36.657Z',10,83);
+INSERT INTO answers VALUES (679,48,'','<p>I would use JavaScript to submit the form. The function would be triggered by the OnKeyPress event of the form element and would detect whether the <kbd>Enter</kbd> key was selected. If this is the case, it will submit the form.</p>
 
 <p>Here are two pages that give techniques on how to do this: <a href="http://www.htmlcodetutorial.com/forms/index_famsupp_157.html" rel="nofollow noreferrer">1</a>, <a href="http://www.java2s.com/Code/JavaScript/Form-Control/SubmitaformViaEnter.htm" rel="nofollow noreferrer">2</a>. Based on these, here is an example of usage (based on <a href="http://www.htmlcodetutorial.com/forms/index_famsupp_157.html" rel="nofollow noreferrer">here</a>):</p>
 
@@ -16035,12 +16035,12 @@ function submitenter(myfield,e) {
 //--&gt;&lt;/SCRIPT&gt;
 
 &lt;INPUT NAME="MyText" TYPE="Text" onKeyPress="return submitenter(this,event)" /&gt;
-</code></pre>',51,80,'2008-08-03T13:12:21.007Z',55,33);
-INSERT INTO answers VALUES (691,'<p>I''m with Peter. Developer don''t seem to understand passwords. We all pick (and I''m guilty of this too) MD5 or SHA1 because they are fast. Thinking about it (''cuz someone recently pointed it out to me) that doesn''t make any sense. We should be picking a hashing algorithm that''s stupid slow. I mean, on the scale of things, a busy site will hash passwords what? every 1/2 minute? Who cares if it take 0.8 seconds vs 0.03 seconds server wise? But that extra slowness is huge to prevent all types of common brute-forcish attacks.</p>
+</code></pre>',51,59,'2008-08-03T13:12:21.007Z',15,8);
+INSERT INTO answers VALUES (691,657,'','<p>I''m with Peter. Developer don''t seem to understand passwords. We all pick (and I''m guilty of this too) MD5 or SHA1 because they are fast. Thinking about it (''cuz someone recently pointed it out to me) that doesn''t make any sense. We should be picking a hashing algorithm that''s stupid slow. I mean, on the scale of things, a busy site will hash passwords what? every 1/2 minute? Who cares if it take 0.8 seconds vs 0.03 seconds server wise? But that extra slowness is huge to prevent all types of common brute-forcish attacks.</p>
 <p>From my reading, bcrypt is specifically designed for secure password hashing. It''s based on blowfish, and there are many implementation.</p>
 <p>For PHP, check out <a href="http://www.openwall.com/phpass/" rel="nofollow noreferrer">PHP Pass</a></p>
-<p>For anyone doing .NET, check out <a href="http://derekslager.com/blog/posts/2007/10/bcrypt-dotnet-strong-password-hashing-for-dotnet-and-mono.ashx" rel="nofollow noreferrer">BCrypt.NET</a></p>',34,4,'2008-08-03T13:48:25.367Z',66,57);
-INSERT INTO answers VALUES (699,'<p>The following works for me in Firefox and Internet Explorer:</p>
+<p>For anyone doing .NET, check out <a href="http://derekslager.com/blog/posts/2007/10/bcrypt-dotnet-strong-password-hashing-for-dotnet-and-mono.ashx" rel="nofollow noreferrer">BCrypt.NET</a></p>',34,10,'2008-08-03T13:48:25.367Z',17,12);
+INSERT INTO answers VALUES (699,164,'','<p>The following works for me in Firefox and Internet Explorer:</p>
 
 <pre class="lang-html prettyprint-override"><code>&lt;object id="mediaplayer" classid="clsid:22d6f312-b0f6-11d0-94ab-0080c74c7e95" codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#version=5,1,52,701" standby="loading microsoft windows media player components..." type="application/x-oleobject" width="320" height="310"&gt;
 &lt;param name="filename" value="./test.wmv"&gt;
@@ -16052,22 +16052,22 @@ INSERT INTO answers VALUES (699,'<p>The following works for me in Firefox and In
      &lt;param name="windowlessvideo" value="true"&gt;
      &lt;embed src="./test.wmv" autostart="true" showcontrols="true" showstatusbar="1" bgcolor="white" width="320" height="310"&gt;
 &lt;/object&gt;
-</code></pre>',30,45,'2008-08-03T14:27:20.967Z',91,25);
-INSERT INTO answers VALUES (707,'<p><a href="http://www.sqlite.org/" rel="noreferrer">SQLite</a> came to my mind while reading your question, and I''m quite sure that it''s possible to access it from a network drive <em>if</em> you keep yourself to the constraint of 1 user at a time.</p>
+</code></pre>',30,58,'2008-08-03T14:27:20.967Z',16,95);
+INSERT INTO answers VALUES (707,705,'','<p><a href="http://www.sqlite.org/" rel="noreferrer">SQLite</a> came to my mind while reading your question, and I''m quite sure that it''s possible to access it from a network drive <em>if</em> you keep yourself to the constraint of 1 user at a time.</p>
 
-<p><a href="http://web.archive.org/web/20100208133236/www.mikeduncan.com/sqlite-on-dotnet-in-3-mins/" rel="noreferrer">SQLite on .NET - Get up and running in 3 minutes</a></p>',46,61,'2008-08-03T14:48:52.497Z',41,66);
-INSERT INTO answers VALUES (710,'<p>Check out <a href="http://www.gibraltarsoftware.com/VistaDB" rel="nofollow noreferrer">VistaDB</a>. They have a very good product, the server version (3.4) is in Beta and is very close to release.</p>',51,8,'2008-08-03T14:57:18.907Z',51,86);
-INSERT INTO answers VALUES (712,'<p>Scott Hanselman had a good <em>podcast</em> about this, entitled:</p>
+<p><a href="http://web.archive.org/web/20100208133236/www.mikeduncan.com/sqlite-on-dotnet-in-3-mins/" rel="noreferrer">SQLite on .NET - Get up and running in 3 minutes</a></p>',46,24,'2008-08-03T14:48:52.497Z',88,39);
+INSERT INTO answers VALUES (710,705,'','<p>Check out <a href="http://www.gibraltarsoftware.com/VistaDB" rel="nofollow noreferrer">VistaDB</a>. They have a very good product, the server version (3.4) is in Beta and is very close to release.</p>',51,21,'2008-08-03T14:57:18.907Z',4,17);
+INSERT INTO answers VALUES (712,709,'','<p>Scott Hanselman had a good <em>podcast</em> about this, entitled:</p>
 <blockquote>
 <p>&quot;The Past, Present and Future of .NET Unit Testing Frameworks&quot;</p>
 </blockquote>
 <p>:</p>
-<p><a href="http://www.hanselminutes.com/default.aspx?showID=130" rel="nofollow noreferrer">Hanselminutes #112</a></p>',91,14,'2008-08-03T14:57:44.600Z',64,55);
-INSERT INTO answers VALUES (713,'<p>I think <a href="https://en.wikipedia.org/wiki/NUnit" rel="nofollow noreferrer">NUnit</a> <strong>is</strong> your best bet. With <a href="https://testdriven.net/" rel="nofollow noreferrer">TestDriven.NET</a>, you get great integration within Visual Studio. (ReSharper also has a unit test runner if you''re using it). NUnit is simple to use and follows an established paradigm. You''ll also find plenty of projects, tutorials, and guides using it which always helps.</p>
-<p>Your other main choice is probably <a href="https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages" rel="nofollow noreferrer">MbUnit</a>, which is more and more positioning itself as the <a href="https://en.wikipedia.org/wiki/Behavior-driven_development" rel="nofollow noreferrer">BDD</a> framework of choice (in conjunction with <a href="http://www.gallio.org" rel="nofollow noreferrer">Gallio</a>).</p>',34,87,'2008-08-03T14:59:20.993Z',41,83);
-INSERT INTO answers VALUES (718,'<p>Visual Studio 2008 has a built-in test project type that works in a similar way to NUnit, but obviously has much tighter integration with Visual Studio (can run on every build and shows the results in a similar way to the conversion results page when upgrading solution files), but it is obviously not as mature as NUnit as it''s pretty new and I''m not sure about how it handles mocking.</p>
-<p>But it would be worth looking into when your team moves to Visual Studio 2008.</p>',27,30,'2008-08-03T15:07:20.213Z',32,66);
-INSERT INTO answers VALUES (840,'<p>The best I could come up with is to produce a matrix of sums of each pair, and then merge the rows together, a-la merge sort.  I feel like I''m missing some simple insight that will reveal a much more efficient solution.</p>
+<p><a href="http://www.hanselminutes.com/default.aspx?showID=130" rel="nofollow noreferrer">Hanselminutes #112</a></p>',91,33,'2008-08-03T14:57:44.600Z',34,7);
+INSERT INTO answers VALUES (713,709,'','<p>I think <a href="https://en.wikipedia.org/wiki/NUnit" rel="nofollow noreferrer">NUnit</a> <strong>is</strong> your best bet. With <a href="https://testdriven.net/" rel="nofollow noreferrer">TestDriven.NET</a>, you get great integration within Visual Studio. (ReSharper also has a unit test runner if you''re using it). NUnit is simple to use and follows an established paradigm. You''ll also find plenty of projects, tutorials, and guides using it which always helps.</p>
+<p>Your other main choice is probably <a href="https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages" rel="nofollow noreferrer">MbUnit</a>, which is more and more positioning itself as the <a href="https://en.wikipedia.org/wiki/Behavior-driven_development" rel="nofollow noreferrer">BDD</a> framework of choice (in conjunction with <a href="http://www.gallio.org" rel="nofollow noreferrer">Gallio</a>).</p>',34,86,'2008-08-03T14:59:20.993Z',10,70);
+INSERT INTO answers VALUES (718,709,'','<p>Visual Studio 2008 has a built-in test project type that works in a similar way to NUnit, but obviously has much tighter integration with Visual Studio (can run on every build and shows the results in a similar way to the conversion results page when upgrading solution files), but it is obviously not as mature as NUnit as it''s pretty new and I''m not sure about how it handles mocking.</p>
+<p>But it would be worth looking into when your team moves to Visual Studio 2008.</p>',27,35,'2008-08-03T15:07:20.213Z',83,72);
+INSERT INTO answers VALUES (840,826,'','<p>The best I could come up with is to produce a matrix of sums of each pair, and then merge the rows together, a-la merge sort.  I feel like I''m missing some simple insight that will reveal a much more efficient solution.</p>
 
 <p>My algorithm, in Haskell:</p>
 
@@ -16098,17 +16098,17 @@ wideNubMerge1 ls = mini:(wideNubMerge rest)
 betterSortedSums = wideNubMerge matrixOfSums
 </code></pre>
 
-<p>However, if you know you''re going to use all of the sums, and there''s no advantage to getting some of them earlier, go with ''<code>foldl merge []</code>'', as it''s faster.</p>',101,2,'2008-08-03T21:36:25.890Z',12,5);
-INSERT INTO answers VALUES (858,'<p>You''re looking for Sandcastle</p>
+<p>However, if you know you''re going to use all of the sums, and there''s no advantage to getting some of them earlier, go with ''<code>foldl merge []</code>'', as it''s faster.</p>',101,44,'2008-08-03T21:36:25.890Z',92,8);
+INSERT INTO answers VALUES (858,855,'','<p>You''re looking for Sandcastle</p>
 
 <p>Project Page: <a href="http://www.codeplex.com/Sandcastle/Release/ProjectReleases.aspx" rel="noreferrer">Sandcastle Releases</a></p>
 
 <p>Blog: <a href="http://blogs.msdn.com/sandcastle/default.aspx" rel="noreferrer">Sandcastle Blog</a></p>
 
-<p><a href="http://ndoc.sourceforge.net" rel="noreferrer">NDoc Code Documentation Generator for .NET</a> used to be the tool of choice, but support has all but stopped.</p>',34,1,'2008-08-03T22:12:52.820Z',24,89);
-INSERT INTO answers VALUES (859,'<p>Have a look at <a href="http://blogs.msdn.com/sandcastle/" rel="noreferrer">Sandcastle</a>, which does exactly that. It''s also one of the more simpler solutions out there, and it''s more or less the tool of choice, so in the long run, maybe we could help you to set up Sandcastle if you specify what issues you encountered during setup?</p>',91,91,'2008-08-03T22:14:55.453Z',58,37);
-INSERT INTO answers VALUES (880,'<p>Depends on the version, 4 is by value, 5 is by reference.</p>',34,91,'2008-08-03T22:52:11.930Z',90,83);
-INSERT INTO answers VALUES (881,'<p>PHP variables are assigned by value, passed to functions by value and when containing/representing objects are passed by reference. You can force variables to pass by reference using an ''&amp;''.</p>
+<p><a href="http://ndoc.sourceforge.net" rel="noreferrer">NDoc Code Documentation Generator for .NET</a> used to be the tool of choice, but support has all but stopped.</p>',34,75,'2008-08-03T22:12:52.820Z',22,65);
+INSERT INTO answers VALUES (859,855,'','<p>Have a look at <a href="http://blogs.msdn.com/sandcastle/" rel="noreferrer">Sandcastle</a>, which does exactly that. It''s also one of the more simpler solutions out there, and it''s more or less the tool of choice, so in the long run, maybe we could help you to set up Sandcastle if you specify what issues you encountered during setup?</p>',91,48,'2008-08-03T22:14:55.453Z',4,89);
+INSERT INTO answers VALUES (880,879,'','<p>Depends on the version, 4 is by value, 5 is by reference.</p>',34,93,'2008-08-03T22:52:11.930Z',48,45);
+INSERT INTO answers VALUES (881,879,'','<p>PHP variables are assigned by value, passed to functions by value and when containing/representing objects are passed by reference. You can force variables to pass by reference using an ''&amp;''.</p>
 <p>Assigned by value/reference example:</p>
 <pre><code>$var1 = &quot;test&quot;;
 $var2 = $var1;
@@ -16167,8 +16167,8 @@ function changeFoo($foo){
 <blockquote>
 <p>FOO</p>
 </blockquote>
-<p>(The last example could be better probably.)</p>',58,34,'2008-08-03T22:52:17.593Z',20,22);
-INSERT INTO answers VALUES (885,'<p>It''s by value according to the <a href="http://php.net/manual/en/functions.arguments.php" rel="noreferrer">PHP Documentation</a>.</p>
+<p>(The last example could be better probably.)</p>',58,14,'2008-08-03T22:52:17.593Z',83,41);
+INSERT INTO answers VALUES (885,879,'','<p>It''s by value according to the <a href="http://php.net/manual/en/functions.arguments.php" rel="noreferrer">PHP Documentation</a>.</p>
 
 <blockquote>
   <p>By default, function arguments are passed by value (so that if the value of the argument within the function is changed, it does not get changed outside of the function). To allow a function to modify its arguments, they must be passed by reference.</p>
@@ -16186,13 +16186,13 @@ $str = ''This is a string, '';
 add_some_extra($str);
 echo $str;    // outputs ''This is a string, and something extra.''
 ?&gt;
-</code></pre>',91,65,'2008-08-03T23:06:56.423Z',44,96);
-INSERT INTO answers VALUES (896,'<p><a href="http://www.php.net/manual/en/migration5.oop.php" rel="noreferrer">http://www.php.net/manual/en/migration5.oop.php</a></p>
+</code></pre>',91,44,'2008-08-03T23:06:56.423Z',92,34);
+INSERT INTO answers VALUES (896,879,'','<p><a href="http://www.php.net/manual/en/migration5.oop.php" rel="noreferrer">http://www.php.net/manual/en/migration5.oop.php</a></p>
 
 <blockquote>
   <p>In PHP 5 there is a new Object Model. PHP''s handling of objects has been completely rewritten, allowing for better performance and more features. In previous versions of PHP, objects were handled like primitive types (for instance integers and strings). The drawback of this method was that semantically the whole object was copied when a variable was assigned, or passed as a parameter to a method. In the new approach, objects are referenced by handle, and not by value (one can think of a handle as an object''s identifier).</p>
-</blockquote>',34,32,'2008-08-03T23:57:46.820Z',62,55);
-INSERT INTO answers VALUES (911,'<p>Replace your hyphens with this:</p>
+</blockquote>',34,71,'2008-08-03T23:57:46.820Z',32,59);
+INSERT INTO answers VALUES (911,904,'','<p>Replace your hyphens with this:</p>
 
 <pre><code>&amp;shy;
 </code></pre>
@@ -16209,8 +16209,8 @@ INSERT INTO answers VALUES (911,'<p>Replace your hyphens with this:</p>
 &lt;/div&gt;</code></pre>
 </div>
 </div>
-</p>',55,74,'2008-08-04T00:25:11.227Z',55,20);
-INSERT INTO answers VALUES (931,'<p>@Bernard:</p>
+</p>',55,48,'2008-08-04T00:25:11.227Z',65,40);
+INSERT INTO answers VALUES (931,88,'','<p>@Bernard:</p>
 
 <blockquote>
   <p>I have to admit, most of your example went straight over my head. It does compile, and seems to work, though. Is this safe for SMP systems or SpeedStep?</p>
@@ -16265,8 +16265,8 @@ under-studied area of programming.  You know when Jeff and Joel were
 talking about whether or not a programmer should know C?  I was
 shouting at them, "hey forget that high-level C stuff... assembler
 is what you should learn if you want to know what the computer is
-doing!"</p>',116,4,'2008-08-04T00:51:52.843Z',68,49);
-INSERT INTO answers VALUES (971,'<p>Encoding flash video is actually very easy with ffmpeg.  You can use one command to convert from just about any video format, ffmpeg is smart enough to figure the rest out, and it''ll use every processor on your machine.  Invoking it is easy:</p>
+doing!"</p>',116,79,'2008-08-04T00:51:52.843Z',8,72);
+INSERT INTO answers VALUES (971,164,'','<p>Encoding flash video is actually very easy with ffmpeg.  You can use one command to convert from just about any video format, ffmpeg is smart enough to figure the rest out, and it''ll use every processor on your machine.  Invoking it is easy:</p>
 
 <pre><code>ffmpeg -i input.avi output.flv
 </code></pre>
@@ -16275,8 +16275,8 @@ INSERT INTO answers VALUES (971,'<p>Encoding flash video is actually very easy w
 
 <p>You don''t need a special web server to show flash video.  I''ve done just fine by simply pushing .flv files up to a standard web server, and linking to them with a good swf player, like <a href="http://flowplayer.org/" rel="nofollow noreferrer">flowplayer</a>.</p>
 
-<p>WMVs are fine if you can be sure that all of your users will always use [a recent, up to date version of] Windows only, but even then, Flash is often a better fit for the web.  The player is even extremely skinnable and can be controlled with javascript.</p>',101,47,'2008-08-04T02:14:59.477Z',20,72);
-INSERT INTO answers VALUES (1006,'<p>A quick Google seems to give this advice:</p>
+<p>WMVs are fine if you can be sure that all of your users will always use [a recent, up to date version of] Windows only, but even then, Flash is often a better fit for the web.  The player is even extremely skinnable and can be controlled with javascript.</p>',101,34,'2008-08-04T02:14:59.477Z',62,77);
+INSERT INTO answers VALUES (1006,1005,'','<p>A quick Google seems to give this advice:</p>
 
 <ol>
 <li>Don''t try to edit if it''s read-only.</li>
@@ -16284,13 +16284,13 @@ INSERT INTO answers VALUES (1006,'<p>A quick Google seems to give this advice:</
 <li>If you still edited anyway, save to a temporary file and then move it.</li>
 </ol>
 
-<p><a href="http://ubuntuforums.org/showthread.php?t=782136" rel="nofollow noreferrer">http://ubuntuforums.org/showthread.php?t=782136</a></p>',55,0,'2008-08-04T03:39:31.163Z',26,92);
-INSERT INTO answers VALUES (1012,'<p>Ryan''s advice is generally good, however, if following step 3, don''t move the temporary file; it''ll have the wrong ownership and permissions. Instead, <code>sudoedit</code> the correct file and read in the contents (using <code>:r</code> or the like) of the temporary file.</p>
+<p><a href="http://ubuntuforums.org/showthread.php?t=782136" rel="nofollow noreferrer">http://ubuntuforums.org/showthread.php?t=782136</a></p>',55,26,'2008-08-04T03:39:31.163Z',79,12);
+INSERT INTO answers VALUES (1012,1005,'','<p>Ryan''s advice is generally good, however, if following step 3, don''t move the temporary file; it''ll have the wrong ownership and permissions. Instead, <code>sudoedit</code> the correct file and read in the contents (using <code>:r</code> or the like) of the temporary file.</p>
 
-<p>If following step 2, use <code>:w!</code> to force the file to be written.</p>',13,86,'2008-08-04T04:04:52.110Z',29,98);
-INSERT INTO answers VALUES (1034,'<p>Here''s a nice free service with a public API:
-<a href="http://www.hostip.info/use.html" rel="noreferrer">http://www.hostip.info/use.html</a></p>',116,65,'2008-08-04T05:21:59.660Z',51,74);
-INSERT INTO answers VALUES (1054,'<p>Here''s a short list of implementations and languages I''ve tried. It''s sorted by closeness to zero:</p>
+<p>If following step 2, use <code>:w!</code> to force the file to be written.</p>',13,35,'2008-08-04T04:04:52.110Z',35,85);
+INSERT INTO answers VALUES (1034,1033,'','<p>Here''s a nice free service with a public API:
+<a href="http://www.hostip.info/use.html" rel="noreferrer">http://www.hostip.info/use.html</a></p>',116,96,'2008-08-04T05:21:59.660Z',68,6);
+INSERT INTO answers VALUES (1054,1053,'','<p>Here''s a short list of implementations and languages I''ve tried. It''s sorted by closeness to zero:</p>
 
 <ul>
 <li>Scheme: <code>(+ 1 (make-polar 1 (atan 0 -1)))</code>
@@ -16330,15 +16330,15 @@ INSERT INTO answers VALUES (1054,'<p>Here''s a short list of implementations and
 <ul>
 <li>⇒ <code>0+1.224606353822377e-16i</code></li>
 </ul></li>
-</ul>',13,22,'2008-08-04T06:22:18.713Z',36,35);
-INSERT INTO answers VALUES (1057,'<p>Is it possible to settle this dispute?</p>
+</ul>',13,11,'2008-08-04T06:22:18.713Z',62,79);
+INSERT INTO answers VALUES (1057,1053,'','<p>Is it possible to settle this dispute?</p>
 
 <p>My first thought is to look to a symbolic language, like <a href="http://en.wikipedia.org/wiki/Maple_(software)" rel="noreferrer">Maple</a>. I don''t think that counts as floating point though.</p>
 
 <p>In fact, how does one represent <em>i</em> (or <em>j</em> for the engineers) in a conventional programming language?</p>
 
-<p>Perhaps a better example is sin(π) = 0? (Or have I missed the point again?)</p>',55,48,'2008-08-04T06:29:03.910Z',16,69);
-INSERT INTO answers VALUES (1061,'<p>The # char is indexed as punctuation and therefore ignored, so it looks like we''ll remove the letter C from our word indexing ignore lists.</p>
+<p>Perhaps a better example is sin(π) = 0? (Or have I missed the point again?)</p>',55,45,'2008-08-04T06:29:03.910Z',68,64);
+INSERT INTO answers VALUES (1061,1042,'','<p>The # char is indexed as punctuation and therefore ignored, so it looks like we''ll remove the letter C from our word indexing ignore lists.</p>
 
 <p>Tested it locally after doing that and rebuilding the indexes and I get results!</p>
 
@@ -16348,18 +16348,18 @@ INSERT INTO answers VALUES (1061,'<p>The # char is indexed as punctuation and th
 
 <blockquote>
   <p>c# is indexed as c (if c is not in your noise word list, see more on noise word lists later), but C# is indexed as C# (in SQL 2005 and SQL 2000 running on Win2003 regardless if C or c is in your noise word list). It is not only C# that is stored as C#, but any capital letter followed by #. Conversely, c++ ( and any other lower-cased letter followed by a ++) is indexed as c (regardless of whether c is in your noise word list).</p>
-</blockquote>',3,26,'2008-08-04T06:39:40.003Z',0,85);
-INSERT INTO answers VALUES (1065,'<p>In general, you can''t change the effective user id of the vi process, but you can do this:</p>
+</blockquote>',3,9,'2008-08-04T06:39:40.003Z',45,76);
+INSERT INTO answers VALUES (1065,1005,'','<p>In general, you can''t change the effective user id of the vi process, but you can do this:</p>
 
 <pre><code>:w !sudo tee myfile
-</code></pre>',116,90,'2008-08-04T06:52:32.270Z',66,87);
-INSERT INTO answers VALUES (1074,'<p>Rex, I suspect a good place to start looking is solutions that <strong>compress the ViewState</strong> -- they''re grabbing ViewState on the server before it''s sent down to the client and gzipping it. That''s exactly where you want to be.</p>
+</code></pre>',116,68,'2008-08-04T06:52:32.270Z',31,20);
+INSERT INTO answers VALUES (1074,1010,'','<p>Rex, I suspect a good place to start looking is solutions that <strong>compress the ViewState</strong> -- they''re grabbing ViewState on the server before it''s sent down to the client and gzipping it. That''s exactly where you want to be.</p>
 
 <ul>
 <li><a href="http://www.hanselman.com/blog/CommentView,guid,febce059-7e7c-439e-af3d-c53d250b3e9c.aspx" rel="noreferrer">Scott Hanselman on ViewState Compression</a> (2005)</li>
 <li><a href="http://www.bloggingdeveloper.com/post/How-To-Compress-ViewState-in-ASPNET-20-ViewState-Compression-with-SystemIOCompression.aspx" rel="noreferrer">ViewState Compression with System.IO.Compression</a> (2007)</li>
-</ul>',1,3,'2008-08-04T08:04:41.737Z',17,65);
-INSERT INTO answers VALUES (1093,'<p>See this <a href="http://aspguy.wordpress.com/2008/07/09/reducing-the-page-size-by-storing-viewstate-on-server/" rel="nofollow noreferrer">blog post</a> where the author describes a method for overriding the default behavior for generating the ViewState and instead shows how to save it on the server Session object.</p>
+</ul>',1,79,'2008-08-04T08:04:41.737Z',39,60);
+INSERT INTO answers VALUES (1093,1010,'','<p>See this <a href="http://aspguy.wordpress.com/2008/07/09/reducing-the-page-size-by-storing-viewstate-on-server/" rel="nofollow noreferrer">blog post</a> where the author describes a method for overriding the default behavior for generating the ViewState and instead shows how to save it on the server Session object.</p>
 
 <blockquote>
   <p>In ASP.NET 2.0, ViewState is saved by
@@ -16377,8 +16377,8 @@ INSERT INTO answers VALUES (1093,'<p>See this <a href="http://aspguy.wordpress.c
   save ViewState in Session object.</p>
 </blockquote>
 
-<p>Although I did not test his code, it seems to show exactly what you want: a way to gain access to ViewState code while still on the server, before postback. </p>',51,45,'2008-08-04T09:04:17.997Z',18,98);
-INSERT INTO answers VALUES (1120,'<p>I''ve just set up Sandcastle again. Try installing it (the May 2008 release) and search for SandcastleGui.exe or something similar (it''s in the examples folder or so).</p>
+<p>Although I did not test his code, it seems to show exactly what you want: a way to gain access to ViewState code while still on the server, before postback. </p>',51,42,'2008-08-04T09:04:17.997Z',31,39);
+INSERT INTO answers VALUES (1120,855,'','<p>I''ve just set up Sandcastle again. Try installing it (the May 2008 release) and search for SandcastleGui.exe or something similar (it''s in the examples folder or so).</p>
 
 <p>Click Add Assembly and add your Assembly or Assemblies, add any .xml Documentation files (the ones generated by the compiler if you enabled that option) and then Build.</p>
 
@@ -16386,18 +16386,18 @@ INSERT INTO answers VALUES (1120,'<p>I''ve just set up Sandcastle again. Try ins
 
 <p>Sandcastle seems a bit complicated at first, especially when you want to use it in an automated build, but I am absolutely sure it will be worth the effort.</p>
 
-<p>Also have a look at <a href="http://www.codeplex.com/SHFB" rel="nofollow noreferrer">Sandcastle Help File Builder</a>, this is a somewhat more advanced GUI for it.</p>',91,41,'2008-08-04T10:27:05.270Z',69,23);
-INSERT INTO answers VALUES (1123,'<p>Follow <a href="http://saftsack.fs.uni-bayreuth.de/~dun3/archives/integrate-xml-code-comments-into-visual-studio-20052008-using-sandcastle-and-html-help-20/150.html" rel="nofollow noreferrer">this simple 5 step article</a> and you are pretty much done. As a bonus you can use <a href="http://www.helpware.net/mshelp2/h2viewer.htm" rel="nofollow noreferrer">H2Viewer</a> to view Html Help 2.x files.</p>',39,20,'2008-08-04T10:31:33.220Z',33,20);
-INSERT INTO answers VALUES (1136,'<p>Is the question how to generate your own help files, or what is the best help file format?</p>
+<p>Also have a look at <a href="http://www.codeplex.com/SHFB" rel="nofollow noreferrer">Sandcastle Help File Builder</a>, this is a somewhat more advanced GUI for it.</p>',91,42,'2008-08-04T10:27:05.270Z',9,44);
+INSERT INTO answers VALUES (1123,855,'','<p>Follow <a href="http://saftsack.fs.uni-bayreuth.de/~dun3/archives/integrate-xml-code-comments-into-visual-studio-20052008-using-sandcastle-and-html-help-20/150.html" rel="nofollow noreferrer">this simple 5 step article</a> and you are pretty much done. As a bonus you can use <a href="http://www.helpware.net/mshelp2/h2viewer.htm" rel="nofollow noreferrer">H2Viewer</a> to view Html Help 2.x files.</p>',39,50,'2008-08-04T10:31:33.220Z',77,25);
+INSERT INTO answers VALUES (1136,1131,'','<p>Is the question how to generate your own help files, or what is the best help file format?</p>
 
-<p>Personally, I find CHM to be excellent.  One of the first things I do when setting up a machine is to download the PHP Manual in CHM format (<a href="http://www.php.net/download-docs.php" rel="nofollow noreferrer">http://www.php.net/download-docs.php</a>) and add a hotkey to it in <a href="http://crimsoneditor.com/" rel="nofollow noreferrer">Crimson Editor</a>.  So when I press F1 it loads the CHM and performs a search for the word my cursor is on (great for quick function reference).  </p>',40,62,'2008-08-04T10:52:26.173Z',93,31);
-INSERT INTO answers VALUES (1164,'<p>I am currently "manually" doing it through a prebuild-exec Task, using my <a href="http://www.stum.de/various-tools/cmdtools/" rel="nofollow noreferrer">cmdnetsvnrev</a> tool, but if someone knows a better ccnet-integrated way of doing it, i''d be happy to hear :-)</p>',91,47,'2008-08-04T11:41:37.133Z',37,29);
-INSERT INTO answers VALUES (1168,'<p>I found <a href="http://code.google.com/p/svnrevisionlabeller" rel="nofollow noreferrer">this</a> project on google code. This is <code>CCNET</code> plugin to generate the label in <code>CCNET</code>.</p>
+<p>Personally, I find CHM to be excellent.  One of the first things I do when setting up a machine is to download the PHP Manual in CHM format (<a href="http://www.php.net/download-docs.php" rel="nofollow noreferrer">http://www.php.net/download-docs.php</a>) and add a hotkey to it in <a href="http://crimsoneditor.com/" rel="nofollow noreferrer">Crimson Editor</a>.  So when I press F1 it loads the CHM and performs a search for the word my cursor is on (great for quick function reference).  </p>',40,34,'2008-08-04T10:52:26.173Z',22,51);
+INSERT INTO answers VALUES (1164,1160,'','<p>I am currently "manually" doing it through a prebuild-exec Task, using my <a href="http://www.stum.de/various-tools/cmdtools/" rel="nofollow noreferrer">cmdnetsvnrev</a> tool, but if someone knows a better ccnet-integrated way of doing it, i''d be happy to hear :-)</p>',91,16,'2008-08-04T11:41:37.133Z',52,53);
+INSERT INTO answers VALUES (1168,1160,'','<p>I found <a href="http://code.google.com/p/svnrevisionlabeller" rel="nofollow noreferrer">this</a> project on google code. This is <code>CCNET</code> plugin to generate the label in <code>CCNET</code>.</p>
 
 <p>The <code>DLL</code> is tested with <code>CCNET 1.3</code> but it works with <code>CCNET 1.4</code> for me. I''m successfully using this plugin to label my build.</p>
 
-<p>Now onto passing it to <code>MSBuild</code>...</p>',120,16,'2008-08-04T11:51:59.297Z',13,96);
-INSERT INTO answers VALUES (1216,'<blockquote>
+<p>Now onto passing it to <code>MSBuild</code>...</p>',120,52,'2008-08-04T11:51:59.297Z',98,55);
+INSERT INTO answers VALUES (1216,1160,'','<blockquote>
   <p><strong>Customizing csproj files to autogenerate AssemblyInfo.cs</strong><br>
   <a href="http://www.codeproject.com/KB/dotnet/Customizing_csproj_files.aspx" rel="nofollow noreferrer">http://www.codeproject.com/KB/dotnet/Customizing_csproj_files.aspx</a></p>
   
@@ -16409,8 +16409,8 @@ INSERT INTO answers VALUES (1216,'<blockquote>
   producer.</p>
 </blockquote>
 
-<p>Found the above technique to auto-gen AssemblyInfo.cs using MSBuild. Will post sample shortly.</p>',120,62,'2008-08-04T13:22:31.640Z',10,17);
-INSERT INTO answers VALUES (1281,'<p>You can use the artifact directory variable inside the MSBuild script itself.  Here''s an example of how I''m running FxCop right now from my CC.Net MSBuild script (this script is what CC.Net points to - there is also a "Build" target in the script that includes an MSBuild task against the SLN to do the actual compilation):</p>
+<p>Found the above technique to auto-gen AssemblyInfo.cs using MSBuild. Will post sample shortly.</p>',120,41,'2008-08-04T13:22:31.640Z',50,9);
+INSERT INTO answers VALUES (1281,835,'','<p>You can use the artifact directory variable inside the MSBuild script itself.  Here''s an example of how I''m running FxCop right now from my CC.Net MSBuild script (this script is what CC.Net points to - there is also a "Build" target in the script that includes an MSBuild task against the SLN to do the actual compilation):</p>
 
 <pre><code>&lt;Exec
   Command=''FxCopCmd.exe /project:"$(MSBuildProjectDirectory)\FXCopRules.FxCop" /out:"$(CCNetArtifactDirectory)\ProjectName.FxCop.xml"''
@@ -16418,8 +16418,8 @@ INSERT INTO answers VALUES (1281,'<p>You can use the artifact directory variable
   ContinueOnError="true"
   IgnoreExitCode="true"
 /&gt;
-</code></pre>',35,56,'2008-08-04T14:40:20.360Z',82,86);
-INSERT INTO answers VALUES (1331,'<p>Use <a href="http://en.wikipedia.org/wiki/Robocopy" rel="noreferrer">Robocopy (Robust File Copy)</a>.</p>
+</code></pre>',35,54,'2008-08-04T14:40:20.360Z',43,14);
+INSERT INTO answers VALUES (1331,1329,'','<p>Use <a href="http://en.wikipedia.org/wiki/Robocopy" rel="noreferrer">Robocopy (Robust File Copy)</a>.</p>
 
 <p>NOTE:</p>
 
@@ -16434,20 +16434,20 @@ INSERT INTO answers VALUES (1331,'<p>Use <a href="http://en.wikipedia.org/wiki/R
   <p>NOTE: Xcopy is now deprecated, please use Robocopy.</p>
 </blockquote>
 
-<p>So start getting used to robocopy :)</p>',39,65,'2008-08-04T15:21:49.047Z',73,44);
-INSERT INTO answers VALUES (1335,'<p>It sounds like a backup-style tool may be what you''re looking for.</p>
+<p>So start getting used to robocopy :)</p>',39,42,'2008-08-04T15:21:49.047Z',25,44);
+INSERT INTO answers VALUES (1335,1329,'','<p>It sounds like a backup-style tool may be what you''re looking for.</p>
 
 <p>I''ve been using <a href="http://www.2brightsparks.com/downloads.html" rel="nofollow noreferrer">SyncBack</a> (one of the versions is free). You could also try out <a href="http://en.wikipedia.org/wiki/SyncToy" rel="nofollow noreferrer">MS SyncToy</a> which tries to make moving, copying, syncing, etc. easy.</p>
 
-<p>If you really do copy just random files at random times, you could try <a href="http://www.ranvik.net/totalcopy/" rel="nofollow noreferrer">Total Copy</a> which has the added benefit of working well over a network (pause, resume, etc.).</p>',29,53,'2008-08-04T15:24:03.940Z',83,14);
-INSERT INTO answers VALUES (1338,'<p>The physical database size doesn''t matter.  The number of records don''t matter.</p>
+<p>If you really do copy just random files at random times, you could try <a href="http://www.ranvik.net/totalcopy/" rel="nofollow noreferrer">Total Copy</a> which has the added benefit of working well over a network (pause, resume, etc.).</p>',29,81,'2008-08-04T15:24:03.940Z',69,99);
+INSERT INTO answers VALUES (1338,1276,'','<p>The physical database size doesn''t matter.  The number of records don''t matter.</p>
 
 <p>In my experience the biggest problem that you are going to run in to is not size, but the number of queries you can handle at a time.  Most likely you are going to have to move to a master/slave configuration so that the read queries can run against the slaves and the write queries run against the master.  However if you are not ready for this yet, you can always tweak your indexes for the queries you are running to speed up the response times.  Also there is a lot of tweaking you can do to the network stack and kernel in Linux that will help.</p>
 
 <p>I have had mine get up to 10GB, with only a moderate number of connections and it handled the requests just fine.</p>
 
-<p>I would focus first on your indexes, then have a server admin look at your OS, and if all that doesn''t help it might be time to implement a master/slave configuration.</p>',17,27,'2008-08-04T15:26:55.807Z',54,3);
-INSERT INTO answers VALUES (1339,'<p>How about good old Command-Line Xcopy? With S: being the source and T: the target:</p>
+<p>I would focus first on your indexes, then have a server admin look at your OS, and if all that doesn''t help it might be time to implement a master/slave configuration.</p>',17,62,'2008-08-04T15:26:55.807Z',81,5);
+INSERT INTO answers VALUES (1339,1329,'','<p>How about good old Command-Line Xcopy? With S: being the source and T: the target:</p>
 
 <pre><code>xcopy /K /R /E /I /S /C /H /G /X /Y s:\*.* t:\
 </code></pre>
@@ -16474,9 +16474,9 @@ INSERT INTO answers VALUES (1339,'<p>How about good old Command-Line Xcopy? With
   <p>/X    Copies file audit settings (implies /O).</p>
 </blockquote>
 
-<p>(Edit: Added /G and /X which are new since a few years)</p>',91,84,'2008-08-04T15:28:23.527Z',15,71);
-INSERT INTO answers VALUES (1347,'<p>Honestly it depends on what fits in to your environment better.  If you are using a lot of Non-Microsoft tools, nunit, ccnet, ncover.  You will probably find better support with nant.  Alternatively if you are using MSTest, TFSBuild, you will probably find MSBuild a better environment.  I would learn both and use which every fits more smoothly with your environment.</p>',17,65,'2008-08-04T15:37:31.197Z',99,12);
-INSERT INTO answers VALUES (1353,'<p>Xcopy keeps the Date Modified, only the Date Created and Date Accessed will change.</p>
+<p>(Edit: Added /G and /X which are new since a few years)</p>',91,46,'2008-08-04T15:28:23.527Z',62,71);
+INSERT INTO answers VALUES (1347,1300,'','<p>Honestly it depends on what fits in to your environment better.  If you are using a lot of Non-Microsoft tools, nunit, ccnet, ncover.  You will probably find better support with nant.  Alternatively if you are using MSTest, TFSBuild, you will probably find MSBuild a better environment.  I would learn both and use which every fits more smoothly with your environment.</p>',17,35,'2008-08-04T15:37:31.197Z',85,55);
+INSERT INTO answers VALUES (1353,1329,'','<p>Xcopy keeps the Date Modified, only the Date Created and Date Accessed will change.</p>
 
 <p>(tested on XP Pro, try it on a small folder to check if you''re using Vista as I did not test it under Vista)</p>
 
@@ -16485,13 +16485,13 @@ INSERT INTO answers VALUES (1353,'<p>Xcopy keeps the Date Modified, only the Dat
 <pre><code>xcopy /K /R ....... s:\*.* t:\ &gt;c:\xcopy.log 2&gt;&amp;1
 </code></pre>
 
-<p>That way, if files fail to copy you can check the log (i.e. System Volume Information will generate an error, but that folder does not matter anyway for what you''re trying to do)</p>',91,9,'2008-08-04T15:41:39.333Z',61,72);
-INSERT INTO answers VALUES (1364,'<p>If you''ve already got a bunch of custom tasks you use with nAnt, stick with it - you don''t gain much with MSBuild.  That said, there doesn''t seem to be anything that nAnt can do that MSBuild can''t at its core.  Both can call external tools, both can run .Net-based custom tasks, and both have a bunch of community tasks out there.</p>
+<p>That way, if files fail to copy you can check the log (i.e. System Volume Information will generate an error, but that folder does not matter anyway for what you''re trying to do)</p>',91,16,'2008-08-04T15:41:39.333Z',80,7);
+INSERT INTO answers VALUES (1364,1300,'','<p>If you''ve already got a bunch of custom tasks you use with nAnt, stick with it - you don''t gain much with MSBuild.  That said, there doesn''t seem to be anything that nAnt can do that MSBuild can''t at its core.  Both can call external tools, both can run .Net-based custom tasks, and both have a bunch of community tasks out there.</p>
 
 <p>We''re using MSBuild here for the same reason you are - it''s the default build system for VS now, and we didn''t have any nAnt-specific stuff to worry about.</p>
 
-<p>The <a href="http://msbuildtasks.tigris.org/" rel="nofollow noreferrer">MSBuildCommunityTasks</a> are a good third-party task base to start with, and covers most of the custom stuff I ever did in nAnt, including VSS and Subversion support.</p>',35,62,'2008-08-04T15:52:42.290Z',10,57);
-INSERT INTO answers VALUES (1380,'<p>Here is a solution that works in XP / Vista, but is definitely expandable to OSX, linux, I''d still be interested in another way.</p>
+<p>The <a href="http://msbuildtasks.tigris.org/" rel="nofollow noreferrer">MSBuildCommunityTasks</a> are a good third-party task base to start with, and covers most of the custom stuff I ever did in nAnt, including VSS and Subversion support.</p>',35,86,'2008-08-04T15:52:42.290Z',11,2);
+INSERT INTO answers VALUES (1380,1376,'','<p>Here is a solution that works in XP / Vista, but is definitely expandable to OSX, linux, I''d still be interested in another way.</p>
 
 <pre><code>public static function GetCurrentOSUser():String{
     // XP &amp; Vista only.
@@ -16502,8 +16502,8 @@ INSERT INTO answers VALUES (1380,'<p>Here is a solution that works in XP / Vista
 
     return user;
 }
-</code></pre>',26,58,'2008-08-04T16:19:45.527Z',15,48);
-INSERT INTO answers VALUES (1394,'<p>Not sure how credible <a href="http://www.builderau.com.au/program/windows/soa/Getting-started-with-Windows-Server-2008-Core-edition/0,339024644,339288700,00.htm" rel="noreferrer">this source is</a>, but:</p>
+</code></pre>',26,79,'2008-08-04T16:19:45.527Z',41,61);
+INSERT INTO answers VALUES (1394,1390,'','<p>Not sure how credible <a href="http://www.builderau.com.au/program/windows/soa/Getting-started-with-Windows-Server-2008-Core-edition/0,339024644,339288700,00.htm" rel="noreferrer">this source is</a>, but:</p>
 
 <blockquote>
   <p>The Windows Server 2008 Core edition can:</p>
@@ -16529,14 +16529,14 @@ INSERT INTO answers VALUES (1394,'<p>Not sure how credible <a href="http://www.b
   <li><p>Host a remote desktop session.</p></li>
   <li><p>Run MMC snap-in consoles locally.</p></li>
   </ul>
-</blockquote>',91,13,'2008-08-04T16:38:03.667Z',95,29);
-INSERT INTO answers VALUES (1397,'<p>Also I would try:</p>
+</blockquote>',91,62,'2008-08-04T16:38:03.667Z',96,70);
+INSERT INTO answers VALUES (1397,1376,'','<p>Also I would try:</p>
 
 <pre><code>File.userDirectory.name
 </code></pre>
 
-<p>But I don''t have Air installed so I can''t really test this...</p>',40,63,'2008-08-04T16:39:40.153Z',97,14);
-INSERT INTO answers VALUES (1414,'<p>You can relocate it by editing the <strong>DocumentRoot</strong> setting in XAMPP\apache\conf\httpd.conf.</p>
+<p>But I don''t have Air installed so I can''t really test this...</p>',40,39,'2008-08-04T16:39:40.153Z',71,64);
+INSERT INTO answers VALUES (1414,1408,'','<p>You can relocate it by editing the <strong>DocumentRoot</strong> setting in XAMPP\apache\conf\httpd.conf.</p>
 
 <p>It should currently be:</p>
 
@@ -16548,9 +16548,9 @@ INSERT INTO answers VALUES (1414,'<p>You can relocate it by editing the <strong>
 
 <blockquote>
   <p>C:/projects/transitCalculator/trunk</p>
-</blockquote>',60,90,'2008-08-04T17:00:27.693Z',71,80);
-INSERT INTO answers VALUES (1420,'<p>I''m sure you could write a small app that takes an XSD file and parses it into a SQL script. I''ve never seen code out there to do it though, but that''s not saying it doesn''t exist.</p>',26,53,'2008-08-04T17:05:37.853Z',22,16);
-INSERT INTO answers VALUES (1421,'<p>Ok, per <a href="https://stackoverflow.com/questions/1408/#2471">pix0r</a>''s, <a href="https://stackoverflow.com/questions/1408/#1413">Sparks</a>'' and <a href="https://stackoverflow.com/questions/1408/#1414">Dave</a>''s answers it looks like there are three ways to do this:</p>
+</blockquote>',60,50,'2008-08-04T17:00:27.693Z',60,56);
+INSERT INTO answers VALUES (1420,246,'','<p>I''m sure you could write a small app that takes an XSD file and parses it into a SQL script. I''ve never seen code out there to do it though, but that''s not saying it doesn''t exist.</p>',26,5,'2008-08-04T17:05:37.853Z',25,6);
+INSERT INTO answers VALUES (1421,1408,'','<p>Ok, per <a href="https://stackoverflow.com/questions/1408/#2471">pix0r</a>''s, <a href="https://stackoverflow.com/questions/1408/#1413">Sparks</a>'' and <a href="https://stackoverflow.com/questions/1408/#1414">Dave</a>''s answers it looks like there are three ways to do this:</p>
 
 <hr>
 
@@ -16614,8 +16614,8 @@ INSERT INTO answers VALUES (1421,'<p>Ok, per <a href="https://stackoverflow.com/
 <li>You have to use forward slashes "/" instead of back slashes "\".</li>
 <li>Don''t include the trailing "/" at the end.</li>
 <li><em>restart your server</em>.</li>
-</ul>',58,5,'2008-08-04T17:05:48.680Z',21,33);
-INSERT INTO answers VALUES (1456,'<p>This isn''t much better:</p>
+</ul>',58,25,'2008-08-04T17:05:48.680Z',83,89);
+INSERT INTO answers VALUES (1456,1453,'','<p>This isn''t much better:</p>
 
 <pre><code>public function createShipment($startZip, $endZip, $weight=null){
     $weight = !$weight ? $this-&gt;getDefaultWeight() : $weight;
@@ -16627,15 +16627,15 @@ public function createShipment($startZip, $endZip, $weight=null){
     if ( !$weight )
         $weight = $this-&gt;getDefaultWeight();
 }
-</code></pre>',40,54,'2008-08-04T17:53:00.410Z',70,39);
-INSERT INTO answers VALUES (1464,'<p>Like Rob Allen, I use SQL Compare / Data Compare by Redgate. I also use the Database publishing wizard by Microsoft. I also have a console app I wrote in C# that takes a sql script and runs it on a server. This way you can run large scripts with ''GO'' commands in it from a command line or in a batch script.</p>
+</code></pre>',40,23,'2008-08-04T17:53:00.410Z',30,4);
+INSERT INTO answers VALUES (1464,580,'','<p>Like Rob Allen, I use SQL Compare / Data Compare by Redgate. I also use the Database publishing wizard by Microsoft. I also have a console app I wrote in C# that takes a sql script and runs it on a server. This way you can run large scripts with ''GO'' commands in it from a command line or in a batch script.</p>
 
-<p>I use Microsoft.SqlServer.BatchParser.dll and Microsoft.SqlServer.ConnectionInfo.dll libraries in the console application.</p>',26,28,'2008-08-04T18:00:50.893Z',52,89);
-INSERT INTO answers VALUES (1488,'<p>In addition to John Downey and jdecuyper''s solutions, I''ve also added an "Explicit Deny" bit at the end/beginning of the bitfield, so that you can perform additive permissions by group, role membership, and then subtract permissions based upon explicit deny entries, much like NTFS works, permission-wise.</p>',35,88,'2008-08-04T18:39:56.120Z',27,96);
-INSERT INTO answers VALUES (1504,'<p>Also watch out for complex joins.  Transaction complexity can be a big factor in addition to transaction volume.</p>
+<p>I use Microsoft.SqlServer.BatchParser.dll and Microsoft.SqlServer.ConnectionInfo.dll libraries in the console application.</p>',26,28,'2008-08-04T18:00:50.893Z',22,73);
+INSERT INTO answers VALUES (1488,1451,'','<p>In addition to John Downey and jdecuyper''s solutions, I''ve also added an "Explicit Deny" bit at the end/beginning of the bitfield, so that you can perform additive permissions by group, role membership, and then subtract permissions based upon explicit deny entries, much like NTFS works, permission-wise.</p>',35,71,'2008-08-04T18:39:56.120Z',11,67);
+INSERT INTO answers VALUES (1504,1276,'','<p>Also watch out for complex joins.  Transaction complexity can be a big factor in addition to transaction volume.</p>
 
-<p>Refactoring heavy queries sometimes offers a big performance boost.</p>',59,27,'2008-08-04T19:01:23.860Z',4,57);
-INSERT INTO answers VALUES (1514,'<p>From some of the initial research it doesn''t appear to be a super simple solution. </p>
+<p>Refactoring heavy queries sometimes offers a big performance boost.</p>',59,79,'2008-08-04T19:01:23.860Z',97,57);
+INSERT INTO answers VALUES (1514,1503,'','<p>From some of the initial research it doesn''t appear to be a super simple solution. </p>
 
 <p>It appears that doing this involves having Visual Studio 2008 actually installed on the continuous integration server, which could be a deal breaker.</p>
 
@@ -16645,8 +16645,8 @@ INSERT INTO answers VALUES (1514,'<p>From some of the initial research it doesn'
 
 <p>The code project article I found has a lot more detail.</p>
 
-<p><a href="http://www.codeproject.com/KB/tips/VSTS2008_Tests_With_CCNET.aspx" rel="nofollow noreferrer">Integrating Visual Studio Team System 2008 Unit Tests with CruiseControl.NET</a></p>',27,33,'2008-08-04T19:09:44.717Z',13,46);
-INSERT INTO answers VALUES (1533,'<p>While you cannot prevent usage of those inherited members to my knowledge, you should be able to hide them from IntelliSense using the <a href="http://msdn.microsoft.com/en-us/library/system.componentmodel.editorbrowsableattribute.aspx" rel="noreferrer">EditorBrowsableAttribute</a>:</p>
+<p><a href="http://www.codeproject.com/KB/tips/VSTS2008_Tests_With_CCNET.aspx" rel="nofollow noreferrer">Integrating Visual Studio Team System 2008 Unit Tests with CruiseControl.NET</a></p>',27,98,'2008-08-04T19:09:44.717Z',73,14);
+INSERT INTO answers VALUES (1533,1528,'','<p>While you cannot prevent usage of those inherited members to my knowledge, you should be able to hide them from IntelliSense using the <a href="http://msdn.microsoft.com/en-us/library/system.componentmodel.editorbrowsableattribute.aspx" rel="noreferrer">EditorBrowsableAttribute</a>:</p>
 
 <pre><code>Using System.ComponentModel;
 
@@ -16658,11 +16658,11 @@ private string MyHiddenString = "Muahahahahahahahaha";
 
 <blockquote>
   <p>There is a prominent note that states that this attribute "does not suppress members from a class in the same assembly". That is true but not complete. Actually, the attribute does not suppress members from a class in the same solution.</p>
-</blockquote>',91,73,'2008-08-04T19:19:33.013Z',85,96);
-INSERT INTO answers VALUES (1534,'<p>I think you''re best least hackish way is to consider composition as opposed to inheritance.</p>
+</blockquote>',91,49,'2008-08-04T19:19:33.013Z',94,44);
+INSERT INTO answers VALUES (1534,1528,'','<p>I think you''re best least hackish way is to consider composition as opposed to inheritance.</p>
 
-<p>Or, you could create an interface that has the members you want, have your derived class implement that interface, and program against the interface.</p>',34,18,'2008-08-04T19:19:34.977Z',62,4);
-INSERT INTO answers VALUES (1536,'<p>One potential thing you can do is contain the object rather than extend from the other class.  This will give you the most flexibility in terms of exposing what you want to expose, but if you absolutely need the object to be of that type it is not the ideal solution (however you could expose the object from a getter).</p>
+<p>Or, you could create an interface that has the members you want, have your derived class implement that interface, and program against the interface.</p>',34,58,'2008-08-04T19:19:34.977Z',71,51);
+INSERT INTO answers VALUES (1536,1528,'','<p>One potential thing you can do is contain the object rather than extend from the other class.  This will give you the most flexibility in terms of exposing what you want to expose, but if you absolutely need the object to be of that type it is not the ideal solution (however you could expose the object from a getter).</p>
 
 <p>Thus:</p>
 
@@ -16699,20 +16699,20 @@ INSERT INTO answers VALUES (1536,'<p>One potential thing you can do is contain t
         }
     }
 }
-</code></pre>',122,60,'2008-08-04T19:22:48.903Z',43,45);
-INSERT INTO answers VALUES (1588,'<p>Are you asking about Linux shell as in an environment to work in? For that CygWin I think has been around the longest and is pretty robust: <a href="http://www.cygwin.com/" rel="nofollow noreferrer">http://www.cygwin.com/</a></p>
+</code></pre>',122,21,'2008-08-04T19:22:48.903Z',18,88);
+INSERT INTO answers VALUES (1588,1584,'','<p>Are you asking about Linux shell as in an environment to work in? For that CygWin I think has been around the longest and is pretty robust: <a href="http://www.cygwin.com/" rel="nofollow noreferrer">http://www.cygwin.com/</a></p>
 <p>A while ago I found a windows port of all the popular linux commands I use (ls, grep, diff) and I simply unzip those to a file, add it to my PATH environment and then can run from there: <a href="http://unxutils.sourceforge.net/" rel="nofollow noreferrer">http://unxutils.sourceforge.net/</a></p>
 <p>Or are you talking about executing shell commands from within your code? If you''re in the .NET sphere, there is the Process.Start() method that will give you a lot of options.</p>
-<p>Hope this helps!</p>',71,58,'2008-08-04T21:08:24.010Z',77,31);
-INSERT INTO answers VALUES (1599,'<p>I don''t think there is a "correct size". Since the iPhone really is running OSX, the icon rendering system is pretty robust. As long as you give it a high-quality image with the right aspect ratio and a resolution at least as high as the actual output will be, the OS will downscale very cleanly. My site uses a 158x158 and the icon looks pixel-perfect on the iPhone screen.</p>',67,63,'2008-08-04T21:22:50.220Z',37,53);
-INSERT INTO answers VALUES (1608,'<p>The best way I can think of would be to use <strong>Cygwin</strong> over an <strong>OpenSSH</strong> connection.
+<p>Hope this helps!</p>',71,63,'2008-08-04T21:08:24.010Z',35,76);
+INSERT INTO answers VALUES (1599,1598,'','<p>I don''t think there is a "correct size". Since the iPhone really is running OSX, the icon rendering system is pretty robust. As long as you give it a high-quality image with the right aspect ratio and a resolution at least as high as the actual output will be, the OS will downscale very cleanly. My site uses a 158x158 and the icon looks pixel-perfect on the iPhone screen.</p>',67,47,'2008-08-04T21:22:50.220Z',22,72);
+INSERT INTO answers VALUES (1608,1584,'','<p>The best way I can think of would be to use <strong>Cygwin</strong> over an <strong>OpenSSH</strong> connection.
 Here''s a document that explains how to do just that: </p>
 
-<p><a href="http://www.ucl.ac.uk/cert/openssh_rdp_vnc.pdf" rel="nofollow noreferrer">http://www.ucl.ac.uk/cert/openssh_rdp_vnc.pdf</a></p>',52,61,'2008-08-04T21:33:58.093Z',2,28);
-INSERT INTO answers VALUES (1609,'<p>Depends on how much detail you want it to have, it needs to have the aspect ratio of 1:1 (basically - it needs to be square)</p>
+<p><a href="http://www.ucl.ac.uk/cert/openssh_rdp_vnc.pdf" rel="nofollow noreferrer">http://www.ucl.ac.uk/cert/openssh_rdp_vnc.pdf</a></p>',52,19,'2008-08-04T21:33:58.093Z',37,47);
+INSERT INTO answers VALUES (1609,1598,'','<p>Depends on how much detail you want it to have, it needs to have the aspect ratio of 1:1 (basically - it needs to be square)</p>
 
-<p>I would go with the Apple''s own 129*129</p>',52,95,'2008-08-04T21:36:58.040Z',26,42);
-INSERT INTO answers VALUES (1628,'<p>If the encoding is <strong>base64</strong> then this is the solution I''ve stumbled upon on the web:</p>
+<p>I would go with the Apple''s own 129*129</p>',52,86,'2008-08-04T21:36:58.040Z',38,92);
+INSERT INTO answers VALUES (1628,1615,'','<p>If the encoding is <strong>base64</strong> then this is the solution I''ve stumbled upon on the web:</p>
 
 <p>"Decoding XDFL files saved with ''encoding=base64''.
 Files saved with: </p>
@@ -16735,8 +16735,8 @@ gunzip -S "" &lt; UNKNOWN.001 &gt; yourform-unpacked.xfdl
 
 <p><strong>Another</strong> possible solution - <a href="http://www.chilkatsoft.com/p/p_531.asp" rel="nofollow noreferrer">here</a></p>
 
-<p><em>Side Note: Block quoted &lt; code > doesn''t work for long strings of code</em></p>',52,10,'2008-08-04T22:02:35.180Z',30,57);
-INSERT INTO answers VALUES (1647,'<p>The only answer I can think of right now is - read the manual for uudeview.</p>
+<p><em>Side Note: Block quoted &lt; code > doesn''t work for long strings of code</em></p>',52,22,'2008-08-04T22:02:35.180Z',59,67);
+INSERT INTO answers VALUES (1647,1615,'','<p>The only answer I can think of right now is - read the manual for uudeview.</p>
 
 <p>As much as I would like to help you, I am not an expert in this area, so you''ll have to wait for someone more knowledgable to come down here and help you.</p>
 
@@ -16748,15 +16748,15 @@ INSERT INTO answers VALUES (1647,'<p>The only answer I can think of right now is
 <li><a href="http://xdflengine.sourceforge.net/doc_1044.pdf" rel="nofollow noreferrer">Gettting started with the XDFL Engine</a></li>
 </ul>
 
-<p>Sorry if this doesn''t help you.</p>',52,81,'2008-08-04T22:18:47.987Z',3,58);
-INSERT INTO answers VALUES (1656,'<p>It''s kind of low tech, and there might be a better solution out there, but you could just store your schema in an SQL script which can be run to create the database.  I think you can execute a command to generate this script, but I don''t know the command unfortunately.</p>
+<p>Sorry if this doesn''t help you.</p>',52,39,'2008-08-04T22:18:47.987Z',41,22);
+INSERT INTO answers VALUES (1656,1607,'','<p>It''s kind of low tech, and there might be a better solution out there, but you could just store your schema in an SQL script which can be run to create the database.  I think you can execute a command to generate this script, but I don''t know the command unfortunately.</p>
 <p>Then, commit the script into source control along with the code that works on it.  When you need to change the schema along with the code, the script can be checked in along with the code that requires the changed schema.  Then, diffs on the script will indicate diffs on schema changes.</p>
-<p>With this script, you could integrate it with DBUnit or some kind of build script, so it seems it could fit in with your already automated processes.</p>',122,67,'2008-08-04T22:28:58.713Z',65,7);
-INSERT INTO answers VALUES (1661,'<p>The <a href="http://google-code-updates.blogspot.com/2007/05/introducing-google-developer-podcast.html" rel="nofollow noreferrer">Google Developer Podcast</a> is good.</p>',116,30,'2008-08-04T22:36:18.327Z',21,51);
-INSERT INTO answers VALUES (1684,'<p>I''m not necessarily looking for the fastest but a nice balance, some of the server that this code is being developed for are fairly slow, the script that hashes and stores the password is taking 5-6 seconds to run, and I''ve narrowed it down to the hashing (if I comment the hashing out it runs, in 1-2 seconds).</p>
+<p>With this script, you could integrate it with DBUnit or some kind of build script, so it seems it could fit in with your already automated processes.</p>',122,32,'2008-08-04T22:28:58.713Z',0,43);
+INSERT INTO answers VALUES (1661,1644,'','<p>The <a href="http://google-code-updates.blogspot.com/2007/05/introducing-google-developer-podcast.html" rel="nofollow noreferrer">Google Developer Podcast</a> is good.</p>',116,90,'2008-08-04T22:36:18.327Z',52,9);
+INSERT INTO answers VALUES (1684,657,'','<p>I''m not necessarily looking for the fastest but a nice balance, some of the server that this code is being developed for are fairly slow, the script that hashes and stores the password is taking 5-6 seconds to run, and I''ve narrowed it down to the hashing (if I comment the hashing out it runs, in 1-2 seconds).</p>
 
-<p>It doesn''t have to be the MOST secure, I''m not codding for a bank (right now) but I certainly <strong><em>WILL NOT</em></strong> store the passwords as plain-text.</p>',115,33,'2008-08-04T23:07:15.673Z',22,93);
-INSERT INTO answers VALUES (1704,'<p><a href="http://people.richland.edu/james/lecture/m170/ch13-2wy.html" rel="nofollow noreferrer">This website</a> might help you out a bit more.  Also <a href="http://www.unesco.org/webworld/idams/advguide/Chapt4_3.htm" rel="nofollow noreferrer">this one</a>.</p>
+<p>It doesn''t have to be the MOST secure, I''m not codding for a bank (right now) but I certainly <strong><em>WILL NOT</em></strong> store the passwords as plain-text.</p>',115,28,'2008-08-04T23:07:15.673Z',57,83);
+INSERT INTO answers VALUES (1704,1679,'','<p><a href="http://people.richland.edu/james/lecture/m170/ch13-2wy.html" rel="nofollow noreferrer">This website</a> might help you out a bit more.  Also <a href="http://www.unesco.org/webworld/idams/advguide/Chapt4_3.htm" rel="nofollow noreferrer">this one</a>.</p>
 
 <p>I''m working from a fairly rusty memory of a statistics course, but here goes nothing:</p>
 
@@ -16770,11 +16770,11 @@ INSERT INTO answers VALUES (1704,'<p><a href="http://people.richland.edu/james/l
 
 <p>Sorry to any math folks if any of this is wrong.  I''ll be checking back to make edits!!!</p>
 
-<p>Good luck to you.  Stats is fun, just maybe not this part.  =)</p>',59,39,'2008-08-04T23:32:54.797Z',59,38);
-INSERT INTO answers VALUES (1780,'<p>If you are looking for user facing interaction, stick with xml. It has more support, understanding, and general acceptance currently. If it''s internal, I would say that protocol buffers are a great idea.</p>
+<p>Good luck to you.  Stats is fun, just maybe not this part.  =)</p>',59,93,'2008-08-04T23:32:54.797Z',63,81);
+INSERT INTO answers VALUES (1780,1734,'','<p>If you are looking for user facing interaction, stick with xml. It has more support, understanding, and general acceptance currently. If it''s internal, I would say that protocol buffers are a great idea.</p>
 
-<p>Maybe in a few years as more tools come out to support protocol buffers, then start looking towards that for a public facing api. Until then... <a href="http://en.wikipedia.org/wiki/JSON" rel="noreferrer">JSON</a>?</p>',77,2,'2008-08-05T01:14:30.423Z',57,54);
-INSERT INTO answers VALUES (1812,'<p><em>@Dillie-O: Your answer put me in the right direction (I should have expected it to just be a registry change) and I got this working. But I''m going to mark this as the answer because I''m going to put some additional information that I found while working on this.</em></p>
+<p>Maybe in a few years as more tools come out to support protocol buffers, then start looking towards that for a public facing api. Until then... <a href="http://en.wikipedia.org/wiki/JSON" rel="noreferrer">JSON</a>?</p>',77,38,'2008-08-05T01:14:30.423Z',57,22);
+INSERT INTO answers VALUES (1812,231,'','<p><em>@Dillie-O: Your answer put me in the right direction (I should have expected it to just be a registry change) and I got this working. But I''m going to mark this as the answer because I''m going to put some additional information that I found while working on this.</em></p>
 <p>The solution to this question really doesn''t depend on what programming language you''re using, as long as there''s some way to modify Windows registry settings.</p>
 <p>Finally, here''s the answer:</p>
 <ul>
@@ -16789,8 +16789,8 @@ INSERT INTO answers VALUES (1812,'<p><em>@Dillie-O: Your answer put me in the ri
 <p>The following will be executed:<br />
 &quot;<em>Your program''s executable</em>&quot; &quot;mailto:user@example.com&quot;</p>
 <p>Update (via comment by shellscape):<br />
-As of Windows 8, this method no longer works as expected. Win8 enforces the following key: HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associati‌​ons\URLAssociations\‌​MAILTO\UserChoice for which the ProgID of the selected app is hashed and can''t be forged. It''s a royal PITA.</p>',62,85,'2008-08-05T01:49:25.940Z',60,64);
-INSERT INTO answers VALUES (1840,'<p><strong>On Linux:</strong></p>
+As of Windows 8, this method no longer works as expected. Win8 enforces the following key: HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associati‌​ons\URLAssociations\‌​MAILTO\UserChoice for which the ProgID of the selected app is hashed and can''t be forged. It''s a royal PITA.</p>',62,51,'2008-08-05T01:49:25.940Z',74,79);
+INSERT INTO answers VALUES (1840,1829,'','<p><strong>On Linux:</strong></p>
 
 <ul>
 <li>set raw mode</li>
@@ -16821,13 +16821,13 @@ answer=getkey()
 if "1" in answer: print "foo"
 elif "2" in answer: print "bar"
 
-</pre>',116,38,'2008-08-05T02:54:54.577Z',70,43);
-INSERT INTO answers VALUES (1852,'<p><strong>On Windows:</strong></p>
+</pre>',116,89,'2008-08-05T02:54:54.577Z',41,80);
+INSERT INTO answers VALUES (1852,1829,'','<p><strong>On Windows:</strong></p>
 
 <pre><code>import msvcrt
 answer=msvcrt.getch()
-</code></pre>',116,46,'2008-08-05T03:11:55.570Z',25,47);
-INSERT INTO answers VALUES (1870,'<p>Wow, that took forever. Ok, here''s what I''ve ended up with </p>
+</code></pre>',116,73,'2008-08-05T03:11:55.570Z',0,55);
+INSERT INTO answers VALUES (1870,1829,'','<p>Wow, that took forever. Ok, here''s what I''ve ended up with </p>
 
 <pre><code>#!C:\python25\python.exe
 import msvcrt
@@ -16850,8 +16850,8 @@ while 1:
 
 <p>No one try it in IDLE, unless you have Task Manager handy.</p>
 
-<p>I''ve already forgotten how I lived with menus that arn''t super-instant responsive.</p>',30,92,'2008-08-05T03:51:57.737Z',67,11);
-INSERT INTO answers VALUES (1879,'<p>For the record here''s the results on Mac:</p>
+<p>I''ve already forgotten how I lived with menus that arn''t super-instant responsive.</p>',30,12,'2008-08-05T03:51:57.737Z',4,32);
+INSERT INTO answers VALUES (1879,1854,'','<p>For the record here''s the results on Mac:</p>
 
 <pre><code>&gt;&gt;&gt; import os
 &gt;&gt;&gt; os.name
@@ -16861,16 +16861,16 @@ INSERT INTO answers VALUES (1879,'<p>For the record here''s the results on Mac:<
 ''Darwin''
 &gt;&gt;&gt; platform.release()
 ''8.11.1''
-</code></pre>',116,68,'2008-08-05T04:13:53.870Z',0,63);
-INSERT INTO answers VALUES (1885,'<p>The  reason msvcrt fails in IDLE is because IDLE is not accessing the library that runs msvcrt. Whereas when you run the program natively in cmd.exe it works nicely. For the same reason that your program blows up on Mac and Linux terminals.</p>
+</code></pre>',116,64,'2008-08-05T04:13:53.870Z',76,94);
+INSERT INTO answers VALUES (1885,1829,'','<p>The  reason msvcrt fails in IDLE is because IDLE is not accessing the library that runs msvcrt. Whereas when you run the program natively in cmd.exe it works nicely. For the same reason that your program blows up on Mac and Linux terminals.</p>
 
-<p>But I guess if you''re going to be using this specifically for windows, more power to ya.</p>',50,97,'2008-08-05T04:28:03.747Z',77,11);
-INSERT INTO answers VALUES (1905,'<p>A good simple way to do it is to open the file, and read each line into an array, linked list, data-structure-of-your-choice. Be careful about handling the first line though.</p>
+<p>But I guess if you''re going to be using this specifically for windows, more power to ya.</p>',50,74,'2008-08-05T04:28:03.747Z',26,14);
+INSERT INTO answers VALUES (1905,1898,'','<p>A good simple way to do it is to open the file, and read each line into an array, linked list, data-structure-of-your-choice. Be careful about handling the first line though.</p>
 
 <p>This may be over your head, but there seems to be a direct way to access them as well using a <a href="http://web.archive.org/web/20040202071915/http://weblogs.asp.net:80/fmarguerie/archive/2003/10/01/29964.aspx" rel="nofollow noreferrer">connection string</a>.</p>
 
-<p>Why not try using Python instead of C# or VB? It has a nice CSV module to import that does all the heavy lifting for you.</p>',50,62,'2008-08-05T04:49:26.480Z',51,87);
-INSERT INTO answers VALUES (1911,'<p>Brad''s list is pretty good. I also listen to:</p>
+<p>Why not try using Python instead of C# or VB? It has a nice CSV module to import that does all the heavy lifting for you.</p>',50,72,'2008-08-05T04:49:26.480Z',86,52);
+INSERT INTO answers VALUES (1911,1644,'','<p>Brad''s list is pretty good. I also listen to:</p>
 
 <ul>
 <li><a href="http://www.sparklingclient.com/" rel="nofollow noreferrer">Sparkling Client</a> (Silverlight specific)</li>
@@ -16880,8 +16880,8 @@ with Kevin Dente, Scott "lazycoder" Koon, and K. Scott
 Allen. We recently <a href="http://herdingcode.com/?p=36" rel="nofollow noreferrer">interviewed Jeff Atwood about 
 Stack Overflow</a>, discussing both how the site is 
 designed and the technology behind it.</li>
-</ul>',5,45,'2008-08-05T04:59:43.607Z',59,23);
-INSERT INTO answers VALUES (1912,'<p>If you can guarantee that there are no commas in the data, then the simplest way would probably be to use <a href="http://msdn.microsoft.com/en-us/library/system.string.split(VS.71).aspx" rel="nofollow noreferrer">String.split</a>.</p>
+</ul>',5,84,'2008-08-05T04:59:43.607Z',89,2);
+INSERT INTO answers VALUES (1912,1898,'','<p>If you can guarantee that there are no commas in the data, then the simplest way would probably be to use <a href="http://msdn.microsoft.com/en-us/library/system.string.split(VS.71).aspx" rel="nofollow noreferrer">String.split</a>.</p>
 
 <p>For example:</p>
 
@@ -16890,9 +16890,9 @@ myObject.StringField = values[0];
 myObject.IntField = Int32.Parse(values[1]);
 </code></pre>
 
-<p>There may be libraries you could use to help, but that''s probably as simple as you can get.  Just make sure you can''t have commas in the data, otherwise you will need to parse it better.</p>',122,49,'2008-08-05T05:02:37.640Z',31,36);
-INSERT INTO answers VALUES (1928,'<p>There are two articles on CodeProject that provide code for a solution, one that uses <a href="http://www.codeproject.com/KB/database/CsvReader.aspx" rel="nofollow noreferrer">StreamReader</a> and one that <a href="http://www.codeproject.com/KB/database/FinalCSVReader.aspx" rel="nofollow noreferrer">imports CSV data</a> using the <a href="http://support.microsoft.com/kb/187670" rel="nofollow noreferrer">Microsoft Text Driver</a>.</p>',51,89,'2008-08-05T05:24:03.213Z',12,9);
-INSERT INTO answers VALUES (1948,'<p>Here is a sample code. I think this is what you are looking for. The following code displays exactly the same in Firefox 3 (mac) and IE7.</p>
+<p>There may be libraries you could use to help, but that''s probably as simple as you can get.  Just make sure you can''t have commas in the data, otherwise you will need to parse it better.</p>',122,94,'2008-08-05T05:02:37.640Z',47,91);
+INSERT INTO answers VALUES (1928,1898,'','<p>There are two articles on CodeProject that provide code for a solution, one that uses <a href="http://www.codeproject.com/KB/database/CsvReader.aspx" rel="nofollow noreferrer">StreamReader</a> and one that <a href="http://www.codeproject.com/KB/database/FinalCSVReader.aspx" rel="nofollow noreferrer">imports CSV data</a> using the <a href="http://support.microsoft.com/kb/187670" rel="nofollow noreferrer">Microsoft Text Driver</a>.</p>',51,3,'2008-08-05T05:24:03.213Z',65,20);
+INSERT INTO answers VALUES (1948,6,'','<p>Here is a sample code. I think this is what you are looking for. The following code displays exactly the same in Firefox 3 (mac) and IE7.</p>
 <p><div class="snippet" data-lang="js" data-hide="false" data-console="false" data-babel="false">
 <div class="snippet-code">
 <pre class="snippet-code-css lang-css prettyprint-override"><code>#absdiv {
@@ -16924,8 +16924,8 @@ INSERT INTO answers VALUES (1948,'<p>Here is a sample code. I think this is what
 &lt;/div&gt;</code></pre>
 </div>
 </div>
-</p>',22,48,'2008-08-05T05:54:23.310Z',74,52);
-INSERT INTO answers VALUES (1957,'<p>recognizing text inside an image is indeed a hot topic for researchers in that field, but only begun to grow out of control when <a href="http://en.wikipedia.org/wiki/Captcha" rel="nofollow noreferrer">captcha''s</a> became the "norm" in terms of defense against spam bots. Why use captcha''s as protection? well because it is/was very hard to locate (and read) text inside an image!</p>
+</p>',22,5,'2008-08-05T05:54:23.310Z',3,4);
+INSERT INTO answers VALUES (1957,1848,'','<p>recognizing text inside an image is indeed a hot topic for researchers in that field, but only begun to grow out of control when <a href="http://en.wikipedia.org/wiki/Captcha" rel="nofollow noreferrer">captcha''s</a> became the "norm" in terms of defense against spam bots. Why use captcha''s as protection? well because it is/was very hard to locate (and read) text inside an image!</p>
 
 <p>The reason why I mention captcha''s is because the most advancement* is made within that tiny area, and I think that your solution could be best found there.
 especially because captcha''s are indeed about locating text (or something that resembles text) inside a cluttered image and afterwards trying to read the letters correctly.</p>
@@ -16933,16 +16933,16 @@ especially because captcha''s are indeed about locating text (or something that 
 <p>so if you can find yourself <a href="http://libcaca.zoy.org/wiki/PWNtcha" rel="nofollow noreferrer">a good open source captcha breaking tool</a> you probably have all you need to continue your quest...<br>
 You could probably even throw away the most dificult code that handles the character recognition itself, because those OCR''s are used to read distorted text, something you don''t have to do.</p>
 
-<p>*: advancement in terms of visible, usable, and <strong>practical</strong> information for a "non-researcher"</p>',46,40,'2008-08-05T06:00:46.417Z',77,64);
-INSERT INTO answers VALUES (1993,'<p>@sparkes</p>
+<p>*: advancement in terms of visible, usable, and <strong>practical</strong> information for a "non-researcher"</p>',46,23,'2008-08-05T06:00:46.417Z',27,13);
+INSERT INTO answers VALUES (1993,1988,'','<p>@sparkes</p>
 
-<p>Sometimes LISP is the clear language choice, namely Emacs extensions.  I''m sure I could use Ruby to extend Emacs if I wanted to, but Emacs was designed to be extended with LISP, so it seems to make sense to use it in that situation.</p>',122,9,'2008-08-05T07:45:14.020Z',84,21);
-INSERT INTO answers VALUES (2009,'<p>I would say, don''t worry so much about such micro performance.  It is much better to just get something to work, and then make it as clear and concise and easy to read as possible.  The worst thing you can do is sacrifice readability for an insignificant amount of performance.</p>
+<p>Sometimes LISP is the clear language choice, namely Emacs extensions.  I''m sure I could use Ruby to extend Emacs if I wanted to, but Emacs was designed to be extended with LISP, so it seems to make sense to use it in that situation.</p>',122,24,'2008-08-05T07:45:14.020Z',98,74);
+INSERT INTO answers VALUES (2009,1995,'','<p>I would say, don''t worry so much about such micro performance.  It is much better to just get something to work, and then make it as clear and concise and easy to read as possible.  The worst thing you can do is sacrifice readability for an insignificant amount of performance.</p>
 
 <p>In the end, the best way to deal with performance issues is to save them for when you have data that indicates there is an actual performance problem... otherwise you will spend a lot of time micro-optimizing and actually cause higher maintenance costs for later on.</p>
 
-<p>If you find this parsing situation is really the bottleneck in your application, THEN is the time to try and figure out what the fastest way to solve the problem is.  I think Jeff (and many others) have blogged about this sort of thing a lot.</p>',122,50,'2008-08-05T08:04:22.093Z',55,77);
-INSERT INTO answers VALUES (2028,'<p>Here is my own contribution for the <a href="http://en.wikipedia.org/wiki/Java_(programming_language)" rel="nofollow noreferrer">Java programming language</a>.</p>
+<p>If you find this parsing situation is really the bottleneck in your application, THEN is the time to try and figure out what the fastest way to solve the problem is.  I think Jeff (and many others) have blogged about this sort of thing a lot.</p>',122,13,'2008-08-05T08:04:22.093Z',75,81);
+INSERT INTO answers VALUES (2028,2027,'','<p>Here is my own contribution for the <a href="http://en.wikipedia.org/wiki/Java_(programming_language)" rel="nofollow noreferrer">Java programming language</a>.</p>
 
 <p>first some code:</p>
 
@@ -17102,8 +17102,8 @@ A correct statement would be: <strong>the <em>Object references</em> are passed 
 <li><a href="http://www.ibm.com/developerworks/java/library/j-passbyval/" rel="nofollow noreferrer">http://www.ibm.com/developerworks/java/library/j-passbyval/</a></li>
 <li><a href="http://www.ibm.com/developerworks/library/j-praxis/pr1.html" rel="nofollow noreferrer">http://www.ibm.com/developerworks/library/j-praxis/pr1.html</a></li>
 <li><a href="http://javadude.com/articles/passbyvalue.htm" rel="nofollow noreferrer">http://javadude.com/articles/passbyvalue.htm</a></li>
-</ul>',46,69,'2008-08-05T08:56:35.530Z',86,22);
-INSERT INTO answers VALUES (2086,'<p>Some examples:</p>
+</ul>',46,53,'2008-08-05T08:56:35.530Z',97,42);
+INSERT INTO answers VALUES (2086,14,'','<p>Some examples:</p>
 
 <pre><code>Round(1.5) = 2
 Round(2.5) = 2
@@ -17118,15 +17118,15 @@ Truncate(2.10) = 2
 Truncate(2.00) = 2
 Truncate(1.90) = 1
 Truncate(1.80) = 1
-</code></pre>',95,83,'2008-08-05T11:01:47.400Z',56,56);
-INSERT INTO answers VALUES (2126,'<p>I would definitely prefer:  </p>
+</code></pre>',95,39,'2008-08-05T11:01:47.400Z',81,26);
+INSERT INTO answers VALUES (2126,1329,'','<p>I would definitely prefer:  </p>
 
 <p>1) <a href="http://www.codesector.com/teracopy.asp" rel="noreferrer">Teracopy</a> - GUI based, replaces the default Windows copy/move UI and adds itself to context menu. Basic version is free (for home use I guess).  </p>
 
 <p>2) <a href="http://en.wikipedia.org/wiki/Robocopy" rel="noreferrer">Robocopy</a> - CLI based, useful when scripting. Free tool from MS and is included in Vista/Windows 2008. MS Technet has a GUI for robocopy as well - useful to create statements that you can later embed in scripts or on the command prompt.</p>
 
-<p>PS: I know these have been already suggested here and I would have voted on them, if I could.</p>',120,49,'2008-08-05T11:54:16.453Z',59,54);
-INSERT INTO answers VALUES (2213,'<p>This will allow you to pass a weight of 0 and still work properly.  Notice the === operator, this checks to see if weight matches "null" in both value and type (as opposed to ==, which is just value, so 0 == null == false).</p>
+<p>PS: I know these have been already suggested here and I would have voted on them, if I could.</p>',120,16,'2008-08-05T11:54:16.453Z',51,7);
+INSERT INTO answers VALUES (2213,1453,'','<p>This will allow you to pass a weight of 0 and still work properly.  Notice the === operator, this checks to see if weight matches "null" in both value and type (as opposed to ==, which is just value, so 0 == null == false).</p>
 
 <p>PHP:</p>
 
@@ -17134,8 +17134,8 @@ INSERT INTO answers VALUES (2213,'<p>This will allow you to pass a weight of 0 a
     if ($weight === null)
         $weight = $this-&gt;getDefaultWeight();
 }
-</code></pre>',72,7,'2008-08-05T12:49:44.517Z',42,58);
-INSERT INTO answers VALUES (2324,'<p>As long as the two databases are on the same physical server (assuming MSSQL) and the username/password being used in the connection string has rights to both DBs, then you should be able to perform a join across the two databases. Example: </p>
+</code></pre>',72,98,'2008-08-05T12:49:44.517Z',60,35);
+INSERT INTO answers VALUES (2324,2267,'','<p>As long as the two databases are on the same physical server (assuming MSSQL) and the username/password being used in the connection string has rights to both DBs, then you should be able to perform a join across the two databases. Example: </p>
 
 <pre><code>select p.Date,
        p.Amount,
@@ -17144,20 +17144,20 @@ INSERT INTO answers VALUES (2324,'<p>As long as the two databases are on the sam
 from   PurchaseDB.dbo.Purchases as p
 join   ProductDB.dbo.Products as d on d.sku = p.sku
 where  p.UserID = 12345
-</code></pre>',51,16,'2008-08-05T13:48:19.950Z',36,43);
-INSERT INTO answers VALUES (2376,'<p>It''s in the System Preferences - <a href="http://www.howtogeek.com/howto/apple/why-doesnt-tab-work-for-drop-down-controls-in-firefox-on-os-x/" rel="nofollow noreferrer">this blog post</a> shows where the setting is.</p>',35,18,'2008-08-05T14:23:14.170Z',72,10);
-INSERT INTO answers VALUES (2379,'<p>Check out this blog post: <a href="http://www.reimers.dk/blogs/jacob_reimers_weblog/archive/2007/03/23/tweaking-the-icallbackeventhandler-and-viewstate.aspx" rel="nofollow noreferrer">Tweaking the ICallbackEventHandler and Viewstate</a>. The author seems to be addressing the very situation that you are experiencing: </p>
+</code></pre>',51,22,'2008-08-05T13:48:19.950Z',57,3);
+INSERT INTO answers VALUES (2376,2349,'','<p>It''s in the System Preferences - <a href="http://www.howtogeek.com/howto/apple/why-doesnt-tab-work-for-drop-down-controls-in-firefox-on-os-x/" rel="nofollow noreferrer">this blog post</a> shows where the setting is.</p>',35,10,'2008-08-05T14:23:14.170Z',93,97);
+INSERT INTO answers VALUES (2379,2328,'','<p>Check out this blog post: <a href="http://www.reimers.dk/blogs/jacob_reimers_weblog/archive/2007/03/23/tweaking-the-icallbackeventhandler-and-viewstate.aspx" rel="nofollow noreferrer">Tweaking the ICallbackEventHandler and Viewstate</a>. The author seems to be addressing the very situation that you are experiencing: </p>
 
 <blockquote>
   <p>So when using ICallbackEventHandler you have two obstacles to overcome to have updated state management for callbacks. First is the problem of the read-only viewstate. The other is actually registering the changes the user has made to the page before triggering the callback.</p>
 </blockquote>
 
-<p>See the blog post for his suggestions on how to solve this. Also check out this <a href="http://forums.asp.net/t/1128218.aspx" rel="nofollow noreferrer">forum post</a> which discusses the same problem as well.</p>',51,14,'2008-08-05T14:25:19.750Z',52,24);
-INSERT INTO answers VALUES (2385,'<p>All of the tech podcasts I listen to have been mentioned, but as long as we''re discussing video I''d like to mention <a href="http://www.hak5.org/" rel="nofollow noreferrer">Hak.5</a>.  It is more focused on using existing programs rather than coding, but it has some good hardware segments, and it can often be an excellent source of inspiration.</p>',121,78,'2008-08-05T14:29:33.597Z',93,76);
-INSERT INTO answers VALUES (2434,'<p>I actually found both of those links you provided, but as noted they are simply describing the problem, not solving it. The author of the blog post suggests a workaround by using a different ViewState provider, but unfortunately that isn''t a possibility in this case...I really need to leave the particulars of the ViewState alone and just hook on to what is being done out-of-the-box.</p>',67,28,'2008-08-05T14:54:23.670Z',23,65);
-INSERT INTO answers VALUES (2442,'<p>I''d like to see that query, but I imagine it''s some problem with some sort of iterator, and while I can''t think of any situations where its possible, I bet it''s from a bad while/case/cursor or a ton of poorly implemented views.</p>',26,83,'2008-08-05T14:58:55.270Z',78,20);
-INSERT INTO answers VALUES (2460,'<p>@chopeen You could change the way you''re calculating these statistics, and instead keep a separate table of all per-product stats.. when an order is placed, loop through the products and update the appropriate records in the stats table.  This would shift a lot of the calculation load to the checkout page rather than running everything in one huge query when running a report.  Of course there are some stats that aren''t going to work as well this way, e.g. tracking customers'' next purchases after purchasing a particular product.</p>',72,91,'2008-08-05T15:19:18.363Z',44,0);
-INSERT INTO answers VALUES (2462,'<p>For SQL Server 2005, I''d recommend using table variables and partially building the data as you go. </p>
+<p>See the blog post for his suggestions on how to solve this. Also check out this <a href="http://forums.asp.net/t/1128218.aspx" rel="nofollow noreferrer">forum post</a> which discusses the same problem as well.</p>',51,39,'2008-08-05T14:25:19.750Z',0,75);
+INSERT INTO answers VALUES (2385,1644,'','<p>All of the tech podcasts I listen to have been mentioned, but as long as we''re discussing video I''d like to mention <a href="http://www.hak5.org/" rel="nofollow noreferrer">Hak.5</a>.  It is more focused on using existing programs rather than coding, but it has some good hardware segments, and it can often be an excellent source of inspiration.</p>',121,91,'2008-08-05T14:29:33.597Z',38,88);
+INSERT INTO answers VALUES (2434,2328,'','<p>I actually found both of those links you provided, but as noted they are simply describing the problem, not solving it. The author of the blog post suggests a workaround by using a different ViewState provider, but unfortunately that isn''t a possibility in this case...I really need to leave the particulars of the ViewState alone and just hook on to what is being done out-of-the-box.</p>',67,77,'2008-08-05T14:54:23.670Z',50,71);
+INSERT INTO answers VALUES (2442,2432,'','<p>I''d like to see that query, but I imagine it''s some problem with some sort of iterator, and while I can''t think of any situations where its possible, I bet it''s from a bad while/case/cursor or a ton of poorly implemented views.</p>',26,36,'2008-08-05T14:58:55.270Z',76,9);
+INSERT INTO answers VALUES (2460,2432,'','<p>@chopeen You could change the way you''re calculating these statistics, and instead keep a separate table of all per-product stats.. when an order is placed, loop through the products and update the appropriate records in the stats table.  This would shift a lot of the calculation load to the checkout page rather than running everything in one huge query when running a report.  Of course there are some stats that aren''t going to work as well this way, e.g. tracking customers'' next purchases after purchasing a particular product.</p>',72,15,'2008-08-05T15:19:18.363Z',86,52);
+INSERT INTO answers VALUES (2462,2432,'','<p>For SQL Server 2005, I''d recommend using table variables and partially building the data as you go. </p>
 
 <p>To do this, create a table variable that represents your final result set you want to send to the user.</p>
 
@@ -17167,11 +17167,11 @@ INSERT INTO answers VALUES (2462,'<p>For SQL Server 2005, I''d recommend using t
 
 <p>Once complete, you can then do a simple SELECT * from your table variable and return this result set to the user.</p>
 
-<p>I don''t have any hard numbers for this, but there have been three distinct instances that I have worked on to date where doing these smaller queries has actually worked faster than doing one massive select query with a bunch of joins.</p>',71,65,'2008-08-05T15:19:41.187Z',35,12);
-INSERT INTO answers VALUES (2468,'<p>Post the query :D</p>
+<p>I don''t have any hard numbers for this, but there have been three distinct instances that I have worked on to date where doing these smaller queries has actually worked faster than doing one massive select query with a bunch of joins.</p>',71,88,'2008-08-05T15:19:41.187Z',11,80);
+INSERT INTO answers VALUES (2468,2432,'','<p>Post the query :D</p>
 
-<p>Also I feel like one of the possible problems could be having a ton (read 200+) of name/value tables which could condensed into a single lookup table.</p>',26,14,'2008-08-05T15:26:55.027Z',9,96);
-INSERT INTO answers VALUES (2471,'<p>A VirtualHost would also work for this and may work better for you as you can host several projects without the need for subdirectories.  Here''s how you do it:</p>
+<p>Also I feel like one of the possible problems could be having a ton (read 200+) of name/value tables which could condensed into a single lookup table.</p>',26,78,'2008-08-05T15:26:55.027Z',83,97);
+INSERT INTO answers VALUES (2471,1408,'','<p>A VirtualHost would also work for this and may work better for you as you can host several projects without the need for subdirectories.  Here''s how you do it:</p>
 
 <p>httpd.conf (or extra\httpd-vhosts.conf relative to httpd.conf. Trailing slashes "\" might cause it not to work):</p>
 
@@ -17200,8 +17200,8 @@ INSERT INTO answers VALUES (2471,'<p>A VirtualHost would also work for this and 
 <pre><code>&lt;img src="/images/logo.png" alt="My Logo" /&gt;
 </code></pre>
 
-<p>whereas in an environment using aliases or subdirectories, you''d need keep track of exactly where the "images" directory was relative to the current file.</p>',72,64,'2008-08-05T15:30:30.353Z',48,40);
-INSERT INTO answers VALUES (2495,'<p>Try MySQL Workbench, formerly DBDesigner 4:</p>
+<p>whereas in an environment using aliases or subdirectories, you''d need keep track of exactly where the "images" directory was relative to the current file.</p>',72,2,'2008-08-05T15:30:30.353Z',3,48);
+INSERT INTO answers VALUES (2495,2488,'','<p>Try MySQL Workbench, formerly DBDesigner 4:</p>
 
 <p><a href="http://dev.mysql.com/workbench/" rel="noreferrer">http://dev.mysql.com/workbench/</a></p>
 
@@ -17209,8 +17209,8 @@ INSERT INTO answers VALUES (2495,'<p>Try MySQL Workbench, formerly DBDesigner 4:
 
 <p>Database -> Reverse Engineer</p>
 
-<p><a href="https://i.stack.imgur.com/wcoq9.png" rel="noreferrer"><img src="https://i.stack.imgur.com/wcoq9.png" alt="enter image description here"></a></p>',91,18,'2008-08-05T15:48:11.707Z',72,27);
-INSERT INTO answers VALUES (2522,'<p>Also note that you can only use the as keyword with a reference type or a nullable type</p>
+<p><a href="https://i.stack.imgur.com/wcoq9.png" rel="noreferrer"><img src="https://i.stack.imgur.com/wcoq9.png" alt="enter image description here"></a></p>',91,19,'2008-08-05T15:48:11.707Z',5,17);
+INSERT INTO answers VALUES (2522,2483,'','<p>Also note that you can only use the as keyword with a reference type or a nullable type</p>
 
 <p>ie:</p>
 
@@ -17224,8 +17224,8 @@ int i = d as int;
 int i = (int)d;
 </code></pre>
 
-<p>will compile.</p>',27,86,'2008-08-05T16:15:38.437Z',94,70);
-INSERT INTO answers VALUES (2554,'<p>Here is another article for the <a href="http://msdn.microsoft.com/en-us/vcsharp/default.aspx" rel="nofollow noreferrer">c# programming language</a></p>
+<p>will compile.</p>',27,46,'2008-08-05T16:15:38.437Z',95,6);
+INSERT INTO answers VALUES (2554,2027,'','<p>Here is another article for the <a href="http://msdn.microsoft.com/en-us/vcsharp/default.aspx" rel="nofollow noreferrer">c# programming language</a></p>
 
 <p>c# passes its arguments <strong>by value</strong> (by default)</p>
 
@@ -17308,16 +17308,16 @@ y: foo"
 <li><a href="http://msdn.microsoft.com/en-us/vcsharp/aa336814.aspx" rel="nofollow noreferrer">http://msdn.microsoft.com/en-us/vcsharp/aa336814.aspx</a></li>
 <li><a href="http://www.c-sharpcorner.com/UploadFile/saragana/Willswapwork11162005012542AM/Willswapwork.aspx" rel="nofollow noreferrer">http://www.c-sharpcorner.com/UploadFile/saragana/Willswapwork11162005012542AM/Willswapwork.aspx</a></li>
 <li><a href="http://en.csharp-online.net/Value_vs_Reference" rel="nofollow noreferrer">http://en.csharp-online.net/Value_vs_Reference</a></li>
-</ul>',46,6,'2008-08-05T16:40:35.063Z',75,14);
-INSERT INTO answers VALUES (2585,'<p>I went back to Michael''s post, did some more poking and realized that I did need to do a double conversion, and eventually worked out this little nugget:</p>
+</ul>',46,54,'2008-08-05T16:40:35.063Z',98,20);
+INSERT INTO answers VALUES (2585,109,'','<p>I went back to Michael''s post, did some more poking and realized that I did need to do a double conversion, and eventually worked out this little nugget:</p>
 
 <pre><code>Convert.ToString(Convert.ToChar(Int32.Parse(EncodedString.Substring(intParseIndex, 2), System.Globalization.NumberStyles.HexNumber)));
 </code></pre>
 
 <p>From there I simply made a loop to go through all the characters 2 by 2 and get them "hexified" and then translated to a string.</p>
 
-<p>To Nick, and anybody else interested, I went ahead and <a href="http://www.codeplex.com/urldecoder" rel="nofollow noreferrer">posted my little application</a> over in <a href="http://en.wikipedia.org/wiki/CodePlex" rel="nofollow noreferrer">CodePlex</a>. Feel free to use/modify as you need.</p>',71,94,'2008-08-05T17:02:30.870Z',8,19);
-INSERT INTO answers VALUES (2614,'<p>Here is a good way to remember the process that each of them follow that I use when trying to decide which is better for my circumstance.</p>
+<p>To Nick, and anybody else interested, I went ahead and <a href="http://www.codeplex.com/urldecoder" rel="nofollow noreferrer">posted my little application</a> over in <a href="http://en.wikipedia.org/wiki/CodePlex" rel="nofollow noreferrer">CodePlex</a>. Feel free to use/modify as you need.</p>',71,18,'2008-08-05T17:02:30.870Z',77,76);
+INSERT INTO answers VALUES (2614,2483,'','<p>Here is a good way to remember the process that each of them follow that I use when trying to decide which is better for my circumstance.</p>
 
 <pre><code>DateTime i = (DateTime)value;
 // is like doing
@@ -17331,13 +17331,13 @@ DateTime i = value is DateTime ? value as DateTime : throw new Exception(...);
 
 <p>in the first case if the value cannot be cast than an exception is thrown in the second case if the value cannot be cast, i is set to null.  </p>
 
-<p>So in the first case a hard stop is made if the cast fails in the second cast a soft stop is made and you might encounter a NullReferenceException later on.</p>',17,8,'2008-08-05T17:46:00.970Z',70,46);
-INSERT INTO answers VALUES (2699,'<p>While semi-related to your question, it does not entirely fit the Powershell NetCmdlets motif. But I wanted to post it anyhow as I use it daily and it may help others. Simply making shift-control-c key combo into displaying the visual studio command prompt.</p>',36,84,'2008-08-05T18:53:44.950Z',72,65);
-INSERT INTO answers VALUES (2716,'<p>+1 for <a href="http://www.csszengarden.com/" rel="nofollow noreferrer">Zen garden.</a></p>
+<p>So in the first case a hard stop is made if the cast fails in the second cast a soft stop is made and you might encounter a NullReferenceException later on.</p>',17,91,'2008-08-05T17:46:00.970Z',88,5);
+INSERT INTO answers VALUES (2699,2630,'','<p>While semi-related to your question, it does not entirely fit the Powershell NetCmdlets motif. But I wanted to post it anyhow as I use it daily and it may help others. Simply making shift-control-c key combo into displaying the visual studio command prompt.</p>',36,74,'2008-08-05T18:53:44.950Z',41,76);
+INSERT INTO answers VALUES (2716,2711,'','<p>+1 for <a href="http://www.csszengarden.com/" rel="nofollow noreferrer">Zen garden.</a></p>
 
-<p>I like the resources at <a href="http://inobscuro.com/" rel="nofollow noreferrer">inobscuro.com</a></p>',92,49,'2008-08-05T19:11:45.383Z',83,14);
-INSERT INTO answers VALUES (2731,'<p><a href="http://www.opensourcetemplates.org/" rel="nofollow noreferrer">http://www.opensourcetemplates.org/</a> has nice designs, just not enough selection.</p>',34,69,'2008-08-05T19:25:06.307Z',27,56);
-INSERT INTO answers VALUES (2764,'<p>It''s because the pipe version is creating a subshell, which reads the variable into its local space which then is destroyed when the subshell exits.</p>
+<p>I like the resources at <a href="http://inobscuro.com/" rel="nofollow noreferrer">inobscuro.com</a></p>',92,1,'2008-08-05T19:11:45.383Z',73,27);
+INSERT INTO answers VALUES (2731,2711,'','<p><a href="http://www.opensourcetemplates.org/" rel="nofollow noreferrer">http://www.opensourcetemplates.org/</a> has nice designs, just not enough selection.</p>',34,54,'2008-08-05T19:25:06.307Z',84,71);
+INSERT INTO answers VALUES (2764,2732,'','<p>It''s because the pipe version is creating a subshell, which reads the variable into its local space which then is destroyed when the subshell exits.</p>
 
 <p>Execute this command</p>
 
@@ -17349,23 +17349,23 @@ INSERT INTO answers VALUES (2764,'<p>It''s because the pipe version is creating 
 
 <pre><code>    |                       |-bash(10637)-+-bash(10786)
     |                       |             `-cat(10785)
-</code></pre>',116,34,'2008-08-05T20:00:43.023Z',71,42);
-INSERT INTO answers VALUES (2797,'<p>No don''t null objects. You can check out <a href="https://web.archive.org/web/20160325050833/http://codebetter.com/karlseguin/2008/04/28/foundations-of-programming-pt-7-back-to-basics-memory/" rel="nofollow noreferrer">https://web.archive.org/web/20160325050833/http://codebetter.com/karlseguin/2008/04/28/foundations-of-programming-pt-7-back-to-basics-memory/</a> for more information, but setting things to null won''t do anything, except dirty your code.</p>',34,33,'2008-08-05T20:23:33.477Z',6,90);
-INSERT INTO answers VALUES (2807,'<p>The only time you should set a variable to null is when the variable does not go out of scope and you no longer need the data associated with it. Otherwise there is no need.</p>',45,69,'2008-08-05T20:32:48.153Z',86,29);
-INSERT INTO answers VALUES (2819,'<p>Your status page is available now without logging in (click <a href="https://stackoverflow.com/users/logout?returnurl=%2fquestions%2f2815%2fhow-to-curl-or-wget-a-stackoverflow-page">logout</a> and try it). When the beta-cookie is disabled, there will be nothing between you and your status page.</p>
+</code></pre>',116,12,'2008-08-05T20:00:43.023Z',34,36);
+INSERT INTO answers VALUES (2797,2785,'','<p>No don''t null objects. You can check out <a href="https://web.archive.org/web/20160325050833/http://codebetter.com/karlseguin/2008/04/28/foundations-of-programming-pt-7-back-to-basics-memory/" rel="nofollow noreferrer">https://web.archive.org/web/20160325050833/http://codebetter.com/karlseguin/2008/04/28/foundations-of-programming-pt-7-back-to-basics-memory/</a> for more information, but setting things to null won''t do anything, except dirty your code.</p>',34,5,'2008-08-05T20:23:33.477Z',19,48);
+INSERT INTO answers VALUES (2807,2785,'','<p>The only time you should set a variable to null is when the variable does not go out of scope and you no longer need the data associated with it. Otherwise there is no need.</p>',45,25,'2008-08-05T20:32:48.153Z',27,33);
+INSERT INTO answers VALUES (2819,2815,'','<p>Your status page is available now without logging in (click <a href="https://stackoverflow.com/users/logout?returnurl=%2fquestions%2f2815%2fhow-to-curl-or-wget-a-stackoverflow-page">logout</a> and try it). When the beta-cookie is disabled, there will be nothing between you and your status page.</p>
 
 <p>For wget:</p>
 
 <pre><code>wget --no-cookies --header "Cookie: soba=(LookItUpYourself)" https://stackoverflow.com/users/30/myProfile.html
-</code></pre>',30,35,'2008-08-05T20:43:52.017Z',42,41);
-INSERT INTO answers VALUES (2822,'<p>I couldn''t figure out how to get the cookies to work either, but I was able to get to my status page in my browser while I was logged out, so I assume this will work once stackoverflow goes public.</p>
+</code></pre>',30,45,'2008-08-05T20:43:52.017Z',25,29);
+INSERT INTO answers VALUES (2822,2815,'','<p>I couldn''t figure out how to get the cookies to work either, but I was able to get to my status page in my browser while I was logged out, so I assume this will work once stackoverflow goes public.</p>
 
-<p>This is an interesting idea, but won''t you also pick up diffs of the underlying html code?  Do you have a strategy to avoid ending up with a diff of the html and not the actual content?</p>',75,97,'2008-08-05T20:46:22.930Z',53,97);
-INSERT INTO answers VALUES (2878,'<p>And here''s what works...</p>
+<p>This is an interesting idea, but won''t you also pick up diffs of the underlying html code?  Do you have a strategy to avoid ending up with a diff of the html and not the actual content?</p>',75,98,'2008-08-05T20:46:22.930Z',39,46);
+INSERT INTO answers VALUES (2878,2815,'','<p>And here''s what works...</p>
 
 <pre><code>curl -s --cookie soba=. http://stackoverflow.com/users
-</code></pre>',116,28,'2008-08-05T21:22:42.467Z',5,43);
-INSERT INTO answers VALUES (2905,'<p>Emacs is a wonderful text editor.  It has huge power once you become a power user.  You can access a shell, have as many files open as you want in as many sub-windows and an extremely powerful scripting support that lets you add all kinds of neat features.</p>
+</code></pre>',116,34,'2008-08-05T21:22:42.467Z',14,79);
+INSERT INTO answers VALUES (2905,2898,'','<p>Emacs is a wonderful text editor.  It has huge power once you become a power user.  You can access a shell, have as many files open as you want in as many sub-windows and an extremely powerful scripting support that lets you add all kinds of neat features.</p>
 
 <p>I have been using a ruby-mode which adds syntax highlighting and whatnot to ruby, and the same exists for every major language.</p>
 
@@ -17375,33 +17375,33 @@ INSERT INTO answers VALUES (2905,'<p>Emacs is a wonderful text editor.  It has h
 
 <p>UPDATE: I think gedit is exclusively GUI based though, so it would be useful to learn emacs in case you are stuck with just a shell (it is fully featured in both shell and graphical mode).</p>
 
-<p>FURTHER UPDATE: Just FYI, I am not trying to push Emacs over Vim, it''s just what I use, and it''s a great editor (as I''m sure Vim is too).  It is daunting at first (as I''m sure Vim is too), but the question was about text editors on Linux besides vi... Emacs seems the logical choice to me, but gedit is a great simple text editor with some nice features if that''s all you are looking for.</p>',122,69,'2008-08-05T21:49:12.180Z',22,10);
-INSERT INTO answers VALUES (2920,'<p>From <a href="https://stackoverflow.com/questions/2815/#2878">Mark Harrison</a></p>
+<p>FURTHER UPDATE: Just FYI, I am not trying to push Emacs over Vim, it''s just what I use, and it''s a great editor (as I''m sure Vim is too).  It is daunting at first (as I''m sure Vim is too), but the question was about text editors on Linux besides vi... Emacs seems the logical choice to me, but gedit is a great simple text editor with some nice features if that''s all you are looking for.</p>',122,12,'2008-08-05T21:49:12.180Z',20,18);
+INSERT INTO answers VALUES (2920,2815,'','<p>From <a href="https://stackoverflow.com/questions/2815/#2878">Mark Harrison</a></p>
 <blockquote>
 <p>And here''s what works...</p>
 <p>curl -s --cookie soba=. <a href="https://stackoverflow.com/users">https://stackoverflow.com/users</a></p>
 </blockquote>
 <p>And for wget:</p>
 <pre><code>wget --no-cookies --header &quot;Cookie: soba=(LookItUpYourself)&quot; https://stackoverflow.com/users/30/myProfile.html
-</code></pre>',30,34,'2008-08-05T22:04:12.947Z',33,26);
-INSERT INTO answers VALUES (2973,'<p>With a six word character password, he may have been brute forced.  That is more likely than his ftp being intercepted, but it could be that too.</p>
+</code></pre>',30,7,'2008-08-05T22:04:12.947Z',59,5);
+INSERT INTO answers VALUES (2973,2970,'','<p>With a six word character password, he may have been brute forced.  That is more likely than his ftp being intercepted, but it could be that too.</p>
 
 <p>Start with a stronger password. (8 characters is still fairly weak)</p>
 
-<p>See if this link to an internet <a href="http://blog.modsecurity.org/2008/01/is-your-website.html" rel="nofollow noreferrer">security blog</a> is helpful.</p>',92,83,'2008-08-06T00:00:22.180Z',12,58);
-INSERT INTO answers VALUES (3055,'<p>You mention your Dad was using a website publishing tool.</p>
+<p>See if this link to an internet <a href="http://blog.modsecurity.org/2008/01/is-your-website.html" rel="nofollow noreferrer">security blog</a> is helpful.</p>',92,46,'2008-08-06T00:00:22.180Z',17,64);
+INSERT INTO answers VALUES (3055,2970,'','<p>You mention your Dad was using a website publishing tool.</p>
 
 <p>If the publishing tool publishes from his computer to the server, it may be the case that his local files are clean, and that he just needs to republish to the server.</p>
 
-<p>He should see if there''s a different login method to his server than plain FTP, though... that''s not very secure because it sends his password as clear-text over the internet.</p>',116,33,'2008-08-06T03:31:22.940Z',60,12);
-INSERT INTO answers VALUES (3059,'<p>Bottom line: no, because the overhead of interpretation overwhelms the overhead of method dispatching.</p>',116,68,'2008-08-06T03:35:31.327Z',56,70);
-INSERT INTO answers VALUES (3068,'<p>If you are using an interpreted language, the difference is irrelevant.  You should not be using an interpreted language if performance is an issue.  Both will perform about the same.</p>',92,73,'2008-08-06T03:49:20.940Z',63,75);
-INSERT INTO answers VALUES (3097,'<p>I would actually argue to pick a simpler language with fewer instructions.  I personally learned on BASIC at home, as <a href="http://www.codinghorror.com/blog/archives/001104.html" rel="nofollow noreferrer">did Jeff</a>.  This way, you don''t have to delve into more complicated issues like object oriented programming, or even procedures if you don''t want to.  Once he can handle simple control flow, then move on to something a little more complicated, but only simple features.</p>
+<p>He should see if there''s a different login method to his server than plain FTP, though... that''s not very secure because it sends his password as clear-text over the internet.</p>',116,44,'2008-08-06T03:31:22.940Z',12,54);
+INSERT INTO answers VALUES (3059,3057,'','<p>Bottom line: no, because the overhead of interpretation overwhelms the overhead of method dispatching.</p>',116,37,'2008-08-06T03:35:31.327Z',49,7);
+INSERT INTO answers VALUES (3068,3057,'','<p>If you are using an interpreted language, the difference is irrelevant.  You should not be using an interpreted language if performance is an issue.  Both will perform about the same.</p>',92,14,'2008-08-06T03:49:20.940Z',36,67);
+INSERT INTO answers VALUES (3097,3088,'','<p>I would actually argue to pick a simpler language with fewer instructions.  I personally learned on BASIC at home, as <a href="http://www.codinghorror.com/blog/archives/001104.html" rel="nofollow noreferrer">did Jeff</a>.  This way, you don''t have to delve into more complicated issues like object oriented programming, or even procedures if you don''t want to.  Once he can handle simple control flow, then move on to something a little more complicated, but only simple features.</p>
 
 <p>Maybe start with very simple programs that just add 2 numbers, and then grow to something that might require a branch, then maybe reading input and responding to it, then some kind of loop, and start combining them all together.  Just start little and work your way up.  Don''t do any big projects until he can grasp the fundamentals (otherwise it may very well be too daunting and he could give up midway).  Once he''s mastered BASIC or whatever you choose, move on to something more complicated.</p>
 
-<p>Just my $0.02</p>',122,96,'2008-08-06T05:16:25.757Z',96,43);
-INSERT INTO answers VALUES (3105,'<p>You could try using <a href="http://www.alice.org/" rel="nofollow noreferrer">Alice</a>.  It''s a 3D program designed for use in introductory programming classes.</p>
+<p>Just my $0.02</p>',122,91,'2008-08-06T05:16:25.757Z',6,92);
+INSERT INTO answers VALUES (3105,3088,'','<p>You could try using <a href="http://www.alice.org/" rel="nofollow noreferrer">Alice</a>.  It''s a 3D program designed for use in introductory programming classes.</p>
 
 <p>The two biggest obstacles for new programmers are often:</p>
 
@@ -17414,16 +17414,16 @@ INSERT INTO answers VALUES (3105,'<p>You could try using <a href="http://www.ali
 
 <p>Experienced programmers may look down at Alice as a toy and scoff at dragging and dropping lines of code, but <a href="http://www.alice.org/index.php?page=publications/publications" rel="nofollow noreferrer">research</a> shows that this approach works.</p>
 
-<p>Disclaimer: I worked on Alice.</p>',99,34,'2008-08-06T05:29:49.240Z',58,61);
-INSERT INTO answers VALUES (3109,'<p>A good python course is MIT''s <a href="http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/6-189January--IAP--2008/CourseHome/" rel="nofollow noreferrer">A Gentle Introduction to Programming Using Python</a>.  It''s all free online, and you don''t have to be an MIT uberstudent to understand it.</p>
+<p>Disclaimer: I worked on Alice.</p>',99,56,'2008-08-06T05:29:49.240Z',1,49);
+INSERT INTO answers VALUES (3109,3088,'','<p>A good python course is MIT''s <a href="http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/6-189January--IAP--2008/CourseHome/" rel="nofollow noreferrer">A Gentle Introduction to Programming Using Python</a>.  It''s all free online, and you don''t have to be an MIT uberstudent to understand it.</p>
 
 <blockquote>
   <p>Edit [<a href="https://stackoverflow.com/users/92/justin-standard">Justin Standard</a>]</p>
   
   <p>This course uses this free online book: <a href="http://www.openbookproject.net/thinkcs/python/english2e/index.xhtml" rel="nofollow noreferrer">How To Think Like a Computer Scientist</a><br>
   I''m definitely finding it quite useful.</p>
-</blockquote>',116,69,'2008-08-06T05:47:05.553Z',18,91);
-INSERT INTO answers VALUES (3117,'<p>I''ve had to work with several beginner (never wrote a line of code) programmers, and I''ll be doing an after school workshop with high school students this fall. This is the closest thing I''ve got to documentation. It''s still a work in progress, but I hope it helps.</p>
+</blockquote>',116,98,'2008-08-06T05:47:05.553Z',83,80);
+INSERT INTO answers VALUES (3117,3088,'','<p>I''ve had to work with several beginner (never wrote a line of code) programmers, and I''ll be doing an after school workshop with high school students this fall. This is the closest thing I''ve got to documentation. It''s still a work in progress, but I hope it helps.</p>
 
 <p>1) <b>FizzBuzz.</b> Start with command line programs. You can write some fun games, or tools, very quickly, and you learn all of the language features very quickly without having to learn the GUI tools first. These early apps should be simple enough that you won''t need to use any real debugging tools to make them work.</p>
 
@@ -17462,22 +17462,22 @@ INSERT INTO answers VALUES (3117,'<p>I''ve had to work with several beginner (ne
 <li>Tetris</li>
 <li>Text file based blog engine</li>
 <li>More advanced robotics work</li>
-</ul>',100,87,'2008-08-06T06:00:28.740Z',94,4);
-INSERT INTO answers VALUES (3139,'<p>When you do crontab -e, try this:</p>
+</ul>',100,20,'2008-08-06T06:00:28.740Z',82,56);
+INSERT INTO answers VALUES (3139,3136,'','<p>When you do crontab -e, try this:</p>
 
 <pre><code>59 23 * * * /usr/sbin/myscript &gt; /dev/null
 </code></pre>
 
 <p>That means: At 59 Minutes and 23 Hours on every day (*) on every month on every weekday, execute myscript.</p>
 
-<p>See <strong>man crontab</strong> for some more info and examples.</p>',91,5,'2008-08-06T07:21:32.430Z',24,87);
-INSERT INTO answers VALUES (3145,'<p>You will with the above response receive email with any text written to stderr. Some people redirect that away too, and make sure that the script writes a log instead.</p>
+<p>See <strong>man crontab</strong> for some more info and examples.</p>',91,73,'2008-08-06T07:21:32.430Z',98,16);
+INSERT INTO answers VALUES (3145,3136,'','<p>You will with the above response receive email with any text written to stderr. Some people redirect that away too, and make sure that the script writes a log instead.</p>
 
 <pre><code>... 2&gt;&amp;1 ....
-</code></pre>',86,92,'2008-08-06T07:43:29.500Z',51,70);
-INSERT INTO answers VALUES (3422,'<p>One thing worth keeping in mind is that leading wildcard queries come at a significant performance premium, compared to other wildcard usages.</p>',60,37,'2008-08-06T14:03:59.123Z',95,8);
-INSERT INTO answers VALUES (3427,'<p>The problem with leading Wildcards: They cannot be indexed, hence you''re doing a full table scan.</p>',91,53,'2008-08-06T14:07:59.973Z',20,57);
-INSERT INTO answers VALUES (3526,'<p>You may consider a third party email service who handles delivery issues:</p>
+</code></pre>',86,14,'2008-08-06T07:43:29.500Z',42,53);
+INSERT INTO answers VALUES (3422,3400,'','<p>One thing worth keeping in mind is that leading wildcard queries come at a significant performance premium, compared to other wildcard usages.</p>',60,54,'2008-08-06T14:03:59.123Z',54,12);
+INSERT INTO answers VALUES (3427,3400,'','<p>The problem with leading Wildcards: They cannot be indexed, hence you''re doing a full table scan.</p>',91,84,'2008-08-06T14:07:59.973Z',38,22);
+INSERT INTO answers VALUES (3526,371,'','<p>You may consider a third party email service who handles delivery issues:</p>
 
 <ul>
 <li>Exact Target</li>
@@ -17488,8 +17488,8 @@ INSERT INTO answers VALUES (3526,'<p>You may consider a third party email servic
 <li>Return Path</li>
 <li>IntelliContact</li>
 <li>SilverPop</li>
-</ul>',83,14,'2008-08-06T15:12:16.537Z',49,67);
-INSERT INTO answers VALUES (3549,'<p>I''ve been happy with <a href="http://itc.conversationsnetwork.org/series/stackoverflow.html" rel="nofollow noreferrer">Stack Overflow</a>.</p>
+</ul>',83,98,'2008-08-06T15:12:16.537Z',88,48);
+INSERT INTO answers VALUES (3549,1644,'','<p>I''ve been happy with <a href="http://itc.conversationsnetwork.org/series/stackoverflow.html" rel="nofollow noreferrer">Stack Overflow</a>.</p>
 
 <p>I listen to / watch a few others:</p>
 
@@ -17506,20 +17506,20 @@ getting really old.</p>
 listening more regularly.</p>
 
 <p>I''d like to find some that deal with actual software
-engineering issues and not just "tech gossip".</p>',83,20,'2008-08-06T15:32:55.433Z',43,48);
-INSERT INTO answers VALUES (3550,'<p>Creating an installer project, with a dependency on your EXE (which in turn depends on whatever it needs) is a fairly straightforward process - but you''ll need at least VS Standard Edition for that.</p>
+engineering issues and not just "tech gossip".</p>',83,25,'2008-08-06T15:32:55.433Z',41,44);
+INSERT INTO answers VALUES (3550,3544,'','<p>Creating an installer project, with a dependency on your EXE (which in turn depends on whatever it needs) is a fairly straightforward process - but you''ll need at least VS Standard Edition for that.</p>
 
 <p>Inside the installer project, you can create custom tasks and dialog steps that allow you to do anything you code up.</p>
 
-<p>What''s missing is the auto-upgrade and version-checking magic you get with ClickOnce.  You can still build it in, it''s just not automatic.</p>',35,79,'2008-08-06T15:33:21.500Z',7,80);
-INSERT INTO answers VALUES (3557,'<blockquote>
+<p>What''s missing is the auto-upgrade and version-checking magic you get with ClickOnce.  You can still build it in, it''s just not automatic.</p>',35,42,'2008-08-06T15:33:21.500Z',4,98);
+INSERT INTO answers VALUES (3557,1644,'','<blockquote>
   <p><strong><a href="https://stackoverflow.com/users/409/brian-deacon">Brian Deacon</a></strong> wrote:</p>
   
   <p>Dvorak is so... Spolsky.</p>
 </blockquote>
 
-<p>I can''t describe why, but I agree.</p>',83,23,'2008-08-06T15:38:47.933Z',99,43);
-INSERT INTO answers VALUES (3561,'<p>Have you seen WiX yet?</p>
+<p>I can''t describe why, but I agree.</p>',83,60,'2008-08-06T15:38:47.933Z',54,10);
+INSERT INTO answers VALUES (3561,3544,'','<p>Have you seen WiX yet?</p>
 
 <p><a href="http://wix.sourceforge.net/" rel="noreferrer">http://wix.sourceforge.net/</a></p>
 
@@ -17527,18 +17527,18 @@ INSERT INTO answers VALUES (3561,'<p>Have you seen WiX yet?</p>
 
 <p>It will handle updates and other items if you so desire, and you can apply folder permissions and the like to the installers. It also gives you greater control on where exactly you want to install files and is compatible with all the standardized Windows folder conventions, so you can specify "PROGRAM_DATA" or something to that effect and the installer knows to put it in C:\Documents and Settings\All Users\Application Data or C:\ProgramData depending on if you''re running XP or Vista.</p>
 
-<p>The rumor is that Office 2007 and Visual Studio 2008 used WiX to create their installer, but I haven''t been able to verify that anywhere. I do believe is is developed by some Microsoft folks on the inside.</p>',71,99,'2008-08-06T15:38:52.287Z',24,26);
-INSERT INTO answers VALUES (3580,'<p>ClickOnce can be problematic if you have 3rd party components that need to be installed along with your product. You can skirt this to some extent by creating installers for the components however with ClickOnce deployment you have to create the logic to update said component installers.</p>
+<p>The rumor is that Office 2007 and Visual Studio 2008 used WiX to create their installer, but I haven''t been able to verify that anywhere. I do believe is is developed by some Microsoft folks on the inside.</p>',71,51,'2008-08-06T15:38:52.287Z',73,67);
+INSERT INTO answers VALUES (3580,3544,'','<p>ClickOnce can be problematic if you have 3rd party components that need to be installed along with your product. You can skirt this to some extent by creating installers for the components however with ClickOnce deployment you have to create the logic to update said component installers.</p>
 
-<p>I''ve in a previous life used Wise For Windows Installer to create installation packages. While creating upgrades with it were not automatic like ClickOnce is, they were more precise and less headache filled when it came to other components that needed to be registered/added.</p>',36,83,'2008-08-06T15:46:41.710Z',11,5);
-INSERT INTO answers VALUES (3609,'<p>Use a 3 step process:</p>
+<p>I''ve in a previous life used Wise For Windows Installer to create installation packages. While creating upgrades with it were not automatic like ClickOnce is, they were more precise and less headache filled when it came to other components that needed to be registered/added.</p>',36,94,'2008-08-06T15:46:41.710Z',49,61);
+INSERT INTO answers VALUES (3609,3589,'','<p>Use a 3 step process:</p>
 
 <ol>
 <li>Generate a script from the working database</li>
 <li>Create a new database from that script</li>
 <li>Create a backup of the new database</li>
-</ol>',35,53,'2008-08-06T16:12:44.213Z',2,65);
-INSERT INTO answers VALUES (3610,'<p><strong>This answer is incomplete and flawed! It only works from TortoisSVN to Fogbugz, but not the other way around. I still need to know how to get it to work backwards from Fogbugz (like it''s designed to) so that I can see the Revision number a bug is addressed in from Fogbugz while looking at a bug.</strong></p>
+</ol>',35,84,'2008-08-06T16:12:44.213Z',66,45);
+INSERT INTO answers VALUES (3610,3607,'','<p><strong>This answer is incomplete and flawed! It only works from TortoisSVN to Fogbugz, but not the other way around. I still need to know how to get it to work backwards from Fogbugz (like it''s designed to) so that I can see the Revision number a bug is addressed in from Fogbugz while looking at a bug.</strong></p>
 
 <hr>
 
@@ -17652,33 +17652,33 @@ following in "Property Name" and
 <li><p>Click "Import"</p></li>
 <li><p>Select the file you exported in step 4 above</p></li>
 <li><p>Click Open</p></li>
-</ol>',58,21,'2008-08-06T16:12:49.533Z',39,6);
-INSERT INTO answers VALUES (3651,'<p>http://tryruby.hobix.com/">Try Ruby (In Your Browser)</p>',25,69,'2008-08-06T16:37:38.703Z',91,4);
-INSERT INTO answers VALUES (3738,'<p>Toad for SQL Server does this nicely, if you''re considering a commercial product.</p>',116,16,'2008-08-06T17:27:15.470Z',71,4);
-INSERT INTO answers VALUES (3742,'<p>I agree with Leac.  I actually play with <a href="http://scratch.mit.edu/" rel="nofollow noreferrer">Scratch</a> sometimes if I''m bored.  It''s a pretty fun visual way of looking at code.</p>
+</ol>',58,29,'2008-08-06T16:12:49.533Z',55,40);
+INSERT INTO answers VALUES (3651,3088,'','<p>http://tryruby.hobix.com/">Try Ruby (In Your Browser)</p>',25,85,'2008-08-06T16:37:38.703Z',75,58);
+INSERT INTO answers VALUES (3738,3589,'','<p>Toad for SQL Server does this nicely, if you''re considering a commercial product.</p>',116,33,'2008-08-06T17:27:15.470Z',77,33);
+INSERT INTO answers VALUES (3742,3088,'','<p>I agree with Leac.  I actually play with <a href="http://scratch.mit.edu/" rel="nofollow noreferrer">Scratch</a> sometimes if I''m bored.  It''s a pretty fun visual way of looking at code.</p>
 
 <p>How it works is, they give you a bunch of "blocks" (these look like legos) which you can stack.  And by stacking these blocks, and interacting with the canvas (where you put your sprites, graphics), you can create games, movies, slideshows... it''s really interesting.</p>
 
-<p>When it''s complete you can upload it right to the Scratch websites, which is a youtube-ish portal for Scratch applications.  Not only that, but you can download any submission on the website, and learn from or extend other Scratch applications.</p>',40,11,'2008-08-06T17:32:33.680Z',0,83);
-INSERT INTO answers VALUES (3779,'<p>This isn''t necessarily something you can pop on your iPod and just chill to, but <a href="http://diggnation.com" rel="nofollow noreferrer">Diggnation</a> is a hillarious video podcast with Kevin Rose and Alex Albrecht. </p>
+<p>When it''s complete you can upload it right to the Scratch websites, which is a youtube-ish portal for Scratch applications.  Not only that, but you can download any submission on the website, and learn from or extend other Scratch applications.</p>',40,59,'2008-08-06T17:32:33.680Z',6,77);
+INSERT INTO answers VALUES (3779,1644,'','<p>This isn''t necessarily something you can pop on your iPod and just chill to, but <a href="http://diggnation.com" rel="nofollow noreferrer">Diggnation</a> is a hillarious video podcast with Kevin Rose and Alex Albrecht. </p>
 
-<p>They talk about "some of the top stories on the user-submitted news site digg.com". This doesn''t really have much in the way of software development (though sometimes a story pops up with that), but is great for entertainment value.</p>',50,41,'2008-08-06T18:07:16.543Z',24,29);
-INSERT INTO answers VALUES (3811,'<p>We use apache on linux, which forks a process to handle requests.  We''ve found that more cores help our throughput, since they reduce the latency of processes waiting to be placed on the run queue.  I don''t have much experience with IIS, but I imagine the same scenario applies with its thread pool.</p>',116,75,'2008-08-06T18:33:50.530Z',71,39);
-INSERT INTO answers VALUES (3825,'<p>Mark Harrison said:</p>
+<p>They talk about "some of the top stories on the user-submitted news site digg.com". This doesn''t really have much in the way of software development (though sometimes a story pops up with that), but is great for entertainment value.</p>',50,9,'2008-08-06T18:07:16.543Z',74,55);
+INSERT INTO answers VALUES (3811,3801,'','<p>We use apache on linux, which forks a process to handle requests.  We''ve found that more cores help our throughput, since they reduce the latency of processes waiting to be placed on the run queue.  I don''t have much experience with IIS, but I imagine the same scenario applies with its thread pool.</p>',116,21,'2008-08-06T18:33:50.530Z',24,96);
+INSERT INTO answers VALUES (3825,3801,'','<p>Mark Harrison said:</p>
 
 <blockquote>
   <p>I don''t have much experience with IIS, but I imagine the same scenario applies with its thread pool.</p>
 </blockquote>
 
-<p>Indeed - more cores = more threads running concurrently.  IIS is inherently multithreaded, and takes easy advantage of this.</p>',35,12,'2008-08-06T18:40:39.813Z',87,91);
-INSERT INTO answers VALUES (3855,'<p>Try the following</p>
+<p>Indeed - more cores = more threads running concurrently.  IIS is inherently multithreaded, and takes easy advantage of this.</p>',35,68,'2008-08-06T18:40:39.813Z',40,97);
+INSERT INTO answers VALUES (3855,3831,'','<p>Try the following</p>
 
 <pre><code>If Session("whatever") IsNot Nothing Then
-</code></pre>',26,68,'2008-08-06T18:55:57.693Z',43,14);
-INSERT INTO answers VALUES (3874,'<p>I usually take that approach, but if I feel like it''s going to cause confusion, I''ll use ellipses like: <code>myFunction(...)</code></p>
+</code></pre>',26,63,'2008-08-06T18:55:57.693Z',29,70);
+INSERT INTO answers VALUES (3874,3802,'','<p>I usually take that approach, but if I feel like it''s going to cause confusion, I''ll use ellipses like: <code>myFunction(...)</code></p>
 
-<p>I guess if I were good, I would use those <em>any</em> time I was omitting parameters from a function in text.</p>',93,50,'2008-08-06T19:16:06.403Z',34,60);
-INSERT INTO answers VALUES (3878,'<p>Figured it out (finally)</p>
+<p>I guess if I were good, I would use those <em>any</em> time I was omitting parameters from a function in text.</p>',93,65,'2008-08-06T19:16:06.403Z',30,41);
+INSERT INTO answers VALUES (3878,3856,'','<p>Figured it out (finally)</p>
 
 <p>Custom Component</p>
 
@@ -17727,41 +17727,41 @@ INSERT INTO answers VALUES (3878,'<p>Figured it out (finally)</p>
 <pre><code>private function PlayFile(fileName:String):void{
     Alert.show(fileName.toString());
 }
-</code></pre>',26,95,'2008-08-06T19:23:41.287Z',88,57);
-INSERT INTO answers VALUES (3886,'<p>It seems like an <code>IllegalArgumentException</code> is called for if you don''t want <code>null</code> to be an allowed value, and the <code>NullPointerException</code> would be thrown if you were trying to <em>use</em> a variable that turns out to be <code>null</code>.</p>',35,92,'2008-08-06T19:29:24.427Z',4,48);
-INSERT INTO answers VALUES (3897,'<p>Multiply by 100 and then convert to an int.</p>',51,20,'2008-08-06T19:37:14.940Z',9,7);
-INSERT INTO answers VALUES (3932,'<p>I''ve been working with <a href="http://www.jetbrains.com/profiler/" rel="nofollow noreferrer">JetBrains dotTrace</a> for WinForms and Console Apps (not tested on ASP.net yet), and it works quite well:</p>
+</code></pre>',26,7,'2008-08-06T19:23:41.287Z',40,85);
+INSERT INTO answers VALUES (3886,3881,'','<p>It seems like an <code>IllegalArgumentException</code> is called for if you don''t want <code>null</code> to be an allowed value, and the <code>NullPointerException</code> would be thrown if you were trying to <em>use</em> a variable that turns out to be <code>null</code>.</p>',35,43,'2008-08-06T19:29:24.427Z',6,33);
+INSERT INTO answers VALUES (3897,3894,'','<p>Multiply by 100 and then convert to an int.</p>',51,76,'2008-08-06T19:37:14.940Z',69,99);
+INSERT INTO answers VALUES (3932,3927,'','<p>I''ve been working with <a href="http://www.jetbrains.com/profiler/" rel="nofollow noreferrer">JetBrains dotTrace</a> for WinForms and Console Apps (not tested on ASP.net yet), and it works quite well:</p>
 
-<p>They recently also added a "Personal License" that is significantly cheaper than the corporate one. Still, if anyone else knows some cheaper or even free ones, I''d like to hear as well :-)</p>',91,36,'2008-08-06T20:17:59.553Z',35,0);
-INSERT INTO answers VALUES (3935,'<p>Don''t forget <a href="http://code.google.com/p/nprof/" rel="nofollow noreferrer" title="nprof on Google Project Hosting">nProf</a> - a prefectly good, freeware profiler.</p>',35,46,'2008-08-06T20:19:16.417Z',62,25);
-INSERT INTO answers VALUES (4078,'<p>There''s a <a href="http://codebetter.com/blogs/karlseguin/archive/2008/04/27/foundations-of-programming-pt-7-back-to-basics-memory.aspx" rel="noreferrer">good explanation here</a> for .NET.</p>
+<p>They recently also added a "Personal License" that is significantly cheaper than the corporate one. Still, if anyone else knows some cheaper or even free ones, I''d like to hear as well :-)</p>',91,51,'2008-08-06T20:17:59.553Z',24,82);
+INSERT INTO answers VALUES (3935,3927,'','<p>Don''t forget <a href="http://code.google.com/p/nprof/" rel="nofollow noreferrer" title="nprof on Google Project Hosting">nProf</a> - a prefectly good, freeware profiler.</p>',35,80,'2008-08-06T20:19:16.417Z',84,91);
+INSERT INTO answers VALUES (4078,2027,'','<p>There''s a <a href="http://codebetter.com/blogs/karlseguin/archive/2008/04/27/foundations-of-programming-pt-7-back-to-basics-memory.aspx" rel="noreferrer">good explanation here</a> for .NET.</p>
 
-<p>A lot of people are surprise that reference objects are actually passed by value (in both C# and Java). It''s a copy of a stack address. This prevents a method from changing where the object actually points to, but still allows a method to change the values of the object. In C# its possible to pass a reference by reference, which means you can change where an actual object points to.</p>',34,95,'2008-08-06T22:43:29.900Z',26,50);
-INSERT INTO answers VALUES (4140,'<p>this is what I use for C# w/resharper, should work just the same with vb.net:</p>
+<p>A lot of people are surprise that reference objects are actually passed by value (in both C# and Java). It''s a copy of a stack address. This prevents a method from changing where the object actually points to, but still allows a method to change the values of the object. In C# its possible to pass a reference by reference, which means you can change where an actual object points to.</p>',34,82,'2008-08-06T22:43:29.900Z',39,71);
+INSERT INTO answers VALUES (4140,4138,'','<p>this is what I use for C# w/resharper, should work just the same with vb.net:</p>
 
 <pre><code>build deploy */bin  */bin/* obj *.dll *.pdb *.user *.suo _ReSharper*  *.resharper* bin
-</code></pre>',34,42,'2008-08-06T23:48:46.353Z',19,26);
-INSERT INTO answers VALUES (4247,'<p>Java autoboxing/unboxing doesn''t go to the extent to allow you to dereference a primitive, so your compiler prevents it. Your compiler still knows <code>myInt</code> as a primitive.  There''s a paper about this issue at <a href="http://jcp.org/aboutJava/communityprocess/jsr/tiger/autoboxing.html" rel="noreferrer">jcp.org</a>.</p>
+</code></pre>',34,41,'2008-08-06T23:48:46.353Z',50,5);
+INSERT INTO answers VALUES (4247,4242,'','<p>Java autoboxing/unboxing doesn''t go to the extent to allow you to dereference a primitive, so your compiler prevents it. Your compiler still knows <code>myInt</code> as a primitive.  There''s a paper about this issue at <a href="http://jcp.org/aboutJava/communityprocess/jsr/tiger/autoboxing.html" rel="noreferrer">jcp.org</a>.</p>
 
 <p>Autoboxing is mainly useful during assignment or parameter passing -- allowing you to pass a primitive as an object (or vice versa), or assign a primitive to an object (or vice versa).</p>
 
 <p>So unfortunately, you would have to do it like this: (kudos Patrick, I switched to your way)</p>
 
 <pre><code>Integer.toString(myInt);
-</code></pre>',92,57,'2008-08-07T01:09:17.547Z',89,66);
-INSERT INTO answers VALUES (4279,'<p><a href="http://expressionengine.com/" rel="nofollow noreferrer">Expression Engine</a> is fantastic.  It''s free to download and try but you must purchase a license if you are making a profit with it.</p>',40,19,'2008-08-07T01:40:25.100Z',69,8);
-INSERT INTO answers VALUES (4301,'<p>Honestly the ASP.NET Membership / Roles features would work perfectly for the scenario you described. Writing your own tables / procs / classes is a great exercise and you can get very nice control over minute details, but after doing this myself I''ve concluded it''s better to just use the built in .NET stuff. A lot of existing code is designed to work around it which is nice at well. Writing from scratch took me about 2 weeks and it was no where near as robust as .NETs. You have to code so much crap (password recovery, auto lockout, encryption, roles, a permission interface, tons of procs, etc) and the time could be better spent elsewhere.</p>
+</code></pre>',92,56,'2008-08-07T01:09:17.547Z',10,86);
+INSERT INTO answers VALUES (4279,4164,'','<p><a href="http://expressionengine.com/" rel="nofollow noreferrer">Expression Engine</a> is fantastic.  It''s free to download and try but you must purchase a license if you are making a profit with it.</p>',40,52,'2008-08-07T01:40:25.100Z',64,72);
+INSERT INTO answers VALUES (4301,1451,'','<p>Honestly the ASP.NET Membership / Roles features would work perfectly for the scenario you described. Writing your own tables / procs / classes is a great exercise and you can get very nice control over minute details, but after doing this myself I''ve concluded it''s better to just use the built in .NET stuff. A lot of existing code is designed to work around it which is nice at well. Writing from scratch took me about 2 weeks and it was no where near as robust as .NETs. You have to code so much crap (password recovery, auto lockout, encryption, roles, a permission interface, tons of procs, etc) and the time could be better spent elsewhere.</p>
 
-<p>Sorry if I didn''t answer your question, I''m like the guy who says to learn c# when someone asks a vb question.</p>',26,70,'2008-08-07T02:23:18.460Z',34,4);
-INSERT INTO answers VALUES (4307,'<p>Try <a href="http://www.gogrid.com" rel="noreferrer">gogrid.com</a> they seem to have a very nice following in the cloud computing circles.</p>',17,66,'2008-08-07T02:30:02.190Z',80,98);
-INSERT INTO answers VALUES (4313,'<p>Try the following</p>
+<p>Sorry if I didn''t answer your question, I''m like the guy who says to learn c# when someone asks a vb question.</p>',26,53,'2008-08-07T02:23:18.460Z',14,62);
+INSERT INTO answers VALUES (4307,4305,'','<p>Try <a href="http://www.gogrid.com" rel="noreferrer">gogrid.com</a> they seem to have a very nice following in the cloud computing circles.</p>',17,26,'2008-08-07T02:30:02.190Z',98,70);
+INSERT INTO answers VALUES (4313,59,'','<p>Try the following</p>
 
 <pre><code>var names = (from dr in dataTable.Rows
              select (string)dr["Name"]).Distinct().OrderBy(name =&gt; name);
 </code></pre>
 
-<p>this should work for what you need.</p>',17,1,'2008-08-07T02:35:28.637Z',90,84);
-INSERT INTO answers VALUES (4439,'<p>I use Vista x64 on my primary development machine.  It runs everything from Visual Studio 6.0 through 2008 with no trouble.</p>
+<p>this should work for what you need.</p>',17,76,'2008-08-07T02:35:28.637Z',2,53);
+INSERT INTO answers VALUES (4439,4433,'','<p>I use Vista x64 on my primary development machine.  It runs everything from Visual Studio 6.0 through 2008 with no trouble.</p>
 
 <p>It''s not a giant leap forward, but I prefer it to XP.</p>
 
@@ -17771,14 +17771,14 @@ INSERT INTO answers VALUES (4439,'<p>I use Vista x64 on my primary development m
 
 <p><em>In response to the question edit:</em> I used Vista x86 for about 6 months before switching to x64.  Same opinion.  </p>
 
-<p>Just keep in mind that you''ll be wasting 0.5-1.0gb of your RAM with x86.  You should be able to get nearly free x64 media <a href="http://www.microsoft.com/windowsvista/1033/ordermedia/default.mspx" rel="nofollow noreferrer">here</a>.  Your license is good for both editions.</p>',60,56,'2008-08-07T05:55:52.320Z',38,1);
-INSERT INTO answers VALUES (4444,'<p>vista x64 w/ 8 gigs of ram and a plethora of virtual machines and your life will become so nice. whatever you do, don''t go 32-bit, there are no advantages to 32-bit over 64-bit.</p>',77,42,'2008-08-07T06:01:33.137Z',58,36);
-INSERT INTO answers VALUES (4446,'<p>I''ve been running Vista(x86 on laptop and x64 on desktop) for over a year, and I would never go back to XP. I haven''t had any compatibility, reliability, or performance issues.</p>
+<p>Just keep in mind that you''ll be wasting 0.5-1.0gb of your RAM with x86.  You should be able to get nearly free x64 media <a href="http://www.microsoft.com/windowsvista/1033/ordermedia/default.mspx" rel="nofollow noreferrer">here</a>.  Your license is good for both editions.</p>',60,2,'2008-08-07T05:55:52.320Z',80,80);
+INSERT INTO answers VALUES (4444,4433,'','<p>vista x64 w/ 8 gigs of ram and a plethora of virtual machines and your life will become so nice. whatever you do, don''t go 32-bit, there are no advantages to 32-bit over 64-bit.</p>',77,38,'2008-08-07T06:01:33.137Z',65,36);
+INSERT INTO answers VALUES (4446,4433,'','<p>I''ve been running Vista(x86 on laptop and x64 on desktop) for over a year, and I would never go back to XP. I haven''t had any compatibility, reliability, or performance issues.</p>
 
 <p>As David said, its good to keep an XP VM around for IE6 and IIS6 testing, but I rarely have to use the one I have.</p>
 
-<p>EDIT: Get Vista x64 if you have more than 2gb of ram!! You''re just wasting it if you don''t.</p>',100,24,'2008-08-07T06:04:31.493Z',35,78);
-INSERT INTO answers VALUES (4515,'<p>Seeing the answers here I think we can conclude that most of us do indeed approximate the order of the algorithm by <em>looking</em> at it and use common sense instead of calculating it with, for example, the <a href="http://en.wikipedia.org/wiki/Master_theorem" rel="noreferrer">master method</a> as we were thought at university.
+<p>EDIT: Get Vista x64 if you have more than 2gb of ram!! You''re just wasting it if you don''t.</p>',100,20,'2008-08-07T06:04:31.493Z',9,45);
+INSERT INTO answers VALUES (4515,3255,'','<p>Seeing the answers here I think we can conclude that most of us do indeed approximate the order of the algorithm by <em>looking</em> at it and use common sense instead of calculating it with, for example, the <a href="http://en.wikipedia.org/wiki/Master_theorem" rel="noreferrer">master method</a> as we were thought at university.
 With that said I must add that even the professor encouraged us (later on) to actually <em>think</em> about it instead of just calculating it.</p>
 
 <p>Also I would like to add how it is done for <strong>recursive functions</strong>:</p>
@@ -17808,13 +17808,13 @@ With that said I must add that even the professor encouraged us (later on) to ac
 <hr>
 
 <p><a href="https://stackoverflow.com/users/1192/peter-holmdahl">Peter</a>, to answer <a href="https://stackoverflow.com/questions/3255/big-o-how-do-you-calculateapproximate-it#12001">your raised issues;</a> the method I describe here actually handles this quite well. But keep in mind that this is still an <em>approximation</em> and not a full mathematically correct answer. The method described here is also one of the methods we were taught at university, and if I remember correctly was used for far more advanced algorithms than the factorial I used in this example.<br>
-Of course it all depends on how well you can estimate the running time of the body of the function and the number of recursive calls, but that is just as true for the other methods.</p>',46,66,'2008-08-07T08:10:04.780Z',32,29);
-INSERT INTO answers VALUES (4576,'<p>There''s no known trick ''in the wild'' for getting around this, other than using CTP-6 of SQL Server 2008 (in favour of the RTM).</p>
+Of course it all depends on how well you can estimate the running time of the body of the function and the number of recursive calls, but that is just as true for the other methods.</p>',46,80,'2008-08-07T08:10:04.780Z',37,25);
+INSERT INTO answers VALUES (4576,4511,'','<p>There''s no known trick ''in the wild'' for getting around this, other than using CTP-6 of SQL Server 2008 (in favour of the RTM).</p>
 
 <p>the reasons for removing backward compatability (and a lot more discussion besides) are provided at the <a href="https://connect.microsoft.com/SQLServer/feedback/ViewFeedback.aspx?FeedbackID=341872" rel="noreferrer">relevant feedback in microsoft connect</a>.</p>
 
-<p>edit: sorry i don''t know where this ctp is available, if at all</p>',49,69,'2008-08-07T10:52:30.757Z',99,14);
-INSERT INTO answers VALUES (4832,'<p><code>strstr</code> returns a pointer to the found character, so you could use pointer arithmetic:  (Note: this code not tested for its ability to compile, it''s one step away from pseudocode.)</p>
+<p>edit: sorry i don''t know where this ctp is available, if at all</p>',49,62,'2008-08-07T10:52:30.757Z',40,81);
+INSERT INTO answers VALUES (4832,4824,'','<p><code>strstr</code> returns a pointer to the found character, so you could use pointer arithmetic:  (Note: this code not tested for its ability to compile, it''s one step away from pseudocode.)</p>
 
 <pre><code>char * source = "test string";         /* assume source address is */
                                        /* 0x10 for example */
@@ -17824,9 +17824,9 @@ if (found != NULL)                     /* strstr returns NULL if item not found 
   int index = found - source;          /* index is 8 */
                                        /* source[8] gets you "i" */
 }
-</code></pre>',102,91,'2008-08-07T15:04:47.440Z',81,63);
-INSERT INTO answers VALUES (4910,'<p>If you''re already shuffling the ViewState around anyway, you might as well use an UpdatePanel.  Its partial postbacks <strong>will</strong> update the page''s ViewState automatically.</p>',60,13,'2008-08-07T16:19:34.683Z',96,54);
-INSERT INTO answers VALUES (4919,'<p>Here''s what I would do.</p>
+</code></pre>',102,56,'2008-08-07T15:04:47.440Z',28,92);
+INSERT INTO answers VALUES (4910,2328,'','<p>If you''re already shuffling the ViewState around anyway, you might as well use an UpdatePanel.  Its partial postbacks <strong>will</strong> update the page''s ViewState automatically.</p>',60,74,'2008-08-07T16:19:34.683Z',25,4);
+INSERT INTO answers VALUES (4919,4794,'','<p>Here''s what I would do.</p>
 
 <ul>
 <li><p>Compile your application to a SWF file. Then encrypt the SWF using AES.</p></li>
@@ -17840,18 +17840,18 @@ INSERT INTO answers VALUES (4919,'<p>Here''s what I would do.</p>
 <p>For AIR applications you could leave the SWF encrypted when delivering the application to the end-user. Then you could provide a registration key that contains the key used to decrypt the SWF.</p>
 
 <p>Also, here is a link to an AS3 obfuscator. I am not sure how well it works though.
-<a href="http://www.ambiera.com/irrfuscator/index.html" rel="noreferrer">http://www.ambiera.com/irrfuscator/index.html</a></p>',22,81,'2008-08-07T16:28:34.337Z',35,56);
-INSERT INTO answers VALUES (4934,'<p>If your willing to force the user to also install another application, you could write a small C# or C++ windows service that simply opens a Socket that provides some kind of protocol for accessing the registry. Then in AIR you can use the Socket class to send messages to/from the C# service that would return results to the AIR app.</p>
+<a href="http://www.ambiera.com/irrfuscator/index.html" rel="noreferrer">http://www.ambiera.com/irrfuscator/index.html</a></p>',22,28,'2008-08-07T16:28:34.337Z',29,0);
+INSERT INTO answers VALUES (4934,3666,'','<p>If your willing to force the user to also install another application, you could write a small C# or C++ windows service that simply opens a Socket that provides some kind of protocol for accessing the registry. Then in AIR you can use the Socket class to send messages to/from the C# service that would return results to the AIR app.</p>
 
 <p>When the app loads you can try to connect to the Socket, and if the connection is rejected you could prompt the user to download/install the service.</p>
 
-<p>As for direct access to the registry I am pretty sure Adobe wouldn''t allow that from AIR.</p>',22,85,'2008-08-07T16:37:02.557Z',33,29);
-INSERT INTO answers VALUES (5016,'<p>@Adam</p>
+<p>As for direct access to the registry I am pretty sure Adobe wouldn''t allow that from AIR.</p>',22,81,'2008-08-07T16:37:02.557Z',82,16);
+INSERT INTO answers VALUES (5016,4994,'','<p>@Adam</p>
 
 <p>Or how about just by domain -- a useful grouping of related tables in the same file, but separate from the rest?</p>
 
-<p>Only problem is if some domains (in this somewhat legacy system) are tightly coupled.  Plus you have to maintain the dependencies between your different sub-scripts.</p>',92,82,'2008-08-07T17:31:00.953Z',95,52);
-INSERT INTO answers VALUES (5160,'<p>In Asp.net 3.5, you should be able to set up the Link tag in the header as a server tag. Then in the codebehind you can set the href property for the link element, based on a cookie value, querystring, date, etc.</p>
+<p>Only problem is if some domains (in this somewhat legacy system) are tightly coupled.  Plus you have to maintain the dependencies between your different sub-scripts.</p>',92,70,'2008-08-07T17:31:00.953Z',3,93);
+INSERT INTO answers VALUES (5160,5118,'','<p>In Asp.net 3.5, you should be able to set up the Link tag in the header as a server tag. Then in the codebehind you can set the href property for the link element, based on a cookie value, querystring, date, etc.</p>
 
 <p>In your aspx file:</p>
 
@@ -17866,9 +17866,9 @@ INSERT INTO answers VALUES (5160,'<p>In Asp.net 3.5, you should be able to set u
   string stylesheetAddress = // logic to determine stylesheet
   linkStyles.Href = stylesheetAddress;
 }
-</code></pre>',51,30,'2008-08-07T19:00:58.757Z',78,92);
-INSERT INTO answers VALUES (5161,'<p>You should look into <code>ASP.NET</code> themes, that''s exactly what they''re used for. They also allow you to skin controls, which means give them a set of default attributes.</p>',26,38,'2008-08-07T19:01:05.060Z',92,0);
-INSERT INTO answers VALUES (5219,'<p>Here''s how I solved this problem today.  I started from <a href="http://www.c-sharpcorner.com/UploadFile/desaijm/ASP.NetPostURL11282005005516AM/ASP.NetPostURL.aspx" rel="nofollow noreferrer">this article</a> on C# Corner, but found the example - while technically sound - a little incomplete.  Everything he said was right, but I needed to hit a few external sites to piece this together to work exactly as I wanted.</p>
+</code></pre>',51,50,'2008-08-07T19:00:58.757Z',47,78);
+INSERT INTO answers VALUES (5161,5118,'','<p>You should look into <code>ASP.NET</code> themes, that''s exactly what they''re used for. They also allow you to skin controls, which means give them a set of default attributes.</p>',26,94,'2008-08-07T19:01:05.060Z',21,20);
+INSERT INTO answers VALUES (5219,5179,'','<p>Here''s how I solved this problem today.  I started from <a href="http://www.c-sharpcorner.com/UploadFile/desaijm/ASP.NetPostURL11282005005516AM/ASP.NetPostURL.aspx" rel="nofollow noreferrer">this article</a> on C# Corner, but found the example - while technically sound - a little incomplete.  Everything he said was right, but I needed to hit a few external sites to piece this together to work exactly as I wanted.</p>
 
 <p>It didn''t help that the user was not technically submitting a form at all; they were clicking a link to go to our support center, but to log them in an http post had to be made to the support center''s site.</p>
 
@@ -17898,20 +17898,20 @@ INSERT INTO answers VALUES (5219,'<p>Here''s how I solved this problem today.  I
 
 <p>I''d be very interested in any cleaner ideas anyone has on this one.</p>
 
-<p>Eric Sipple</p>',111,15,'2008-08-07T19:36:56.580Z',71,56);
-INSERT INTO answers VALUES (5245,'<p>Are you trying to determine if the user is an administrator or not?</p>
+<p>Eric Sipple</p>',111,53,'2008-08-07T19:36:56.580Z',68,26);
+INSERT INTO answers VALUES (5245,3666,'','<p>Are you trying to determine if the user is an administrator or not?</p>
 
 <p>If so you could grad the username by with "File.userDirectory.name".</p>
 
-<p>And I think to figure out if the user is an administrator you could probably try to access a file that requires administrator privileges (maybe try writing a file to Windows/System32). If the file access fails you could probably assume that the user is under a Limited account.</p>',22,41,'2008-08-07T20:02:21.473Z',82,83);
-INSERT INTO answers VALUES (5266,'<p>Only way I could figure out how to do it without just moving the file and telling the user was to pass it off to the browser.</p>
+<p>And I think to figure out if the user is an administrator you could probably try to access a file that requires administrator privileges (maybe try writing a file to Windows/System32). If the file access fails you could probably assume that the user is under a Limited account.</p>',22,98,'2008-08-07T20:02:21.473Z',84,92);
+INSERT INTO answers VALUES (5266,5017,'','<p>Only way I could figure out how to do it without just moving the file and telling the user was to pass it off to the browser.</p>
 
 <pre><code>navigateToURL(new URLRequest(File.applicationStorageDirectory.nativePath + "/courses/" + fileName));
-</code></pre>',26,26,'2008-08-07T20:25:47.293Z',47,50);
-INSERT INTO answers VALUES (5303,'<p>You should probably write some automated tests for each condition you can think of, and then just start brainstorming more, writing the tests as you think of them.  This way, you can see for sure it will work, and will continue to work if you make further changes.  Look up Test Driven Development if you like the results.</p>',122,52,'2008-08-07T20:57:40.723Z',38,29);
-INSERT INTO answers VALUES (5336,'<p>If you have a small database and you want to version the entire thing, <a href="http://weblogs.asp.net/jgalloway/archive/2006/10/28/Batch-files-to-check-SQL-2005-_2800_MDF_2900_-files-in-and-out-of-Subversion-source-control.aspx" rel="nofollow noreferrer">this batch script</a> might help. It detaches, compresses, and checks a MSSQL database MDF file in to Subversion.</p>
-<p>If you mostly want to version your schema and just have a small amount of reference data, you can possibly use <a href="http://web.archive.org/web/20120419154556/http://blog.wekeroad.com:80/blog/subsonic-using-migrations" rel="nofollow noreferrer">SubSonic Migrations</a> to handle that. The benefit there is that you can easily migrate up or down to any specific version.</p>',5,61,'2008-08-07T21:21:01.050Z',30,70);
-INSERT INTO answers VALUES (5448,'<p>I know this is a little late in the game, but the URL mentioned for the JavaScript is mentioned in a list of sites known to have been part of the ASPRox bot resurgence that started up in June (at least that''s when we were getting flagged with it). Some details about it are mentioned below:</p>
+</code></pre>',26,71,'2008-08-07T20:25:47.293Z',62,62);
+INSERT INTO answers VALUES (5303,5260,'','<p>You should probably write some automated tests for each condition you can think of, and then just start brainstorming more, writing the tests as you think of them.  This way, you can see for sure it will work, and will continue to work if you make further changes.  Look up Test Driven Development if you like the results.</p>',122,7,'2008-08-07T20:57:40.723Z',44,81);
+INSERT INTO answers VALUES (5336,173,'','<p>If you have a small database and you want to version the entire thing, <a href="http://weblogs.asp.net/jgalloway/archive/2006/10/28/Batch-files-to-check-SQL-2005-_2800_MDF_2900_-files-in-and-out-of-Subversion-source-control.aspx" rel="nofollow noreferrer">this batch script</a> might help. It detaches, compresses, and checks a MSSQL database MDF file in to Subversion.</p>
+<p>If you mostly want to version your schema and just have a small amount of reference data, you can possibly use <a href="http://web.archive.org/web/20120419154556/http://blog.wekeroad.com:80/blog/subsonic-using-migrations" rel="nofollow noreferrer">SubSonic Migrations</a> to handle that. The benefit there is that you can easily migrate up or down to any specific version.</p>',5,30,'2008-08-07T21:21:01.050Z',58,64);
+INSERT INTO answers VALUES (5448,2970,'','<p>I know this is a little late in the game, but the URL mentioned for the JavaScript is mentioned in a list of sites known to have been part of the ASPRox bot resurgence that started up in June (at least that''s when we were getting flagged with it). Some details about it are mentioned below:</p>
 
 <p><a href="http://www.bloombit.com/Articles/2008/05/ASCII-Encoded-Binary-String-Automated-SQL-Injection.aspx" rel="nofollow noreferrer">http://www.bloombit.com/Articles/2008/05/ASCII-Encoded-Binary-String-Automated-SQL-Injection.aspx</a> </p>
 
@@ -17925,8 +17925,8 @@ INSERT INTO answers VALUES (5448,'<p>I know this is a little late in the game, b
 
 <p>Hopefully this gives you some more info to work with.</p>
 
-<p>EDIT: One more quick thought, if he''s using one of the hosts online design tools for building his website, all of that content is probably sitting in a column and was infected that way.</p>',71,46,'2008-08-07T22:49:55.830Z',32,90);
-INSERT INTO answers VALUES (5453,'<p>Actually, the above answer was not completely correct.</p>
+<p>EDIT: One more quick thought, if he''s using one of the hosts online design tools for building his website, all of that content is probably sitting in a column and was infected that way.</p>',71,36,'2008-08-07T22:49:55.830Z',21,3);
+INSERT INTO answers VALUES (5453,4677,'','<p>Actually, the above answer was not completely correct.</p>
 
 <pre><code>require ''singleton''
 
@@ -17935,8 +17935,8 @@ class Example
 end
 </code></pre>
 
-<p>You also need to include the require ''singleton'' statement.</p>',25,69,'2008-08-07T22:52:25.653Z',55,99);
-INSERT INTO answers VALUES (5498,'<p>there''s an <a href="http://blog.sapien.com/index.php/2008/06/23/out-twitter/" rel="noreferrer">out-twitter script</a> i use for posting to twitter. it''s nice, as it means you can send something to twitter without the risk of being distracted by a browser.</p>
+<p>You also need to include the require ''singleton'' statement.</p>',25,63,'2008-08-07T22:52:25.653Z',63,23);
+INSERT INTO answers VALUES (5498,2630,'','<p>there''s an <a href="http://blog.sapien.com/index.php/2008/06/23/out-twitter/" rel="noreferrer">out-twitter script</a> i use for posting to twitter. it''s nice, as it means you can send something to twitter without the risk of being distracted by a browser.</p>
 
 <p>i added an alias for it, "twit".</p>
 
@@ -17945,8 +17945,8 @@ INSERT INTO answers VALUES (5498,'<p>there''s an <a href="http://blog.sapien.com
 <pre><code>PS C:\&gt;"trying out stack overflow" | twit
 </code></pre>
 
-<p>and if successfully lodged, it will return an integer that identifies your post.</p>',49,16,'2008-08-08T00:02:35.653Z',13,68);
-INSERT INTO answers VALUES (5532,'<p>J# is no longer included in VS2008. Unless you already have J# code, you should probably stay away.</p>
+<p>and if successfully lodged, it will return an integer that identifies your post.</p>',49,26,'2008-08-08T00:02:35.653Z',97,43);
+INSERT INTO answers VALUES (5532,5527,'','<p>J# is no longer included in VS2008. Unless you already have J# code, you should probably stay away.</p>
 
 <p>From <a href="http://msdn.microsoft.com/en-us/vjsharp/default.aspx" rel="noreferrer">j# product page:</a></p>
 
@@ -17970,12 +17970,12 @@ INSERT INTO answers VALUES (5532,'<p>J# is no longer included in VS2008. Unless 
   Expanded Microsoft Support Lifecycle
   Policy for Business &amp; Development
   Products.</p>
-</blockquote>',100,5,'2008-08-08T01:11:58.680Z',29,55);
-INSERT INTO answers VALUES (5640,'<p>I found a fairly elegant solution with <a href="http://www.telerik.com/demos/aspnet/prometheus/Ajax/Examples/Common/ViewState/DefaultCS.aspx" rel="nofollow noreferrer">Telerik''s RadAjaxManager</a>. It works quite nicely. Essentially you register each control which might invoke a postback, and then register each control which should be re-drawn after that postback is performed asynchronously. The <code>RadAjaxManager</code> will update the DOM after the async postback and rewrite the <code>ViewState</code> and all affected controls. After taking a peek in <code>Reflector</code>, it looks a little kludgy under the hood, but it suits my purposes.</p>',67,99,'2008-08-08T04:18:51.737Z',61,65);
-INSERT INTO answers VALUES (5684,'<p>I don''t understand why you would use a custom control for that, when the built-in ASP.NET AJAX UpdatePanel does the same thing.</p>
-<p>It just adds more complexity, gives you less support, and makes it more difficult for others to work on your app.</p>',60,58,'2008-08-08T04:56:31.880Z',22,12);
-INSERT INTO answers VALUES (5696,'<p>I''m fairly positive it''s nothing you can do. I''ve seen this on the front page of digg alot recently. It more than likely has to do with a character being encoded improperly. Not necessarily a factor of the font, just a mistake made somewhere in translation.</p>',50,99,'2008-08-08T05:10:36.983Z',37,86);
-INSERT INTO answers VALUES (5720,'<p>It looked for a while like the underscore and angle bracket problem had gone away, but it seems it might not be fixed.</p>
+</blockquote>',100,91,'2008-08-08T01:11:58.680Z',0,73);
+INSERT INTO answers VALUES (5640,2328,'','<p>I found a fairly elegant solution with <a href="http://www.telerik.com/demos/aspnet/prometheus/Ajax/Examples/Common/ViewState/DefaultCS.aspx" rel="nofollow noreferrer">Telerik''s RadAjaxManager</a>. It works quite nicely. Essentially you register each control which might invoke a postback, and then register each control which should be re-drawn after that postback is performed asynchronously. The <code>RadAjaxManager</code> will update the DOM after the async postback and rewrite the <code>ViewState</code> and all affected controls. After taking a peek in <code>Reflector</code>, it looks a little kludgy under the hood, but it suits my purposes.</p>',67,3,'2008-08-08T04:18:51.737Z',5,8);
+INSERT INTO answers VALUES (5684,2328,'','<p>I don''t understand why you would use a custom control for that, when the built-in ASP.NET AJAX UpdatePanel does the same thing.</p>
+<p>It just adds more complexity, gives you less support, and makes it more difficult for others to work on your app.</p>',60,34,'2008-08-08T04:56:31.880Z',78,60);
+INSERT INTO answers VALUES (5696,5682,'','<p>I''m fairly positive it''s nothing you can do. I''ve seen this on the front page of digg alot recently. It more than likely has to do with a character being encoded improperly. Not necessarily a factor of the font, just a mistake made somewhere in translation.</p>',50,6,'2008-08-08T05:10:36.983Z',85,47);
+INSERT INTO answers VALUES (5720,5682,'','<p>It looked for a while like the underscore and angle bracket problem had gone away, but it seems it might not be fixed.</p>
 
 <p>here''s a small sample, which should look like this:</p>
 
@@ -17992,18 +17992,18 @@ ____
 #include 
 </pre>
 
-<p>Update: it looks like it''s fixed in display mode, and only broken in edit mode</p>',116,68,'2008-08-08T06:07:20.440Z',46,91);
-INSERT INTO answers VALUES (5835,'<p><a href="http://random.org/clients/http/" rel="nofollow noreferrer">random.org</a> has an API you can access via HTTP.</p>
+<p>Update: it looks like it''s fixed in display mode, and only broken in edit mode</p>',116,1,'2008-08-08T06:07:20.440Z',71,4);
+INSERT INTO answers VALUES (5835,5611,'','<p><a href="http://random.org/clients/http/" rel="nofollow noreferrer">random.org</a> has an API you can access via HTTP.</p>
 
 <blockquote>
   <p>RANDOM.ORG is a true random number service that generates randomness
   via atmospheric noise.</p>
-</blockquote>',40,83,'2008-08-08T12:27:05.817Z',97,77);
-INSERT INTO answers VALUES (5884,'<p>Copy all the files manually or using your existing method for the first time.  Then, since I take it you''re on a Windows platform, install <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=E0FC1154-C975-4814-9649-CCE41AF06EB7&amp;displaylang=en" rel="nofollow noreferrer">SyncToy</a> and configure it in the <a href="http://en.wikipedia.org/wiki/SyncToy#Features" rel="nofollow noreferrer">subscribe method</a>, which would effectively one-way copy only the changes made since the last pseudo-commit to production for files already in production.  If you want to add a file you can just copy it manually and resume the SyncToy operation.</p>',59,3,'2008-08-08T13:07:03.787Z',76,95);
-INSERT INTO answers VALUES (5887,'<p>If you use TortoiseSVN, you can use the export feature to automatically strip out all of the .svn files. I think other svn things have the same feature.</p>
+</blockquote>',40,9,'2008-08-08T12:27:05.817Z',5,22);
+INSERT INTO answers VALUES (5884,5872,'','<p>Copy all the files manually or using your existing method for the first time.  Then, since I take it you''re on a Windows platform, install <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=E0FC1154-C975-4814-9649-CCE41AF06EB7&amp;displaylang=en" rel="nofollow noreferrer">SyncToy</a> and configure it in the <a href="http://en.wikipedia.org/wiki/SyncToy#Features" rel="nofollow noreferrer">subscribe method</a>, which would effectively one-way copy only the changes made since the last pseudo-commit to production for files already in production.  If you want to add a file you can just copy it manually and resume the SyncToy operation.</p>',59,57,'2008-08-08T13:07:03.787Z',58,65);
+INSERT INTO answers VALUES (5887,5872,'','<p>If you use TortoiseSVN, you can use the export feature to automatically strip out all of the .svn files. I think other svn things have the same feature.</p>
 
-<p>Right click the root project folder, then select <code>TortoiseSVN &gt; Export</code>, and tell it where you want the <code>.svn</code> free directory.</p>',30,61,'2008-08-08T13:10:13.250Z',0,91);
-INSERT INTO answers VALUES (6199,'<p>Ok, so my final solution is this:</p>
+<p>Right click the root project folder, then select <code>TortoiseSVN &gt; Export</code>, and tell it where you want the <code>.svn</code> free directory.</p>',30,73,'2008-08-08T13:10:13.250Z',16,37);
+INSERT INTO answers VALUES (6199,5872,'','<p>Ok, so my final solution is this:</p>
 
 <p>Use the export command to export to a folder called "export" in the same directory as a file called "deploy.bat", then I run the deploy script (v1 stands for version 1, which is what version I am currently on in this project) This script utilizes 7-Zip, which I have placed on my system path so I can use it as a command line utility:</p>
 
@@ -18041,16 +18041,16 @@ PAUSE
 <p>Sources:</p>
 
 <p><a href="http://commandwindows.com/command2.htm" rel="nofollow noreferrer">http://commandwindows.com/command2.htm</a><br>
-<a href="http://www.ss64.com/nt/" rel="nofollow noreferrer">http://www.ss64.com/nt/</a></p>',58,47,'2008-08-08T17:46:03.800Z',32,20);
-INSERT INTO answers VALUES (6364,'<blockquote>
+<a href="http://www.ss64.com/nt/" rel="nofollow noreferrer">http://www.ss64.com/nt/</a></p>',58,49,'2008-08-08T17:46:03.800Z',4,33);
+INSERT INTO answers VALUES (6364,6340,'','<blockquote>
   <p>Can you provide the definition of the
   VENDOR table</p>
 </blockquote>
 
 <p>I figured it out. The VENDOR table was MyISAM... (edited your answer to tell me to make them both INNODB ;) )</p>
 
-<p>(any reason <em>not</em> to just switch the VENDOR type over to INNODB?)</p>',58,32,'2008-08-08T20:44:23.597Z',55,20);
-INSERT INTO answers VALUES (6387,'<p>@Lance: the first one is also executing. Compare it with a named constructor:</p>
+<p>(any reason <em>not</em> to just switch the VENDOR type over to INNODB?)</p>',58,44,'2008-08-08T20:44:23.597Z',85,51);
+INSERT INTO answers VALUES (6387,6373,'','<p>@Lance: the first one is also executing. Compare it with a named constructor:</p>
 
 <pre><code>function Blah() {
     alert(''blah'');
@@ -18060,8 +18060,8 @@ new Bla();
 
 <p>this is actually also executing code. The same goes for the anonymous constructor...</p>
 
-<p>But that was not the question ;-)</p>',56,82,'2008-08-08T21:08:38.197Z',46,30);
-INSERT INTO answers VALUES (6650,'<p>I timed the 3 ways of using an index like this:</p>
+<p>But that was not the question ;-)</p>',56,6,'2008-08-08T21:08:38.197Z',79,0);
+INSERT INTO answers VALUES (6650,6628,'','<p>I timed the 3 ways of using an index like this:</p>
 
 <pre><code>for ($ii = 0; $ii &lt; 1000000; $ii++) {
    // TEST 1
@@ -18104,8 +18104,8 @@ ratio "$idx" / $idx    // = 1.5324545551923
 ratio "{$idx}" / $idx  // = 1.4871793473086
 </code></pre>
 
-<p>So <code>$array[$idx]</code> is the hands-down winner of the performance competition, at least on my machine. (The results were very repeatable, BTW, I ran it 3 or 4 times and got the same results.)</p>',103,78,'2008-08-09T06:10:22.237Z',57,84);
-INSERT INTO answers VALUES (6852,'<p>Interesting, I''ll give it a shot.  The variations aren''t slight, however.  The newly encoded file is longer and when comparing the binary of the before and after, the data hardly matches up at all.</p>
+<p>So <code>$array[$idx]</code> is the hands-down winner of the performance competition, at least on my machine. (The results were very repeatable, BTW, I ran it 3 or 4 times and got the same results.)</p>',103,71,'2008-08-09T06:10:22.237Z',0,52);
+INSERT INTO answers VALUES (6852,6811,'','<p>Interesting, I''ll give it a shot.  The variations aren''t slight, however.  The newly encoded file is longer and when comparing the binary of the before and after, the data hardly matches up at all.</p>
 
 <p>Before (the first three lines)</p>
 
@@ -18121,12 +18121,12 @@ uRUgCMom4DBYt2oqkAZyDQlmQZ1f/3YSNqGzKT3oDH6RdE4vOXuf08vFP88TFcygYSq6dnlM
 naWOAdQGuqxoo8vjSruRyGYzfII6/id3dPGjVKwCBK+Zl8djy5qeJ5NPT09nTduAojyCZwN9
 </code></pre>
 
-<p>As you can see <code>H4SI</code> match up, then after that it''s pandemonium.</p>',25,80,'2008-08-09T17:10:48.380Z',37,56);
-INSERT INTO answers VALUES (7078,'<p>If you are interested in DSLs, <a href="http://www.moserware.com/" rel="nofollow noreferrer">Jeff Moser</a> has written some great articles about them (and the ''meta'' frame of mind you need) <a href="http://www.moserware.com/2008/04/towards-moores-law-software-part-3-of-3.html" rel="nofollow noreferrer">here,</a> <a href="http://www.moserware.com/2008/06/ometa-who-what-when-where-why.html" rel="nofollow noreferrer">here,</a> and <a href="http://www.moserware.com/2008/07/building-object-oriented-parasitic.html" rel="nofollow noreferrer">here</a> on his blog.</p>',92,82,'2008-08-10T07:25:13.787Z',73,20);
-INSERT INTO answers VALUES (7536,'<p>As far as I can tell your code is correct. Assuming exampleString is an std::string that has class scope like you describe, you ought to be able to initialize/assign it that way. Perhaps there is some other issue? Maybe a snippet of actual code would help put it in context.</p>
+<p>As you can see <code>H4SI</code> match up, then after that it''s pandemonium.</p>',25,31,'2008-08-09T17:10:48.380Z',85,39);
+INSERT INTO answers VALUES (7078,4458,'','<p>If you are interested in DSLs, <a href="http://www.moserware.com/" rel="nofollow noreferrer">Jeff Moser</a> has written some great articles about them (and the ''meta'' frame of mind you need) <a href="http://www.moserware.com/2008/04/towards-moores-law-software-part-3-of-3.html" rel="nofollow noreferrer">here,</a> <a href="http://www.moserware.com/2008/06/ometa-who-what-when-where-why.html" rel="nofollow noreferrer">here,</a> and <a href="http://www.moserware.com/2008/07/building-object-oriented-parasitic.html" rel="nofollow noreferrer">here</a> on his blog.</p>',92,38,'2008-08-10T07:25:13.787Z',39,93);
+INSERT INTO answers VALUES (7536,7525,'','<p>As far as I can tell your code is correct. Assuming exampleString is an std::string that has class scope like you describe, you ought to be able to initialize/assign it that way. Perhaps there is some other issue? Maybe a snippet of actual code would help put it in context.</p>
 
-<p>Question: Is exampleString a pointer to a string object created with new?</p>',63,2,'2008-08-11T05:18:52.683Z',91,97);
-INSERT INTO answers VALUES (7559,'<p>The code was simply an example of where my program was failing (it was allocated on the stack, Jim). I''m not actually looking for ''what have I done wrong'', but rather ''how do I diagnose what I''ve done wrong''. Teach a man to fish and all that. Though looking at the question, I haven''t made that clear enough. Thank goodness for the edit function. :'')</p>
+<p>Question: Is exampleString a pointer to a string object created with new?</p>',63,91,'2008-08-11T05:18:52.683Z',92,8);
+INSERT INTO answers VALUES (7559,7525,'','<p>The code was simply an example of where my program was failing (it was allocated on the stack, Jim). I''m not actually looking for ''what have I done wrong'', but rather ''how do I diagnose what I''ve done wrong''. Teach a man to fish and all that. Though looking at the question, I haven''t made that clear enough. Thank goodness for the edit function. :'')</p>
 
 <p>Also, I actually fixed the std::string problem. How? By replacing it with a vector, compiling, then replacing the string again. It <em>was</em> consistently crashing there, and that fixed even though it...couldn''t. There''s something nasty there, and I''m not sure what. I did want to check the one time I manually allocate memory on the heap, though:</p>
 
@@ -18144,8 +18144,8 @@ INSERT INTO answers VALUES (7559,'<p>The code was simply an example of where my 
 delete [] this-&gt;map;
 </code></pre>
 
-<p>I haven''t allocated a 2d array with C++ before. It seems to work.</p>',61,91,'2008-08-11T06:01:25.610Z',1,88);
-INSERT INTO answers VALUES (7584,'<p>Run Purify.</p>
+<p>I haven''t allocated a 2d array with C++ before. It seems to work.</p>',61,71,'2008-08-11T06:01:25.610Z',83,40);
+INSERT INTO answers VALUES (7584,7525,'','<p>Run Purify.</p>
 
 <p>It is a near-magical tool that will report when you are clobbering memory you shouldn''t be touching, leaking memory by not freeing things, double-freeing, etc.</p>
 
@@ -18157,8 +18157,8 @@ INSERT INTO answers VALUES (7584,'<p>Run Purify.</p>
 
 <p><a href="http://www-306.ibm.com/software/awdtools/purify/unix/" rel="nofollow noreferrer">http://www-306.ibm.com/software/awdtools/purify/unix/</a></p>
 
-<p>(It''s pretty pricey but they have a free eval download)</p>',116,28,'2008-08-11T07:24:10.137Z',71,17);
-INSERT INTO answers VALUES (8130,'<p>This guy seems to have your answer.</p>
+<p>(It''s pretty pricey but they have a free eval download)</p>',116,15,'2008-08-11T07:24:10.137Z',94,4);
+INSERT INTO answers VALUES (8130,8128,'','<p>This guy seems to have your answer.</p>
 
 <blockquote>
   <p><a href="https://damieng.com/blog/2006/08/08/calculating_crc32_in_c_and_net" rel="noreferrer">https://damieng.com/blog/2006/08/08/calculating_crc32_in_c_and_net</a></p>
@@ -18181,9 +18181,9 @@ using (FileStream fs = File.Open("c:\\myfile.txt", FileMode.Open))
   foreach (byte b in crc32.ComputeHash(fs)) hash += b.ToString("x2").ToLower();
 
 Console.WriteLine("CRC-32 is {0}", hash);
-</code></pre>',76,98,'2008-08-11T19:43:31.003Z',52,64);
-INSERT INTO answers VALUES (8195,'<p>I think we are going to go the third party route.  I like the XSL -> HTML -> PDF -> Printer flow... Winnovative''s <a href="http://www.winnovative-software.com/" rel="nofollow noreferrer">HTML to PDF</a> looks good for the first part, but I''m running into a block finding a good PDF printing solution... any suggestions?  Ideally the license would be on a developer basis, not on a deployed runtime basis.</p>',96,83,'2008-08-11T20:38:25.293Z',5,8);
-INSERT INTO answers VALUES (8454,'<p>I believe you need to add a section with </p>
+</code></pre>',76,96,'2008-08-11T19:43:31.003Z',22,81);
+INSERT INTO answers VALUES (8195,7990,'','<p>I think we are going to go the third party route.  I like the XSL -> HTML -> PDF -> Printer flow... Winnovative''s <a href="http://www.winnovative-software.com/" rel="nofollow noreferrer">HTML to PDF</a> looks good for the first part, but I''m running into a block finding a good PDF printing solution... any suggestions?  Ideally the license would be on a developer basis, not on a deployed runtime basis.</p>',96,1,'2008-08-11T20:38:25.293Z',46,53);
+INSERT INTO answers VALUES (8454,8441,'','<p>I believe you need to add a section with </p>
 
 <pre><code>&lt;Directory "/home/other_files"&gt;
   (options)
@@ -18202,44 +18202,44 @@ INSERT INTO answers VALUES (8454,'<p>I believe you need to add a section with </
 &lt;/Directory&gt;
 </code></pre>
 
-<p>You could then rewrite a URL to go to /doc/ and the server would know where to get the files from.</p>',75,98,'2008-08-12T04:21:54.857Z',97,76);
-INSERT INTO answers VALUES (8474,'<p>Someone also suggest the Raphael JavaScript library, which apparently let you draw on the client in all popular browsers:</p>
+<p>You could then rewrite a URL to go to /doc/ and the server would know where to get the files from.</p>',75,23,'2008-08-12T04:21:54.857Z',70,46);
+INSERT INTO answers VALUES (8474,8472,'','<p>Someone also suggest the Raphael JavaScript library, which apparently let you draw on the client in all popular browsers:</p>
 
 <p><a href="http://dmitry.baranovskiy.com/raphael/" rel="nofollow noreferrer">http://dmitry.baranovskiy.com/raphael/</a></p>
 
-<p>.. but that wouldn''t exactly work with my <code>&lt;noscript&gt;</code> case, now would it ? :)</p>',1,63,'2008-08-12T05:02:49.453Z',51,2);
-INSERT INTO answers VALUES (8610,'<p>I also needed a WYSIWYG editor for a Windows Forms project that I was working on. I wrote about the items that I found <a href="http://ellisweb.net/2007/03/wysiwyg-editing-of-html-in-a-windows-forms-control/" rel="nofollow noreferrer">here</a>. Eventually, I ended up using something that I found on CodeProject: <a href="http://www.codeproject.com/KB/edit/editor_in_windows_forms.aspx" rel="nofollow noreferrer">A Windows Forms based text editor with HTML output</a>. This does violate (a) above in that it uses the WebBrowser control. However, I couldn''t find anything good that didn''t do this (if you don''t use the WebBrowser in some way, then you basically have to write your own HTML parser and renderer in order to handle the "What-You-See" part of WYSIWYG). The good thing about this control is that the source is easily customizable, so you can take away and add formatting options as you need (and if you want the styles to all be in-line, you can do this as well). </p>',51,24,'2008-08-12T08:42:03.600Z',5,30);
-INSERT INTO answers VALUES (8713,'<p>Ok, here''s the deal:</p>
+<p>.. but that wouldn''t exactly work with my <code>&lt;noscript&gt;</code> case, now would it ? :)</p>',1,26,'2008-08-12T05:02:49.453Z',72,60);
+INSERT INTO answers VALUES (8610,8604,'','<p>I also needed a WYSIWYG editor for a Windows Forms project that I was working on. I wrote about the items that I found <a href="http://ellisweb.net/2007/03/wysiwyg-editing-of-html-in-a-windows-forms-control/" rel="nofollow noreferrer">here</a>. Eventually, I ended up using something that I found on CodeProject: <a href="http://www.codeproject.com/KB/edit/editor_in_windows_forms.aspx" rel="nofollow noreferrer">A Windows Forms based text editor with HTML output</a>. This does violate (a) above in that it uses the WebBrowser control. However, I couldn''t find anything good that didn''t do this (if you don''t use the WebBrowser in some way, then you basically have to write your own HTML parser and renderer in order to handle the "What-You-See" part of WYSIWYG). The good thing about this control is that the source is easily customizable, so you can take away and add formatting options as you need (and if you want the styles to all be in-line, you can do this as well). </p>',51,33,'2008-08-12T08:42:03.600Z',23,27);
+INSERT INTO answers VALUES (8713,7758,'MojoFilter','<p>Ok, here''s the deal:</p>
 
 <p>In silverlight, you can''t bind values from one UI element to another declaratively.  The only way to do what I was trying to do here would be in the C# code.</p>
 
-<p>I had a reference for this yesterday, but now I guess you''ll just have to take my word for it :)</p>',93,71,'2008-08-12T12:00:26.977Z',78,7);
-INSERT INTO answers VALUES (8814,'<p>There is a KeyValuePair built-in type. As a matter of fact, this is what the IDictionary is giving you access to when you iterate in it.</p>
+<p>I had a reference for this yesterday, but now I guess you''ll just have to take my word for it :)</p>',93,83,'2008-08-12T12:00:26.977Z',11,63);
+INSERT INTO answers VALUES (8814,8800,'Coincoin','<p>There is a KeyValuePair built-in type. As a matter of fact, this is what the IDictionary is giving you access to when you iterate in it.</p>
 
-<p>Also, this structure is hardly a tree, finding a more representative name might be a good exercise.</p>',42,32,'2008-08-12T13:23:27.777Z',38,49);
-INSERT INTO answers VALUES (8977,'<p>I don''t have a Mac here, but there is some Documentation up here:</p>
+<p>Also, this structure is hardly a tree, finding a more representative name might be a good exercise.</p>',42,20,'2008-08-12T13:23:27.777Z',29,80);
+INSERT INTO answers VALUES (8977,8970,'Michael Stum','<p>I don''t have a Mac here, but there is some Documentation up here:</p>
 
 <p><a href="http://developer.apple.com/documentation/Hardware/Conceptual/iSightProgGuide/01introduction/chapter_1_section_1.html" rel="nofollow noreferrer">http://developer.apple.com/documentation/Hardware/Conceptual/iSightProgGuide/01introduction/chapter_1_section_1.html</a></p>
 
-<p>It looks like you have to go through the QuickTime API. There is supposed to be a Sample Project called "MungGrab" which could be worth a look according to <a href="http://www.mailinglistarchive.com/quicktime-api@lists.apple.com/msg02698.html" rel="nofollow noreferrer">this thread</a>.</p>',91,20,'2008-08-12T15:39:32.727Z',53,94);
-INSERT INTO answers VALUES (9124,'<p>You can do:</p>
+<p>It looks like you have to go through the QuickTime API. There is supposed to be a Sample Project called "MungGrab" which could be worth a look according to <a href="http://www.mailinglistarchive.com/quicktime-api@lists.apple.com/msg02698.html" rel="nofollow noreferrer">this thread</a>.</p>',91,73,'2008-08-12T15:39:32.727Z',3,53);
+INSERT INTO answers VALUES (9124,9122,'Mike Stone','<p>You can do:</p>
 
 <pre><code>SELECT column1, column2, column4 FROM table WHERE whatever
 </code></pre>
 
-<p>without getting column3, though perhaps you were looking for a more general solution?</p>',122,63,'2008-08-12T18:48:04.983Z',69,86);
-INSERT INTO answers VALUES (9269,'<p>turns out the problem was in the</p>
+<p>without getting column3, though perhaps you were looking for a more general solution?</p>',122,34,'2008-08-12T18:48:04.983Z',34,96);
+INSERT INTO answers VALUES (9269,8681,'Jeff Atwood','<p>turns out the problem was in the</p>
 
 <pre><code>{ debug : true }
 </code></pre>
 
 <p>option for the JQuery.Validate initializer. <strong>With this removed, things work fine in Opera.</strong> Thanks to Jörn Zaefferer for helping us figure this out!</p>
 
-<p>Oh, and the $50 will be donated to the JQuery project. :)</p>',1,8,'2008-08-12T21:41:17.363Z',14,43);
-INSERT INTO answers VALUES (9310,'<p>We use them all the time in Stack Overflow.</p>
+<p>Oh, and the $50 will be donated to the JQuery project. :)</p>',1,62,'2008-08-12T21:41:17.363Z',13,14);
+INSERT INTO answers VALUES (9310,9304,'Jeff Atwood','<p>We use them all the time in Stack Overflow.</p>
 
-<p>You may also be interested in a discussion of <a href="http://blog.codinghorror.com/properties-vs-public-variables/" rel="noreferrer">Properties vs. Public Variables</a>. IMHO that''s really what this is a reaction to, and for that purpose, it''s great.</p>',1,10,'2008-08-12T23:13:41.470Z',59,67);
-INSERT INTO answers VALUES (9342,'<p>I think any construct that is intuitive AND reduces the lines of code is a big plus.</p>
+<p>You may also be interested in a discussion of <a href="http://blog.codinghorror.com/properties-vs-public-variables/" rel="noreferrer">Properties vs. Public Variables</a>. IMHO that''s really what this is a reaction to, and for that purpose, it''s great.</p>',1,70,'2008-08-12T23:13:41.470Z',58,67);
+INSERT INTO answers VALUES (9342,9304,'Mike Stone','<p>I think any construct that is intuitive AND reduces the lines of code is a big plus.</p>
 
 <p>Those kinds of features are what makes languages like Ruby so powerful (that and dynamic features, which also help reduce excess code).</p>
 
@@ -18248,8 +18248,8 @@ INSERT INTO answers VALUES (9342,'<p>I think any construct that is intuitive AND
 <pre><code>attr_accessor :my_property
 attr_reader :my_getter
 attr_writer :my_setter
-</code></pre>',122,68,'2008-08-13T00:14:48.897Z',64,53);
-INSERT INTO answers VALUES (10161,'<p>You can use macros, just do <kbd>C-x (</kbd> then do everything for the macro, then <kbd>C-x )</kbd> to end the macro, then <kbd>C-x e</kbd> will execute the last defined macro.  Then, you can name it using <kbd>M-x name-last-kbd-macro</kbd> which lets you assign a name to it, which you can then invoke with <kbd>M-x TESTIT</kbd>, then store the definition using <kbd>M-x insert-kbd-macro</kbd> which will put the macro into your current buffer, and then you can store it in your <code>.emacs</code> file.</p>
+</code></pre>',122,2,'2008-08-13T00:14:48.897Z',25,55);
+INSERT INTO answers VALUES (10161,10149,'Mike Stone','<p>You can use macros, just do <kbd>C-x (</kbd> then do everything for the macro, then <kbd>C-x )</kbd> to end the macro, then <kbd>C-x e</kbd> will execute the last defined macro.  Then, you can name it using <kbd>M-x name-last-kbd-macro</kbd> which lets you assign a name to it, which you can then invoke with <kbd>M-x TESTIT</kbd>, then store the definition using <kbd>M-x insert-kbd-macro</kbd> which will put the macro into your current buffer, and then you can store it in your <code>.emacs</code> file.</p>
 
 <p>Example:</p>
 
@@ -18282,9 +18282,9 @@ INSERT INTO answers VALUES (10161,'<p>You can use macros, just do <kbd>C-x (</kb
    [?a ?b ?c return])
 </code></pre>
 
-<p>Which can then be saved in your <code>.emacs</code> file to use the named macro over and over again after restarting emacs.</p>',122,72,'2008-08-13T18:21:06.830Z',43,86);
-INSERT INTO answers VALUES (10187,'<p>You might want \w which is a "word" character.  From <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/regex/Pattern.html" rel="nofollow noreferrer">javadocs</a>, it is defined as [a-zA-Z_0-9], so if you don''t want underscores either, that may not work....</p>',122,31,'2008-08-13T18:36:02.823Z',11,96);
-INSERT INTO answers VALUES (10202,'<p>@Justin:</p>
+<p>Which can then be saved in your <code>.emacs</code> file to use the named macro over and over again after restarting emacs.</p>',122,29,'2008-08-13T18:21:06.830Z',58,77);
+INSERT INTO answers VALUES (10187,10158,'Mike Stone','<p>You might want \w which is a "word" character.  From <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/regex/Pattern.html" rel="nofollow noreferrer">javadocs</a>, it is defined as [a-zA-Z_0-9], so if you don''t want underscores either, that may not work....</p>',122,99,'2008-08-13T18:36:02.823Z',1,22);
+INSERT INTO answers VALUES (10202,10149,'Mike Stone','<p>@Justin:</p>
 
 <p>When executing a macro, it''s a little different... incremental searches will just happen once, and you will have to execute the macro again if you want to search again.  You can do more powerful and complex things though, such as search for a keyword, jump to the beginning of the line, mark, go to end of the line, M-w (to copy), then jump to another buffer, then C-y (paste), then jump back to the other buffer and end your macro.  Then, each time you execute the macro you will be copying a line to the next buffer.</p>
 
@@ -18292,8 +18292,8 @@ INSERT INTO answers VALUES (10202,'<p>@Justin:</p>
 
 <p>EDIT: Check out C-hf highlight-lines-matching-regexp which will show the help of a command that highlights everything matching a regex... I don''t know how to undo the highlighting though... anyways you could use a stored macro to highlight all matching the regex, and then another macro to find the next one...?</p>
 
-<p>FURTHER EDIT: M-x unhighlight-regexp will undo the highlighting, you have to enter the last regex though (but it defaults to the regex you used to highlight)</p>',122,24,'2008-08-13T18:44:39.997Z',32,46);
-INSERT INTO answers VALUES (10325,'<p>Yeah, my question was not very clear. Here''s a solution but rather than a single pass with a regex, I use a <strong>split</strong> and perform iteration. It works as well but isn''t as elegant: </p>
+<p>FURTHER EDIT: M-x unhighlight-regexp will undo the highlighting, you have to enter the last regex though (but it defaults to the regex you used to highlight)</p>',122,94,'2008-08-13T18:44:39.997Z',76,65);
+INSERT INTO answers VALUES (10325,10158,'David in Dakota','<p>Yeah, my question was not very clear. Here''s a solution but rather than a single pass with a regex, I use a <strong>split</strong> and perform iteration. It works as well but isn''t as elegant: </p>
 
 <pre><code>string xpath = "//foo/bar/baz[1]/ns:foo2/@attr/text()";
 string[] nodetests = xpath.Split( new char[] { ''/'' } );
@@ -18306,8 +18306,8 @@ for (int i = 0; i &lt; nodetests.Length; i++)
 }
 
 xpath = String.Join( "/", nodetests );
-</code></pre>',64,5,'2008-08-13T20:21:08.400Z',9,76);
-INSERT INTO answers VALUES (10501,'<p>For linux:</p>
+</code></pre>',64,81,'2008-08-13T20:21:08.400Z',5,89);
+INSERT INTO answers VALUES (10501,10499,'Mark Harrison','<p>For linux:</p>
 
 <pre><code>$ strace sqlplus -L scott/tiger@orcl 2&gt;&amp;1| grep -i ''open.*tnsnames.ora''
 </code></pre>
@@ -18322,39 +18322,39 @@ INSERT INTO answers VALUES (10501,'<p>For linux:</p>
 <pre><code>$ strace sqlplus -L scott/tiger@orcl 2&gt;&amp;1| grep -i ''tnsnames.ora''
 </code></pre>
 
-<p>will show all the file paths that are failing.</p>',116,39,'2008-08-13T23:52:15.570Z',85,6);
-INSERT INTO answers VALUES (10519,'<p>Make sure you get the FastCGI extension for IIS 6.0 or IIS 7.0.  It is the single most important thing you can have when running PHP under IIS.  Also this article should get you setup:</p>
+<p>will show all the file paths that are failing.</p>',116,25,'2008-08-13T23:52:15.570Z',7,63);
+INSERT INTO answers VALUES (10519,10515,'Nick Berardi','<p>Make sure you get the FastCGI extension for IIS 6.0 or IIS 7.0.  It is the single most important thing you can have when running PHP under IIS.  Also this article should get you setup:</p>
 <p><a href="http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/" rel="noreferrer">http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/</a></p>
-<p>Everything beyond this is simple, MySQL and what not.</p>',17,45,'2008-08-14T00:17:03.463Z',38,62);
-INSERT INTO answers VALUES (10545,'<p>One of the major sticking points I''ve had with IIS is the lack of Apache''s mod_rewrite.  There are other work-arounds and work-alikes depending on what you''re doing, but just keep in mind that you''ll need to change things up a bit to work with IIS if you''re using mod rewrite extensively.</p>',72,67,'2008-08-14T00:56:51.837Z',16,47);
-INSERT INTO answers VALUES (10549,'<p>Well, I think I fixed it by doing the following:</p>
+<p>Everything beyond this is simple, MySQL and what not.</p>',17,67,'2008-08-14T00:17:03.463Z',33,41);
+INSERT INTO answers VALUES (10545,10515,'pix0r','<p>One of the major sticking points I''ve had with IIS is the lack of Apache''s mod_rewrite.  There are other work-arounds and work-alikes depending on what you''re doing, but just keep in mind that you''ll need to change things up a bit to work with IIS if you''re using mod rewrite extensively.</p>',72,29,'2008-08-14T00:56:51.837Z',45,94);
+INSERT INTO answers VALUES (10549,10506,'Mike Stone','<p>Well, I think I fixed it by doing the following:</p>
 
 <pre><code>db2stop force
 db2start
 </code></pre>
 
-<p>At least, things seem to be working now.....</p>',122,42,'2008-08-14T01:05:31.087Z',94,51);
-INSERT INTO answers VALUES (10745,'<p>clarification: in terms of security, maintainability (e.g. if the login needs to change, can I find it later, etc)</p>
+<p>At least, things seem to be working now.....</p>',122,31,'2008-08-14T01:05:31.087Z',48,93);
+INSERT INTO answers VALUES (10745,10731,'Mark Harrison','<p>clarification: in terms of security, maintainability (e.g. if the login needs to change, can I find it later, etc)</p>
 
 <p>@lomax:  perhaps I might not want everyone with access to the physical server (e.g. sysadmins) to see the password.</p>
 
-<p>Thanks!</p>',116,49,'2008-08-14T06:20:30.187Z',99,51);
-INSERT INTO answers VALUES (10820,'<p>The best way to secure your password is to stop using one. Use a trusted connection:
+<p>Thanks!</p>',116,2,'2008-08-14T06:20:30.187Z',13,76);
+INSERT INTO answers VALUES (10820,10731,'Jon Galloway','<p>The best way to secure your password is to stop using one. Use a trusted connection:
 <a href="http://msdn.microsoft.com/en-us/library/ms998292.aspx" rel="nofollow noreferrer">How To: Connect to SQL Server Using Windows Authentication in ASP.NET 2.0</a>. 
 Then you have nothing to hide - publish your web.config and source to the world, they still can''t hit your database.</p>
 
-<p>If that won''t work for you, use the built in <a href="http://msdn.microsoft.com/en-us/magazine/cc163614.aspx" rel="nofollow noreferrer">configuration encryption system in ASP.NET</a>.</p>',5,22,'2008-08-14T09:03:47.627Z',85,5);
-INSERT INTO answers VALUES (11023,'<p>@pix0r</p>
+<p>If that won''t work for you, use the built in <a href="http://msdn.microsoft.com/en-us/magazine/cc163614.aspx" rel="nofollow noreferrer">configuration encryption system in ASP.NET</a>.</p>',5,50,'2008-08-14T09:03:47.627Z',45,49);
+INSERT INTO answers VALUES (11023,10515,'Nick Berardi','<p>@pix0r</p>
 
 <p>That actually annoyed the hell out of me too and nothing came close to Apache mod_rewrite.  Because they all have this overly complex XML structure.  So I actually took the time and wrote my own rewriter for IIS 6.0 and IIS 7.0.  Non-.NET applications only works in IIS 7.0.</p>
 
 <p><a href="http://www.managedfusion.com/products/url-rewriter/" rel="nofollow noreferrer">http://www.managedfusion.com/products/url-rewriter/</a></p>
 
-<p><a href="http://www.codeplex.com/urlrewriter" rel="nofollow noreferrer">http://www.codeplex.com/urlrewriter</a></p>',17,22,'2008-08-14T13:42:07.827Z',47,88);
-INSERT INTO answers VALUES (11214,'<p>Currently adobe is not supporting opening files in there default applications. Passing it off to the browser seems to be the only way to make it work.</p>
+<p><a href="http://www.codeplex.com/urlrewriter" rel="nofollow noreferrer">http://www.codeplex.com/urlrewriter</a></p>',17,13,'2008-08-14T13:42:07.827Z',32,90);
+INSERT INTO answers VALUES (11214,5017,'maclema','<p>Currently adobe is not supporting opening files in there default applications. Passing it off to the browser seems to be the only way to make it work.</p>
 
-<p>You could however use a FileStream and write a small html file with some javascript that sets the location of an iframe to the file, then after 100ms or so calls window.close(). Then open that file in the browser.</p>',22,28,'2008-08-14T15:32:09.147Z',90,25);
-INSERT INTO answers VALUES (11240,'<p>I wound up using format 120 in MS SQL: </p>
+<p>You could however use a FileStream and write a small html file with some javascript that sets the location of an iframe to the file, then after 100ms or so calls window.close(). Then open that file in the browser.</p>',22,25,'2008-08-14T15:32:09.147Z',99,78);
+INSERT INTO answers VALUES (11240,11200,'modesty','<p>I wound up using format 120 in MS SQL: </p>
 
 <pre><code>convert(char(24), lastModified, 120)
 </code></pre>
@@ -18366,13 +18366,13 @@ INSERT INTO answers VALUES (11240,'<p>I wound up using format 120 in MS SQL: </p
 
 <p>Now I just need a readable/friendly way to display the date to the user!</p>
 
-<p>edit: accept answer goes to whoever shows me how to display the date nicely from sqlite ;p</p>',26,97,'2008-08-14T15:52:17.237Z',82,63);
-INSERT INTO answers VALUES (11832,'<p>Typically a byte array is sent as a <code>base64</code> encoded string, not as individual bytes in tags. </p>
+<p>edit: accept answer goes to whoever shows me how to display the date nicely from sqlite ;p</p>',26,44,'2008-08-14T15:52:17.237Z',56,74);
+INSERT INTO answers VALUES (11832,11820,'Kevin Dente','<p>Typically a byte array is sent as a <code>base64</code> encoded string, not as individual bytes in tags. </p>
 
 <p><a href="http://en.wikipedia.org/wiki/Base64" rel="nofollow noreferrer">http://en.wikipedia.org/wiki/Base64</a></p>
 
-<p>The <code>base64</code> encoded version is about <strong>137%</strong> of the size of the original content.</p>',9,77,'2008-08-15T00:39:05.987Z',78,92);
-INSERT INTO answers VALUES (11946,'<p>I just answered my own question.  I had the routes backwards (Default was above page).  Below is the correct order.  So this brings up the next question... how does the "Default" route match (I assume they use regular expressions here) the "Page" route?</p>
+<p>The <code>base64</code> encoded version is about <strong>137%</strong> of the size of the original content.</p>',9,9,'2008-08-15T00:39:05.987Z',45,17);
+INSERT INTO answers VALUES (11946,11926,'Ryan Eastabrook','<p>I just answered my own question.  I had the routes backwards (Default was above page).  Below is the correct order.  So this brings up the next question... how does the "Default" route match (I assume they use regular expressions here) the "Page" route?</p>
 
 <pre><code>routes.MapRoute(
             "Page",
@@ -18385,19 +18385,19 @@ INSERT INTO answers VALUES (11946,'<p>I just answered my own question.  I had th
             "{controller}/{action}/{id}",                           // URL with parameters
             new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
         );
-</code></pre>',105,12,'2008-08-15T03:54:03.080Z',70,29);
-INSERT INTO answers VALUES (12026,'<p>Try something like this:</p>
+</code></pre>',105,28,'2008-08-15T03:54:03.080Z',96,3);
+INSERT INTO answers VALUES (12026,12009,'Mark Harrison','<p>Try something like this:</p>
 
 <pre><code>(echo oldpasswd; echo newpasswd) | smbpasswd -s
-</code></pre>',116,1,'2008-08-15T06:31:29.427Z',59,69);
-INSERT INTO answers VALUES (12032,'<p>Thanks to Mark I found the answer:</p>
+</code></pre>',116,99,'2008-08-15T06:31:29.427Z',63,50);
+INSERT INTO answers VALUES (12032,12009,'Unkwntech','<p>Thanks to Mark I found the answer:</p>
 
 <pre><code>(echo newpassword; echo confirmNewPassword) | smbpasswd -s
 </code></pre>
 
-<p>BTW: (echo oldpasswd; echo newpasswd) | smbpasswd -s  does not work.</p>',115,6,'2008-08-15T06:38:59.287Z',11,49);
-INSERT INTO answers VALUES (12310,'<p>Thanks, I got it working using <a href="http://code.google.com/p/flexlib/" rel="nofollow noreferrer">FlexLib</a>''s CanvasButtonAccordionHeader.</p>',26,79,'2008-08-15T14:47:51.863Z',32,85);
-INSERT INTO answers VALUES (12362,'<p>I got it to work with code below:</p>
+<p>BTW: (echo oldpasswd; echo newpasswd) | smbpasswd -s  does not work.</p>',115,24,'2008-08-15T06:38:59.287Z',87,60);
+INSERT INTO answers VALUES (12310,11665,'modesty','<p>Thanks, I got it working using <a href="http://code.google.com/p/flexlib/" rel="nofollow noreferrer">FlexLib</a>''s CanvasButtonAccordionHeader.</p>',26,42,'2008-08-15T14:47:51.863Z',29,21);
+INSERT INTO answers VALUES (12362,12297,'Zack','<p>I got it to work with code below:</p>
 
 <pre><code>Dim children = From n In SiteMap.CurrentNode.ChildNodes _
                Where CType(n, SiteMapNode).Url &lt;&gt; "/Registration.aspx" _
@@ -18407,11 +18407,11 @@ RepeaterSubordinatePages.DataSource = children
 
 <p>Is there a better way where I don''t have to use the <code>CType()</code>?</p>
 
-<p>Also, this sets children to a <code>System.Collections.Generic.IEnumerable(Of Object)</code>.  Is there a good way to get back something more strongly typed like a <code>System.Collections.Generic.IEnumerable(Of System.Web.SiteMapNode)</code> or even better a <code>System.Web.SiteMapNodeCollection</code>?</p>',83,23,'2008-08-15T15:25:15.547Z',4,44);
-INSERT INTO answers VALUES (12436,'<p>(edited to remove recommendation to use DependencyPropertyDescriptor, which is not available in Silverlight)</p>
+<p>Also, this sets children to a <code>System.Collections.Generic.IEnumerable(Of Object)</code>.  Is there a good way to get back something more strongly typed like a <code>System.Collections.Generic.IEnumerable(Of System.Web.SiteMapNode)</code> or even better a <code>System.Web.SiteMapNodeCollection</code>?</p>',83,44,'2008-08-15T15:25:15.547Z',90,0);
+INSERT INTO answers VALUES (12436,12385,'Jon Galloway','<p>(edited to remove recommendation to use DependencyPropertyDescriptor, which is not available in Silverlight)</p>
 
-<p><a href="http://agsmith.wordpress.com/2008/04/07/propertydescriptor-addvaluechanged-alternative/" rel="nofollow noreferrer">PropertyDescriptor AddValueChanged Alternative</a></p>',5,80,'2008-08-15T16:14:18.913Z',74,47);
-INSERT INTO answers VALUES (12446,'<p>As mentioned in the question, <code>IEnumerable</code> has a <code>CopyToDataTable</code> method:</p>
+<p><a href="http://agsmith.wordpress.com/2008/04/07/propertydescriptor-addvaluechanged-alternative/" rel="nofollow noreferrer">PropertyDescriptor AddValueChanged Alternative</a></p>',5,45,'2008-08-15T16:14:18.913Z',66,73);
+INSERT INTO answers VALUES (12446,16,'Jon Galloway','<p>As mentioned in the question, <code>IEnumerable</code> has a <code>CopyToDataTable</code> method:</p>
 
 <pre><code>IEnumerable&lt;DataRow&gt; query =
     from order in orders.AsEnumerable()
@@ -18422,16 +18422,16 @@ INSERT INTO answers VALUES (12446,'<p>As mentioned in the question, <code>IEnume
 DataTable boundTable = query.CopyToDataTable&lt;DataRow&gt;();
 </code></pre>
 
-<p>Why won''t that work for you?</p>',5,39,'2008-08-15T16:27:31.600Z',26,47);
-INSERT INTO answers VALUES (12469,'<p>Have you looked at <a href="http://waegis.com/" rel="nofollow noreferrer">Waegis</a>?</p>
+<p>Why won''t that work for you?</p>',5,13,'2008-08-15T16:27:31.600Z',16,19);
+INSERT INTO answers VALUES (12469,8472,'Jon Galloway','<p>Have you looked at <a href="http://waegis.com/" rel="nofollow noreferrer">Waegis</a>?</p>
 
-<p>"Waegis is an online web service that exposes an open API (Application Programming Interface). It gets incoming data through its API methods and applies a quick check and identifies spam and legitimate content on time. It then returns a result to client to specify if the content is spam or not."</p>',5,69,'2008-08-15T16:46:52.467Z',95,28);
-INSERT INTO answers VALUES (12580,'<p>Whenever I look at performance problems, I think the best thing to do is time how long your pages take to run, and then look at the slowest ones.  When you get these real metrics, you can often improve performance on the slowest ones by orders of magnitude, either by fixing a slow SQL query or perhaps tightening up the code a bit.</p>
+<p>"Waegis is an online web service that exposes an open API (Application Programming Interface). It gets incoming data through its API methods and applies a quick check and identifies spam and legitimate content on time. It then returns a result to client to specify if the content is spam or not."</p>',5,49,'2008-08-15T16:46:52.467Z',2,82);
+INSERT INTO answers VALUES (12580,12576,'Mike Stone','<p>Whenever I look at performance problems, I think the best thing to do is time how long your pages take to run, and then look at the slowest ones.  When you get these real metrics, you can often improve performance on the slowest ones by orders of magnitude, either by fixing a slow SQL query or perhaps tightening up the code a bit.</p>
 
 <p>This of course requires no new hardware or special software, just a critical eye on the existing code.</p>
 
-<p>That said, this will only work for so long... if you really are getting enough traffic to hit the limits of your hardware, and/or there is some code that is just inherently slow and really required, you will have to look at other possibilities.</p>',122,23,'2008-08-15T18:29:48.483Z',86,10);
-INSERT INTO answers VALUES (12719,'<p>You can REALLY cheat nowadays and take a peek at the new Dynamic Data that comes with .NET 3.5 SP1. Scott Guthrie has a blog entry demoing on how quick and easy it''ll flow for you here:</p>
+<p>That said, this will only work for so long... if you really are getting enough traffic to hit the limits of your hardware, and/or there is some code that is just inherently slow and really required, you will have to look at other possibilities.</p>',122,3,'2008-08-15T18:29:48.483Z',94,75);
+INSERT INTO answers VALUES (12719,12706,'Dillie-O','<p>You can REALLY cheat nowadays and take a peek at the new Dynamic Data that comes with .NET 3.5 SP1. Scott Guthrie has a blog entry demoing on how quick and easy it''ll flow for you here:</p>
 
 <p><a href="http://weblogs.asp.net/scottgu/archive/2007/12/14/new-asp-net-dynamic-data-support.aspx" rel="nofollow noreferrer">http://weblogs.asp.net/scottgu/archive/2007/12/14/new-asp-net-dynamic-data-support.aspx</a></p>
 
@@ -18441,8 +18441,8 @@ INSERT INTO answers VALUES (12719,'<p>You can REALLY cheat nowadays and take a p
 
 <p>I''ve been doing this since the early 1.0 days of .NET and this kind of functionality has only gotten more and more streamlined with every update of the Framework.</p>
 
-<p>EDIT: I want to give a quick nod to the Matt Berseth blog as well. I''ve been following a lot of his stuff for a while now and it is great!</p>',71,86,'2008-08-15T20:42:30.230Z',11,37);
-INSERT INTO answers VALUES (12861,'<p><strong>Polymorphic Tree Walking</strong>, Python version</p>
+<p>EDIT: I want to give a quick nod to the Matt Berseth blog as well. I''ve been following a lot of his stuff for a while now and it is great!</p>',71,71,'2008-08-15T20:42:30.230Z',16,88);
+INSERT INTO answers VALUES (12861,12516,'Mark Harrison','<p><strong>Polymorphic Tree Walking</strong>, Python version</p>
 
 <pre><code>#!/usr/bin/python
 
@@ -18516,8 +18516,8 @@ demo(Plus(Mul(Num(2),Num(3)),Div(Num(10),Num(5)))) # (2 * 3) + (10 / 2)
 
 <ul>
 <li>holds a leaf-node numeric value, e.g. 17 or 42</li>
-</ul>',116,75,'2008-08-15T22:56:41.813Z',98,63);
-INSERT INTO answers VALUES (12873,'<p>Thanks for the answers guys. It looks like customizing the DataGrid is the way to go. For any ASP.NET newbies, here''s what I''m doing</p>
+</ul>',116,65,'2008-08-15T22:56:41.813Z',95,82);
+INSERT INTO answers VALUES (12873,12706,'kurious','<p>Thanks for the answers guys. It looks like customizing the DataGrid is the way to go. For any ASP.NET newbies, here''s what I''m doing</p>
 
 <pre><code>&lt;asp:DataGrid ID="GridView1" runat="server" AutoGenerateColumns="False"&gt;
     &lt;Columns&gt;
@@ -18546,8 +18546,8 @@ INSERT INTO answers VALUES (12873,'<p>Thanks for the answers guys. It looks like
 
 <p>to populate the intial dropdown in the data grid. You can also access item.Cells[0].text to get the RuleID in this case.</p>
 
-<p>Notes for myself: The ASP.NET model does everything in the codebehind file. At a high level you can always iterate through GridView1.Items to get each row, and item.findControl("ControlID") to query the value stored at each item, such as after pressing an "Update" button.</p>',109,15,'2008-08-15T23:11:50.100Z',77,58);
-INSERT INTO answers VALUES (12876,'<p>@Justin:</p>
+<p>Notes for myself: The ASP.NET model does everything in the codebehind file. At a high level you can always iterate through GridView1.Items to get each row, and item.findControl("ControlID") to query the value stored at each item, such as after pressing an "Update" button.</p>',109,96,'2008-08-15T23:11:50.100Z',37,95);
+INSERT INTO answers VALUES (12876,12516,'Mark Harrison','<p>@Justin:</p>
 
 <p>Look at my note on representing the nodes.  If you use that scheme, then</p>
 
@@ -18561,8 +18561,8 @@ INSERT INTO answers VALUES (12876,'<p>@Justin:</p>
          2  ( )
              |
              2
-</code></pre>',116,62,'2008-08-15T23:12:36.167Z',53,36);
-INSERT INTO answers VALUES (12893,'<p>Representing the Nodes</p>
+</code></pre>',116,93,'2008-08-15T23:12:36.167Z',45,22);
+INSERT INTO answers VALUES (12893,12516,'Mark Harrison','<p>Representing the Nodes</p>
 
 <p>If we want to include parentheses, we need 5 kinds of nodes:</p>
 
@@ -18595,12 +18595,12 @@ node   node
 <li>Paren : inherit from node</li>
 </ul>
 
-<p>There is a virtual function for all nodes called eval().  If you call that function, it will return the value of that subexpression.</p>',116,44,'2008-08-15T23:38:03.290Z',57,7);
-INSERT INTO answers VALUES (12962,'<p>Oracle supports function-based indexes.  Their canonical example:</p>
+<p>There is a virtual function for all nodes called eval().  If you call that function, it will return the value of that subexpression.</p>',116,19,'2008-08-15T23:38:03.290Z',26,7);
+INSERT INTO answers VALUES (12962,12855,'Mark Harrison','<p>Oracle supports function-based indexes.  Their canonical example:</p>
 
 <pre><code> create index emp_upper_idx on emp(upper(ename));  
-</code></pre>',116,34,'2008-08-16T02:13:32.883Z',86,84);
-INSERT INTO answers VALUES (13008,'<p>Sessions are going to be your best bet, if the data is user specific, else just use a conifg file.
+</code></pre>',116,56,'2008-08-16T02:13:32.883Z',39,60);
+INSERT INTO answers VALUES (13008,13000,'Unkwntech','<p>Sessions are going to be your best bet, if the data is user specific, else just use a conifg file.
 config.php:</p>
 
 <pre><code>&lt;?php
@@ -18613,27 +18613,27 @@ $EL = "\n&lt;br /&gt;\n";
 <pre><code>require ''config.php''
 </code></pre>
 
-<p>the you will be able to access $EL on that page.</p>',115,60,'2008-08-16T05:34:03.480Z',59,75);
-INSERT INTO answers VALUES (13029,'<p>Have you checked out Phalanger? It compiles PHP to .NET code. Here are <a href="http://web.archive.org/web/20101126094453/http://php-compiler.net/doku.php?id=core%3abenchmarks" rel="nofollow noreferrer">some benchmarks</a> which show that it can dramatically improve performance.</p>',5,62,'2008-08-16T06:58:09.987Z',97,76);
-INSERT INTO answers VALUES (13075,'<p>@svec yes this will, you just have to include the file inside the function also.  This is how most of my software works.</p>
+<p>the you will be able to access $EL on that page.</p>',115,5,'2008-08-16T05:34:03.480Z',11,11);
+INSERT INTO answers VALUES (13029,12936,'Jon Galloway','<p>Have you checked out Phalanger? It compiles PHP to .NET code. Here are <a href="http://web.archive.org/web/20101126094453/http://php-compiler.net/doku.php?id=core%3abenchmarks" rel="nofollow noreferrer">some benchmarks</a> which show that it can dramatically improve performance.</p>',5,49,'2008-08-16T06:58:09.987Z',50,94);
+INSERT INTO answers VALUES (13075,13000,'Unkwntech','<p>@svec yes this will, you just have to include the file inside the function also.  This is how most of my software works.</p>
 
 <pre><code>function myFunc()
  {
 require ''config.php'';
 //Variables from config are available now.
  }
-</code></pre>',115,58,'2008-08-16T09:26:18.017Z',86,60);
-INSERT INTO answers VALUES (13420,'<p>I agree with @<a href="https://stackoverflow.com/users/303/notmyself">NotMyself</a>. <a href="http://filehelpers.sourceforge.net/" rel="nofollow noreferrer">FileHelpers</a> is well tested and handles all kinds of edge cases that you''ll eventually have to deal with if you do it yourself. Take a look at what FileHelpers does and only write your own if you''re absolutely sure that either (1) you will never need to handle the edge cases FileHelpers does, or (2) you love writing this kind of stuff and are going to be overjoyed when you have to parse stuff like this:</p>
+</code></pre>',115,81,'2008-08-16T09:26:18.017Z',43,93);
+INSERT INTO answers VALUES (13420,1898,'Jon Galloway','<p>I agree with @<a href="https://stackoverflow.com/users/303/notmyself">NotMyself</a>. <a href="http://filehelpers.sourceforge.net/" rel="nofollow noreferrer">FileHelpers</a> is well tested and handles all kinds of edge cases that you''ll eventually have to deal with if you do it yourself. Take a look at what FileHelpers does and only write your own if you''re absolutely sure that either (1) you will never need to handle the edge cases FileHelpers does, or (2) you love writing this kind of stuff and are going to be overjoyed when you have to parse stuff like this:</p>
 
 <p>1,"Bill","Smith","Supervisor", "No Comment"</p>
 
 <p>2 , ''Drake,'' , ''O''Malley'',"Janitor,</p>
 
-<p>Oops, I''m not quoted and I''m on a new line!</p>',5,71,'2008-08-16T23:53:11.327Z',25,64);
-INSERT INTO answers VALUES (13585,'<p>@travis Looks very nice! I will sure take a look into it. I can think of several places I can use that</p>
+<p>Oops, I''m not quoted and I''m on a new line!</p>',5,27,'2008-08-16T23:53:11.327Z',51,10);
+INSERT INTO answers VALUES (13585,4544,'svrist','<p>@travis Looks very nice! I will sure take a look into it. I can think of several places I can use that</p>
 
-<p>I never got round to sniff the traffic but found out that a php site on my own server with http-auth worked fine, so i figured it was something with delicious. I then created a php page that does a wget of the delicious api and everything works fine :)</p>',86,66,'2008-08-17T11:09:03.753Z',53,27);
-INSERT INTO answers VALUES (14237,'<p>Here is the code. It is basically a copy of BindingUtils.bindProperty that is setup for a ComboBox so that both the combo box and the model are updated when either of the two change.</p>
+<p>I never got round to sniff the traffic but found out that a php site on my own server with http-auth worked fine, so i figured it was something with delicious. I then created a php page that does a wget of the delicious api and everything works fine :)</p>',86,18,'2008-08-17T11:09:03.753Z',3,40);
+INSERT INTO answers VALUES (14237,5982,'maclema','<p>Here is the code. It is basically a copy of BindingUtils.bindProperty that is setup for a ComboBox so that both the combo box and the model are updated when either of the two change.</p>
 <pre><code>public static function bindProperty2(site:Object, prop:String, host:Object, chain:Object, commitOnly:Boolean = false):ChangeWatcher
 {
     var cbx:ComboBox = null;
@@ -18695,11 +18695,11 @@ INSERT INTO answers VALUES (14237,'<p>Here is the code. It is basically a copy o
     
     return w;
 }
-</code></pre>',22,59,'2008-08-18T06:03:49.627Z',87,79);
-INSERT INTO answers VALUES (15742,'<p>Well, it appears YAML is gone out the window then. I want something both human writable <em>and</em> readable. Plus, this C# implementation...I have no idea <em>if</em> it''s working or not, the documentation consists of a few one line code examples. It barfs on their own YAML files, and is an old student project. The only other C# YAML parser I''ve found uses the MS-PL which I''m not really comfortable using.</p>
+</code></pre>',22,26,'2008-08-18T06:03:49.627Z',87,92);
+INSERT INTO answers VALUES (15742,15709,'Bernard','<p>Well, it appears YAML is gone out the window then. I want something both human writable <em>and</em> readable. Plus, this C# implementation...I have no idea <em>if</em> it''s working or not, the documentation consists of a few one line code examples. It barfs on their own YAML files, and is an old student project. The only other C# YAML parser I''ve found uses the MS-PL which I''m not really comfortable using.</p>
 
-<p>I might just end up rolling my own format. Best practices be damned, all I want to do is associate a key with a value.   </p>',61,45,'2008-08-19T05:11:34.067Z',30,65);
-INSERT INTO answers VALUES (16245,'<p><a href="https://stackoverflow.com/questions/16155/making-one-interface-overwrite-a-method-it-inherits-from-another-interface-in-p#16196">@cmcculloh</a> Yeah, in Java you don''t define constructors in Interfaces.  This allows you to both extend interfaces and also have a class that implements multiple interfaces (both allowed, and very useful in many cases) without worrying about having to satisfy a particular constructor.</p>
+<p>I might just end up rolling my own format. Best practices be damned, all I want to do is associate a key with a value.   </p>',61,77,'2008-08-19T05:11:34.067Z',1,92);
+INSERT INTO answers VALUES (16245,16155,'Ryan Ahearn','<p><a href="https://stackoverflow.com/questions/16155/making-one-interface-overwrite-a-method-it-inherits-from-another-interface-in-p#16196">@cmcculloh</a> Yeah, in Java you don''t define constructors in Interfaces.  This allows you to both extend interfaces and also have a class that implements multiple interfaces (both allowed, and very useful in many cases) without worrying about having to satisfy a particular constructor.</p>
 
 <p><em>EDIT:</em></p>
 
@@ -18744,18 +18744,18 @@ class FedEx extends Shipper implements iShipper{
 </code></pre>
 
 <p><em>Thanks for the help!</em><br>
-<em>ps. since I have now added this to "your" answer, if there is something about it you don''t like/think should be different, feel free to change it...</em></p>',75,61,'2008-08-19T14:17:20.923Z',83,23);
-INSERT INTO answers VALUES (16307,'<p>It sounds like the web server on hosttwo.com doesn''t allow undefined domains to be passed through.  You also said you wanted to do a redirect, this isn''t actually a method for redirecting.  If you bought this domain through GoDaddy you may just want to use their redirection service.</p>',17,93,'2008-08-19T14:45:07.997Z',33,34);
-INSERT INTO answers VALUES (17210,'<p>Okay, fine, I''ll throw another one out there: audio file support. I''d love to be able to generate WAV data on the client and immediately play it. As it is, Silverlight only plays WMV and MP3, neither of which is simple (legal?) to create without a per-client license.</p>',5,1,'2008-08-19T23:34:01.790Z',57,44);
-INSERT INTO answers VALUES (17698,'<p><a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.httprequest.userhostname?redirectedfrom=MSDN&amp;view=netframework-4.8#System_Web_HttpRequest_UserHostName" rel="nofollow noreferrer">System.Web.HttpRequest.UserHostname</a> as suggested in <a href="https://stackoverflow.com/a/17691/1011722">this answer</a> just returns the IP :-(</p>
+<em>ps. since I have now added this to "your" answer, if there is something about it you don''t like/think should be different, feel free to change it...</em></p>',75,35,'2008-08-19T14:17:20.923Z',48,7);
+INSERT INTO answers VALUES (16307,16298,'Nick Berardi','<p>It sounds like the web server on hosttwo.com doesn''t allow undefined domains to be passed through.  You also said you wanted to do a redirect, this isn''t actually a method for redirecting.  If you bought this domain through GoDaddy you may just want to use their redirection service.</p>',17,71,'2008-08-19T14:45:07.997Z',56,71);
+INSERT INTO answers VALUES (17210,17175,'Jon Galloway','<p>Okay, fine, I''ll throw another one out there: audio file support. I''d love to be able to generate WAV data on the client and immediately play it. As it is, Silverlight only plays WMV and MP3, neither of which is simple (legal?) to create without a per-client license.</p>',5,72,'2008-08-19T23:34:01.790Z',94,81);
+INSERT INTO answers VALUES (17698,17664,'Michael Stum','<p><a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.httprequest.userhostname?redirectedfrom=MSDN&amp;view=netframework-4.8#System_Web_HttpRequest_UserHostName" rel="nofollow noreferrer">System.Web.HttpRequest.UserHostname</a> as suggested in <a href="https://stackoverflow.com/a/17691/1011722">this answer</a> just returns the IP :-(</p>
 
 <p>But I just found this:</p>
 
 <pre><code>System.Net.Dns.GetHostEntry(Page.Request.UserHostAddress).HostName
 </code></pre>
 
-<p>That only works if there is actually a DNS Server to resolve the name, which is the case for my network.</p>',91,25,'2008-08-20T10:05:54.830Z',64,84);
-INSERT INTO answers VALUES (18085,'<p>This way seems to work well:</p>
+<p>That only works if there is actually a DNS Server to resolve the name, which is the case for my network.</p>',91,7,'2008-08-20T10:05:54.830Z',17,73);
+INSERT INTO answers VALUES (18085,18082,'mharen','<p>This way seems to work well:</p>
 
 <pre><code>function IsNumeric(input){
     var RE = /^-{0,1}\d*\.{0,1}\d+$/;
@@ -18805,32 +18805,32 @@ console.log(TestIsNumeric());</code></pre>
 \.{0,1} optional decimal point
 \d+ at least one digit
 $/ match end of string
-</code></pre>',29,83,'2008-08-20T14:22:56.270Z',97,18);
-INSERT INTO answers VALUES (18349,'<p>The first link shows how to change the Taskbar Icon, the second shows the application icon I believe used on the desktop. I am going to recompile and install the application and see if it works.</p>
+</code></pre>',29,47,'2008-08-20T14:22:56.270Z',75,9);
+INSERT INTO answers VALUES (18349,18298,'modesty','<p>The first link shows how to change the Taskbar Icon, the second shows the application icon I believe used on the desktop. I am going to recompile and install the application and see if it works.</p>
 
-<p>Edit: Yea, the one that changes the Desktop Icon also changes the Title Bar icon. It''s in the app.xml file.</p>',26,54,'2008-08-20T16:44:20.987Z',30,28);
-INSERT INTO answers VALUES (18394,'<p>I do have a type/format for my properties table, that way I know how to cast/evaluate when I''m dealing with an integer value. I wasn''t sure if it was pertinent to this issue or not.</p>',71,95,'2008-08-20T17:29:19.927Z',56,8);
-INSERT INTO answers VALUES (18830,'<p>Of course after I create this question I immediately find the answer after a few more searches on Google</p>
+<p>Edit: Yea, the one that changes the Desktop Icon also changes the Title Bar icon. It''s in the app.xml file.</p>',26,90,'2008-08-20T16:44:20.987Z',39,31);
+INSERT INTO answers VALUES (18394,18216,'Dillie-O','<p>I do have a type/format for my properties table, that way I know how to cast/evaluate when I''m dealing with an integer value. I wasn''t sure if it was pertinent to this issue or not.</p>',71,48,'2008-08-20T17:29:19.927Z',97,1);
+INSERT INTO answers VALUES (18830,18787,'Ryan Eastabrook','<p>Of course after I create this question I immediately find the answer after a few more searches on Google</p>
 
 <p><a href="http://forums.asp.net/t/1197059.aspx" rel="nofollow noreferrer">http://forums.asp.net/t/1197059.aspx</a></p>
 
 <p>Apparently this happens because of the wrapper class.  Even so, it seems like any property passed should get added to the ViewData collection by default.</p>
 
-<p>I really need to stop answering my own questions :(</p>',105,48,'2008-08-20T21:03:10.070Z',48,49);
-INSERT INTO answers VALUES (19426,'<p>Thanks for the answers. I guess I developed such an aversion to IIS in the .net 1.x era that I''ve refused to consider re-using it -- until now.</p>
+<p>I really need to stop answering my own questions :(</p>',105,28,'2008-08-20T21:03:10.070Z',22,98);
+INSERT INTO answers VALUES (19426,19349,'secretGeek','<p>Thanks for the answers. I guess I developed such an aversion to IIS in the .net 1.x era that I''ve refused to consider re-using it -- until now.</p>
 
-<p><em>aside: when choosing between two equally acceptable answers from ChanChan and Jonathan, I arbitrarily marked Jonathan''s as ''accepted'' because a) he got in first and b) his rep is currently lower.</em></p>',49,96,'2008-08-21T06:51:00.920Z',5,42);
-INSERT INTO answers VALUES (19827,'<p>I have found seperating out all the business logic in to a seperate DLL that is easily unit testable has been the easiest method for me.  But to be honest there is really no good way that I have found, besides what I have just mentioned.  The same has been true for me with Facebook applications recently.  I think this is common for any application that runs inside of another platform.  Especially when performance and testing where never a goal when the platform developers started to build the system.</p>',17,5,'2008-08-21T13:12:56.557Z',79,19);
-INSERT INTO answers VALUES (19859,'<p><strong>Update:</strong> I have found a 3rd party COM library called <a href="http://www.dimastr.com/redemption/" rel="noreferrer">Outlook Redemption</a> which is working fine for me at the moment. If you use it via COM-Interop in .NET, don''t forget to release every COM object after you are done with it, otherwise your application crashes randomly.</p>',39,85,'2008-08-21T13:27:06.583Z',2,65);
-INSERT INTO answers VALUES (20056,'<blockquote>
+<p><em>aside: when choosing between two equally acceptable answers from ChanChan and Jonathan, I arbitrarily marked Jonathan''s as ''accepted'' because a) he got in first and b) his rep is currently lower.</em></p>',49,61,'2008-08-21T06:51:00.920Z',84,85);
+INSERT INTO answers VALUES (19827,19803,'Nick Berardi','<p>I have found seperating out all the business logic in to a seperate DLL that is easily unit testable has been the easiest method for me.  But to be honest there is really no good way that I have found, besides what I have just mentioned.  The same has been true for me with Facebook applications recently.  I think this is common for any application that runs inside of another platform.  Especially when performance and testing where never a goal when the platform developers started to build the system.</p>',17,70,'2008-08-21T13:12:56.557Z',31,99);
+INSERT INTO answers VALUES (19859,15880,'huseyint','<p><strong>Update:</strong> I have found a 3rd party COM library called <a href="http://www.dimastr.com/redemption/" rel="noreferrer">Outlook Redemption</a> which is working fine for me at the moment. If you use it via COM-Interop in .NET, don''t forget to release every COM object after you are done with it, otherwise your application crashes randomly.</p>',39,83,'2008-08-21T13:27:06.583Z',8,18);
+INSERT INTO answers VALUES (20056,20047,'Greg Hurlman','<blockquote>
   <p>Will you care if your user profile is a few seconds out of date?</p>
 </blockquote>
 
-<p>Nope - that''s perfectly acceptable.  Setting the base transaction isolation level is probably the best/cleanest way to go.</p>',35,52,'2008-08-21T14:22:43.563Z',40,76);
-INSERT INTO answers VALUES (20219,'<p>A .Net assembly is compiled with metadata about the bytecode included that allows easy decompilation of the code - that''s how tools like <a href="http://www.red-gate.com/products/reflector/" rel="noreferrer">.Net Reflector</a> work.  The PDB files are debug symbols only - the difference in the Yellow Screen Of Death is that you''ll get line numbers in the stack trace.</p>
+<p>Nope - that''s perfectly acceptable.  Setting the base transaction isolation level is probably the best/cleanest way to go.</p>',35,67,'2008-08-21T14:22:43.563Z',64,83);
+INSERT INTO answers VALUES (20219,20198,'Greg Hurlman','<p>A .Net assembly is compiled with metadata about the bytecode included that allows easy decompilation of the code - that''s how tools like <a href="http://www.red-gate.com/products/reflector/" rel="noreferrer">.Net Reflector</a> work.  The PDB files are debug symbols only - the difference in the Yellow Screen Of Death is that you''ll get line numbers in the stack trace.</p>
 
-<p>In other words, you''d get the code, even if the PDB files were missing.</p>',35,48,'2008-08-21T15:21:08.213Z',31,93);
-INSERT INTO answers VALUES (20315,'<p>like this. i''ve made a few changes, but it''s pretty close to exactly what ms is doing.</p>
+<p>In other words, you''d get the code, even if the PDB files were missing.</p>',35,42,'2008-08-21T15:21:08.213Z',21,7);
+INSERT INTO answers VALUES (20315,20198,'Darren Kopp','<p>like this. i''ve made a few changes, but it''s pretty close to exactly what ms is doing.</p>
 
 <pre><code>// reverse the stack
 private static Stack&lt;Exception&gt; GenerateExceptionStack(Exception exception)
@@ -18935,8 +18935,8 @@ private static string GenerateFormattedStackTrace(Stack&lt;Exception&gt; excepti
     // return html safe stack trace
     return HttpUtility.HtmlEncode(trace.ToString()).Replace(Environment.NewLine, "&lt;br&gt;");
 }
-</code></pre>',77,94,'2008-08-21T15:51:12.870Z',29,59);
-INSERT INTO answers VALUES (20473,'<p>Now that I see Jeremy''s answer, I think I remember hearing that the best practice is to use a new DataContext for each data operation. Rob Conery''s written several posts about DataContext, and he always news them up rather than using a singleton.</p>
+</code></pre>',77,76,'2008-08-21T15:51:12.870Z',96,2);
+INSERT INTO answers VALUES (20473,20047,'Jon Galloway','<p>Now that I see Jeremy''s answer, I think I remember hearing that the best practice is to use a new DataContext for each data operation. Rob Conery''s written several posts about DataContext, and he always news them up rather than using a singleton.</p>
 
 <ul>
 <li><a href="http://blog.wekeroad.com/2007/08/17/linqtosql-ranch-dressing-for-your-database-pizza/" rel="nofollow noreferrer">http://blog.wekeroad.com/2007/08/17/linqtosql-ranch-dressing-for-your-database-pizza/</a></li>
@@ -18975,24 +18975,24 @@ public VideoSearchResult GetVideos(int pageSize, int pageNumber, string sortType
   select video;
   return GetSearchResult(videos, pageSize, pageNumber);
 }
-</code></pre>',5,19,'2008-08-21T16:40:18.523Z',40,41);
-INSERT INTO answers VALUES (20513,'<p>It seems like you are looking for full-text search.  Because you want to query a set of keywords against the card description and find any hits?  Correct?</p>',17,92,'2008-08-21T16:57:17.170Z',1,93);
-INSERT INTO answers VALUES (20515,'<p>Personally, I have done it before, and it has worked out well for me. The only issues i could see is possibly issues with an unindexed column, but i think you would have the same issue with a where clause.</p>
+</code></pre>',5,18,'2008-08-21T16:40:18.523Z',64,64);
+INSERT INTO answers VALUES (20513,20484,'Nick Berardi','<p>It seems like you are looking for full-text search.  Because you want to query a set of keywords against the card description and find any hits?  Correct?</p>',17,94,'2008-08-21T16:57:17.170Z',89,86);
+INSERT INTO answers VALUES (20515,20484,'Darren Kopp','<p>Personally, I have done it before, and it has worked out well for me. The only issues i could see is possibly issues with an unindexed column, but i think you would have the same issue with a where clause.</p>
 
-<p>My advice to you is just look at the execution plans between the two. I''m sure that it will differ which one is better depending on the situation, just like all good programming problems.</p>',77,22,'2008-08-21T16:57:28.357Z',61,70);
-INSERT INTO answers VALUES (20732,'<pre><code>m.str("");
+<p>My advice to you is just look at the execution plans between the two. I''m sure that it will differ which one is better depending on the situation, just like all good programming problems.</p>',77,89,'2008-08-21T16:57:28.357Z',85,34);
+INSERT INTO answers VALUES (20732,20731,'Coding Without Comments','<pre><code>m.str("");
 </code></pre>
 
-<p>seems to work.</p>',25,36,'2008-08-21T18:36:18.493Z',62,55);
-INSERT INTO answers VALUES (21074,'<p>We are still struggling to understand the <em>HOW</em> of this issue, but it seems that [ourdomain\SQLAccessGroup] was aliased by a consultant to a different user name (this is part of an MS CRM installation).  We finally were able to use some logic and some good old SID comparisons to determine who was playing the imposter game.</p>
+<p>seems to work.</p>',25,63,'2008-08-21T18:36:18.493Z',90,33);
+INSERT INTO answers VALUES (21074,20998,'Pete','<p>We are still struggling to understand the <em>HOW</em> of this issue, but it seems that [ourdomain\SQLAccessGroup] was aliased by a consultant to a different user name (this is part of an MS CRM installation).  We finally were able to use some logic and some good old SID comparisons to determine who was playing the imposter game.</p>
 
 <p>Our hint came when I tried to add the login as a user to the database (since it supposedly already existed) and got this error:</p>
 
 <pre><code>The login already has an account under a different user name.
 </code></pre>
 
-<p>So, I started to examine each DB user and was able to figure out the culprit.  I eventually tracked it down and was able to rename the user and login so that the CRM install would work.  I wonder if I can bill them $165.00 an hour for my time... :-)</p>',76,53,'2008-08-21T20:27:04.047Z',14,12);
-INSERT INTO answers VALUES (21158,'<p>According to MSDN:</p>
+<p>So, I started to examine each DB user and was able to figure out the culprit.  I eventually tracked it down and was able to rename the user and login so that the CRM install would work.  I wonder if I can bill them $165.00 an hour for my time... :-)</p>',76,25,'2008-08-21T20:27:04.047Z',51,31);
+INSERT INTO answers VALUES (21158,20047,'Geoff Dalgas','<p>According to MSDN:</p>
 
 <p><a href="http://msdn.microsoft.com/en-us/library/ms191242.aspx" rel="noreferrer">http://msdn.microsoft.com/en-us/library/ms191242.aspx</a></p>
 
@@ -19033,13 +19033,13 @@ INSERT INTO answers VALUES (21158,'<p>According to MSDN:</p>
 <p>Try setting this option and REMOVE all NOLOCKs from code queries unless it''s really necessary.  NOLOCKs or using global methods in the database context handler to combat database transaction isolation levels are Band-Aids  to the problem.  NOLOCKS will mask fundamental issues with our data layer and possibly lead to selecting unreliable data, where automatic select / update row versioning appears to be the solution.</p>
 
 <pre><code>ALTER Database [StackOverflow.Beta] SET READ_COMMITTED_SNAPSHOT ON
-</code></pre>',2,40,'2008-08-21T20:53:51.283Z',40,63);
-INSERT INTO answers VALUES (21963,'<p>My suggestion would be an ASCII captcha it does not use an image, and it''s programmer/geeky.
+</code></pre>',2,27,'2008-08-21T20:53:51.283Z',81,83);
+INSERT INTO answers VALUES (21963,8472,'Unkwntech','<p>My suggestion would be an ASCII captcha it does not use an image, and it''s programmer/geeky.
 Here is a PHP implementation <a href="http://thephppro.com/products/captcha/" rel="nofollow noreferrer">http://thephppro.com/products/captcha/</a> this one is a paid.
 There is a free, also PHP implementation, however I could not find an example -> <a href="http://www.phpclasses.org/browse/package/4544.html" rel="nofollow noreferrer">http://www.phpclasses.org/browse/package/4544.html</a></p>
 
-<p>I know these are in PHP but I''m sure you smart guys building SO can ''port'' it to your favorite language.</p>',115,22,'2008-08-22T09:09:26.647Z',18,93);
-INSERT INTO answers VALUES (24574,'<p>Apparently Wikipedia blocks LWP::Simple requests: <a href="http://www.perlmonks.org/?node_id=695886" rel="noreferrer">http://www.perlmonks.org/?node_id=695886</a></p>
+<p>I know these are in PHP but I''m sure you smart guys building SO can ''port'' it to your favorite language.</p>',115,78,'2008-08-22T09:09:26.647Z',83,76);
+INSERT INTO answers VALUES (24574,24546,'Jesse Beder','<p>Apparently Wikipedia blocks LWP::Simple requests: <a href="http://www.perlmonks.org/?node_id=695886" rel="noreferrer">http://www.perlmonks.org/?node_id=695886</a></p>
 
 <p>The following works instead:</p>
 
@@ -19053,8 +19053,8 @@ my $ua = LWP::UserAgent-&gt;new();
 my $res = $ua-&gt;get($url);
 
 print $res-&gt;content;
-</code></pre>',112,54,'2008-08-23T20:33:00.787Z',4,87);
-INSERT INTO answers VALUES (24887,'<p>Executive summary:  No.</p>
+</code></pre>',112,44,'2008-08-23T20:33:00.787Z',98,71);
+INSERT INTO answers VALUES (24887,24886,'Mark Harrison','<p>Executive summary:  No.</p>
 
 <p><code>i++</code> could potentially be slower than <code>++i</code>, since the old value of <code>i</code>
 might need to be saved for later use, but in practice all modern
@@ -19099,8 +19099,8 @@ MD5 (++i.s) = 90f620dda862cd0205cd5db1f2c8c06e
 $ md5 *.o
 MD5 (++i.o) = dd3ef1408d3a9e4287facccec53f7d22
 MD5 (i++.o) = dd3ef1408d3a9e4287facccec53f7d22
-</code></pre>',116,51,'2008-08-24T06:48:58.827Z',96,87);
-INSERT INTO answers VALUES (24904,'<p>[Executive Summary: Use <code>++i</code> if you don''t have a specific reason to use <code>i++</code>.]</p>
+</code></pre>',116,37,'2008-08-24T06:48:58.827Z',85,74);
+INSERT INTO answers VALUES (24904,24901,'Mark Harrison','<p>[Executive Summary: Use <code>++i</code> if you don''t have a specific reason to use <code>i++</code>.]</p>
 
 <p>For C++, the answer is a bit more complicated.</p>
 
@@ -19122,21 +19122,21 @@ Foo Foo::operator++(int ignored_dummy_value)   // called for i++
 }
 </code></pre>
 
-<p>Since the compiler isn''t generating code, but just calling an <code>operator++</code> function, there is no way to optimize away the <code>tmp</code> variable and its associated copy constructor. If the copy constructor is expensive, then this can have a significant performance impact.</p>',116,66,'2008-08-24T07:23:13.033Z',14,21);
-INSERT INTO answers VALUES (25805,'<p>I came up with this and it appears to work.</p>
+<p>Since the compiler isn''t generating code, but just calling an <code>operator++</code> function, there is no way to optimize away the <code>tmp</code> variable and its associated copy constructor. If the copy constructor is expensive, then this can have a significant performance impact.</p>',116,11,'2008-08-24T07:23:13.033Z',71,7);
+INSERT INTO answers VALUES (25805,25767,'Unkwntech','<p>I came up with this and it appears to work.</p>
 
 <pre><code>while($row = mysql_fetch_assoc($result))
  {
     $_SESSION = array_merge_recursive($_SESSION, $row);
  }
-</code></pre>',115,69,'2008-08-25T09:05:49.067Z',82,54);
-INSERT INTO answers VALUES (26235,'<p>On Windows XP, go to:</p>
+</code></pre>',115,55,'2008-08-25T09:05:49.067Z',48,95);
+INSERT INTO answers VALUES (26235,26230,'mharen','<p>On Windows XP, go to:</p>
 
 <pre><code>Administrative Tools &gt; Computer Management &gt; System Tools &gt; Shared Folders &gt; Shares
 </code></pre>
 
-<p>This page lists all shares and lets you remove them easily, in one place.</p>',29,13,'2008-08-25T15:23:33.697Z',67,12);
-INSERT INTO answers VALUES (27617,'<p>I''m pretty uncomfortable about this question and the attendant answers. There''s a lot of "try this magic dust! No that magic dust!"</p>
+<p>This page lists all shares and lets you remove them easily, in one place.</p>',29,34,'2008-08-25T15:23:33.697Z',98,23);
+INSERT INTO answers VALUES (27617,20047,'Leon Bambrick','<p>I''m pretty uncomfortable about this question and the attendant answers. There''s a lot of "try this magic dust! No that magic dust!"</p>
 
 <p>I can''t see anywhere that you''ve anaylzed the locks that are taken, and determined what exact type of locks are deadlocked.</p>
 
@@ -19147,8 +19147,8 @@ INSERT INTO answers VALUES (27617,'<p>I''m pretty uncomfortable about this quest
 <pre><code>DBCC TRACEON (1222, -1)
 </code></pre>
 
-<p>so that when the deadlock occurs you''ll have better diagnostics.</p>',49,67,'2008-08-26T09:20:03.580Z',36,52);
-INSERT INTO answers VALUES (28889,'<p>@Greg Hewgill:
+<p>so that when the deadlock occurs you''ll have better diagnostics.</p>',49,61,'2008-08-26T09:20:03.580Z',55,63);
+INSERT INTO answers VALUES (28889,26195,'braklet','<p>@Greg Hewgill:
 thanks for the script! I had a couple of issues with it though, so here''s what I''d change:</p>
 
 <p>line 21:</p>
@@ -19175,8 +19175,8 @@ thanks for the script! I had a couple of issues with it though, so here''s what 
 
 <p>It now seems to work exactly how I wanted, so I''ll keep bashing away and see if I can find anything else that breaks, posting fixes as I go.</p>
 
-<p>Edit: Forgot to add: please feel free to add these changes to your script on github if you feel they''re worthwhile.</p>',24,33,'2008-08-26T19:19:19.660Z',19,29);
-INSERT INTO answers VALUES (29092,'<p>Yes, HTTP-Only cookies would be fine for this functionality.  They will still be provided with the XmlHttpRequest''s request to the server.</p>
+<p>Edit: Forgot to add: please feel free to add these changes to your script on github if you feel they''re worthwhile.</p>',24,92,'2008-08-26T19:19:19.660Z',90,12);
+INSERT INTO answers VALUES (29092,27972,'Dave Ward','<p>Yes, HTTP-Only cookies would be fine for this functionality.  They will still be provided with the XmlHttpRequest''s request to the server.</p>
 
 <p>In the case of Stack Overflow, the cookies are automatically provided as part of the XmlHttpRequest request.  I don''t know the implementation details of the Stack Overflow authentication provider, but that cookie data is probably automatically used to verify your identity at a lower level than the "vote" controller method.</p>
 
@@ -19221,14 +19221,14 @@ INSERT INTO answers VALUES (29092,'<p>Yes, HTTP-Only cookies would be fine for t
 
 <p>It boils down to the fact that a) no single improvement will solve <em>all</em> vulnerabilities and b) no system will <em>ever</em> be completely secure.  HTTP-Only <strong>is</strong> a useful tool in shoring up against XSS.</p>
 
-<p>Similarly, even though the cross domain restriction on XmlHttpRequest isn''t 100% successful in preventing all XSS exploits, you''d still never dream of removing the restriction.</p>',60,18,'2008-08-26T22:24:56.563Z',87,20);
-INSERT INTO answers VALUES (29675,'<p><a href="http://www.microsoft.com/technet/scriptcenter/topics/winpsh/manual/run.mspx#ECEAC" rel="nofollow noreferrer">Source</a> for Matt''s answer.</p>
+<p>Similarly, even though the cross domain restriction on XmlHttpRequest isn''t 100% successful in preventing all XSS exploits, you''d still never dream of removing the restriction.</p>',60,8,'2008-08-26T22:24:56.563Z',62,31);
+INSERT INTO answers VALUES (29675,29645,'Yaakov Ellis','<p><a href="http://www.microsoft.com/technet/scriptcenter/topics/winpsh/manual/run.mspx#ECEAC" rel="nofollow noreferrer">Source</a> for Matt''s answer.</p>
 
 <p>I can get it to run by double-clicking a file by creating a batch file with the following in it:</p>
 
 <pre><code>C:\WINDOWS\system32\windowspowershell\v1.0\powershell.exe LocationOfPS1File
-</code></pre>',51,77,'2008-08-27T07:35:06.863Z',9,77);
-INSERT INTO answers VALUES (30172,'<p>Here''s what I ended up with.  I have never found another solution out there for this, so if you have something better, by all means, contribute.</p>
+</code></pre>',51,81,'2008-08-27T07:35:06.863Z',49,6);
+INSERT INTO answers VALUES (30172,30171,'Chris Marasti-Georg','<p>Here''s what I ended up with.  I have never found another solution out there for this, so if you have something better, by all means, contribute.</p>
 
 <p>First, the long array definition in the wsdl:types area:</p>
 
@@ -19399,10 +19399,10 @@ public class LongArrayHelper : SoapExtension
     }
 </code></pre>
 
-<p>This fix is long-specific, but it could probably be generalized to handle any primitive type having this problem.</p>',96,43,'2008-08-27T13:54:06.453Z',45,0);
-INSERT INTO answers VALUES (30491,'<p>If it''s full name in one field, I usually go with 128 - 64/64 for first and last in separate fields - you just never know.</p>',35,8,'2008-08-27T15:43:04.943Z',79,88);
-INSERT INTO answers VALUES (30493,'<p>I usually go with varchar(255) (255 being the maximum length of a varchar type in MySQL).</p>',72,4,'2008-08-27T15:43:15.397Z',78,28);
-INSERT INTO answers VALUES (33092,'<p>I found the answer at <a href="http://www.codersource.net/asp_net_forms_authentication.aspx" rel="nofollow noreferrer">CoderSource.net</a>.  I had to put the correct path into my web.config file.</p>
+<p>This fix is long-specific, but it could probably be generalized to handle any primitive type having this problem.</p>',96,62,'2008-08-27T13:54:06.453Z',11,59);
+INSERT INTO answers VALUES (30491,30485,'Greg Hurlman','<p>If it''s full name in one field, I usually go with 128 - 64/64 for first and last in separate fields - you just never know.</p>',35,57,'2008-08-27T15:43:04.943Z',55,32);
+INSERT INTO answers VALUES (30493,30485,'pix0r','<p>I usually go with varchar(255) (255 being the maximum length of a varchar type in MySQL).</p>',72,13,'2008-08-27T15:43:15.397Z',74,6);
+INSERT INTO answers VALUES (33092,33089,'Zack','<p>I found the answer at <a href="http://www.codersource.net/asp_net_forms_authentication.aspx" rel="nofollow noreferrer">CoderSource.net</a>.  I had to put the correct path into my web.config file.</p>
 
 <pre><code>&lt;?xml version="1.0"?&gt;
 &lt;configuration&gt;
@@ -19420,8 +19420,8 @@ INSERT INTO answers VALUES (33092,'<p>I found the answer at <a href="http://www.
     &lt;/system.web&gt;
     ...
 &lt;/configuration&gt;
-</code></pre>',83,68,'2008-08-28T18:56:52.117Z',91,66);
-INSERT INTO answers VALUES (33170,'<p>I found the answer on <a href="http://www.velocityreviews.com/forums/t367373-remove-quotreturnurlquot-from-url.html" rel="nofollow noreferrer">Velocity Reviews</a>.  I handled the LoggedIn event to force a redirection to the DestinationPageUrl page.</p>
+</code></pre>',83,62,'2008-08-28T18:56:52.117Z',93,11);
+INSERT INTO answers VALUES (33170,33166,'Zack','<p>I found the answer on <a href="http://www.velocityreviews.com/forums/t367373-remove-quotreturnurlquot-from-url.html" rel="nofollow noreferrer">Velocity Reviews</a>.  I handled the LoggedIn event to force a redirection to the DestinationPageUrl page.</p>
 
 <pre class="lang-VB.NET prettyprint-override"><code>Public Partial Class Login
     Inherits System.Web.UI.Page
@@ -19433,8 +19433,8 @@ INSERT INTO answers VALUES (33170,'<p>I found the answer on <a href="http://www.
     End Sub
 
 End Class
-</code></pre>',83,44,'2008-08-28T19:19:29.877Z',66,29);
-INSERT INTO answers VALUES (33396,'<p>I had to set securityTrimmingEnabled to "true" in my web.config file.</p>
+</code></pre>',83,69,'2008-08-28T19:19:29.877Z',83,24);
+INSERT INTO answers VALUES (33396,33395,'Zack','<p>I had to set securityTrimmingEnabled to "true" in my web.config file.</p>
 
 <pre><code>&lt;?xml version="1.0"?&gt;
 &lt;configuration&gt;
@@ -19454,9 +19454,9 @@ INSERT INTO answers VALUES (33396,'<p>I had to set securityTrimmingEnabled to "t
     &lt;/system.web&gt;
     ...
 &lt;/configuration&gt;
-</code></pre>',83,88,'2008-08-28T21:04:47.503Z',85,59);
-INSERT INTO answers VALUES (33704,'<p>Oh sweet, this is an air app. I''ll go with the HTML view. I can''t convert them to SWF because the client will be uploading the files.</p>',26,55,'2008-08-29T00:31:26.150Z',14,76);
-INSERT INTO answers VALUES (37539,'<p><strong>Executive summary:</strong></p>
+</code></pre>',83,87,'2008-08-28T21:04:47.503Z',68,88);
+INSERT INTO answers VALUES (33704,31077,'Shawn','<p>Oh sweet, this is an air app. I''ll go with the HTML view. I can''t convert them to SWF because the client will be uploading the files.</p>',26,92,'2008-08-29T00:31:26.150Z',77,64);
+INSERT INTO answers VALUES (37539,37538,'Mark Harrison','<p><strong>Executive summary:</strong></p>
 
 <pre><code>int a[17];
 size_t n = sizeof(a)/sizeof(a[0]);
@@ -19500,13 +19500,13 @@ the array name in a macro and get:</p>
 
 int a[17];
 size_t n = NELEMS(a);
-</code></pre>',116,80,'2008-09-01T06:49:44.203Z',28,84);
-INSERT INTO answers VALUES (39828,'<p>First, accept the fact that problems with your app (code, usability, etc.) will be discovered.</p>
+</code></pre>',116,97,'2008-09-01T06:49:44.203Z',1,7);
+INSERT INTO answers VALUES (39828,39121,'mharen','<p>First, accept the fact that problems with your app (code, usability, etc.) will be discovered.</p>
 
 <p>Then, make sure you have a clear way for users to communicate with you (form mail, email, uservoice, etc.). The easier you make this the better. For example, there is a uservoice link on every page of SO.</p>
 
-<p>One philosophy I strongly believe in: if it''s confusing to your users, it''s broken. Be willing to change your app (no matter how "beautiful" the design may be) if your users are confused or not liking it.  This doesn''t mean you have to cave on your decisions, just that you need to consider revisions to improve the user experience.</p>',29,11,'2008-09-02T15:40:08.993Z',9,49);
-INSERT INTO answers VALUES (40118,'<p><strong>Install the ASP.NET AJAX Control Toolkit</strong></p>
+<p>One philosophy I strongly believe in: if it''s confusing to your users, it''s broken. Be willing to change your app (no matter how "beautiful" the design may be) if your users are confused or not liking it.  This doesn''t mean you have to cave on your decisions, just that you need to consider revisions to improve the user experience.</p>',29,74,'2008-09-02T15:40:08.993Z',96,9);
+INSERT INTO answers VALUES (40118,40116,'Zack','<p><strong>Install the ASP.NET AJAX Control Toolkit</strong></p>
 
 <ol>
 <li><p>Download the ZIP file
@@ -19553,8 +19553,8 @@ your web site.</p></li>
 <li><p>When the "Choose Toolbox Items" dialog appears, click the "Browse..." button. Navigate to your project''s "bin" folder. Inside that folder, select "AjaxControlToolkit.dll" and click OK. Click OK again to close the Choose Items Dialog.</p></li>
 </ol>
 
-<p>You can now use the controls in your web sites!</p>',83,57,'2008-09-02T17:36:39.960Z',78,19);
-INSERT INTO answers VALUES (40593,'<pre><code>try:
+<p>You can now use the controls in your web sites!</p>',83,84,'2008-09-02T17:36:39.960Z',23,1);
+INSERT INTO answers VALUES (40593,40586,'Mark Harrison','<pre><code>try:
    cursor.execute("select 1 / 0 from dual")
 except cx_Oracle.DatabaseError, e:
    error, = e
@@ -19566,27 +19566,27 @@ except cx_Oracle.DatabaseError, e:
 
 <pre><code>Code: 1476
 Message: ORA-01476: divisor is equal to zero
-</code></pre>',116,3,'2008-09-02T20:41:33.540Z',65,0);
-INSERT INTO answers VALUES (42502,'<p>I have to agree with both of you, I am not really like this simplistic WebForms style that seems to be integrating its way in to MVC.  This stuff almost seems like it should be a 3rd party library or at the very least an extensions library that can be included if needed or wanted.</p>',17,70,'2008-09-03T20:27:45.127Z',16,35);
-INSERT INTO answers VALUES (42508,'<p>Well, it''s a page that hosts user controls. It''s a custom .aspx Page that will be created on the site, specially because I do not want to create WebParts.</p>
+</code></pre>',116,61,'2008-09-02T20:41:33.540Z',2,59);
+INSERT INTO answers VALUES (42502,42282,'Nick Berardi','<p>I have to agree with both of you, I am not really like this simplistic WebForms style that seems to be integrating its way in to MVC.  This stuff almost seems like it should be a 3rd party library or at the very least an extensions library that can be included if needed or wanted.</p>',17,6,'2008-09-03T20:27:45.127Z',91,20);
+INSERT INTO answers VALUES (42508,41576,'Michael Stum','<p>Well, it''s a page that hosts user controls. It''s a custom .aspx Page that will be created on the site, specially because I do not want to create WebParts.</p>
 
-<p>It''s essentially an application running within Sharepoint, utilizing Lists and other functions, but all the functionality is only useful within the application, so flooding the web part gallery with countless web parts that only work in one place is something i''d like to avoid.</p>',91,21,'2008-09-03T20:30:28.753Z',53,66);
-INSERT INTO answers VALUES (43728,'<p>Thanks so far. I''ve successfully tried Andrew Connel''s solution:</p>
+<p>It''s essentially an application running within Sharepoint, utilizing Lists and other functions, but all the functionality is only useful within the application, so flooding the web part gallery with countless web parts that only work in one place is something i''d like to avoid.</p>',91,30,'2008-09-03T20:30:28.753Z',55,86);
+INSERT INTO answers VALUES (43728,41576,'Michael Stum','<p>Thanks so far. I''ve successfully tried Andrew Connel''s solution:</p>
 
 <p><a href="http://www.andrewconnell.com/blog/articles/UsingCodeBehindFilesInSharePointSites.aspx" rel="nofollow noreferrer">http://www.andrewconnell.com/blog/articles/UsingCodeBehindFilesInSharePointSites.aspx</a></p>
 
 <p>Wrapping it into a solution is part of that, but the main problem was how to get the code into that, and it''s more leaning towards Option 2 without having to create the controls in code.</p>
 
 <p>What I was missing:<br>
-In the .cs File, it is required to manually add the "protected Button Trigger;" stuff, because there is no automatically generated .designer.cs file when using a class library.</p>',91,66,'2008-09-04T13:14:23.647Z',13,4);
-INSERT INTO answers VALUES (43922,'<blockquote>
+In the .cs File, it is required to manually add the "protected Button Trigger;" stuff, because there is no automatically generated .designer.cs file when using a class library.</p>',91,55,'2008-09-04T13:14:23.647Z',6,50);
+INSERT INTO answers VALUES (43922,43803,'Zack','<blockquote>
   <p><strong><a href="https://stackoverflow.com/users/1249/alassek">ALassek</a></strong> wrote:</p>
   
   <p>&hellip;generate the table in code&hellip;</p>
 </blockquote>
 
-<p>I like the look of that!  It seems MUCH less likely to produce a run-time exception due to a typo or field name change.</p>',83,82,'2008-09-04T14:49:13.730Z',79,56);
-INSERT INTO answers VALUES (44081,'<p>I would use a GridView (or DataGrid, if you are using an older version of ASP.NET).</p>
+<p>I like the look of that!  It seems MUCH less likely to produce a run-time exception due to a typo or field name change.</p>',83,26,'2008-09-04T14:49:13.730Z',76,49);
+INSERT INTO answers VALUES (44081,43803,'Sean','<p>I would use a GridView (or DataGrid, if you are using an older version of ASP.NET).</p>
 
 <pre><code>&lt;asp:GridView ID="gvBooks" runat="server" AutoGenerateColumns="False"&gt;
     &lt;Columns&gt;
@@ -19610,8 +19610,8 @@ INSERT INTO answers VALUES (44081,'<p>I would use a GridView (or DataGrid, if yo
 End Sub
 </code></pre>
 
-<p>You can bind it in a similar way. The RowDataBound event is what you need.</p>',106,81,'2008-09-04T16:06:01.223Z',25,48);
-INSERT INTO answers VALUES (44378,'<p>Go to the table row''s BackgroundColor property and choose "Expression..."</p>
+<p>You can bind it in a similar way. The RowDataBound event is what you need.</p>',106,38,'2008-09-04T16:06:01.223Z',16,22);
+INSERT INTO answers VALUES (44378,44376,'mharen','<p>Go to the table row''s BackgroundColor property and choose "Expression..."</p>
 
 <p>Use this expression: </p>
 
@@ -19625,11 +19625,11 @@ INSERT INTO answers VALUES (44378,'<p>Go to the table row''s BackgroundColor pro
 <pre><code>= If(RowNumber(Nothing) Mod 2 = 0, "Silver", "Transparent")
 </code></pre>
 
-<p>Not looking for rep--I just researched this question myself and thought I''d share.</p>',29,7,'2008-09-04T18:19:32.850Z',86,72);
-INSERT INTO answers VALUES (44783,'<p>What you want to do is use the AlternateViews property on the MailMessage</p>
+<p>Not looking for rep--I just researched this question myself and thought I''d share.</p>',29,44,'2008-09-04T18:19:32.850Z',2,32);
+INSERT INTO answers VALUES (44783,44777,'Nick Berardi','<p>What you want to do is use the AlternateViews property on the MailMessage</p>
 
-<p><a href="http://msdn.microsoft.com/en-us/library/system.net.mail.mailmessage.alternateviews.aspx" rel="noreferrer">http://msdn.microsoft.com/en-us/library/system.net.mail.mailmessage.alternateviews.aspx</a></p>',17,93,'2008-09-04T21:07:00.203Z',9,49);
-INSERT INTO answers VALUES (44877,'<p>The MSDN Documentation seems to miss one thing though, I had to set the content type manually, but otherwise, it works like a charm :-)</p>
+<p><a href="http://msdn.microsoft.com/en-us/library/system.net.mail.mailmessage.alternateviews.aspx" rel="noreferrer">http://msdn.microsoft.com/en-us/library/system.net.mail.mailmessage.alternateviews.aspx</a></p>',17,58,'2008-09-04T21:07:00.203Z',94,62);
+INSERT INTO answers VALUES (44877,44777,'Michael Stum','<p>The MSDN Documentation seems to miss one thing though, I had to set the content type manually, but otherwise, it works like a charm :-)</p>
 
 <pre><code>MailMessage msg = new MailMessage(username, nu.email, subject, body);
 msg.BodyEncoding = Encoding.UTF8;
@@ -19638,8 +19638,8 @@ msg.SubjectEncoding = Encoding.UTF8;
 AlternateView htmlView = AlternateView.CreateAlternateViewFromString(htmlContent);
 htmlView.ContentType = new System.Net.Mime.ContentType("text/html");
 msg.AlternateViews.Add(htmlView);
-</code></pre>',91,77,'2008-09-04T21:57:11.207Z',57,90);
-INSERT INTO answers VALUES (45254,'<p><a href="https://stackoverflow.com/questions/45230/is-it-possible-to-forward-ssh-requests-that-come-in-over-a-certain-port-to-anot#45237">@Mark Biek</a></p>
+</code></pre>',91,2,'2008-09-04T21:57:11.207Z',44,23);
+INSERT INTO answers VALUES (45254,45230,'Mike Stone','<p><a href="https://stackoverflow.com/questions/45230/is-it-possible-to-forward-ssh-requests-that-come-in-over-a-certain-port-to-anot#45237">@Mark Biek</a></p>
 
 <p>I was going to say that, but you beat me to it!  Anyways, I just wanted to add that there is also the -R option:</p>
 
@@ -19650,8 +19650,8 @@ INSERT INTO answers VALUES (45254,'<p><a href="https://stackoverflow.com/questio
 
 <p>Also, I''m pretty sure you are fine to use a regular user as long as the port you are forwarding (in this case the 8022 port) is not below the restricted range (which I think is 1024, but I could be mistaken), because those are the "reserved" ports.  It doesn''t matter that you are forwarding it to a "restricted" port because that port is not being opened (the machine is just having traffic sent to it through the tunnel, it has no knowledge of the tunnel), the 8022 port IS being open and so is restricted as such.</p>
 
-<p>EDIT: Just remember, the tunnel is only open so long as the initial ssh remains open, so if it times out or you exit it, the tunnel will be closed.</p>',122,34,'2008-09-05T05:10:58.230Z',25,50);
-INSERT INTO answers VALUES (45590,'<p>I read a little bit more about it - now I can see the difference between importing a C-style function and creating an OLE object.</p>
+<p>EDIT: Just remember, the tunnel is only open so long as the initial ssh remains open, so if it times out or you exit it, the tunnel will be closed.</p>',122,45,'2008-09-05T05:10:58.230Z',16,76);
+INSERT INTO answers VALUES (45590,45510,'chopeen','<p>I read a little bit more about it - now I can see the difference between importing a C-style function and creating an OLE object.</p>
 
 <p>Something like this would work for me:</p>
 
@@ -19668,30 +19668,30 @@ end;
 
 <p>but it requires registering the DLL file.</p>
 
-<p>I guess I will have to create a command-line application to call the functions from the DLL.</p>',95,38,'2008-09-05T11:44:34.303Z',60,61);
-INSERT INTO answers VALUES (47391,'<p>A trigger is a named database object that is associated with a table and that is activated when a particular event occurs for the table.<br />
+<p>I guess I will have to create a command-line application to call the functions from the DLL.</p>',95,69,'2008-09-05T11:44:34.303Z',9,27);
+INSERT INTO answers VALUES (47391,47387,'Unkwntech','<p>A trigger is a named database object that is associated with a table and that is activated when a particular event occurs for the table.<br />
 <br />To create a trigger:<br /></p>
 
 <pre><code>CREATE TRIGGER triggerName [BEFORE|AFTER] [INSERT|UPDATE|DELETE|REPLACE] ON tableName FOR EACH ROW SET stuffToDoHERE;
 </code></pre>
 
-<p><br />Even though I answered this part the other question still stands.</p>',115,51,'2008-09-06T11:34:10.250Z',21,39);
-INSERT INTO answers VALUES (49786,'<p>@David:<br>
+<p><br />Even though I answered this part the other question still stands.</p>',115,89,'2008-09-06T11:34:10.250Z',24,0);
+INSERT INTO answers VALUES (49786,49757,'Bernard','<p>@David:<br>
 I already have the parser (and most of these will be hand written, so I decided against XML). But that looks like I really nice way of doing it; I''ll have to check it out. Excellent point about versioning too. </p>
 
 <p>@Argelbargel:<br>
-That looks good too. :'')</p>',61,85,'2008-09-08T14:16:58.967Z',4,40);
-INSERT INTO answers VALUES (49875,'<blockquote>
+That looks good too. :'')</p>',61,33,'2008-09-08T14:16:58.967Z',96,34);
+INSERT INTO answers VALUES (49875,49757,'Bernard','<blockquote>
   <p>Is it really?</p>
 </blockquote>
 
-<p>Yes; I have thought this out. Far be it from me to do more work than neccessary. :'') </p>',61,25,'2008-09-08T15:00:10.097Z',1,93);
-INSERT INTO answers VALUES (50586,'<p>That''s what I would like to avoid if possible, but this seems to be much more complicated than expected.</p>
+<p>Yes; I have thought this out. Far be it from me to do more work than neccessary. :'') </p>',61,70,'2008-09-08T15:00:10.097Z',43,65);
+INSERT INTO answers VALUES (50586,47864,'Michael Stum','<p>That''s what I would like to avoid if possible, but this seems to be much more complicated than expected.</p>
 
 <p>Normally, everyone advises using the AsyncPostBackError of the ScriptManager, but this does not work if called on the Global.asax. Unfortunately, as the HttpRequestValidationException is emitted by the runtime, it never enters my code and I cannot do much within the Application_Error.</p>
 
-<p>So yes, it needs to be indeed done in the JavaScript, I just hope there is a way to add a "hook" like the BeginRequestHandler-Function so that I don''t have to "hack" Microsoft code. If I find a solution before someone else, i''ll put it up here :-)</p>',91,20,'2008-09-08T20:26:11.700Z',69,76);
-INSERT INTO answers VALUES (50671,'<p>Found it and <a href="http://www.stum.de/2008/09/08/gracefully-handling-httprequestvalidationexception-with-aspnet-ajax/" rel="nofollow noreferrer">blogged about it</a>. Basically, the EndRequestHandler and the args.set_errorHandled are our friends here.</p>
+<p>So yes, it needs to be indeed done in the JavaScript, I just hope there is a way to add a "hook" like the BeginRequestHandler-Function so that I don''t have to "hack" Microsoft code. If I find a solution before someone else, i''ll put it up here :-)</p>',91,46,'2008-09-08T20:26:11.700Z',75,5);
+INSERT INTO answers VALUES (50671,47864,'Michael Stum','<p>Found it and <a href="http://www.stum.de/2008/09/08/gracefully-handling-httprequestvalidationexception-with-aspnet-ajax/" rel="nofollow noreferrer">blogged about it</a>. Basically, the EndRequestHandler and the args.set_errorHandled are our friends here.</p>
 
 <pre><code>&lt;script type="text/javascript" language="javascript"&gt;
 var prm = Sys.WebForms.PageRequestManager.getInstance();
@@ -19715,8 +19715,8 @@ function EndRequestHandler(sender, args) {
     }
 }
 &lt;/script&gt;
-</code></pre>',91,64,'2008-09-08T20:59:39.797Z',9,50);
-INSERT INTO answers VALUES (50976,'<p>Thanks for the answers everyone!</p>
+</code></pre>',91,16,'2008-09-08T20:59:39.797Z',53,6);
+INSERT INTO answers VALUES (50976,50824,'Mike Stone','<p>Thanks for the answers everyone!</p>
 
 <p>As it turns out, the comment ahead of the file seemed to work, but when I delved into the DBUnit source, it is because validation is turned off.</p>
 
@@ -19729,17 +19729,17 @@ Document document = builder.parse(new File("/path/to/file"));
 
 <p>and this fails with an exception because the XML Declaration is not the first thing (as others indicated would be the case).</p>
 
-<p>So, while DBUnit would work, I prefer to have valid XML, so I moved the comment to the end (since DBUnit generates the XML Declaration, it is not an option to place the comment below it, even though I would prefer that... at least not without modifying the XML after the fact, which would be more work than it is worth).</p>',122,9,'2008-09-08T23:50:55Z',90,59);
-INSERT INTO answers VALUES (52083,'<p>A loop in JavaScript looks like this:</p>
+<p>So, while DBUnit would work, I prefer to have valid XML, so I moved the comment to the end (since DBUnit generates the XML Declaration, it is not an option to place the comment below it, even though I would prefer that... at least not without modifying the XML after the fact, which would be more work than it is worth).</p>',122,71,'2008-09-08T23:50:55Z',40,31);
+INSERT INTO answers VALUES (52083,52080,'Unkwntech','<p>A loop in JavaScript looks like this:</p>
 
 <pre><code>for (var = startvalue; var &lt;= endvalue; var = var + increment) {
     // code to be executed
 }
-</code></pre>',115,8,'2008-09-09T14:55:34.373Z',14,54);
-INSERT INTO answers VALUES (53192,'<p><a href="https://stackoverflow.com/questions/52981/cannot-delete-from-the-database#53169">@castaway</a></p>
+</code></pre>',115,37,'2008-09-09T14:55:34.373Z',30,50);
+INSERT INTO answers VALUES (53192,52981,'Mike Stone','<p><a href="https://stackoverflow.com/questions/52981/cannot-delete-from-the-database#53169">@castaway</a></p>
 
-<p>A select with the same "where" condition works just fine, just not delete.  Neither runstats nor reorg table have any affect on the problem.</p>',122,61,'2008-09-09T23:59:37.403Z',74,27);
-INSERT INTO answers VALUES (53241,'<p><a href="https://stackoverflow.com/questions/52981/cannot-delete-from-the-database#53231">@castaway</a></p>
+<p>A select with the same "where" condition works just fine, just not delete.  Neither runstats nor reorg table have any affect on the problem.</p>',122,44,'2008-09-09T23:59:37.403Z',74,30);
+INSERT INTO answers VALUES (53241,52981,'Mike Stone','<p><a href="https://stackoverflow.com/questions/52981/cannot-delete-from-the-database#53231">@castaway</a></p>
 
 <p>We actually just solved the problem, and indeed it is just what you said (a coworker found that exact same page too).</p>
 
@@ -19751,8 +19751,8 @@ INSERT INTO answers VALUES (53241,'<p><a href="https://stackoverflow.com/questio
 
 <p>Which indicates that the problem is a referential constraint corruption, and is actually, or supposedly anyways, fixed in a later version of db2 V9 (which we are not yet using).</p>
 
-<p>Thanks for the help!</p>',122,60,'2008-09-10T00:45:27.263Z',74,81);
-INSERT INTO answers VALUES (57040,'<p><strong>Here was the problem and solution</strong>: </p>
+<p>Thanks for the help!</p>',122,95,'2008-09-10T00:45:27.263Z',61,20);
+INSERT INTO answers VALUES (57040,56271,'Yaakov Ellis','<p><strong>Here was the problem and solution</strong>: </p>
 
 <p>Earlier in development I had gone to the Website menu and clicked on Asp.net configuration. This resulted in the following line being added to the web.config: </p>
 
@@ -19763,11 +19763,11 @@ INSERT INTO answers VALUES (57040,'<p><strong>Here was the problem and solution<
 
 <p>From that point on, the app was assuming that I was doing roles through the Asp.net site manager, and not through FormsAuthentication roles. Thus the repeated failures, despite the fact that the actual authentication and roles logic was set up correctly.</p>
 
-<p>After this line was removed from web.config everything worked perfectly.</p>',51,83,'2008-09-11T16:23:11.433Z',24,29);
-INSERT INTO answers VALUES (57460,'<p>I''m going to run some new tests with the settings to passive tomorrow when maintenance is done here, but I''m not sure that''s the issue.  We are able to get a directory listing if there are files or subdirectories in that directory.  It only fails when the directory we''re NLST-ing on is empty.</p>
+<p>After this line was removed from web.config everything worked perfectly.</p>',51,90,'2008-09-11T16:23:11.433Z',5,74);
+INSERT INTO answers VALUES (57460,57194,'saalon','<p>I''m going to run some new tests with the settings to passive tomorrow when maintenance is done here, but I''m not sure that''s the issue.  We are able to get a directory listing if there are files or subdirectories in that directory.  It only fails when the directory we''re NLST-ing on is empty.</p>
 
-<p>Would the active/passive difference only manifest for an empty directory, or is there another possibility?</p>',111,38,'2008-09-11T19:53:10.087Z',5,48);
-INSERT INTO answers VALUES (62189,'<p>My current best (in x86 assembly) is:</p>
+<p>Would the active/passive difference only manifest for an empty directory, or is there another possibility?</p>',111,12,'2008-09-11T19:53:10.087Z',52,90);
+INSERT INTO answers VALUES (62189,62188,'Chris Jester-Young','<p>My current best (in x86 assembly) is:</p>
 
 <pre><code>push eax
 jmp short $-1
@@ -19778,14 +19778,14 @@ jmp short $-1
 <pre><code>call $
 </code></pre>
 
-<p>which also results in 3 bytes (<code>E8 FD FF</code>).</p>',13,8,'2008-09-15T11:17:47.793Z',12,10);
-INSERT INTO answers VALUES (62231,'<p>Here''s my C contribution, weighing in at 18 characters:</p>
+<p>which also results in 3 bytes (<code>E8 FD FF</code>).</p>',13,7,'2008-09-15T11:17:47.793Z',81,6);
+INSERT INTO answers VALUES (62231,62188,'Chris Jester-Young','<p>Here''s my C contribution, weighing in at 18 characters:</p>
 
 <pre><code>void o(){o();o();}
 </code></pre>
 
-<p>This is a <em>lot</em> harder to tail-call optimise! :-P</p>',13,1,'2008-09-15T11:46:48.350Z',81,21);
-INSERT INTO answers VALUES (62370,'<p>I loved Cody''s answer heaps, so here is my similar contribution, in C++:</p>
+<p>This is a <em>lot</em> harder to tail-call optimise! :-P</p>',13,11,'2008-09-15T11:46:48.350Z',38,94);
+INSERT INTO answers VALUES (62370,62188,'Chris Jester-Young','<p>I loved Cody''s answer heaps, so here is my similar contribution, in C++:</p>
 
 <pre><code>template &lt;int i&gt;
 class Overflow {
@@ -19795,13 +19795,13 @@ class Overflow {
 typedef Overflow&lt;0&gt;::type Kaboom;
 </code></pre>
 
-<p>Not a code golf entry by any means, but still, anything for a meta stack overflow! :-P</p>',13,65,'2008-09-15T12:33:25.600Z',44,90);
-INSERT INTO answers VALUES (62587,'<p>@Kibbee:  I need to avoid the HTTP performance hit.  It won''t be a remote call, so all of that added overhead <em>should</em> be unnecessary.</p>
+<p>Not a code golf entry by any means, but still, anything for a meta stack overflow! :-P</p>',13,53,'2008-09-15T12:33:25.600Z',8,19);
+INSERT INTO answers VALUES (62587,62365,'Dave Ward','<p>@Kibbee:  I need to avoid the HTTP performance hit.  It won''t be a remote call, so all of that added overhead <em>should</em> be unnecessary.</p>
 
 <p>@Daren:  I definitely agree with that design philosophy.  The issue here is that I''m not going to be in control of the service or its underlying business logic.</p>
 
-<p>This is for <a href="http://codeplex.com/UsernameAvailability" rel="nofollow noreferrer">a server control</a> that will need to execute against an arbitrary service/method, orthogonally to how the web service itself is implemented.</p>',60,30,'2008-09-15T12:59:24.413Z',77,94);
-INSERT INTO answers VALUES (62774,'<p>@Radu:  I''m able to create an instance and call the method exactly like that.  For example, if I have this ASMX:</p>
+<p>This is for <a href="http://codeplex.com/UsernameAvailability" rel="nofollow noreferrer">a server control</a> that will need to execute against an arbitrary service/method, orthogonally to how the web service itself is implemented.</p>',60,78,'2008-09-15T12:59:24.413Z',24,71);
+INSERT INTO answers VALUES (62774,62365,'Dave Ward','<p>@Radu:  I''m able to create an instance and call the method exactly like that.  For example, if I have this ASMX:</p>
 
 <pre>[WebService(Namespace = "http://tempuri.org/")]
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
@@ -19820,14 +19820,14 @@ public class MyService : System.Web.Services.WebService
 <pre>MyService service = new MyService();
 Response.Write(service.HelloWorld());</pre>
 
-<p>Are you saying that shouldn''t work?</p>',60,94,'2008-09-15T13:18:00.877Z',97,26);
-INSERT INTO answers VALUES (68960,'<pre><code>Person JeffAtwood;
+<p>Are you saying that shouldn''t work?</p>',60,66,'2008-09-15T13:18:00.877Z',39,70);
+INSERT INTO answers VALUES (68960,62188,'Ryan Fox','<pre><code>Person JeffAtwood;
 Person JoelSpolsky;
 JeffAtwood.TalkTo(JoelSpolsky);
 </code></pre>
 
-<p>Here''s hoping for no tail recursion!</p>',55,57,'2008-09-16T02:38:59.857Z',5,70);
-INSERT INTO answers VALUES (71833,'<p>I''m selecting the “best answer” after this post. But first, I''d like to acknowledge some very original contributions:</p>
+<p>Here''s hoping for no tail recursion!</p>',55,43,'2008-09-16T02:38:59.857Z',37,22);
+INSERT INTO answers VALUES (71833,62188,'Chris Jester-Young','<p>I''m selecting the “best answer” after this post. But first, I''d like to acknowledge some very original contributions:</p>
 
 <ol>
 <li>aku''s ones. Each one explores a new and original way of causing stack overflow. The idea of doing f(x) ⇒ f(f(x)) is one I''ll explore in my next entry, below. :-)</li>
@@ -19840,25 +19840,25 @@ INSERT INTO answers VALUES (71833,'<p>I''m selecting the “best answer” after
 <p>Seeing the large number of stack-overflow-by-recursion solutions, I''m surprised that nobody has (as of current writing) brought up the Y combinator (see Dick Gabriel''s essay, <a href="http://www.dreamsongs.com/Files/WhyOfY.pdf" rel="nofollow noreferrer">The Why of Y</a>, for a primer). I have a recursive solution that uses the Y combinator, as well as aku''s f(f(x)) approach. :-)</p>
 
 <pre><code>((Y (lambda (f) (lambda (x) (f (f x))))) #f)
-</code></pre>',13,83,'2008-09-16T12:48:03.683Z',74,78);
-INSERT INTO answers VALUES (72009,'<p>Your only option seems to be client-side validation, because server side means the file was already uploaded.  Also the MIME type is usually dictated by the file extension.  </p>
+</code></pre>',13,23,'2008-09-16T12:48:03.683Z',24,90);
+INSERT INTO answers VALUES (72009,71944,'Nick Berardi','<p>Your only option seems to be client-side validation, because server side means the file was already uploaded.  Also the MIME type is usually dictated by the file extension.  </p>
 
 <p>use a JavaScript Framework like jQuery to overload the onsubmit event of the form.  Then check the extension.  This will limit most attempts.  However if a person changes an image to extension XLS then you will have a problem.</p>
 
-<p>I don''t know if this is an option for you, but you have more client side control when using something like Silverlight or Flash to upload.  You may consider using one of these technologies for your upload process.</p>',17,34,'2008-09-16T13:09:08.953Z',7,7);
-INSERT INTO answers VALUES (84774,'<p>Should the PageNode class simply have a property of type Root?</p>
+<p>I don''t know if this is an option for you, but you have more client side control when using something like Silverlight or Flash to upload.  You may consider using one of these technologies for your upload process.</p>',17,44,'2008-09-16T13:09:08.953Z',50,77);
+INSERT INTO answers VALUES (84774,84263,'Zack','<p>Should the PageNode class simply have a property of type Root?</p>
 
 <p><a href="https://i.stack.imgur.com/m9LxO.gif" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/m9LxO.gif" alt="alt text"></a>
 </p>
 
 <p>Is that counter to the idea that a PageNode <a href="http://en.wikipedia.org/wiki/Is-a" rel="nofollow noreferrer">is-a</a> Root.  Or, are they not "is-a Root" because only <em>some</em> of them are roots?</p>
 
-<p>And does that imply that the property might traverse the tree looking for the root ancestor?  Or is that just me?</p>',83,32,'2008-09-17T15:55:43.897Z',91,78);
-INSERT INTO answers VALUES (86606,'<p>Well, it seems DBSight <a href="http://www.dbsight.net/index.php?q=node/42" rel="nofollow noreferrer">doesn''t meet the FOSS requirement</a>, so unless it is an absolutely stellar solution, it is not an option for me right now...</p>',122,53,'2008-09-17T19:19:47.573Z',10,62);
-INSERT INTO answers VALUES (96293,'<p>Yeah, i don''t think there is one. I just delete some i don''t think are needed then build :/</p>
+<p>And does that imply that the property might traverse the tree looking for the root ancestor?  Or is that just me?</p>',83,84,'2008-09-17T15:55:43.897Z',37,3);
+INSERT INTO answers VALUES (86606,86378,'Mike Stone','<p>Well, it seems DBSight <a href="http://www.dbsight.net/index.php?q=node/42" rel="nofollow noreferrer">doesn''t meet the FOSS requirement</a>, so unless it is an absolutely stellar solution, it is not an option for me right now...</p>',122,43,'2008-09-17T19:19:47.573Z',96,45);
+INSERT INTO answers VALUES (96293,96279,'Darren Kopp','<p>Yeah, i don''t think there is one. I just delete some i don''t think are needed then build :/</p>
 
-<p>BTW. that will keep using errors. You can use the <a href="http://www.visualstudiogallery.com/ExtensionDetails.aspx?ExtensionID=df3f0c30-3d37-4e06-9ef8-3bff3508be31" rel="nofollow noreferrer">Visual Studio Power commands</a> to remove and sort usings, so do that first, then delete random assemblies :D</p>',77,80,'2008-09-18T19:59:37.063Z',24,71);
-INSERT INTO answers VALUES (97376,'<p>Another huge gotcha: when outputting XML through a web page (ASP.NET), you don''t want to include the <a href="http://en.wikipedia.org/wiki/UTF-8#Byte_order_mark" rel="noreferrer">Unicode Byte-Order Mark</a>. Of course, the ways to use or not use the BOM are almost the same:</p>
+<p>BTW. that will keep using errors. You can use the <a href="http://www.visualstudiogallery.com/ExtensionDetails.aspx?ExtensionID=df3f0c30-3d37-4e06-9ef8-3bff3508be31" rel="nofollow noreferrer">Visual Studio Power commands</a> to remove and sort usings, so do that first, then delete random assemblies :D</p>',77,13,'2008-09-18T19:59:37.063Z',69,2);
+INSERT INTO answers VALUES (97376,67959,'kurious','<p>Another huge gotcha: when outputting XML through a web page (ASP.NET), you don''t want to include the <a href="http://en.wikipedia.org/wiki/UTF-8#Byte_order_mark" rel="noreferrer">Unicode Byte-Order Mark</a>. Of course, the ways to use or not use the BOM are almost the same:</p>
 
 <h3>BAD (includes BOM):</h3>
 
@@ -19874,9 +19874,9 @@ INSERT INTO answers VALUES (97376,'<p>Another huge gotcha: when outputting XML t
 
 <p>The three extra BOM Bytes at the beginning are (0xEFBBBF) or (239 187 191).</p>
 
-<p>Reference: <a href="http://chrislaco.com/blog/troubleshooting-common-problems-with-the-xmlserializer/" rel="noreferrer">http://chrislaco.com/blog/troubleshooting-common-problems-with-the-xmlserializer/</a></p>',109,50,'2008-09-18T21:52:50.893Z',40,85);
-INSERT INTO answers VALUES (103466,'<p>User <a href="https://stackoverflow.com/users/1968/konrad-rudolph">Konrad Rudolph</a> advocates <a href="https://stackoverflow.com/questions/102084/hidden-features-of-vbnet#103285">for DirectCast() in Stack Overflow question "Hidden Features of VB.NET"</a>.</p>',83,19,'2008-09-19T16:28:44.290Z',8,49);
-INSERT INTO answers VALUES (104140,'<p>@<a href="https://stackoverflow.com/questions/103918/automate-a-ruby-gem-install-that-has-input#104102">John Topley</a></p>
+<p>Reference: <a href="http://chrislaco.com/blog/troubleshooting-common-problems-with-the-xmlserializer/" rel="noreferrer">http://chrislaco.com/blog/troubleshooting-common-problems-with-the-xmlserializer/</a></p>',109,7,'2008-09-18T21:52:50.893Z',98,68);
+INSERT INTO answers VALUES (103466,40764,'Zack','<p>User <a href="https://stackoverflow.com/users/1968/konrad-rudolph">Konrad Rudolph</a> advocates <a href="https://stackoverflow.com/questions/102084/hidden-features-of-vbnet#103285">for DirectCast() in Stack Overflow question "Hidden Features of VB.NET"</a>.</p>',83,69,'2008-09-19T16:28:44.290Z',32,95);
+INSERT INTO answers VALUES (104140,103918,'Mike Stone','<p>@<a href="https://stackoverflow.com/questions/103918/automate-a-ruby-gem-install-that-has-input#104102">John Topley</a></p>
 
 <p>I already tried gem help install, and --platform is not an option, both in help and in practice:</p>
 
@@ -19888,14 +19888,14 @@ ERROR:  While executing gem ... (OptionParser::InvalidOption)
 
 <hr>
 
-<p><strong>UPDATE</strong>: The Ubuntu repos have 0.9.4 version of rubygems, which doesn''t have the --platform option.  It appears it may be <a href="http://rubyforge.org/forum/forum.php?forum_id=23112" rel="nofollow noreferrer">a new feature in 0.9.5</a>, but there is still no online documentation for it, and regardless, it won''t work on Ubuntu which is the platform I need it to work on.</p>',122,88,'2008-09-19T18:03:37.277Z',14,27);
-INSERT INTO answers VALUES (104490,'<p>Another option is to download the .gem file and install it manually as such:</p>
+<p><strong>UPDATE</strong>: The Ubuntu repos have 0.9.4 version of rubygems, which doesn''t have the --platform option.  It appears it may be <a href="http://rubyforge.org/forum/forum.php?forum_id=23112" rel="nofollow noreferrer">a new feature in 0.9.5</a>, but there is still no online documentation for it, and regardless, it won''t work on Ubuntu which is the platform I need it to work on.</p>',122,79,'2008-09-19T18:03:37.277Z',52,97);
+INSERT INTO answers VALUES (104490,103918,'Mike Stone','<p>Another option is to download the .gem file and install it manually as such:</p>
 
 <pre><code>sudo gem install path/to/ibm_db-0.10.0.gem
 </code></pre>
 
-<p>This particular gem was at <a href="http://rubyforge.org/frs/?group_id=2361&amp;release_id=25677" rel="nofollow noreferrer">rubyforge</a>.</p>',122,85,'2008-09-19T18:51:34.477Z',49,95);
-INSERT INTO answers VALUES (109868,'<p>Thank you, Devin! Here is my C# Code for implementing your suggestion. It works quite good. Turning this into a community owned Wiki post, If someone likes to add some code, feel free to edit this.</p>
+<p>This particular gem was at <a href="http://rubyforge.org/frs/?group_id=2361&amp;release_id=25677" rel="nofollow noreferrer">rubyforge</a>.</p>',122,40,'2008-09-19T18:51:34.477Z',65,23);
+INSERT INTO answers VALUES (109868,109753,'Michael Stum','<p>Thank you, Devin! Here is my C# Code for implementing your suggestion. It works quite good. Turning this into a community owned Wiki post, If someone likes to add some code, feel free to edit this.</p>
 
 <p><img src="https://i.stack.imgur.com/bUQE6.jpg" alt="example"></p>
 
@@ -19930,9 +19930,9 @@ public static Image AddCircularGloss(Image inputImage, int exposurePercentage, i
 }
 </code></pre>
 
-<p>(Changed after John''s suggestion. I cannot dispose the Bitmap though, this has to be done by the caller of the function)</p>',91,23,'2008-09-21T00:19:14.930Z',71,5);
-INSERT INTO answers VALUES (116605,'<p>There is a <a href="http://getfirebug.com/lite.html" rel="nofollow noreferrer">lite version</a> of Firebug that will work with IE and other browsers, have you tried that?</p>',71,27,'2008-09-22T18:25:41.643Z',7,91);
-INSERT INTO answers VALUES (118622,'<p>You should use <code>gluUnProject</code>:</p>
+<p>(Changed after John''s suggestion. I cannot dispose the Bitmap though, this has to be done by the caller of the function)</p>',91,32,'2008-09-21T00:19:14.930Z',32,90);
+INSERT INTO answers VALUES (116605,116576,'Dillie-O','<p>There is a <a href="http://getfirebug.com/lite.html" rel="nofollow noreferrer">lite version</a> of Firebug that will work with IE and other browsers, have you tried that?</p>',71,43,'2008-09-22T18:25:41.643Z',59,66);
+INSERT INTO answers VALUES (118622,113352,'Jesse Beder','<p>You should use <code>gluUnProject</code>:</p>
 
 <p>First, compute the "unprojection" to the near plane:</p>
 
@@ -19966,8 +19966,8 @@ GLfloat t = (nearv[2] - z) / (nearv[2] - farv[2]);
 // so here are the desired (x, y) coordinates
 GLfloat x = nearv[0] + (farv[0] - nearv[0]) * t,
         y = nearv[1] + (farv[1] - nearv[1]) * t;
-</code></pre>',112,26,'2008-09-23T01:24:42.153Z',58,60);
-INSERT INTO answers VALUES (120639,'<p>I tried Fiddler with its reverse proxy ability which is mentioned by @marxidad  and it seems to be working fine, since Fiddler is a familiar UI for me and has the ability to show request/responses in various formats (i.e. Raw, XML, Hex), I accept it as an answer to this question. One thing though. I use WCF and I got the following exception with reverse proxy thing:</p>
+</code></pre>',112,77,'2008-09-23T01:24:42.153Z',61,90);
+INSERT INTO answers VALUES (120639,120022,'huseyint','<p>I tried Fiddler with its reverse proxy ability which is mentioned by @marxidad  and it seems to be working fine, since Fiddler is a familiar UI for me and has the ability to show request/responses in various formats (i.e. Raw, XML, Hex), I accept it as an answer to this question. One thing though. I use WCF and I got the following exception with reverse proxy thing:</p>
 
 <blockquote>
   <p>The message with To ''<a href="http://localhost:8000/path/to/service" rel="noreferrer">http://localhost:8000/path/to/service</a>'' cannot be processed at the receiver, due to an AddressFilter mismatch at the EndpointDispatcher.  Check that the sender and receiver''s EndpointAddresses agree</p>
@@ -19979,9 +19979,9 @@ INSERT INTO answers VALUES (120639,'<p>I tried Fiddler with its reverse proxy ab
 
 <p>which recommends to use clientVia Endpoint Behavior explained in following MSDN article:</p>
 
-<p><a href="http://msdn.microsoft.com/en-us/magazine/cc163412.aspx" rel="noreferrer">http://msdn.microsoft.com/en-us/magazine/cc163412.aspx</a></p>',39,4,'2008-09-23T12:25:45.387Z',99,15);
-INSERT INTO answers VALUES (123087,'<p>i always do .Core.dll.</p>',77,61,'2008-09-23T19:05:25.940Z',5,65);
-INSERT INTO answers VALUES (128033,'<p>Figured this out:
+<p><a href="http://msdn.microsoft.com/en-us/magazine/cc163412.aspx" rel="noreferrer">http://msdn.microsoft.com/en-us/magazine/cc163412.aspx</a></p>',39,55,'2008-09-23T12:25:45.387Z',39,92);
+INSERT INTO answers VALUES (123087,123080,'Darren Kopp','<p>i always do .Core.dll.</p>',77,97,'2008-09-23T19:05:25.940Z',30,28);
+INSERT INTO answers VALUES (128033,128011,'Justin','<p>Figured this out:
 Create a new layout in your layouts folder:</p>
 
 <pre><code>layouts/message.ctp
@@ -19995,15 +19995,15 @@ Create a new layout in your layouts folder:</p>
 <p>Then when you set the flash message, specify the layout to use:</p>
 
 <pre><code>$this-&gt;Session-&gt;setFlash(''Your record has been created! Wicked!'',''message'');
-</code></pre>',43,64,'2008-09-24T15:58:22.607Z',8,11);
-INSERT INTO answers VALUES (135220,'<p>Answer was ChrW(8594)</p>',80,10,'2008-09-25T18:54:14.797Z',15,1);
-INSERT INTO answers VALUES (135951,'<p>I also had to set:</p>
+</code></pre>',43,80,'2008-09-24T15:58:22.607Z',10,20);
+INSERT INTO answers VALUES (135220,134937,'alumb','<p>Answer was ChrW(8594)</p>',80,66,'2008-09-25T18:54:14.797Z',82,13);
+INSERT INTO answers VALUES (135951,135375,'EHaskins','<p>I also had to set:</p>
 
 <pre><code>HorizontalContentAlignment="Stretch"
 </code></pre>
 
-<p>on the containing <code>ListBox</code>.</p>',100,25,'2008-09-25T20:45:33.467Z',81,42);
-INSERT INTO answers VALUES (136038,'<p>Note that I did find one way to do it, but this looks more like material for <a href="https://en.wikipedia.org/wiki/The_Daily_WTF" rel="noreferrer">The Daily WTF</a>:</p>
+<p>on the containing <code>ListBox</code>.</p>',100,91,'2008-09-25T20:45:33.467Z',48,88);
+INSERT INTO answers VALUES (136038,136035,'Michael Stum','<p>Note that I did find one way to do it, but this looks more like material for <a href="https://en.wikipedia.org/wiki/The_Daily_WTF" rel="noreferrer">The Daily WTF</a>:</p>
 
 <pre><code>catch (Exception ex)
 {
@@ -20017,8 +20017,8 @@ INSERT INTO answers VALUES (136038,'<p>Note that I did find one way to do it, bu
             throw;
     }
 }
-</code></pre>',91,70,'2008-09-25T20:56:37.670Z',26,95);
-INSERT INTO answers VALUES (136872,'<p>To convert a date retrieved from MySQL into the format requested (<code>mm/dd/yy H:M (AM/PM)</code>):</p>
+</code></pre>',91,44,'2008-09-25T20:56:37.670Z',22,58);
+INSERT INTO answers VALUES (136872,136782,'Tim Boland','<p>To convert a date retrieved from MySQL into the format requested (<code>mm/dd/yy H:M (AM/PM)</code>):</p>
 
 <pre><code>// $datetime is something like: 2014-01-31 13:05:59
 $time = strtotime($datetimeFromMysql);
@@ -20026,9 +20026,9 @@ $myFormatForView = date("m/d/y g:i A", $time);
 // $myFormatForView is something like: 01/31/14 1:05 PM
 </code></pre>
 
-<p>Refer to the <a href="http://php.net/manual/en/function.date.php#refsect1-function.date-parameters" rel="noreferrer">PHP date formatting options</a> to adjust the format.</p>',70,1,'2008-09-25T23:30:09.330Z',54,92);
-INSERT INTO answers VALUES (137513,'<p>Duh. This was a simple matter of recursive.</p>',43,29,'2008-09-26T03:00:51.630Z',34,78);
-INSERT INTO answers VALUES (138098,'<p>If you have <a href="http://en.wikipedia.org/wiki/Procfs" rel="nofollow noreferrer">procfs</a> installed, you can find the process id via the /proc/self symlink, which points to a directory whose name is the pid (there are also files here with other pertinent information, including the PID, but the directory is all you need in this case).</p>
+<p>Refer to the <a href="http://php.net/manual/en/function.date.php#refsect1-function.date-parameters" rel="noreferrer">PHP date formatting options</a> to adjust the format.</p>',70,0,'2008-09-25T23:30:09.330Z',77,33);
+INSERT INTO answers VALUES (137513,137314,'Justin','<p>Duh. This was a simple matter of recursive.</p>',43,77,'2008-09-26T03:00:51.630Z',94,5);
+INSERT INTO answers VALUES (138098,138097,'Mike Stone','<p>If you have <a href="http://en.wikipedia.org/wiki/Procfs" rel="nofollow noreferrer">procfs</a> installed, you can find the process id via the /proc/self symlink, which points to a directory whose name is the pid (there are also files here with other pertinent information, including the PID, but the directory is all you need in this case).</p>
 
 <p>Thus, with Java, you can do:</p>
 
@@ -20040,8 +20040,8 @@ INSERT INTO answers VALUES (138098,'<p>If you have <a href="http://en.wikipedia.
 <pre><code>pid = java.io.File.new("/proc/self").canonical_file.name
 </code></pre>
 
-<p>Special thanks to the #stackoverflow channel on free node for helping me solve this! (specifically, <a href="https://stackoverflow.com/users/14648/jerub">Jerub</a>, <a href="https://stackoverflow.com/users/893/greg-hewgill">gregh</a>, and <a href="https://stackoverflow.com/users/1057/harley">Topdeck</a>)</p>',122,6,'2008-09-26T07:07:17.013Z',77,93);
-INSERT INTO answers VALUES (141165,'<p>From <a href="https://stackoverflow.com/questions/138097/how-do-i-find-my-pid-in-java-or-jruby-on-linux#138098">my answer to this question</a>, I was thinking of just using procfs again, by checking if the given directory exists via File.exist? "/proc/#{pid}".  This worked in jirb:</p>
+<p>Special thanks to the #stackoverflow channel on free node for helping me solve this! (specifically, <a href="https://stackoverflow.com/users/14648/jerub">Jerub</a>, <a href="https://stackoverflow.com/users/893/greg-hewgill">gregh</a>, and <a href="https://stackoverflow.com/users/1057/harley">Topdeck</a>)</p>',122,89,'2008-09-26T07:07:17.013Z',81,52);
+INSERT INTO answers VALUES (141165,141162,'Mike Stone','<p>From <a href="https://stackoverflow.com/questions/138097/how-do-i-find-my-pid-in-java-or-jruby-on-linux#138098">my answer to this question</a>, I was thinking of just using procfs again, by checking if the given directory exists via File.exist? "/proc/#{pid}".  This worked in jirb:</p>
 
 <pre>
 irb(main):001:0> File.exist? "/proc/5555"
@@ -20050,16 +20050,16 @@ irb(main):002:0> File.exist? "/proc/7677"
 => true
 </pre>
 
-<p>However, I would still prefer to use a method that specifically exists to detect if a process is running... like Process.exist?(pid)... which unfortunately doesn''t exist that I''ve seen.</p>',122,71,'2008-09-26T18:34:27.743Z',13,72);
-INSERT INTO answers VALUES (155826,'<p>bad news : none of the proposed fixes work. Modifying prettify.js around line 1000</p>
+<p>However, I would still prefer to use a method that specifically exists to detect if a process is running... like Process.exist?(pid)... which unfortunately doesn''t exist that I''ve seen.</p>',122,95,'2008-09-26T18:34:27.743Z',32,41);
+INSERT INTO answers VALUES (155826,136443,'Jeff Atwood','<p>bad news : none of the proposed fixes work. Modifying prettify.js around line 1000</p>
 
 <pre><code>html.push(htmlChunk.replace(newlineRe, ''\n''));
 </code></pre>
 
 <p>This causes double-spacing in other browsers, and <em>still</em> doesn''t solve the IE7 copy to notepad problem! So even if I selectively detected IE7, this "fix" doesn''t fix anything.</p>
 
-<p>I guess maybe it is simply a bug in IE7 having to do with JavaScript rebuilding a <code>&lt;pre&gt;</code> element -- no matter how many \n newlines I put in there, nothing changes w/r/t to the paste to notepad behavior.</p>',1,40,'2008-10-01T01:19:17.377Z',3,7);
-INSERT INTO answers VALUES (156321,'<p>By default, iostreams and stdio are synchronised. <a href="http://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio" rel="nofollow noreferrer">Reference.</a></p>
+<p>I guess maybe it is simply a bug in IE7 having to do with JavaScript rebuilding a <code>&lt;pre&gt;</code> element -- no matter how many \n newlines I put in there, nothing changes w/r/t to the paste to notepad behavior.</p>',1,83,'2008-10-01T01:19:17.377Z',3,55);
+INSERT INTO answers VALUES (156321,156278,'Chris Jester-Young','<p>By default, iostreams and stdio are synchronised. <a href="http://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio" rel="nofollow noreferrer">Reference.</a></p>
 
 <p>This doesn''t mean that manually adjusting the stdio buffering is a good idea, though! You may wish to utilise <code>std::endl</code> or <code>std::flush</code> (from <code>&lt;ostream&gt;</code>), which may help you. e.g.,</p>
 
@@ -20071,8 +20071,8 @@ INSERT INTO answers VALUES (156321,'<p>By default, iostreams and stdio are synch
 <pre><code>std::cout &lt;&lt; "Hello, world!\n" &lt;&lt; std::flush;
 </code></pre>
 
-<p>Both of these do the same thing. (<a href="http://en.cppreference.com/w/cpp/io/manip/endl" rel="nofollow noreferrer"><code>std::endl</code></a> = print endline, then flush.)</p>',13,76,'2008-10-01T05:20:48.403Z',80,6);
-INSERT INTO answers VALUES (156760,'<p>Just a quick follow up for this question...</p>
+<p>Both of these do the same thing. (<a href="http://en.cppreference.com/w/cpp/io/manip/endl" rel="nofollow noreferrer"><code>std::endl</code></a> = print endline, then flush.)</p>',13,68,'2008-10-01T05:20:48.403Z',33,4);
+INSERT INTO answers VALUES (156760,24109,'Sven','<p>Just a quick follow up for this question...</p>
 
 <p>It''s been a month since I started using Vim as my main ''GUI''
 tool for programming C++ in Linux. At first the learning
@@ -20104,8 +20104,8 @@ Linux development environment, thank you!</p>
 
 <p>I''m also <em>not</em> closing this question, so people can still
 react or maybe even add new suggestions or additions to the
-already really nice answers...</p>',46,11,'2008-10-01T08:53:37.970Z',21,95);
-INSERT INTO answers VALUES (157696,'<p>I got it to work following these steps&hellip;</p>
+already really nice answers...</p>',46,57,'2008-10-01T08:53:37.970Z',38,82);
+INSERT INTO answers VALUES (157696,105776,'Zack','<p>I got it to work following these steps&hellip;</p>
 
 <ol>
 <li><p>Open MySQL Administrator and connect to server</p></li>
@@ -20129,23 +20129,23 @@ INSERT INTO answers VALUES (157696,'<p>I got it to work following these steps&he
 
 <p><a href="http://img388.imageshack.us/img388/2489/cmdjx0.th.gif" rel="noreferrer">MySQL dump restore command line http://img388.imageshack.us/img388/2489/cmdjx0.th.gif</a> <a href="http://img388.imageshack.us/img388/2489/cmdjx0.gif" rel="noreferrer">enlarge image</a></p></li>
 <li><p>Enjoy!</p></li>
-</ol>',83,0,'2008-10-01T13:52:38.313Z',2,84);
-INSERT INTO answers VALUES (158351,'<p>Awesome, I just found it:</p>
+</ol>',83,72,'2008-10-01T13:52:38.313Z',67,11);
+INSERT INTO answers VALUES (158351,158341,'Shawn','<p>Awesome, I just found it:</p>
 
 <p><code>Tools -&gt; Options -&gt; Sql Server Object Explorer -&gt; General Scripting Options</code></p>
 
-<p><code>Script USE &lt;database&gt; -&gt; False</code></p>',26,53,'2008-10-01T16:00:18.337Z',73,33);
-INSERT INTO answers VALUES (161900,'<p>Thanks. I figured that i can get the Domain (at least in my AD) through specifying "LDAP://{0}.somedomain.com/DC={0},DC=somedomain,DC=com", replacing {0} with the domain, which works in our my environment at least.</p>
+<p><code>Script USE &lt;database&gt; -&gt; False</code></p>',26,95,'2008-10-01T16:00:18.337Z',21,78);
+INSERT INTO answers VALUES (161900,161398,'Michael Stum','<p>Thanks. I figured that i can get the Domain (at least in my AD) through specifying "LDAP://{0}.somedomain.com/DC={0},DC=somedomain,DC=com", replacing {0} with the domain, which works in our my environment at least.</p>
 
 <p>One question though: sAMAccountName seems depreciated: <a href="http://msdn.microsoft.com/en-us/library/ms679635%28VS.85%29.aspx" rel="nofollow noreferrer">The logon name used to support clients and servers running older versions of the operating system, such as Windows NT 4.0, Windows 95, Windows 98, and LAN Manager. This attribute must be less than 20 characters to support older clients.</a></p>
 
 <p>Is this still the best approach to it? Or is there a more "modern" field to query? (Windows 2003 Active Directory, Windows XP or 2003 Clients, .net 3.0)</p>
 
-<p><strong>Edit:</strong> Thanks again. Our structure is a bit complicated: we have a big "domain.com" forest, with several domains for regional offices. Essentially: The Login is "something\username", the full domain us something.domain.com and the mail is user@domain.com (without the something), but the principal name is user@something.domain.com. I will manually "translate" something\username to username@something.domain.com, as this seems to be the most robust way. Especially since I want to keep the Auto-Discovery feature in.</p>',91,91,'2008-10-02T11:57:04.917Z',34,68);
-INSERT INTO answers VALUES (161907,'<p>Thanks for the Answers. One Caveat: if you run the Application Pool as "Network Service" instead of a Domain Account, you''re screwed.</p>
+<p><strong>Edit:</strong> Thanks again. Our structure is a bit complicated: we have a big "domain.com" forest, with several domains for regional offices. Essentially: The Login is "something\username", the full domain us something.domain.com and the mail is user@domain.com (without the something), but the principal name is user@something.domain.com. I will manually "translate" something\username to username@something.domain.com, as this seems to be the most robust way. Especially since I want to keep the Auto-Discovery feature in.</p>',91,9,'2008-10-02T11:57:04.917Z',9,52);
+INSERT INTO answers VALUES (161907,82788,'Michael Stum','<p>Thanks for the Answers. One Caveat: if you run the Application Pool as "Network Service" instead of a Domain Account, you''re screwed.</p>
 
-<p>But then again, it''s recommended to use a domain account anyway (On a test server I used network service, but after changing it to a domain account it worked).</p>',91,71,'2008-10-02T11:59:52.743Z',42,88);
-INSERT INTO answers VALUES (165181,'<p>I''ve had a chance to look at fdlibm''s implementation. The comments describe the algorithm used:</p>
+<p>But then again, it''s recommended to use a domain account anyway (On a test server I used network service, but after changing it to a domain account it worked).</p>',91,27,'2008-10-02T11:59:52.743Z',24,81);
+INSERT INTO answers VALUES (165181,164964,'Chris Jester-Young','<p>I''ve had a chance to look at fdlibm''s implementation. The comments describe the algorithm used:</p>
 
 <pre><code> *                    n
  * Method:  Let x =  2   * (1+f)
@@ -20161,8 +20161,8 @@ INSERT INTO answers VALUES (165181,'<p>I''ve had a chance to look at fdlibm''s i
 
 <p>The most intense sections of the code, after all the special-case handling, involve the <code>log2</code> and <code>2**</code> calculations. And there are no loops in either of those. So, the complexity of floating-point primitives notwithstanding, it looks like a asymptotically constant-time algorithm.</p>
 
-<p>Floating-point experts (of which I''m not one) are welcome to comment. :-)</p>',13,26,'2008-10-03T00:16:34Z',81,46);
-INSERT INTO answers VALUES (165327,'<p>From the GNU C Library manual:</p>
+<p>Floating-point experts (of which I''m not one) are welcome to comment. :-)</p>',13,68,'2008-10-03T00:16:34Z',90,21);
+INSERT INTO answers VALUES (165327,165212,'Chris Jester-Young','<p>From the GNU C Library manual:</p>
 
 <blockquote>
   <p>Here is an example showing how to read the mask with <code>umask</code>
@@ -20184,9 +20184,9 @@ read_umask (void)
 
 <p><code>getumask</code> is glibc-specific, though. So if you value portability, then the non-reentrant solution is the only one there is.</p>
 
-<p>Edit: I''ve just grepped for <code>-&gt;umask</code> all through the Linux source code. There is nowhere that will get you the umask of a different process. Also, there is no <code>getumask</code>; apparently that''s a Hurd-only thing.</p>',13,68,'2008-10-03T01:19:25.050Z',84,95);
-INSERT INTO answers VALUES (165782,'<p>Not that I''m aware of, but you can use <a href="http://www.lispworks.com/documentation/HyperSpec/Body/18_.htm" rel="nofollow noreferrer">hash tables</a> for something quite similar.</p>',13,58,'2008-10-03T05:27:37.997Z',31,16);
-INSERT INTO answers VALUES (166552,'<p>This will fetch your remote IP address</p>
+<p>Edit: I''ve just grepped for <code>-&gt;umask</code> all through the Linux source code. There is nowhere that will get you the umask of a different process. Also, there is no <code>getumask</code>; apparently that''s a Hurd-only thing.</p>',13,96,'2008-10-03T01:19:25.050Z',59,44);
+INSERT INTO answers VALUES (165782,165767,'Chris Jester-Young','<p>Not that I''m aware of, but you can use <a href="http://www.lispworks.com/documentation/HyperSpec/Body/18_.htm" rel="nofollow noreferrer">hash tables</a> for something quite similar.</p>',13,59,'2008-10-03T05:27:37.997Z',4,4);
+INSERT INTO answers VALUES (166552,166545,'Unkwntech','<p>This will fetch your remote IP address</p>
 
 <pre><code>import urllib
 ip = urllib.urlopen(''http://automation.whatismyip.com/n09230945.asp'').read()
@@ -20205,8 +20205,8 @@ UserIPAddress = Request.ServerVariables("REMOTE_ADDR")
 %&gt;
 </code></pre>
 
-<p>Note: I don''t know ASP, but I figured it might be useful to have here so I googled.</p>',115,68,'2008-10-03T12:22:07.410Z',37,37);
-INSERT INTO answers VALUES (166589,'<p>I just found this but it seems a bit hackish, however they say tried it on *nix and I did on windows and it worked.</p>
+<p>Note: I don''t know ASP, but I figured it might be useful to have here so I googled.</p>',115,82,'2008-10-03T12:22:07.410Z',83,92);
+INSERT INTO answers VALUES (166589,166506,'Unkwntech','<p>I just found this but it seems a bit hackish, however they say tried it on *nix and I did on windows and it worked.</p>
 
 <pre><code>import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -20215,11 +20215,11 @@ print(s.getsockname()[0])
 s.close()
 </code></pre>
 
-<p>This assumes you have an internet access, and that there is no local proxy.</p>',115,58,'2008-10-03T12:35:13.857Z',70,17);
-INSERT INTO answers VALUES (171146,'<p>Thanks Uros. It does look like all that RunInstaller and DefaultManagementInstaller do is enable you to run InstallUtil successfully against the assembly. This is strange because I''m almost certain that I didn''t know about InstallUtil at the point where I''d compiled and played with my first WMI provider.</p>
+<p>This assumes you have an internet access, and that there is no local proxy.</p>',115,63,'2008-10-03T12:35:13.857Z',19,57);
+INSERT INTO answers VALUES (171146,162993,'Duncan','<p>Thanks Uros. It does look like all that RunInstaller and DefaultManagementInstaller do is enable you to run InstallUtil successfully against the assembly. This is strange because I''m almost certain that I didn''t know about InstallUtil at the point where I''d compiled and played with my first WMI provider.</p>
 
-<p>I will look in to using the MOF file and for my own use I can just run the InstallUtil command line as a post build event in VS.</p>',82,59,'2008-10-04T22:57:27.300Z',57,26);
-INSERT INTO answers VALUES (180495,'<p>Oops.  I found that I was not using the correct syntax when assigning values:</p>
+<p>I will look in to using the MOF file and for my own use I can just run the InstallUtil command line as a post build event in VS.</p>',82,64,'2008-10-04T22:57:27.300Z',44,50);
+INSERT INTO answers VALUES (180495,180464,'Zack','<p>Oops.  I found that I was not using the correct syntax when assigning values:</p>
 
 <p>Does not work:</p>
 
@@ -20229,9 +20229,9 @@ INSERT INTO answers VALUES (180495,'<p>Oops.  I found that I was not using the c
 <p>Does work:</p>
 
 <pre><code>$_SESSION[''s_firstvar''] = 3;
-</code></pre>',83,27,'2008-10-07T21:22:44.413Z',47,3);
-INSERT INTO answers VALUES (180641,'<p>It seems that adding UseSubmitBehavior="false" to the button definitions has solved my problem.  Still don''t know why that first button click worked at all.</p>',35,89,'2008-10-07T22:03:45.097Z',82,21);
-INSERT INTO answers VALUES (189119,'<p><strong>Line Numbers</strong></p>
+</code></pre>',83,57,'2008-10-07T21:22:44.413Z',12,31);
+INSERT INTO answers VALUES (180641,180366,'Greg Hurlman','<p>It seems that adding UseSubmitBehavior="false" to the button definitions has solved my problem.  Still don''t know why that first button click worked at all.</p>',35,94,'2008-10-07T22:03:45.097Z',75,38);
+INSERT INTO answers VALUES (189119,189118,'Zack','<p><strong>Line Numbers</strong></p>
 
 <ul>
 <li>Tools &gt; Options</li>
@@ -20239,8 +20239,8 @@ INSERT INTO answers VALUES (189119,'<p><strong>Line Numbers</strong></p>
 <li>Display: Line Numbers</li>
 </ul>
 
-<p><img src="https://i.stack.imgur.com/urAYz.png" alt="Visual Studio Line Numbers"></p>',83,55,'2008-10-09T20:41:42.453Z',99,17);
-INSERT INTO answers VALUES (189127,'<p><strong>Source View</strong></p>
+<p><img src="https://i.stack.imgur.com/urAYz.png" alt="Visual Studio Line Numbers"></p>',83,92,'2008-10-09T20:41:42.453Z',27,36);
+INSERT INTO answers VALUES (189127,189118,'Zack','<p><strong>Source View</strong></p>
 
 <p>Tools &gt; Options</p>
 
@@ -20248,8 +20248,8 @@ INSERT INTO answers VALUES (189127,'<p><strong>Source View</strong></p>
 
 <p>Start pages in: Source View</p>
 
-<p><img src="https://i.stack.imgur.com/Qg8Pt.gif" alt="Visual Studio Start pages in Source View"></p>',83,59,'2008-10-09T20:42:58.580Z',64,36);
-INSERT INTO answers VALUES (189133,'<p><strong>Fixedsys Font</strong></p>
+<p><img src="https://i.stack.imgur.com/Qg8Pt.gif" alt="Visual Studio Start pages in Source View"></p>',83,24,'2008-10-09T20:42:58.580Z',38,59);
+INSERT INTO answers VALUES (189133,189118,'Zack','<p><strong>Fixedsys Font</strong></p>
 
 <p>Tools &gt; Options</p>
 
@@ -20257,8 +20257,8 @@ INSERT INTO answers VALUES (189133,'<p><strong>Fixedsys Font</strong></p>
 
 <p>Font: Fixedsys</p>
 
-<p><img src="https://i.stack.imgur.com/AC1z1.gif" alt="Visual Studio font"></p>',83,32,'2008-10-09T20:43:46.630Z',51,4);
-INSERT INTO answers VALUES (189432,'<p>The solution I found:</p>
+<p><img src="https://i.stack.imgur.com/AC1z1.gif" alt="Visual Studio font"></p>',83,75,'2008-10-09T20:43:46.630Z',4,82);
+INSERT INTO answers VALUES (189432,189422,'kurious','<p>The solution I found:</p>
 
 <p>1) Run a <a href="http://msdn.microsoft.com/en-us/library/aa259589(SQL.80).aspx" rel="noreferrer">stored proc</a></p>
 
@@ -20273,9 +20273,9 @@ INSERT INTO answers VALUES (189432,'<p>The solution I found:</p>
 <p>3) Run the query using the format</p>
 
 <pre><code> [10.0.0.51].DatabaseName.dbo.TableName
-</code></pre>',109,97,'2008-10-09T22:24:05.367Z',99,55);
-INSERT INTO answers VALUES (190159,'<p>I found this: <a href="http://msdn.microsoft.com/en-us/library/ms706987(VS.85).aspx" rel="nofollow noreferrer">http://msdn.microsoft.com/en-us/library/ms706987(VS.85).aspx</a>.</p>',115,84,'2008-10-10T04:48:24.733Z',65,82);
-INSERT INTO answers VALUES (190506,'<p>First, for those who don''t know how to inherit a form visually, you create the ancestor form as usual. Then go to File > New > Other. Select the tab with the name of the current project, and choose the form you want to inherit from. If you want to inherit from a form that''s not part of the current project, open that form, right click it, and choose Add to Repository. Then you will be able to go to File > New > Other and select that form from the appropriate tab.</p>
+</code></pre>',109,85,'2008-10-09T22:24:05.367Z',85,62);
+INSERT INTO answers VALUES (190159,190130,'Unkwntech','<p>I found this: <a href="http://msdn.microsoft.com/en-us/library/ms706987(VS.85).aspx" rel="nofollow noreferrer">http://msdn.microsoft.com/en-us/library/ms706987(VS.85).aspx</a>.</p>',115,24,'2008-10-10T04:48:24.733Z',62,5);
+INSERT INTO answers VALUES (190506,190504,'Liron Yahdav','<p>First, for those who don''t know how to inherit a form visually, you create the ancestor form as usual. Then go to File > New > Other. Select the tab with the name of the current project, and choose the form you want to inherit from. If you want to inherit from a form that''s not part of the current project, open that form, right click it, and choose Add to Repository. Then you will be able to go to File > New > Other and select that form from the appropriate tab.</p>
 
 <p>Given that, I came across issues because some of the descendant forms were already created, so I couldn''t follow the process above. Also, I made some changes to forms from the standard code Delphi creates. I was able to resolve all issues with visual form inheritance using the following guidelines:</p>
 
@@ -20296,8 +20296,8 @@ INSERT INTO answers VALUES (190506,'<p>First, for those who don''t know how to i
 <li>Both the ancestor form and the descendant form are allowed to be non-auto created if you want (Set in Project > Options > Forms > Auto-create forms).</li>
 <li>To revert a property on a descendant form to the ancestor form''s value, right click on the property in the Object Inspector, and choose Revert to inherited.</li>
 <li>To revert all property values of a component to the ancestor''s values, right click the component and choose Revert to inherited.</li>
-</ul>',62,99,'2008-10-10T08:21:26.003Z',94,15);
-INSERT INTO answers VALUES (197370,'<p>The following is a wordy solution but it works. </p>
+</ul>',62,67,'2008-10-10T08:21:26.003Z',12,50);
+INSERT INTO answers VALUES (197370,197095,'huseyint','<p>The following is a wordy solution but it works. </p>
 
 <pre><code>&lt;StackPanel&gt;
   &lt;TextBox Text="{Binding Path=., StringFormat=''The answer is: {0}''}"&gt;
@@ -20311,12 +20311,12 @@ INSERT INTO answers VALUES (197370,'<p>The following is a wordy solution but it 
 &lt;/StackPanel&gt;
 </code></pre>
 
-<p>I would prefer a much simpler syntax, something like the one in my original question.</p>',39,7,'2008-10-13T12:18:28.180Z',34,37);
-INSERT INTO answers VALUES (197729,'<p>Another approach is to actually linkify the contents of each cell. You could change the style if necessary so they don''t look like traditional links.</p>
+<p>I would prefer a much simpler syntax, something like the one in my original question.</p>',39,62,'2008-10-13T12:18:28.180Z',85,36);
+INSERT INTO answers VALUES (197729,197713,'Michael Haren','<p>Another approach is to actually linkify the contents of each cell. You could change the style if necessary so they don''t look like traditional links.</p>
 
-<p>Note that what you are trying to do does break the intuitive user experience a little bit. It needs to be clear that clicking on a row does something. I usually prefer to put an icon at the edge of each row (a magnifying glass, etc.) which drills into a new page.</p>',29,7,'2008-10-13T14:18:10.153Z',91,89);
-INSERT INTO answers VALUES (199502,'<p>I''m an idiot, the field was declared as an nchar, and I didn''t'' take the padding spaces into account.</p>',100,96,'2008-10-14T00:00:38.200Z',22,95);
-INSERT INTO answers VALUES (199765,'<p>From this site:</p>
+<p>Note that what you are trying to do does break the intuitive user experience a little bit. It needs to be clear that clicking on a row does something. I usually prefer to put an icon at the edge of each row (a magnifying glass, etc.) which drills into a new page.</p>',29,30,'2008-10-13T14:18:10.153Z',57,9);
+INSERT INTO answers VALUES (199502,199483,'EHaskins','<p>I''m an idiot, the field was declared as an nchar, and I didn''t'' take the padding spaces into account.</p>',100,31,'2008-10-14T00:00:38.200Z',7,23);
+INSERT INTO answers VALUES (199765,199761,'kurious','<p>From this site:</p>
 
 <p><a href="http://www.tek-tips.com/viewthread.cfm?qid=1500861&amp;page=1" rel="noreferrer">http://www.tek-tips.com/viewthread.cfm?qid=1500861&amp;page=1</a></p>
 
@@ -20329,13 +20329,13 @@ public void Foo(int a, int b, [Optional] int c)
 }
 </code></pre>
 
-<p>In our API wrapper, we detect optional parameters (ParameterInfo p.IsOptional) and set a default value. The goal is to mark parameters as optional without resorting to kludges like having "optional" in the parameter name.</p>',109,38,'2008-10-14T01:57:23.423Z',9,45);
-INSERT INTO answers VALUES (201763,'<p>We got gutsy and did a truncate on the jiraissues table and then use the rebuild index feature on the frontend. It looks like it''s working!</p>',86,68,'2008-10-14T15:59:13.053Z',30,83);
-INSERT INTO answers VALUES (201811,'<p>Speaking from some experience in developing a small tool myself, I''ve used YUI''s rich control set with Prototype for DOM manipulation in the past and experienced no issues. Admittedly, this was a small tool that didn''t use a wide array of the controls.</p>
+<p>In our API wrapper, we detect optional parameters (ParameterInfo p.IsOptional) and set a default value. The goal is to mark parameters as optional without resorting to kludges like having "optional" in the parameter name.</p>',109,76,'2008-10-14T01:57:23.423Z',47,42);
+INSERT INTO answers VALUES (201763,200837,'svrist','<p>We got gutsy and did a truncate on the jiraissues table and then use the rebuild index feature on the frontend. It looks like it''s working!</p>',86,1,'2008-10-14T15:59:13.053Z',63,62);
+INSERT INTO answers VALUES (201811,201768,'Tom','<p>Speaking from some experience in developing a small tool myself, I''ve used YUI''s rich control set with Prototype for DOM manipulation in the past and experienced no issues. Admittedly, this was a small tool that didn''t use a wide array of the controls.</p>
 
-<p>Even so, I''m always hesitant to use multiple frameworks on my web projects; however, if you''re only using jQuery''s DOM functionality and YUI''s control functionality, then I think you''re fine - there''s not really a conflict of interest there. Plus, with jQuery''s noConflict() mode and YUI''s namespacing, the two frameworks really shouldn''t trump one another.</p>',20,48,'2008-10-14T16:07:46.717Z',68,82);
-INSERT INTO answers VALUES (201836,'<p>Use System.Messaging.Message.AppSpecific (Integer) to specify a recipient.</p>',81,84,'2008-10-14T16:14:25.550Z',58,67);
-INSERT INTO answers VALUES (205332,'<p>I found the solution at <a href="http://forums.iis.net/t/1151141.aspx" rel="noreferrer">forums.iis.net</a>.</p>
+<p>Even so, I''m always hesitant to use multiple frameworks on my web projects; however, if you''re only using jQuery''s DOM functionality and YUI''s control functionality, then I think you''re fine - there''s not really a conflict of interest there. Plus, with jQuery''s noConflict() mode and YUI''s namespacing, the two frameworks really shouldn''t trump one another.</p>',20,58,'2008-10-14T16:07:46.717Z',20,85);
+INSERT INTO answers VALUES (201836,201834,'MattH','<p>Use System.Messaging.Message.AppSpecific (Integer) to specify a recipient.</p>',81,57,'2008-10-14T16:14:25.550Z',27,36);
+INSERT INTO answers VALUES (205332,205244,'Zack','<p>I found the solution at <a href="http://forums.iis.net/t/1151141.aspx" rel="noreferrer">forums.iis.net</a>.</p>
 
 <p>In IIS I modified the SSL Settings for my web site.</p>
 
@@ -20351,15 +20351,15 @@ INSERT INTO answers VALUES (205332,'<p>I found the solution at <a href="http://f
 
 <p><a href="http://img185.imageshack.us/img185/4945/ssl3kx6.gif" rel="noreferrer">IIS SSL Settings ignore client certificates http://img185.imageshack.us/img185/4945/ssl3kx6.gif</a></p>
 
-<p>The web site now loads perfectly in Microsoft Internet Explorer and Apple Safari as well as Mozilla Firefox and Google Chrome.</p>',83,26,'2008-10-15T16:08:04.313Z',20,24);
-INSERT INTO answers VALUES (205459,'<p>I''m dumb. You have to trigger a validation check, either with a save() or</p>
+<p>The web site now loads perfectly in Microsoft Internet Explorer and Apple Safari as well as Mozilla Firefox and Google Chrome.</p>',83,10,'2008-10-15T16:08:04.313Z',28,42);
+INSERT INTO answers VALUES (205459,205447,'Justin','<p>I''m dumb. You have to trigger a validation check, either with a save() or</p>
 
 <pre><code>$this-&gt;Upload-&gt;set($this-&gt;data);
 $this-&gt;Upload-&gt;validates();
 </code></pre>
 
-<p>Working now.</p>',43,59,'2008-10-15T16:42:25.493Z',8,10);
-INSERT INTO answers VALUES (205537,'<p>My first thought was to write a query something like this...</p>
+<p>Working now.</p>',43,91,'2008-10-15T16:42:25.493Z',40,52);
+INSERT INTO answers VALUES (205537,205526,'Dillie-O','<p>My first thought was to write a query something like this...</p>
 
 <pre><code>SELECT EmpId, NameLast, NameMiddle, NameFirst, DepartmentName
   FROM dbo.Employee
@@ -20393,8 +20393,8 @@ INSERT INTO answers VALUES (205537,'<p>My first thought was to write a query som
 
 <p>...which would then have the caller provide a bit flag if they want to search a particular field and then supply the value if they are to search for it, but I don''t know if this is creating a sloppy WHERE clause or if I can get away with a CASE statement in the WHERE clause.</p>
 
-<p>As you can see this particular code is in T-SQL, but I''ll gladly look at some PL-SQL / MySQL code as well and adapt accordingly.</p>',71,0,'2008-10-15T16:59:26.067Z',54,0);
-INSERT INTO answers VALUES (209459,'<p>Another good way I''ve seen to get around this, without having to remember to check for null:</p>
+<p>As you can see this particular code is in T-SQL, but I''ll gladly look at some PL-SQL / MySQL code as well and adapt accordingly.</p>',71,66,'2008-10-15T16:59:26.067Z',81,97);
+INSERT INTO answers VALUES (209459,209415,'Chris Marasti-Georg','<p>Another good way I''ve seen to get around this, without having to remember to check for null:</p>
 
 <pre><code>class Tree
 {
@@ -20410,8 +20410,8 @@ INSERT INTO answers VALUES (209459,'<p>Another good way I''ve seen to get around
 }
 </code></pre>
 
-<p>Note the anonymous delegate - probably a slight performance hit, so you have to figure out which method (check for null, or empty delegate) works best in your situation.</p>',96,4,'2008-10-16T17:08:33.613Z',13,16);
-INSERT INTO answers VALUES (209683,'<p>Thank you for the responses. I do understand why the NullReferenceException happens and how to get around it.</p>
+<p>Note the anonymous delegate - probably a slight performance hit, so you have to figure out which method (check for null, or empty delegate) works best in your situation.</p>',96,75,'2008-10-16T17:08:33.613Z',74,31);
+INSERT INTO answers VALUES (209683,209415,'Duncan','<p>Thank you for the responses. I do understand why the NullReferenceException happens and how to get around it.</p>
 <blockquote>
 <p><strong>Gishu said</strong></p>
 <p>What is the point of raising an event if no one is listening?</p>
@@ -20424,8 +20424,8 @@ INSERT INTO answers VALUES (209683,'<p>Thank you for the responses. I do underst
 <p>to</p>
 <pre><code>if (MadeSound != null) { MadeSound(this, EventArgs.Empty); }
 </code></pre>
-<p>behind the scenes in the same manner that other syntax shortcuts are? The number of boilerplate OnSomeEvent null checking methods that people have to write manually must be colossal.</p>',82,93,'2008-10-16T18:20:14.577Z',65,7);
-INSERT INTO answers VALUES (213305,'<p>Yes, I''m answering my own question, but I haven''t found it here yet and thought this was a rather slick thing:</p>
+<p>behind the scenes in the same manner that other syntax shortcuts are? The number of boilerplate OnSomeEvent null checking methods that people have to write manually must be colossal.</p>',82,13,'2008-10-16T18:20:14.577Z',96,44);
+INSERT INTO answers VALUES (213305,213295,'Dillie-O','<p>Yes, I''m answering my own question, but I haven''t found it here yet and thought this was a rather slick thing:</p>
 
 <p>...in VB.NET:</p>
 
@@ -20442,8 +20442,8 @@ INSERT INTO answers VALUES (213305,'<p>Yes, I''m answering my own question, but 
 <p>EDIT: If you''re using .net 2.0 or above, simply create a List(Of String) type object and you can get what you need with. Many thanks to Joel for bringing this up!</p>
 
 <pre><code>String.Join(",", TargetList.ToArray())
-</code></pre>',71,45,'2008-10-17T18:30:26.290Z',62,53);
-INSERT INTO answers VALUES (219232,'<blockquote>
+</code></pre>',71,37,'2008-10-17T18:30:26.290Z',76,71);
+INSERT INTO answers VALUES (219232,24109,'Sven','<blockquote>
   <p><a href="https://stackoverflow.com/questions/24109/c-ide-for-linux#219039">why wouldn''t you also use it for C++?
   CDT meets every requirement you''ve
   mentioned.</a></p>
@@ -20459,8 +20459,8 @@ INSERT INTO answers VALUES (219232,'<blockquote>
 </blockquote>
 
 <p>I honestly believe that, although some tools (like eclipse) are great at many things, it is best to look for other options as well (and I don''t mean that for IDE''s only, but in general and even in <em>real life</em>)...<br>
-Like in this case, vim is really great, and I would have missed out on it if I sticked to something I already knew. </p>',46,49,'2008-10-20T17:28:48.067Z',73,36);
-INSERT INTO answers VALUES (219985,'<p>You can use functions in your order-by clause.  In this case,
+Like in this case, vim is really great, and I would have missed out on it if I sticked to something I already knew. </p>',46,53,'2008-10-20T17:28:48.067Z',40,12);
+INSERT INTO answers VALUES (219985,219982,'Mark Harrison','<p>You can use functions in your order-by clause.  In this case,
 you can split the non-numeric and numeric portions of the
 field and use them as two of the ordering criteria.</p>
 
@@ -20476,8 +20476,8 @@ field and use them as two of the ordering criteria.</p>
     on t (to_number(regexp_substr(a, ''^[0-9]+'')),
           to_number(regexp_substr(a, ''[0-9]+$'')), 
           a);
-</code></pre>',116,19,'2008-10-20T21:21:26.910Z',84,79);
-INSERT INTO answers VALUES (223949,'<p>Ok, so Firefox doesn''t like the method I chose, favouring:</p>
+</code></pre>',116,71,'2008-10-20T21:21:26.910Z',49,75);
+INSERT INTO answers VALUES (223949,223833,'Peter Coulton','<p>Ok, so Firefox doesn''t like the method I chose, favouring:</p>
 
 <pre><code>@import ''stylesheet.css'' media_type;
 </code></pre>
@@ -20486,8 +20486,8 @@ INSERT INTO answers VALUES (223949,'<p>Ok, so Firefox doesn''t like the method I
 
 <pre><code>@import ''firefox-screen.css'' screen;
 @media screen { @import ''IE7-screen.css''; }
-</code></pre>',117,15,'2008-10-21T23:35:40.337Z',44,30);
-INSERT INTO answers VALUES (226000,'<p>This <a href="http://www.fauskes.net/nb/syntaxms/" rel="nofollow noreferrer">link</a> led me to <a href="http://www.scintilla.org/SciTE.html" rel="nofollow noreferrer">SciTE</a>.</p>
+</code></pre>',117,3,'2008-10-21T23:35:40.337Z',98,13);
+INSERT INTO answers VALUES (226000,225830,'svrist','<p>This <a href="http://www.fauskes.net/nb/syntaxms/" rel="nofollow noreferrer">link</a> led me to <a href="http://www.scintilla.org/SciTE.html" rel="nofollow noreferrer">SciTE</a>.</p>
 
 <p>Looks like <a href="http://www.scintilla.org/SciTE.html" rel="nofollow noreferrer">SciTE</a> has a Copy to RTF feature:</p>
 
@@ -20496,15 +20496,15 @@ INSERT INTO answers VALUES (226000,'<p>This <a href="http://www.fauskes.net/nb/s
 <p>Edit(vmware upgrade):
 But it looks like I am pretty much lost when I use vmware because I cant transfer rtf clipboard items to the vmware host. And I cant install software on the vmware host.</p>
 
-<p>Maybe a paste-site with syntax highlighting?</p>',86,81,'2008-10-22T14:33:47.073Z',98,42);
-INSERT INTO answers VALUES (227216,'<p>There''s no access to computer resources, but you can communicate with sockets. So it''s possible to have your users install an application which listens on a port and communicates with a COM port.</p>
+<p>Maybe a paste-site with syntax highlighting?</p>',86,68,'2008-10-22T14:33:47.073Z',42,24);
+INSERT INTO answers VALUES (227216,227174,'Jon Galloway','<p>There''s no access to computer resources, but you can communicate with sockets. So it''s possible to have your users install an application which listens on a port and communicates with a COM port.</p>
 
 <p>Why are you trying to communicate with a COM port? If you''re looking for webcam support, take a look at Jonas''s hack which uses Flash to get webcam input:
-<a href="http://jonas.follesoe.no/WebcamInSilverlight2MacGyverStyle.aspx" rel="noreferrer">http://jonas.follesoe.no/WebcamInSilverlight2MacGyverStyle.aspx</a></p>',5,52,'2008-10-22T19:31:45.727Z',12,71);
-INSERT INTO answers VALUES (227247,'<p>Jon,</p>
+<a href="http://jonas.follesoe.no/WebcamInSilverlight2MacGyverStyle.aspx" rel="noreferrer">http://jonas.follesoe.no/WebcamInSilverlight2MacGyverStyle.aspx</a></p>',5,83,'2008-10-22T19:31:45.727Z',99,47);
+INSERT INTO answers VALUES (227247,227174,'Nick Berardi','<p>Jon,</p>
 
-<p>I am actually trying to read my GPS from Silverlight.  I have an interesting concept that I wanted to try out, but I was trying to go for a zero install footprint.  </p>',17,39,'2008-10-22T19:39:14.010Z',94,28);
-INSERT INTO answers VALUES (230950,'<p>BOO YAH!!!</p>
+<p>I am actually trying to read my GPS from Silverlight.  I have an interesting concept that I wanted to try out, but I was trying to go for a zero install footprint.  </p>',17,40,'2008-10-22T19:39:14.010Z',59,98);
+INSERT INTO answers VALUES (230950,195151,'Dillie-O','<p>BOO YAH!!!</p>
 
 <p>I looked at the samples here, dug off a few of the references from other posts here, and found the answer... IValueConverter ... an interface that can be used with WPF that will convert values at the point of binding. It is a little tricky to put together at first, but not that difficult.</p>
 
@@ -20568,8 +20568,8 @@ End Namespace
 
 <p>...and all the binding elements of WPF do the rest!</p>
 
-<p>The nice thing about is is that I can easily create other converters, add them to various DataTemplates or columns elsewhere in the application, and once I get all of the data into the WPF app itself, the conversions can be conducted without going to the database.</p>',71,67,'2008-10-23T18:48:45.517Z',92,8);
-INSERT INTO answers VALUES (232454,'<p>You don''t want to work with arrays directly. Consider using a <code>vector</code>, instead. Then, you can call the <code>push_back</code> function to add things to the end, and it will automatically resize the vector for you.</p>
+<p>The nice thing about is is that I can easily create other converters, add them to various DataTemplates or columns elsewhere in the application, and once I get all of the data into the WPF app itself, the conversions can be conducted without going to the database.</p>',71,61,'2008-10-23T18:48:45.517Z',51,49);
+INSERT INTO answers VALUES (232454,232445,'Chris Jester-Young','<p>You don''t want to work with arrays directly. Consider using a <code>vector</code>, instead. Then, you can call the <code>push_back</code> function to add things to the end, and it will automatically resize the vector for you.</p>
 
 <pre><code>#include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -20589,8 +20589,8 @@ main() {
         std::cout &lt;&lt; values[i];
     }
 }
-</code></pre>',13,24,'2008-10-24T04:01:32.637Z',32,95);
-INSERT INTO answers VALUES (237328,'<p>The <a href="http://docs.oracle.com/cd/B28359_01/server.111/b28286/statements_9016.htm#SQLRF01606" rel="noreferrer">MERGE statement</a>  merges data between two tables.  Using DUAL
+</code></pre>',13,38,'2008-10-24T04:01:32.637Z',41,15);
+INSERT INTO answers VALUES (237328,237327,'Mark Harrison','<p>The <a href="http://docs.oracle.com/cd/B28359_01/server.111/b28286/statements_9016.htm#SQLRF01606" rel="noreferrer">MERGE statement</a>  merges data between two tables.  Using DUAL
 allows us to use this command.  Note that this is not protected against concurrent access.</p>
 
 <pre><code>create or replace
@@ -20613,11 +20613,11 @@ A                      B
 ---------------------- ----------------------
 10                     2
 20                     1
-</code></pre>',116,60,'2008-10-26T01:24:17.597Z',19,73);
-INSERT INTO answers VALUES (239170,'<p>I managed to find a library that supports PNG (using libpng) and allows you to just give it raw image data.</p>
+</code></pre>',116,69,'2008-10-26T01:24:17.597Z',0,33);
+INSERT INTO answers VALUES (239170,214687,'Ryan Fox','<p>I managed to find a library that supports PNG (using libpng) and allows you to just give it raw image data.</p>
 
-<p>It''s called <a href="http://www.dragonminded.com/?loc=ndsdev/LibPicture" rel="nofollow noreferrer">LibPicture</a>. It''s a bit hefty though: ~1MB.</p>',55,21,'2008-10-27T05:48:41.073Z',53,13);
-INSERT INTO answers VALUES (240321,'<p><a href="https://stackoverflow.com/questions/50315/how-do-you-allow-multiple-file-uploads-on-an-internal-windows-authentication-in#70521">@davidinbcn.myopenid.co</a>: That''s basically how I solved this issue. But, in an effort to provide a more detailed answer, I''m posting my solution here.</p>
+<p>It''s called <a href="http://www.dragonminded.com/?loc=ndsdev/LibPicture" rel="nofollow noreferrer">LibPicture</a>. It''s a bit hefty though: ~1MB.</p>',55,52,'2008-10-27T05:48:41.073Z',66,81);
+INSERT INTO answers VALUES (240321,50315,'EndangeredMassa','<p><a href="https://stackoverflow.com/questions/50315/how-do-you-allow-multiple-file-uploads-on-an-internal-windows-authentication-in#70521">@davidinbcn.myopenid.co</a>: That''s basically how I solved this issue. But, in an effort to provide a more detailed answer, I''m posting my solution here.</p>
 
 <p><strong>The Solution!</strong></p>
 
@@ -20634,8 +20634,8 @@ Else
 End If
 </code></pre>
 
-<p><strong>Application B</strong> is your primary site that will allow file uploads. Set this up as an authenticated web application that does not allow anonymous access. Then, place the <a href="http://digitarald.de/journal/54706744/fancyupload-for-flash-10/#comments" rel="nofollow noreferrer">FancyUpload</a> (or similar solution) on a page on this site. Configure it to post its files to Application A''s upload ASPX page.</p>',106,86,'2008-10-27T15:35:07.910Z',92,43);
-INSERT INTO answers VALUES (240880,'<p>@Vladimir:</p>
+<p><strong>Application B</strong> is your primary site that will allow file uploads. Set this up as an authenticated web application that does not allow anonymous access. Then, place the <a href="http://digitarald.de/journal/54706744/fancyupload-for-flash-10/#comments" rel="nofollow noreferrer">FancyUpload</a> (or similar solution) on a page on this site. Configure it to post its files to Application A''s upload ASPX page.</p>',106,64,'2008-10-27T15:35:07.910Z',28,60);
+INSERT INTO answers VALUES (240880,240163,'maclema','<p>@Vladimir:</p>
 
 <p>I have used an http sniffer to check the post request and it is sending the entire file and the post request format is correct. I have tried many different files (.jpg, .mp3 etc) that are &lt;2MB and none are working.</p>
 
@@ -20661,8 +20661,8 @@ Submit Query
 
 <p>I have confirmed that this is a server side issue as I tested the servlet with a regular html form and I get the same results.</p>
 
-<p>Any other ideas?</p>',22,32,'2008-10-27T18:05:35.640Z',62,77);
-INSERT INTO answers VALUES (244835,'<p>Several have mentioned custom keybindings.  Here are handy default keybinding reference posters&hellip;</p>
+<p>Any other ideas?</p>',22,86,'2008-10-27T18:05:35.640Z',66,35);
+INSERT INTO answers VALUES (244835,189118,'Zack','<p>Several have mentioned custom keybindings.  Here are handy default keybinding reference posters&hellip;</p>
 
 <p><strong><a href="http://www.microsoft.com/downloads/details.aspx?familyid=255b8cf1-f6bd-4b55-bb42-dd1a69315833&amp;displaylang=en" rel="nofollow noreferrer">Microsoft Visual Basic Default Keybindings reference poster</a></strong></p>
 
@@ -20695,19 +20695,19 @@ INSERT INTO answers VALUES (244835,'<p>Several have mentioned custom keybindings
   <li>Code</li>
   <li>Smile</li>
   </ol>
-</blockquote>',83,31,'2008-10-28T20:53:50.713Z',32,60);
-INSERT INTO answers VALUES (247192,'<p>Found my answer:</p>
+</blockquote>',83,25,'2008-10-28T20:53:50.713Z',75,52);
+INSERT INTO answers VALUES (247192,247103,'Nick Berardi','<p>Found my answer:</p>
 
 <p><a href="http://www.hibernate.org/117.html#A21" rel="nofollow noreferrer">http://www.hibernate.org/117.html#A21</a></p>
 
-<p>It doesn''t currently support union or intersect.</p>',17,58,'2008-10-29T15:13:05.240Z',80,89);
-INSERT INTO answers VALUES (251383,'<p>To fix this, I didn''t need to change any of the core git settings, as the default line endings being generated were fine, it was just that this particular file was mangled. To fix it I opened vim and executed the following command</p>
+<p>It doesn''t currently support union or intersect.</p>',17,79,'2008-10-29T15:13:05.240Z',62,43);
+INSERT INTO answers VALUES (251383,244639,'Paul Wicks','<p>To fix this, I didn''t need to change any of the core git settings, as the default line endings being generated were fine, it was just that this particular file was mangled. To fix it I opened vim and executed the following command</p>
 
 <pre><code>:%s/^M/\r/g
 </code></pre>
 
-<p>Note that to type the "^M" you have to type ctrl-V and then ctrl-M.</p>',85,79,'2008-10-30T19:17:00.143Z',58,18);
-INSERT INTO answers VALUES (252254,'<p>One way I found, which was surprised could work: Create a .NET DLL from a Java .jar file! Using <a href="http://www.ikvm.net/" rel="noreferrer">IKVM</a> you can <a href="http://www.apache.org/dyn/closer.cgi/lucene/java/" rel="noreferrer">download Lucene</a>, get the .jar file, and run:</p>
+<p>Note that to type the "^M" you have to type ctrl-V and then ctrl-M.</p>',85,70,'2008-10-30T19:17:00.143Z',21,50);
+INSERT INTO answers VALUES (252254,252249,'kurious','<p>One way I found, which was surprised could work: Create a .NET DLL from a Java .jar file! Using <a href="http://www.ikvm.net/" rel="noreferrer">IKVM</a> you can <a href="http://www.apache.org/dyn/closer.cgi/lucene/java/" rel="noreferrer">download Lucene</a>, get the .jar file, and run:</p>
 
 <pre><code>ikvmc -target:library &lt;path-to-lucene.jar&gt;
 </code></pre>
@@ -20736,11 +20736,11 @@ Hits hits = isearcher.search(query);
 <p>Update: When building libraries like the Lucene highlighter, make sure you reference the core assembly (else you''ll get warnings about missing classes). So the highlighter is built like this:</p>
 
 <pre><code>ikvmc -target:library lucene-highlighter-2.4.0.jar -r:lucene-core-2.4.0.dll
-</code></pre>',109,12,'2008-10-31T00:37:59.280Z',5,41);
-INSERT INTO answers VALUES (254280,'<p>Just to clarify for future generations:</p>
+</code></pre>',109,68,'2008-10-31T00:37:59.280Z',68,55);
+INSERT INTO answers VALUES (254280,251389,'MojoFilter','<p>Just to clarify for future generations:</p>
 
-<p>Changing the source value to "x-gadget://ClientBin/GTest.xap" did the trick.</p>',93,58,'2008-10-31T17:22:20.667Z',68,6);
-INSERT INTO answers VALUES (258259,'<p>Here''s what I''ve received from Steven D''Aprano on comp.lang.python.</p>
+<p>Changing the source value to "x-gadget://ClientBin/GTest.xap" did the trick.</p>',93,88,'2008-10-31T17:22:20.667Z',28,75);
+INSERT INTO answers VALUES (258259,258119,'Mark Harrison','<p>Here''s what I''ve received from Steven D''Aprano on comp.lang.python.</p>
 
 <pre><code># Define two decorator factories.
 def precall(pre):
@@ -20787,8 +20787,8 @@ x.a.p1()
 <pre><code>X.pre
 A.p1
 X.post
-</code></pre>',116,43,'2008-11-03T10:07:25.693Z',23,34);
-INSERT INTO answers VALUES (258852,'<p>How Do I...? Videos</p>
+</code></pre>',116,72,'2008-11-03T10:07:25.693Z',61,51);
+INSERT INTO answers VALUES (258852,258840,'Zack','<p>How Do I...? Videos</p>
 
 <ul>
 <li><a href="http://blogs.msdn.com/adonet/archive/2008/05/20/how-do-i-new-entity-framework-videos.aspx" rel="noreferrer">How Do I Get Started with the Entity Framework?</a>  </li>
@@ -20802,8 +20802,8 @@ INSERT INTO answers VALUES (258852,'<p>How Do I...? Videos</p>
 
 <ul>
 <li><a href="http://www.asp.net/learn/webcasts/webcast-181.aspx" rel="noreferrer">MSDN Webcast: Framework Masterclass: LINQ to Entities (Level 200)</a></li>
-</ul>',83,93,'2008-11-03T14:47:09.420Z',66,98);
-INSERT INTO answers VALUES (258957,'<p>Books</p>
+</ul>',83,52,'2008-11-03T14:47:09.420Z',79,36);
+INSERT INTO answers VALUES (258957,258840,'Zack','<p>Books</p>
 
 <p>Are there no books published yet that teach the Microsoft ADO.NET Entity Framework?  </p>
 
@@ -20825,17 +20825,17 @@ by Roger Jennings<br>
 <p><a href="http://ecx.images-amazon.com/images/I/41Q1111Df8L._SL160_AA115_.jpg">Pro SQL Server 2008 Entity Framework (Pro) http://ecx.images-amazon.com/images/I/41Q1111Df8L._SL160_AA115_.jpg</a><br>
 Pro SQL Server 2008 Entity Framework (Pro)<br>
 by Jim Wightman<br>
-<strong>Mar 2, 2009</strong></p>',83,97,'2008-11-03T15:17:07.970Z',87,26);
-INSERT INTO answers VALUES (258973,'<p>Conference Sessions</p>
+<strong>Mar 2, 2009</strong></p>',83,55,'2008-11-03T15:17:07.970Z',27,4);
+INSERT INTO answers VALUES (258973,258840,'Zack','<p>Conference Sessions</p>
 
-<p><a href="http://channel9.msdn.com/pdc2008/TL20/" rel="nofollow noreferrer">PDC 2008 Entity Framework Futures session</a></p>',83,32,'2008-11-03T15:23:26.240Z',50,74);
-INSERT INTO answers VALUES (259089,'<p>Related questions:</p>
+<p><a href="http://channel9.msdn.com/pdc2008/TL20/" rel="nofollow noreferrer">PDC 2008 Entity Framework Futures session</a></p>',83,32,'2008-11-03T15:23:26.240Z',69,71);
+INSERT INTO answers VALUES (259089,258840,'Zack','<p>Related questions:</p>
 
 <ul>
 <li><a href="https://stackoverflow.com/questions/62110/adonet-entity-framework-tutorials">ADO.NET Entity Framework tutorials</a></li>
 <li><a href="https://stackoverflow.com/questions/42826/where-to-start-with-entity-framework">Where to start with Entity Framework</a></li>
-</ul>',83,14,'2008-11-03T15:59:53.423Z',64,47);
-INSERT INTO answers VALUES (259776,'<p><strong>Always show solution</strong></p>
+</ul>',83,55,'2008-11-03T15:59:53.423Z',33,77);
+INSERT INTO answers VALUES (259776,189118,'Zack','<p><strong>Always show solution</strong></p>
 
 <p>Tools &gt; Options</p>
 
@@ -20843,13 +20843,13 @@ INSERT INTO answers VALUES (259776,'<p><strong>Always show solution</strong></p>
 
 <p>Always show solution</p>
 
-<p><img src="https://i.stack.imgur.com/IZTtm.gif" alt="Always show solution"></p>',83,82,'2008-11-03T20:12:17.640Z',38,53);
-INSERT INTO answers VALUES (259805,'<p><a href="http://msdn.microsoft.com/en-us/library/system.invalidoperationexception.aspx" rel="noreferrer">InvalidOperationException</a> maybe?</p>
+<p><img src="https://i.stack.imgur.com/IZTtm.gif" alt="Always show solution"></p>',83,95,'2008-11-03T20:12:17.640Z',64,40);
+INSERT INTO answers VALUES (259805,259800,'Michael Stum','<p><a href="http://msdn.microsoft.com/en-us/library/system.invalidoperationexception.aspx" rel="noreferrer">InvalidOperationException</a> maybe?</p>
 
 <blockquote>
   <p>The exception that is thrown when a method call is invalid for the object''s current state. </p>
-</blockquote>',91,43,'2008-11-03T20:19:29.777Z',42,72);
-INSERT INTO answers VALUES (260039,'<p><strong>Option Strict On</strong></p>
+</blockquote>',91,6,'2008-11-03T20:19:29.777Z',26,57);
+INSERT INTO answers VALUES (260039,189118,'Zack','<p><strong>Option Strict On</strong></p>
 
 <p>Tools &gt; Options</p>
 
@@ -20857,8 +20857,8 @@ INSERT INTO answers VALUES (260039,'<p><strong>Option Strict On</strong></p>
 
 <p>Default project settings: Option Strict: On</p>
 
-<p><img src="https://i.stack.imgur.com/tbY2T.gif" alt="Option Strict"></p>',83,12,'2008-11-03T21:33:06.853Z',18,17);
-INSERT INTO answers VALUES (273535,'<p>I got this working with help from <a href="https://stackoverflow.com/users/9268/abe-heidebrecht">Abe Heidebrecht</a>.  Much thanks to him.</p>
+<p><img src="https://i.stack.imgur.com/tbY2T.gif" alt="Option Strict"></p>',83,73,'2008-11-03T21:33:06.853Z',79,87);
+INSERT INTO answers VALUES (273535,269523,'Zack','<p>I got this working with help from <a href="https://stackoverflow.com/users/9268/abe-heidebrecht">Abe Heidebrecht</a>.  Much thanks to him.</p>
 
 <p>Here''s my XAML...</p>
 
@@ -20905,8 +20905,8 @@ End Class
 
 <p>When the window loads, the root node and its children are queried from the database and inserted into the tree.</p>
 
-<p>Each time a node is expanded, that node''s children and grandchildren are queried from the database and inserted into the tree.</p>',83,69,'2008-11-07T20:25:44.773Z',63,23);
-INSERT INTO answers VALUES (275751,'<p>I have checked the following:</p>
+<p>Each time a node is expanded, that node''s children and grandchildren are queried from the database and inserted into the tree.</p>',83,37,'2008-11-07T20:25:44.773Z',8,65);
+INSERT INTO answers VALUES (275751,269594,'Yaakov Ellis','<p>I have checked the following:</p>
 
 <ol>
 <li>Both use the same database</li>
@@ -20916,9 +20916,9 @@ INSERT INTO answers VALUES (275751,'<p>I have checked the following:</p>
 
 <p>I know that something has to be out of synch somewhere, but I can''t find it.</p>
 
-<p>So I have implemented the following workaround: I added a view to my database that includes both left outer joins. This view is now in my dbml file, and in the query above, I reference the view instead of the table. This is working fine.</p>',51,85,'2008-11-09T08:35:15.267Z',27,39);
-INSERT INTO answers VALUES (278519,'<p>The outputted pages can be of any type, like html, php, etc.</p>',26,85,'2008-11-10T17:13:06.657Z',45,81);
-INSERT INTO answers VALUES (294310,'<p>I wrote a super basic jQuery plug in to accomplish this. What will happen is a a fake drop down list will be created from an existing select tag. The original select will be hidden, and the fake menu will be shown. As the new menu is being created, it will callback to get the HTML to show for each option. In this function you can pass back an image.     </p>
+<p>So I have implemented the following workaround: I added a view to my database that includes both left outer joins. This view is now in my dbml file, and in the query above, I reference the view instead of the table. This is working fine.</p>',51,32,'2008-11-09T08:35:15.267Z',33,99);
+INSERT INTO answers VALUES (278519,278507,'Shawn','<p>The outputted pages can be of any type, like html, php, etc.</p>',26,47,'2008-11-10T17:13:06.657Z',72,16);
+INSERT INTO answers VALUES (294310,290493,'Bob','<p>I wrote a super basic jQuery plug in to accomplish this. What will happen is a a fake drop down list will be created from an existing select tag. The original select will be hidden, and the fake menu will be shown. As the new menu is being created, it will callback to get the HTML to show for each option. In this function you can pass back an image.     </p>
 
 <pre><code>(function($) {
 $.fn.templatedSelect = function(options) {
@@ -21033,8 +21033,8 @@ var opts = $.extend(defaults, options);
                 return "&lt;img src=''" + v + "''/&gt;&lt;br/&gt;" + t; 
             }
         });
-</code></pre>',45,78,'2008-11-16T20:05:07.923Z',59,67);
-INSERT INTO answers VALUES (297067,'<pre><code>    public class UnitOfMeasure {
+</code></pre>',45,61,'2008-11-16T20:05:07.923Z',15,64);
+INSERT INTO answers VALUES (297067,296842,'Bob','<pre><code>    public class UnitOfMeasure {
         public UnitOfMeasure(string name, int value) {
             Name = name;
             Value = value;
@@ -21065,8 +21065,8 @@ INSERT INTO answers VALUES (297067,'<pre><code>    public class UnitOfMeasure {
             return string.Join(", ", results.ToArray());
         }
     }
-</code></pre>',45,76,'2008-11-17T21:46:36.253Z',71,81);
-INSERT INTO answers VALUES (306595,'<p>So some more poking around and I figured out the issue. Part of the problem arises from the fact that the div layout I setup to create two separate columns is using the position:relative and float:right/left attributes. </p>
+</code></pre>',45,95,'2008-11-17T21:46:36.253Z',86,14);
+INSERT INTO answers VALUES (306595,302244,'Dillie-O','<p>So some more poking around and I figured out the issue. Part of the problem arises from the fact that the div layout I setup to create two separate columns is using the position:relative and float:right/left attributes. </p>
 
 <p>From what I''ve read, as soon as you start augmenting the position attribute of a div tag, it affects the z-index of the rendering, which only gets complicated when the calendar control is "popping up" dynamically.</p>
 
@@ -21099,8 +21099,8 @@ INSERT INTO answers VALUES (306595,'<p>So some more poking around and I figured 
 }
 </code></pre>
 
-<p>...and hopefully that will work for you.</p>',71,72,'2008-11-20T19:48:07.207Z',59,43);
-INSERT INTO answers VALUES (306646,'<p>A coworker of mine put this together:</p>
+<p>...and hopefully that will work for you.</p>',71,30,'2008-11-20T19:48:07.207Z',51,2);
+INSERT INTO answers VALUES (306646,306642,'Michael Haren','<p>A coworker of mine put this together:</p>
 
 <p>In web.config:</p>
 
@@ -21189,11 +21189,11 @@ INSERT INTO answers VALUES (306646,'<p>A coworker of mine put this together:</p>
 }
 </code></pre>
 
-<p>And yes, I know, those queries should be parameterized.</p>',29,67,'2008-11-20T19:59:48.010Z',37,42);
-INSERT INTO answers VALUES (306965,'<p>I think that I''ll just tell them that they either have to trust a couple of us to have access (and not look at it) or they don''t get a project.</p>
+<p>And yes, I know, those queries should be parameterized.</p>',29,8,'2008-11-20T19:59:48.010Z',96,83);
+INSERT INTO answers VALUES (306965,306830,'EndangeredMassa','<p>I think that I''ll just tell them that they either have to trust a couple of us to have access (and not look at it) or they don''t get a project.</p>
 
-<p>Thanks for the answers. Feel free to post more thoughts if you have them.</p>',106,25,'2008-11-20T21:46:08.437Z',18,67);
-INSERT INTO answers VALUES (315658,'<p>Update:
+<p>Thanks for the answers. Feel free to post more thoughts if you have them.</p>',106,13,'2008-11-20T21:46:08.437Z',19,88);
+INSERT INTO answers VALUES (315658,315646,'Coincoin','<p>Update:
 The following code snippet only works if the #if is in every calling file which is not very practical.</p>
 
 <pre><code>#if !SILVERLIGHT
@@ -21204,8 +21204,8 @@ The following code snippet only works if the #if is in every calling file which 
 private void DoStuffThatSilverlightCant() {...}
 </code></pre>
 
-<p>What could be done however, is to have a build configuration for whatever platform you are using that will /define the needed symbol (NOT_SILVERLIGHT in that case).</p>',42,25,'2008-11-24T21:58:28.287Z',96,96);
-INSERT INTO answers VALUES (315837,'<p><strong>Short answer: GetType() will return the Type of the specific object.</strong> I made a quick app to test this:</p>
+<p>What could be done however, is to have a build configuration for whatever platform you are using that will /define the needed symbol (NOT_SILVERLIGHT in that case).</p>',42,46,'2008-11-24T21:58:28.287Z',84,3);
+INSERT INTO answers VALUES (315837,315829,'kurious','<p><strong>Short answer: GetType() will return the Type of the specific object.</strong> I made a quick app to test this:</p>
 
 <pre><code>        Foo f = new Foo();
         Type t = f.GetType();
@@ -21216,8 +21216,8 @@ INSERT INTO answers VALUES (315837,'<p><strong>Short answer: GetType() will retu
         bool areSame = t.Equals(t2);
 </code></pre>
 
-<p>And yep, they are the same.</p>',109,65,'2008-11-24T23:14:55.887Z',46,82);
-INSERT INTO answers VALUES (327386,'<blockquote>
+<p>And yep, they are the same.</p>',109,10,'2008-11-24T23:14:55.887Z',21,92);
+INSERT INTO answers VALUES (327386,327379,'Sven','<blockquote>
   <p><a href="https://stackoverflow.com/questions/327379/benchmark-problems-for-testing-concurency#327380">Surely you should be testing hardware
   and compilers rather than a language
   for concurrency performance?</a></p>
@@ -21236,8 +21236,8 @@ INSERT INTO answers VALUES (327386,'<blockquote>
 
 <p>So actually, I''m not looking for performance as <em>the</em> only and best parameter (which would indeed send me to the hardware and the compilers instead of the language itself), I''m actually looking from a programmers point of view to check what language is best suited for what kind of problems, what it''s weaknesses and strengths are and so on...</p>
 
-<p>Bare in mind that this is just a small project and the tests are therefore to be kept small as well. (rigorous testing of everything is therefore not feasible)</p>',46,25,'2008-11-29T09:44:26.490Z',45,34);
-INSERT INTO answers VALUES (327860,'<p>I have decided to use the <a href="http://en.wikipedia.org/wiki/Mandelbrot_set" rel="nofollow noreferrer">Mandelbrot set</a> (the <a href="http://en.wikipedia.org/wiki/Mandelbrot_set#Escape_time_algorithm" rel="nofollow noreferrer">escape time algorithm</a> to be more precise) to benchmark the different languages.<br>
+<p>Bare in mind that this is just a small project and the tests are therefore to be kept small as well. (rigorous testing of everything is therefore not feasible)</p>',46,73,'2008-11-29T09:44:26.490Z',75,6);
+INSERT INTO answers VALUES (327860,327379,'Sven','<p>I have decided to use the <a href="http://en.wikipedia.org/wiki/Mandelbrot_set" rel="nofollow noreferrer">Mandelbrot set</a> (the <a href="http://en.wikipedia.org/wiki/Mandelbrot_set#Escape_time_algorithm" rel="nofollow noreferrer">escape time algorithm</a> to be more precise) to benchmark the different languages.<br>
 It fits me quite well as the original algorithm can easily be implemented and creating the multi threaded variant from it is not that much work.</p>
 
 <p>below is the code I currently have. It is still a single threaded variant, but I''ll update it as soon as I''m satisfied with the result.</p>
@@ -21312,12 +21312,12 @@ the second argument is the height (y-axis)<br>
 the third argument is the number of maximum iterations (the number of colors)<br>
 the last ons is the number of threads (but that one is currently not used)</p>
 
-<p>on my resolution, the above example gives me a nice ASCII-art representation of a Mandelbrot set. But try it for yourself with different arguments (the first one will be the most important one, as that will be the width)</p>',46,66,'2008-11-29T19:08:57.193Z',22,87);
-INSERT INTO answers VALUES (331174,'<p>Streaming Video over RTSP. Sadly, Silverlight 2 only supports HTTP Streaming, and telling it to use mms:// only signals it to do streaming video over HTTP.</p>',91,40,'2008-12-01T15:30:16.180Z',85,85);
-INSERT INTO answers VALUES (331576,'<p>In the past I''ve used AssemblyName.GetAssemblyName(), which throws an exception if it''s not a managed assembly. However, I''ve never performance tested it, so I can''t say how fast it is. </p>
+<p>on my resolution, the above example gives me a nice ASCII-art representation of a Mandelbrot set. But try it for yourself with different arguments (the first one will be the most important one, as that will be the width)</p>',46,63,'2008-11-29T19:08:57.193Z',0,31);
+INSERT INTO answers VALUES (331174,17175,'Michael Stum','<p>Streaming Video over RTSP. Sadly, Silverlight 2 only supports HTTP Streaming, and telling it to use mms:// only signals it to do streaming video over HTTP.</p>',91,89,'2008-12-01T15:30:16.180Z',54,81);
+INSERT INTO answers VALUES (331576,330032,'Kevin Dente','<p>In the past I''ve used AssemblyName.GetAssemblyName(), which throws an exception if it''s not a managed assembly. However, I''ve never performance tested it, so I can''t say how fast it is. </p>
 
-<p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/assemblies-gac/how-to-determine-if-a-file-is-an-assembly" rel="nofollow noreferrer">Official Documentation</a></p>',9,72,'2008-12-01T17:32:22.067Z',3,61);
-INSERT INTO answers VALUES (331677,'<p>I guess Stormenet''s answer isn''t technically <em>programmatic</em>, so I''ll seperate my response into an answer.</p>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/assemblies-gac/how-to-determine-if-a-file-is-an-assembly" rel="nofollow noreferrer">Official Documentation</a></p>',9,43,'2008-12-01T17:32:22.067Z',71,38);
+INSERT INTO answers VALUES (331677,330032,'Jeff Atwood','<p>I guess Stormenet''s answer isn''t technically <em>programmatic</em>, so I''ll seperate my response into an answer.</p>
 
 <p>For best performance, nothing is going to beat opening the file(s) with a <code>StreamReader</code>, reading the first (n) bytes and checking for the .NET file signature data structures in the byte stream.</p>
 
@@ -21325,8 +21325,8 @@ INSERT INTO answers VALUES (331677,'<p>I guess Stormenet''s answer isn''t techni
 
 <p><a href="http://en.wikipedia.org/wiki/DOS_executable" rel="noreferrer">http://en.wikipedia.org/wiki/DOS_executable</a></p>
 
-<p>Look for the "MZ" header bytes, which also happen to be the initials of Mark Zbikowski, one of the developers of MS-DOS..</p>',1,75,'2008-12-01T18:04:51.580Z',24,9);
-INSERT INTO answers VALUES (333140,'<p>At <a href="http://pear.php.net/package/Archive_Tar" rel="noreferrer">http://pear.php.net/package/Archive_Tar</a> you can donload the PEAR tar package and use it like this to create the archive:</p>
+<p>Look for the "MZ" header bytes, which also happen to be the initials of Mark Zbikowski, one of the developers of MS-DOS..</p>',1,32,'2008-12-01T18:04:51.580Z',46,66);
+INSERT INTO answers VALUES (333140,333130,'Unkwntech','<p>At <a href="http://pear.php.net/package/Archive_Tar" rel="noreferrer">http://pear.php.net/package/Archive_Tar</a> you can donload the PEAR tar package and use it like this to create the archive:</p>
 
 <pre><code>&lt;?php
 require ''Archive/Tar.php'';
@@ -21348,8 +21348,8 @@ else
     //Fail
  }
 ?&gt;
-</code></pre>',115,83,'2008-12-02T05:37:18.640Z',10,20);
-INSERT INTO answers VALUES (333412,'<p>Below you can find the code I hacked together to test the <strong>multi threaded</strong> performance of pthreads. I haven''t cleaned it up and no optimizations have been made; so the code is a bit <em>raw</em>. </p>
+</code></pre>',115,52,'2008-12-02T05:37:18.640Z',17,87);
+INSERT INTO answers VALUES (333412,327379,'Sven','<p>Below you can find the code I hacked together to test the <strong>multi threaded</strong> performance of pthreads. I haven''t cleaned it up and no optimizations have been made; so the code is a bit <em>raw</em>. </p>
 
 <p>the code to save the calculated mandelbrot set as a bitmap is not mine, you can find it <a href="http://www.programmersheaven.com/d/click.aspx?ID=F54666" rel="nofollow noreferrer">here</a></p>
 
@@ -21499,8 +21499,8 @@ int main(int argc, char* argv[]) {
   <p>mandelbrot 5120 3840 256 3</p>
 </blockquote>
 
-<p>that way you will get an image that is 5 * 1024 wide; 5 * 768 high with 256 colors (alas you will only get 1 or 2) and 3 threads (1 main thread that doesn''t do any work except creating the worker threads, and 2 worker threads)</p>',46,87,'2008-12-02T09:09:10.880Z',35,60);
-INSERT INTO answers VALUES (334208,'<p>Remove keys and values by using the minus sign (-).</p>
+<p>that way you will get an image that is 5 * 1024 wide; 5 * 768 high with 256 colors (alas you will only get 1 or 2) and 3 threads (1 main thread that doesn''t do any work except creating the worker threads, and 2 worker threads)</p>',46,2,'2008-12-02T09:09:10.880Z',57,76);
+INSERT INTO answers VALUES (334208,334207,'doekman','<p>Remove keys and values by using the minus sign (-).</p>
 
 <pre><code>REGEDIT4
 [-HKEY_CURRENT_USER\RemoveThisTree]
@@ -21513,8 +21513,8 @@ INSERT INTO answers VALUES (334208,'<p>Remove keys and values by using the minus
 <ul>
 <li><p>Minus sign to delete mentioned here: <a href="https://support.microsoft.com/en-us/kb/310516" rel="noreferrer">MSKB310516: <em>How to add, modify, or delete registry subkeys and values by using a .reg file</em></a> (Archived <a href="https://archive.is/PECXd" rel="noreferrer">here</a>.)</p></li>
 <li><p>Minus sign to delete, semicolon to comment and IF/ENDIF mentioned here: <a href="https://msdn.microsoft.com/en-us/library/gg469889.aspx" rel="noreferrer">MSDN: <em>Registry File (Compact 2013)</em></a> (Archived <a href="https://archive.is/n4sj6" rel="noreferrer">here</a>.)</p></li>
-</ul>',56,48,'2008-12-02T14:58:34.153Z',96,49);
-INSERT INTO answers VALUES (337817,'<p>Here''s a quick-and-dirty technique I have used:</p>
+</ul>',56,25,'2008-12-02T14:58:34.153Z',21,67);
+INSERT INTO answers VALUES (337817,337704,'Joel Spolsky','<p>Here''s a quick-and-dirty technique I have used:</p>
 
 <pre><code>SELECT * FROM Tags
 WHERE ''|ruby|rails|scruffy|rubyonrails|''
@@ -21538,10 +21538,10 @@ using (SqlCommand cmd = new SqlCommand(cmdText)) {
 <li>Make sure you don''t have any <code>|</code>, blank, or null tags or this won''t work</li>
 </ul>
 
-<p>There are other ways to accomplish this that some people may consider cleaner, so please keep reading.</p>',4,84,'2008-12-03T16:41:17.037Z',44,69);
-INSERT INTO answers VALUES (338199,'<p>I don''t know for sure - but I''d bet that code is buried in one of the SharePoint HTTPModules or HTTPHandlers that run for every request.</p>',35,90,'2008-12-03T18:22:22.370Z',24,89);
-INSERT INTO answers VALUES (338296,'<p>I don''t think it would be there since it is not a universal token replaced anywhere in the output of the handler. It happens at the URL resolution level in a server control, which makes me think it might have been somewhere in the classes related to control building or parsing, but I did not find anything there.</p>',67,15,'2008-12-03T18:46:34.990Z',85,62);
-INSERT INTO answers VALUES (339320,'<p>Here is the code I wound up using.</p>
+<p>There are other ways to accomplish this that some people may consider cleaner, so please keep reading.</p>',4,97,'2008-12-03T16:41:17.037Z',87,49);
+INSERT INTO answers VALUES (338199,337781,'Greg Hurlman','<p>I don''t know for sure - but I''d bet that code is buried in one of the SharePoint HTTPModules or HTTPHandlers that run for every request.</p>',35,64,'2008-12-03T18:22:22.370Z',7,44);
+INSERT INTO answers VALUES (338296,337781,'Rex M','<p>I don''t think it would be there since it is not a universal token replaced anywhere in the output of the handler. It happens at the URL resolution level in a server control, which makes me think it might have been somewhere in the classes related to control building or parsing, but I did not find anything there.</p>',67,20,'2008-12-03T18:46:34.990Z',47,83);
+INSERT INTO answers VALUES (339320,337334,'Shawn','<p>Here is the code I wound up using.</p>
 
 <pre><code>[WebMethod(EnableSession = true)]
 public PatientsResult GetPatientList(bool returnInactivePatients) {
@@ -21588,17 +21588,17 @@ public class PatientResult  {
 }
 </code></pre>
 
-<p>}</p>',26,56,'2008-12-04T01:06:16.737Z',73,37);
-INSERT INTO answers VALUES (340796,'<p>It turns out that foo.dll depended on another dll which was missing. </p>
+<p>}</p>',26,63,'2008-12-04T01:06:16.737Z',34,97);
+INSERT INTO answers VALUES (340796,340794,'Michael Haren','<p>It turns out that foo.dll depended on another dll which was missing. </p>
 
-<p>I used <a href="http://www.dependencywalker.com/" rel="nofollow noreferrer">Dependency Walker</a> to discover which files were missing. Once I copied over the missing files, the page started working fine.</p>',29,99,'2008-12-04T14:41:47.823Z',48,64);
-INSERT INTO answers VALUES (344870,'<p>This works.</p>
+<p>I used <a href="http://www.dependencywalker.com/" rel="nofollow noreferrer">Dependency Walker</a> to discover which files were missing. Once I copied over the missing files, the page started working fine.</p>',29,88,'2008-12-04T14:41:47.823Z',42,28);
+INSERT INTO answers VALUES (344870,344823,'Zack','<p>This works.</p>
 
 <pre><code>&lt;?php include(''c:/inetpub/example.com/includes/analytics.php''); ?&gt;
 </code></pre>
 
-<p>I''ll have to make the <code>c:/inetpub/example.com/</code> part some kind of global variable so it''s somewhat portable from server to server.</p>',83,33,'2008-12-05T19:29:09.567Z',11,85);
-INSERT INTO answers VALUES (347732,'<p>OK, true it isn''t good to use components in models. My problem was I didn''t want to have to write the email block a million times in my controllers:</p>
+<p>I''ll have to make the <code>c:/inetpub/example.com/</code> part some kind of global variable so it''s somewhat portable from server to server.</p>',83,10,'2008-12-05T19:29:09.567Z',1,12);
+INSERT INTO answers VALUES (347732,312846,'Justin','<p>OK, true it isn''t good to use components in models. My problem was I didn''t want to have to write the email block a million times in my controllers:</p>
 
 <blockquote>
   <p>$this->Email->delivery = ''smtp'';</p>
@@ -21620,8 +21620,8 @@ INSERT INTO answers VALUES (347732,'<p>OK, true it isn''t good to use components
 
 <blockquote>
   <p>$this->Wrapper->sendEmail($from,$to,$subject,$template,$body);</p>
-</blockquote>',43,2,'2008-12-07T16:15:24.977Z',16,55);
-INSERT INTO answers VALUES (350223,'<p>I figured this out. Cake was switching the session.cookie_secure ini value on-the-fly while under SSL connections automatically, So the cookie being created was a secure cookie, which the second page wouldn''t recognize.</p>
+</blockquote>',43,99,'2008-12-07T16:15:24.977Z',21,40);
+INSERT INTO answers VALUES (350223,308659,'Justin','<p>I figured this out. Cake was switching the session.cookie_secure ini value on-the-fly while under SSL connections automatically, So the cookie being created was a secure cookie, which the second page wouldn''t recognize.</p>
 
 <p>Solution, comment out /cake/lib/session.php line 420 ish:</p>
 
@@ -21629,9 +21629,9 @@ INSERT INTO answers VALUES (350223,'<p>I figured this out. Cake was switching th
   <p>ini_set(''session.cookie_secure'', 1);</p>
 </blockquote>
 
-<p>(Just search for that to find it, as I''m sure the line # will change as releases come out.)</p>',43,65,'2008-12-08T17:21:21.537Z',67,59);
-INSERT INTO answers VALUES (350424,'<p><a href="http://www.informit.com/articles/printerfriendly.aspx?p=25487" rel="nofollow noreferrer">Generating Images On-the-Fly with ASP.NET</a> (Feb 22, 2002) by Stephen Walther</p>',83,42,'2008-12-08T18:39:01.850Z',46,4);
-INSERT INTO answers VALUES (352856,'<p>Thanks. My problem with these attempts is that they are not guaranteed to be globally unique, as <a href="http://blogs.msdn.com/oldnewthing/archive/2008/06/27/8659071.aspx" rel="nofollow noreferrer">Raymond Chen</a> pointed out. I was wondering if there is another algorithm that generates GUIDs that are unique. I remember that there used to be implementations that used a Timestamp and/or the NIC MAC Address, but they are not used anymore since they are not cryptographic strong and/or there were privacy concerns.</p>
+<p>(Just search for that to find it, as I''m sure the line # will change as releases come out.)</p>',43,70,'2008-12-08T17:21:21.537Z',97,81);
+INSERT INTO answers VALUES (350424,350354,'Zack','<p><a href="http://www.informit.com/articles/printerfriendly.aspx?p=25487" rel="nofollow noreferrer">Generating Images On-the-Fly with ASP.NET</a> (Feb 22, 2002) by Stephen Walther</p>',83,2,'2008-12-08T18:39:01.850Z',38,10);
+INSERT INTO answers VALUES (352856,352674,'Michael Stum','<p>Thanks. My problem with these attempts is that they are not guaranteed to be globally unique, as <a href="http://blogs.msdn.com/oldnewthing/archive/2008/06/27/8659071.aspx" rel="nofollow noreferrer">Raymond Chen</a> pointed out. I was wondering if there is another algorithm that generates GUIDs that are unique. I remember that there used to be implementations that used a Timestamp and/or the NIC MAC Address, but they are not used anymore since they are not cryptographic strong and/or there were privacy concerns.</p>
 
 <p>I wonder: If I just make up my own, i should be fine? According to <a href="http://en.wikipedia.org/wiki/GUID" rel="nofollow noreferrer">Wikipedia</a>:</p>
 
@@ -21647,12 +21647,12 @@ INSERT INTO answers VALUES (352856,'<p>Thanks. My problem with these attempts is
   <p>The most significant four bits of Data3 define the version number, and the algorithm used.</p>
 </blockquote>
 
-<p>So if I make up something in Data3/Data4, i would normally create my own implementation that should not clash with any other GUID, but of course there is always a bit of risk associated with that, so before I do that I wanted to check if there is an older/not anymore used algorhithm that generates true Unique Ids.</p>',91,37,'2008-12-09T14:17:45.433Z',92,53);
-INSERT INTO answers VALUES (354920,'<p>Yahoo Pipes (<a href="http://pipes.yahoo.com/pipes/" rel="nofollow noreferrer">http://pipes.yahoo.com/pipes/</a>) allow access to a lot of pages and feeds that don''t have crossdomain.xml files. It''ll access just any page which allows indexing (robots.txt).</p>',5,12,'2008-12-10T02:16:18.227Z',19,72);
-INSERT INTO answers VALUES (359980,'<p>I found a few lists here: <a href="http://social.msdn.microsoft.com/forums/en-US/iewebdevelopment/thread/772e4b07-29e1-4909-b77f-f61c503f9579/" rel="nofollow noreferrer">http://social.msdn.microsoft.com/forums/en-US/iewebdevelopment/thread/772e4b07-29e1-4909-b77f-f61c503f9579/</a></p>
+<p>So if I make up something in Data3/Data4, i would normally create my own implementation that should not clash with any other GUID, but of course there is always a bit of risk associated with that, so before I do that I wanted to check if there is an older/not anymore used algorhithm that generates true Unique Ids.</p>',91,82,'2008-12-09T14:17:45.433Z',1,90);
+INSERT INTO answers VALUES (354920,352039,'Jon Galloway','<p>Yahoo Pipes (<a href="http://pipes.yahoo.com/pipes/" rel="nofollow noreferrer">http://pipes.yahoo.com/pipes/</a>) allow access to a lot of pages and feeds that don''t have crossdomain.xml files. It''ll access just any page which allows indexing (robots.txt).</p>',5,97,'2008-12-10T02:16:18.227Z',13,72);
+INSERT INTO answers VALUES (359980,359895,'Jon Galloway','<p>I found a few lists here: <a href="http://social.msdn.microsoft.com/forums/en-US/iewebdevelopment/thread/772e4b07-29e1-4909-b77f-f61c503f9579/" rel="nofollow noreferrer">http://social.msdn.microsoft.com/forums/en-US/iewebdevelopment/thread/772e4b07-29e1-4909-b77f-f61c503f9579/</a></p>
 
-<p>I haven''t verified these, and some of them are pretty vague.</p>',5,0,'2008-12-11T16:31:23.103Z',39,20);
-INSERT INTO answers VALUES (361309,'<p>insert ... returning.</p>
+<p>I haven''t verified these, and some of them are pretty vague.</p>',5,4,'2008-12-11T16:31:23.103Z',42,77);
+INSERT INTO answers VALUES (361309,361304,'Mark Harrison','<p>insert ... returning.</p>
 
 <pre><code>declare
    s2 number;
@@ -21670,8 +21670,8 @@ INSERT INTO answers VALUES (361309,'<p>insert ... returning.</p>
 curs.prepare("insert into seqtest2(x) values(''bbb'') returning seq into :x")
 curs.execute(None, x=myseq)
 print int(myseq.getvalue())
-</code></pre>',116,61,'2008-12-11T22:51:11.993Z',30,13);
-INSERT INTO answers VALUES (361476,'<p>Modeling after the WebForms type world, you could use a set of <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.errorprovider.aspx" rel="nofollow noreferrer">ErrorProvider</a> control and attach them to your critical TextBoxes, CheckBoxes, etc. in question. You can fire off checks to these fields whenever the user changes focus, or however frequently you prefer.</p>
+</code></pre>',116,52,'2008-12-11T22:51:11.993Z',14,83);
+INSERT INTO answers VALUES (361476,360507,'Dillie-O','<p>Modeling after the WebForms type world, you could use a set of <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.errorprovider.aspx" rel="nofollow noreferrer">ErrorProvider</a> control and attach them to your critical TextBoxes, CheckBoxes, etc. in question. You can fire off checks to these fields whenever the user changes focus, or however frequently you prefer.</p>
 
 <p>You can then create a method called IsFormValid that would check through all the ErrorProviders and return a simple True value if all the ErrorProviders check out.</p>
 
@@ -21683,8 +21683,8 @@ INSERT INTO answers VALUES (361476,'<p>Modeling after the WebForms type world, y
 }
 </code></pre>
 
-<p>The nice thing with this is that you could potentially have different "valid" states depending on what a particular method is trying to accomplish. Sure the phone number field may be invalid and showing a little red dot, but that shouldn''t prevent the UpdateFirstLastName method from firing off.</p>',71,35,'2008-12-11T23:58:24.353Z',7,37);
-INSERT INTO answers VALUES (376985,'<p>I did a bunch of experimenting with some really weird results. But I did make some changes so I can work on my project without this issue occurring. I had to disable the AutoSave feature (this prevents secondary forms which may reference the main form from opening up before the main form). Then I had to make sure to delete the .dsk file of the project (the project desktop AutoSave file). So now when I open up the project it always opens the main form, so I never get the issue of references to the main form getting cleared. But I do still get the issue if after opening the project I close the main form and then open a form that references the main form.</p>
+<p>The nice thing with this is that you could potentially have different "valid" states depending on what a particular method is trying to accomplish. Sure the phone number field may be invalid and showing a little red dot, but that shouldn''t prevent the UpdateFirstLastName method from firing off.</p>',71,0,'2008-12-11T23:58:24.353Z',6,54);
+INSERT INTO answers VALUES (376985,376844,'Liron Yahdav','<p>I did a bunch of experimenting with some really weird results. But I did make some changes so I can work on my project without this issue occurring. I had to disable the AutoSave feature (this prevents secondary forms which may reference the main form from opening up before the main form). Then I had to make sure to delete the .dsk file of the project (the project desktop AutoSave file). So now when I open up the project it always opens the main form, so I never get the issue of references to the main form getting cleared. But I do still get the issue if after opening the project I close the main form and then open a form that references the main form.</p>
 
 <p>Also I was unable to reproduce this issue of references to another form getting cleared in a brand new project with the AutoSave feature disabled, even though I can reproduce it w/AutoSave disabled in my current project. I have no idea why, but I don''t feel like this is worth investigating further.</p>
 
@@ -21746,11 +21746,11 @@ INSERT INTO answers VALUES (376985,'<p>I did a bunch of experimenting with some 
 Only once you press save on the form will the dfm clear the imagelist reference.</li>
 <li>I noticed there are some "magic" forms in my project (for lack of a better term). Magic forms reference my project''s main form in their .dfm and they don''t lose their references to the main form after you Open them, even if they are opened before any other form.</li>
 <li>These magic forms cause the "caching" of all image list references from the main form. Once you open one of these forms, then you can open up any form that references the main form, and it won''t lose it''s references during this project session (even if the magic form is then closed).</li>
-</ul>',62,90,'2008-12-18T05:32:35.990Z',79,53);
-INSERT INTO answers VALUES (381503,'<p>You will have to sanitize the input.</p>
+</ul>',62,65,'2008-12-18T05:32:35.990Z',44,8);
+INSERT INTO answers VALUES (381503,381492,'EndangeredMassa','<p>You will have to sanitize the input.</p>
 
-<p>Do not allow anchor or script tags or on attributes. (I don''t know if you can disable javascript on the control, but that would be a good idea to.</p>',106,15,'2008-12-19T16:50:37.130Z',4,49);
-INSERT INTO answers VALUES (381698,'<p>It is possible to detect the proxy using the <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/net/ProxySelector.html" rel="noreferrer">ProxySelector</a> class and assign the system proxy by assigning environment variables with the <a href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/System.html#setProperty(java.lang.String,%20java.lang.String)" rel="noreferrer">setProperty method of the System class</a>: </p>
+<p>Do not allow anchor or script tags or on attributes. (I don''t know if you can disable javascript on the control, but that would be a good idea to.</p>',106,15,'2008-12-19T16:50:37.130Z',72,52);
+INSERT INTO answers VALUES (381698,376101,'David in Dakota','<p>It is possible to detect the proxy using the <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/net/ProxySelector.html" rel="noreferrer">ProxySelector</a> class and assign the system proxy by assigning environment variables with the <a href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/System.html#setProperty(java.lang.String,%20java.lang.String)" rel="noreferrer">setProperty method of the System class</a>: </p>
 
 <pre><code>System.setProperty("java.net.useSystemProxies", "true");
 System.out.println("detecting proxies");
@@ -21778,19 +21778,19 @@ if (l != null) {
         }
     }
 }
-</code></pre>',64,67,'2008-12-19T17:58:09.927Z',22,8);
-INSERT INTO answers VALUES (382027,'<p>Once solution that worked was to:</p>
+</code></pre>',64,45,'2008-12-19T17:58:09.927Z',63,56);
+INSERT INTO answers VALUES (382027,381873,'Tim Boland','<p>Once solution that worked was to:</p>
 
 <ul>
 <li>Add logic to define DataSourceID for GridView in CodeBehind</li>
 <li>Call function after Insert() method</li>
-</ul>',70,76,'2008-12-19T19:50:49.123Z',64,31);
-INSERT INTO answers VALUES (382031,'<p>I just CUT the whole section out.  Then PASTEed in a new &lt;WebBrowser&gt; tag from Notepad.</p>
+</ul>',70,60,'2008-12-19T19:50:49.123Z',83,24);
+INSERT INTO answers VALUES (382031,382003,'Zack','<p>I just CUT the whole section out.  Then PASTEed in a new &lt;WebBrowser&gt; tag from Notepad.</p>
 
 <p>It didn''t crash that time.</p>
 
-<p>Weird.</p>',83,49,'2008-12-19T19:52:14.207Z',88,39);
-INSERT INTO answers VALUES (382081,'<p>Capture the Navigating event of the WebBrowser control and set the Cancel property of its NavigatingCancelEventArgs to True.</p>
+<p>Weird.</p>',83,81,'2008-12-19T19:52:14.207Z',35,34);
+INSERT INTO answers VALUES (382081,381492,'Zack','<p>Capture the Navigating event of the WebBrowser control and set the Cancel property of its NavigatingCancelEventArgs to True.</p>
 
 <p>Visual Basic code...</p>
 
@@ -21817,8 +21817,8 @@ End Class
 WebBrowser1Locked = False
 WebBrowser1.NavigateToString("...")
 WebBrowser1Locked = True
-</pre>',83,89,'2008-12-19T20:09:19.443Z',82,34);
-INSERT INTO answers VALUES (391040,'<p>Here are a couple of bits of code to handle that.  This works in a RAC multi-node environment.  It assumes you have a TNS entry for each of your cluster instances.</p>
+</pre>',83,49,'2008-12-19T20:09:19.443Z',31,24);
+INSERT INTO answers VALUES (391040,391036,'Mark Harrison','<p>Here are a couple of bits of code to handle that.  This works in a RAC multi-node environment.  It assumes you have a TNS entry for each of your cluster instances.</p>
 
 <ol>
 <li><p>a shell script to kill a connection:</p>
@@ -21856,8 +21856,8 @@ System altered.
 
 <pre><code>cx_Oracle.DatabaseError: ORA-00028: your session has been killed
 </code></pre></li>
-</ol>',116,43,'2008-12-24T08:51:36.110Z',18,57);
-INSERT INTO answers VALUES (401582,'<p>Ok looks good. Tested in all browsers. Added a P3P tag for IE6, not sure if it was necessary though.</p>
+</ol>',116,66,'2008-12-24T08:51:36.110Z',66,42);
+INSERT INTO answers VALUES (401582,401535,'Shawn','<p>Ok looks good. Tested in all browsers. Added a P3P tag for IE6, not sure if it was necessary though.</p>
 
 <pre><code>&lt;%@ Page Language="VB" %&gt;
 
@@ -21887,16 +21887,16 @@ INSERT INTO answers VALUES (401582,'<p>Ok looks good. Tested in all browsers. Ad
     &lt;/form&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>',26,27,'2008-12-30T21:31:54.653Z',1,3);
-INSERT INTO answers VALUES (414737,'<p>After further research, it seems there is an included binary called tallow.exe that does just that. It creates a fragment from a directory by recursively searching for files.</p>',42,4,'2009-01-05T22:31:42.257Z',20,26);
-INSERT INTO answers VALUES (417427,'<p>Update way later: there''s actually a built in function to get the current user. I think it''s in nativeApplication.</p>',26,99,'2009-01-06T17:26:17.940Z',24,60);
-INSERT INTO answers VALUES (420995,'<p>Thank you both. The following works, and LINQ makes the combination simple :-)</p>
+</code></pre>',26,51,'2008-12-30T21:31:54.653Z',26,46);
+INSERT INTO answers VALUES (414737,414685,'Coincoin','<p>After further research, it seems there is an included binary called tallow.exe that does just that. It creates a fragment from a directory by recursively searching for files.</p>',42,91,'2009-01-05T22:31:42.257Z',75,67);
+INSERT INTO answers VALUES (417427,1376,'Shawn','<p>Update way later: there''s actually a built in function to get the current user. I think it''s in nativeApplication.</p>',26,61,'2009-01-06T17:26:17.940Z',65,18);
+INSERT INTO answers VALUES (420995,420867,'frou','<p>Thank you both. The following works, and LINQ makes the combination simple :-)</p>
 
 <pre><code>UTF8Encoding enc = new UTF8Encoding(true);
 byte[] data = enc.GetBytes("a");
 byte[] combo = enc.GetPreamble().Concat(data).ToArray();
-</code></pre>',82,85,'2009-01-07T16:28:31.100Z',26,56);
-INSERT INTO answers VALUES (426326,'<p>Just as followup to the comment to Olivier. Here is a copy of the macro now, look for the '''' Do History section to see where I inserted code.</p>
+</code></pre>',82,75,'2009-01-07T16:28:31.100Z',53,46);
+INSERT INTO answers VALUES (426326,425559,'Dillie-O','<p>Just as followup to the comment to Olivier. Here is a copy of the macro now, look for the '''' Do History section to see where I inserted code.</p>
 
 <pre><code>    ''''// InsertDocComments goes through the current document using the VS Code Model
     ''''// to add documentation style comments to each function.
@@ -21992,12 +21992,12 @@ INSERT INTO answers VALUES (426326,'<p>Just as followup to the comment to Olivie
     End Sub
 </code></pre>
 
-<p>For some reason, after a save, rebuild, and a restart of Visual Studio, I''m not getting the history tag. Can anybody see something here I''m missing?</p>',71,57,'2009-01-08T22:40:28.087Z',81,66);
-INSERT INTO answers VALUES (428925,'<p>Figured it out, someone had changed the Page_Load event to handle Page.Init</p>
+<p>For some reason, after a save, rebuild, and a restart of Visual Studio, I''m not getting the history tag. Can anybody see something here I''m missing?</p>',71,4,'2009-01-08T22:40:28.087Z',1,68);
+INSERT INTO answers VALUES (428925,428870,'Shawn','<p>Figured it out, someone had changed the Page_Load event to handle Page.Init</p>
 
 <pre><code>Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
-</code></pre>',26,56,'2009-01-09T17:22:24.867Z',65,30);
-INSERT INTO answers VALUES (431707,'<p>That''s a tough one - you can''t even access the Modules collection from within your Global application file.</p>
+</code></pre>',26,56,'2009-01-09T17:22:24.867Z',47,5);
+INSERT INTO answers VALUES (431707,431644,'Jarrod Dixon','<p>That''s a tough one - you can''t even access the Modules collection from within your Global application file.</p>
 
 <p>You could try calling your custom code from the AuthenticateRequest handler in Global:</p>
 
@@ -22009,8 +22009,8 @@ INSERT INTO answers VALUES (431707,'<p>That''s a tough one - you can''t even acc
 
 <p>You can''t grab your custom module from the collection, either, so you''d need a static reference to your module''s library.</p>
 
-<p>Other than granting the AspNetHostingPermission (<a href="http://msdn.microsoft.com/en-us/library/ms998341.aspx#paght000020_oledbpermission" rel="nofollow noreferrer">as detailed for other permissions here</a>) to your site in the machine level web.config, I''m out of ideas!</p>',3,80,'2009-01-10T20:39:07.870Z',86,2);
-INSERT INTO answers VALUES (441050,'<p>This seems to happen because I''ve got my UpdatePanel within an ordered list &lt;ol&gt; container.  And I''ve got list item &lt;li&gt; tags within my UpdatePanel''s ContentTemplate.</p>
+<p>Other than granting the AspNetHostingPermission (<a href="http://msdn.microsoft.com/en-us/library/ms998341.aspx#paght000020_oledbpermission" rel="nofollow noreferrer">as detailed for other permissions here</a>) to your site in the machine level web.config, I''m out of ideas!</p>',3,2,'2009-01-10T20:39:07.870Z',66,35);
+INSERT INTO answers VALUES (441050,441038,'Zack','<p>This seems to happen because I''ve got my UpdatePanel within an ordered list &lt;ol&gt; container.  And I''ve got list item &lt;li&gt; tags within my UpdatePanel''s ContentTemplate.</p>
 
 <pre><code>&lt;ol&gt;
     &lt;li&gt;...&lt;/li&gt;
@@ -22027,8 +22027,8 @@ INSERT INTO answers VALUES (441050,'<p>This seems to happen because I''ve got my
 &lt;/ol&gt;
 </code></pre>
 
-<p>It makes sense to me this way, but I guess I''ll need to rethink my page layout.</p>',83,38,'2009-01-13T22:15:03.713Z',51,74);
-INSERT INTO answers VALUES (441082,'<p>AnthonyWJones has it right that the Wrap Panel is a good approach but Kent went through the trouble of demonstrating how once could use the ItemSource (albeit with the StackPanel which doesn''t achieve the goal). As such I''ll post the code which demonstrates the declarative equivalent: </p>
+<p>It makes sense to me this way, but I guess I''ll need to rethink my page layout.</p>',83,79,'2009-01-13T22:15:03.713Z',56,97);
+INSERT INTO answers VALUES (441082,439877,'David in Dakota','<p>AnthonyWJones has it right that the Wrap Panel is a good approach but Kent went through the trouble of demonstrating how once could use the ItemSource (albeit with the StackPanel which doesn''t achieve the goal). As such I''ll post the code which demonstrates the declarative equivalent: </p>
 
 <pre><code>&lt;ItemsControl x:Name="myItems" Width="300"&gt;
     &lt;ItemsControl.ItemsPanel&gt;
@@ -22047,8 +22047,8 @@ INSERT INTO answers VALUES (441082,'<p>AnthonyWJones has it right that the Wrap 
 &lt;/ItemsControl&gt;
 </code></pre>
 
-<p>A small gotcha is that the DataTemplate expects a single child so using a StackPanel with horizontal orientation keeps things flowing. </p>',64,55,'2009-01-13T22:25:17.873Z',6,16);
-INSERT INTO answers VALUES (443156,'<p>I worked it out.</p>
+<p>A small gotcha is that the DataTemplate expects a single child so using a StackPanel with horizontal orientation keeps things flowing. </p>',64,40,'2009-01-13T22:25:17.873Z',74,54);
+INSERT INTO answers VALUES (443156,442941,'chopeen','<p>I worked it out.</p>
 
 <p>I''m not exactly sure why but this helps: <strong>before</strong> displaying the dialog I <strong>disable</strong> the main application form, then <strong>after</strong> the dialog is displayed I <strong>enable</strong> it back.  </p>
 
@@ -22062,21 +22062,21 @@ if (result == -1)  // user pressed OK
 {
     d.Execute();
 }
-</code></pre>',95,27,'2009-01-14T14:34:15.047Z',1,63);
-INSERT INTO answers VALUES (443553,'<p>I found the solution: <a href="https://stackoverflow.com/questions/158279/how-do-i-install-mysql-modules-within-php#160746">How do I install MySQL modules within PHP?</a></p>',83,92,'2009-01-14T16:09:20.533Z',93,31);
-INSERT INTO answers VALUES (444658,'<p>If you''ve opened a table and you want to clear an existing value to NULL, click on the value, and press <kbd><code>Ctrl</code></kbd>+<kbd><code>0</code></kbd>.</p>',83,14,'2009-01-14T21:02:00.943Z',15,84);
-INSERT INTO answers VALUES (448222,'<p>Well, an upgrade to 10.2.0.4 (was using 10.2.0.1) at least gave me an understandable error instead of a fairly useless core file and the ORA-28579.</p>
+</code></pre>',95,22,'2009-01-14T14:34:15.047Z',11,69);
+INSERT INTO answers VALUES (443553,155308,'Zack','<p>I found the solution: <a href="https://stackoverflow.com/questions/158279/how-do-i-install-mysql-modules-within-php#160746">How do I install MySQL modules within PHP?</a></p>',83,93,'2009-01-14T16:09:20.533Z',88,66);
+INSERT INTO answers VALUES (444658,444657,'Zack','<p>If you''ve opened a table and you want to clear an existing value to NULL, click on the value, and press <kbd><code>Ctrl</code></kbd>+<kbd><code>0</code></kbd>.</p>',83,99,'2009-01-14T21:02:00.943Z',71,3);
+INSERT INTO answers VALUES (448222,429777,'Ryan Ahearn','<p>Well, an upgrade to 10.2.0.4 (was using 10.2.0.1) at least gave me an understandable error instead of a fairly useless core file and the ORA-28579.</p>
 
 <p>It turns out that the code I was debugging was assuming that calling OCILobRead would return all of the data in one pass.  This is the case for any client using a fixed width character set.</p>
 
 <p>For clients using a variable width character set, this isn''t the case, OCILobRead was actually reading part of the data and returning OCI_NEED_DATA and future calls to OCILobTrim and OCILobWrite were failing because of the still pending call to OCILobRead.  The solution was to loop OCILobRead calls until OCI_NEED_DATA was no longer returned and we had all of the needed data in our buffer.</p>
 
-<p>A call to OCIBreak also would have allowed the OCILobTrim and OCILobWrite functions to continue, though we wouldn''t have had all of the needed input data.</p>',75,89,'2009-01-15T19:54:49.063Z',53,75);
-INSERT INTO answers VALUES (454665,'<p><a href="http://www.castleproject.org/monorail/index.html" rel="nofollow noreferrer">Castle MonoRail</a> seems indeed to be the only serious MVC Framework for .net 2.0/3.0, so I''ll go with that.</p>',91,92,'2009-01-18T04:36:52.717Z',67,60);
-INSERT INTO answers VALUES (454667,'<p>There''s a hacky, unofficial, unsupported workaround that allows you to deploy ASP.NET MVC on .NET 2.0 (and possibly .NET 3.0).</p>
+<p>A call to OCIBreak also would have allowed the OCILobTrim and OCILobWrite functions to continue, though we wouldn''t have had all of the needed input data.</p>',75,5,'2009-01-15T19:54:49.063Z',84,11);
+INSERT INTO answers VALUES (454665,452556,'Michael Stum','<p><a href="http://www.castleproject.org/monorail/index.html" rel="nofollow noreferrer">Castle MonoRail</a> seems indeed to be the only serious MVC Framework for .net 2.0/3.0, so I''ll go with that.</p>',91,28,'2009-01-18T04:36:52.717Z',39,76);
+INSERT INTO answers VALUES (454667,452556,'EndangeredMassa','<p>There''s a hacky, unofficial, unsupported workaround that allows you to deploy ASP.NET MVC on .NET 2.0 (and possibly .NET 3.0).</p>
 
-<p><a href="http://www.hanselman.com/blog/DeployingASPNETMVCOnASPNET20.aspx" rel="nofollow noreferrer">http://www.hanselman.com/blog/DeployingASPNETMVCOnASPNET20.aspx</a></p>',106,1,'2009-01-18T04:41:30.557Z',57,29);
-INSERT INTO answers VALUES (459272,'<p>I couldn''t find a definitive answer (I found the doc @E.J. Brennan referenced to be a little dense and unclear). So I added to <a href="http://weblogs.sqlteam.com/dmauri/archive/2005/07/18/7147.aspx" rel="nofollow noreferrer">this example</a> and have tested that, <strong>yes, you can add/drop columns</strong>:</p>
+<p><a href="http://www.hanselman.com/blog/DeployingASPNETMVCOnASPNET20.aspx" rel="nofollow noreferrer">http://www.hanselman.com/blog/DeployingASPNETMVCOnASPNET20.aspx</a></p>',106,9,'2009-01-18T04:41:30.557Z',99,58);
+INSERT INTO answers VALUES (459272,459146,'Michael Haren','<p>I couldn''t find a definitive answer (I found the doc @E.J. Brennan referenced to be a little dense and unclear). So I added to <a href="http://weblogs.sqlteam.com/dmauri/archive/2005/07/18/7147.aspx" rel="nofollow noreferrer">this example</a> and have tested that, <strong>yes, you can add/drop columns</strong>:</p>
 
 <pre><code>USE adventureworks
 go
@@ -22136,8 +22136,8 @@ alter database adventureworks remove file YearF2;
 alter database adventureworks remove  filegroup YearFG1;
 alter database adventureworks remove filegroup YearFG2;
 */
-</code></pre>',29,30,'2009-01-19T21:41:11.240Z',95,12);
-INSERT INTO answers VALUES (466015,'<p>Here is my solution in C#</p>
+</code></pre>',29,11,'2009-01-19T21:41:11.240Z',82,74);
+INSERT INTO answers VALUES (466015,465659,'Update','<p>Here is my solution in C#</p>
 
 <pre><code>private string ToSeoFriendly(string title, int maxLength) {
     var match = Regex.Match(title.ToLower(), "[\\w]+");
@@ -22157,8 +22157,8 @@ INSERT INTO answers VALUES (466015,'<p>Here is my solution in C#</p>
     if (result[result.Length - 1] == ''-'') result.Remove(result.Length - 1, 1);
     return result.ToString();
 }
-</code></pre>',26,59,'2009-01-21T16:40:57.537Z',53,27);
-INSERT INTO answers VALUES (470973,'<p>Here''s what I had to change:</p>
+</code></pre>',26,80,'2009-01-21T16:40:57.537Z',32,38);
+INSERT INTO answers VALUES (470973,470961,'Michael Haren','<p>Here''s what I had to change:</p>
 
 <p>I removed the trailing slash:</p>
 
@@ -22196,9 +22196,9 @@ ActionController::AbstractRequest.relative_url_root = "/redmine"
 <pre><code>config.action_controller.relative_url_root = ''/redmine''
 </code></pre>
 
-<p>I put it in the new <code>additional_environment.rb</code> file.</p>',29,73,'2009-01-22T21:51:23.323Z',83,58);
-INSERT INTO answers VALUES (471837,'<p>Here is a decent tutorial using jQuery for the ajax <a href="http://nodstrum.com/2007/09/19/autocompleter/" rel="nofollow noreferrer">http://nodstrum.com/2007/09/19/autocompleter/</a></p>',115,9,'2009-01-23T03:57:11.713Z',18,41);
-INSERT INTO answers VALUES (480759,'<p>For WiX 2 you can use &amp;Feature to find out if that feature is installed or not:</p>
+<p>I put it in the new <code>additional_environment.rb</code> file.</p>',29,77,'2009-01-22T21:51:23.323Z',0,30);
+INSERT INTO answers VALUES (471837,471833,'Unkwntech','<p>Here is a decent tutorial using jQuery for the ajax <a href="http://nodstrum.com/2007/09/19/autocompleter/" rel="nofollow noreferrer">http://nodstrum.com/2007/09/19/autocompleter/</a></p>',115,41,'2009-01-23T03:57:11.713Z',50,21);
+INSERT INTO answers VALUES (480759,480258,'Grant','<p>For WiX 2 you can use &amp;Feature to find out if that feature is installed or not:</p>
 
 <pre><code>&lt;Dialog Id="ExitDlg" Width="370" Height="270" Title="[ProductName] [Setup]" NoMinimize="yes"&gt;
     &lt;Control Id="Finish" Type="PushButton" X="236" Y="243" Width="56" Height="17"
@@ -22226,9 +22226,9 @@ INSERT INTO answers VALUES (480759,'<p>For WiX 2 you can use &amp;Feature to fin
   &lt;/Dialog&gt;
 </code></pre>
 
-<p>This way, you can hide the dialog and use the same condition to not launch the program (regardless of the initial state of the check box).</p>',30,93,'2009-01-26T18:06:49.147Z',71,76);
-INSERT INTO answers VALUES (480812,'<p>I ended up having to parse the ASX file myself and manually load the elements. Peter''s suggestion is helpful if the ASX file will load, but the Silverlight ASX parser throws exceptions when it encounters most unsupported elements so you never get the chance to load from the Attributes property.</p>',5,86,'2009-01-26T18:15:44.183Z',57,59);
-INSERT INTO answers VALUES (483968,'<p>The final query </p>
+<p>This way, you can hide the dialog and use the same condition to not launch the program (regardless of the initial state of the check box).</p>',30,48,'2009-01-26T18:06:49.147Z',17,49);
+INSERT INTO answers VALUES (480812,462967,'Jon Galloway','<p>I ended up having to parse the ASX file myself and manually load the elements. Peter''s suggestion is helpful if the ASX file will load, but the Silverlight ASX parser throws exceptions when it encounters most unsupported elements so you never get the chance to load from the Attributes property.</p>',5,31,'2009-01-26T18:15:44.183Z',95,60);
+INSERT INTO answers VALUES (483968,483874,'Update','<p>The final query </p>
 
 <pre><code>declare @practiceID int 
 select 
@@ -22287,11 +22287,11 @@ from (
             , max(v.visitDate)
         ) &gt;= (7 * 8)
 ) responders
-</code></pre>',26,1,'2009-01-27T16:00:38.153Z',56,99);
-INSERT INTO answers VALUES (484433,'<p>Prevent Visual Studio from renaming pasted controls</p>
+</code></pre>',26,42,'2009-01-27T16:00:38.153Z',0,72);
+INSERT INTO answers VALUES (484433,189118,'Zack','<p>Prevent Visual Studio from renaming pasted controls</p>
 
-<p><a href="https://stackoverflow.com/questions/484327/how-do-i-prevent-visual-studio-from-renaming-my-controls#484344">How do I prevent Visual Studio from renaming my controls?</a></p>',83,68,'2009-01-27T17:47:12.213Z',59,39);
-INSERT INTO answers VALUES (484467,'<p><strong>Un-Bold Brace Matching</strong></p>
+<p><a href="https://stackoverflow.com/questions/484327/how-do-i-prevent-visual-studio-from-renaming-my-controls#484344">How do I prevent Visual Studio from renaming my controls?</a></p>',83,54,'2009-01-27T17:47:12.213Z',91,6);
+INSERT INTO answers VALUES (484467,189118,'Zack','<p><strong>Un-Bold Brace Matching</strong></p>
 
 <p>Tools > Options</p>
 
@@ -22299,8 +22299,8 @@ INSERT INTO answers VALUES (484467,'<p><strong>Un-Bold Brace Matching</strong></
 
 <p>Display items: Brace Matching (Hilight)</p>
 
-<p>uncheck Bold</p>',83,76,'2009-01-27T17:54:38.190Z',6,71);
-INSERT INTO answers VALUES (484721,'<p>This was actually a lot easier than I thought it would be. I added this to my location:</p>
+<p>uncheck Bold</p>',83,73,'2009-01-27T17:54:38.190Z',48,74);
+INSERT INTO answers VALUES (484721,484499,'Michael Haren','<p>This was actually a lot easier than I thought it would be. I added this to my location:</p>
 
 <pre><code>&lt;Location /svn&gt;
   ...
@@ -22335,12 +22335,12 @@ ldap-user2 = rw
 file-user2 = rw
 </code></pre>
 
-<p>I''m still playing around with the LDAP group syntax to get that part working. Any suggestions there are appreciated.</p>',29,66,'2009-01-27T18:57:23.227Z',91,96);
-INSERT INTO answers VALUES (485771,'<p>Welcome back, modesty. Or Localghost, or Shawn or however you call yourself now. Just keep in mind that there is no Hackers badge anymore, so nothing to win here :)</p>',91,38,'2009-01-27T23:05:03.240Z',66,68);
-INSERT INTO answers VALUES (487955,'<p>Hrm I found all of my answers here. Looks like I need a join table >.&lt;.</p>
+<p>I''m still playing around with the LDAP group syntax to get that part working. Any suggestions there are appreciated.</p>',29,43,'2009-01-27T18:57:23.227Z',20,9);
+INSERT INTO answers VALUES (485771,433881,'Michael Stum','<p>Welcome back, modesty. Or Localghost, or Shawn or however you call yourself now. Just keep in mind that there is no Hackers badge anymore, so nothing to win here :)</p>',91,3,'2009-01-27T23:05:03.240Z',33,5);
+INSERT INTO answers VALUES (487955,487876,'Update','<p>Hrm I found all of my answers here. Looks like I need a join table >.&lt;.</p>
 
-<p><a href="http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/" rel="nofollow noreferrer">http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/</a></p>',26,50,'2009-01-28T15:08:58.460Z',25,66);
-INSERT INTO answers VALUES (490107,'<p>Take <em>ownership</em> of the folders and files...</p>
+<p><a href="http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/" rel="nofollow noreferrer">http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/</a></p>',26,11,'2009-01-28T15:08:58.460Z',7,37);
+INSERT INTO answers VALUES (490107,490105,'Zack','<p>Take <em>ownership</em> of the folders and files...</p>
 
 <ol>
 <li><p>Right-click the folder that you want to take ownership of, and then click Properties.</p></li>
@@ -22349,9 +22349,9 @@ INSERT INTO answers VALUES (490107,'<p>Take <em>ownership</em> of the folders an
 <li><p>Click the name of the person you want to give ownership to.</p></li>
 <li><p>If you want that person to be the owner of files and subfolders in this folder, select the Replace owner on subcontainers and objects check box.</p></li>
 <li><p>Click OK.</p></li>
-</ol>',83,12,'2009-01-29T01:03:20.770Z',29,62);
-INSERT INTO answers VALUES (490112,'<p>You may get this error when one of the files contained within the folder may in in use by a running program.</p>',83,6,'2009-01-29T01:04:56.150Z',38,19);
-INSERT INTO answers VALUES (492948,'<p>@mquander: Actualy, PHP solves it even different:</p>
+</ol>',83,33,'2009-01-29T01:03:20.770Z',46,57);
+INSERT INTO answers VALUES (490112,490105,'Zack','<p>You may get this error when one of the files contained within the folder may in in use by a running program.</p>',83,39,'2009-01-29T01:04:56.150Z',20,45);
+INSERT INTO answers VALUES (492948,492262,'doekman','<p>@mquander: Actualy, PHP solves it even different:</p>
 
 <pre><code>$s = "This is very very funny.";
 $fmt = "This %s very %s.";
@@ -22362,8 +22362,8 @@ echo "&lt;div&gt;one: [$one], two: [$two]&lt;/div&gt;\n";
 
 <p>But maybe your regular expression remark can help me. I just need to rewrite <code>"This {0} very {1}."</code> to something like: <code>new Regex(@"^This (.*) very (.*)\.$")</code>. This should be done programmatical, so I can use one format string on the public class interface.</p>
 
-<p>BTW: I''ve already have a parser to find the parameters: see the <a href="http://haacked.com/archive/2009/01/14/named-formats-redux.aspx" rel="nofollow noreferrer">Named Format Redux</a> blog entry by <a href="http://haacked.com/" rel="nofollow noreferrer">Phil Haack</a> (and yes, I also want named paramters to work both ways).</p>',56,61,'2009-01-29T19:02:48.950Z',67,42);
-INSERT INTO answers VALUES (494038,'<p>This <a href="https://stackoverflow.com/questions/146/how-do-i-track-file-downloads-with-apache-php/152#152">answer</a> details how to use a transfer page to log the download as well as the start downloading the file as soon as someone clicks the link. I''ve recently tested it for right clicking.</p>
+<p>BTW: I''ve already have a parser to find the parameters: see the <a href="http://haacked.com/archive/2009/01/14/named-formats-redux.aspx" rel="nofollow noreferrer">Named Format Redux</a> blog entry by <a href="http://haacked.com/" rel="nofollow noreferrer">Phil Haack</a> (and yes, I also want named paramters to work both ways).</p>',56,53,'2009-01-29T19:02:48.950Z',47,29);
+INSERT INTO answers VALUES (494038,494016,'Grant','<p>This <a href="https://stackoverflow.com/questions/146/how-do-i-track-file-downloads-with-apache-php/152#152">answer</a> details how to use a transfer page to log the download as well as the start downloading the file as soon as someone clicks the link. I''ve recently tested it for right clicking.</p>
 
 <p>I''m using a php middle-man to log file downloads. A URL formatted <a href="http://192.168.1.1/xfer.php?file=Li9zb25ncy9HTE9XX0xlYXZlIFlvdXIgSGF0IE9uLm1wMw" rel="nofollow noreferrer">http://192.168.1.1/xfer.php?file=Li9zb25ncy9HTE9XX0xlYXZlIFlvdXIgSGF0IE9uLm1wMw</a> results in the file name for both Save As... and left click in Firefox.</p>
 
@@ -22393,17 +22393,17 @@ function base64_url_decode($input) {
 <pre><code>$link = "xfer.php?file=".base64_url_encode("./songs/$key");
 </code></pre>
 
-<p>with <code>$key</code> being the file name and <code>songs</code> being the folder that the filenames are kept in.</p>',30,31,'2009-01-30T00:11:55.813Z',53,55);
-INSERT INTO answers VALUES (499671,'<p>Going to roll my own.</p>',91,62,'2009-01-31T22:07:30.057Z',89,69);
-INSERT INTO answers VALUES (501573,'<p>The bottleneck turned out to be in file I/O (see <a href="https://stackoverflow.com/questions/477225/is-stdifstream-significantly-slower-than-file">Is std::ifstream significantly slower than FILE?</a>). I switched to reading the entire file in a buffer and it sped up enormously.</p>
+<p>with <code>$key</code> being the file name and <code>songs</code> being the folder that the filenames are kept in.</p>',30,26,'2009-01-30T00:11:55.813Z',66,38);
+INSERT INTO answers VALUES (499671,487969,'Michael Stum','<p>Going to roll my own.</p>',91,85,'2009-01-31T22:07:30.057Z',43,43);
+INSERT INTO answers VALUES (501573,485649,'Jesse Beder','<p>The bottleneck turned out to be in file I/O (see <a href="https://stackoverflow.com/questions/477225/is-stdifstream-significantly-slower-than-file">Is std::ifstream significantly slower than FILE?</a>). I switched to reading the entire file in a buffer and it sped up enormously.</p>
 
-<p>The problem here was that gprof doesn''t appear to generate accurate profiling when waiting for file I/O (see <a href="http://www.regatta.cs.msu.su/doc/usr/share/man/info/ru_RU/a_doc_lib/cmds/aixcmds2/gprof.htm" rel="nofollow noreferrer">http://www.regatta.cs.msu.su/doc/usr/share/man/info/ru_RU/a_doc_lib/cmds/aixcmds2/gprof.htm</a>). In fact, <code>seekg</code> and <code>tellg</code> were not even on the profiling list, and they were the bottleneck!</p>',112,18,'2009-02-01T21:04:43.880Z',36,57);
-INSERT INTO answers VALUES (513154,'<p>The Asian Language Pack needed to be installed on the server (Windows Server 2003).</p>
+<p>The problem here was that gprof doesn''t appear to generate accurate profiling when waiting for file I/O (see <a href="http://www.regatta.cs.msu.su/doc/usr/share/man/info/ru_RU/a_doc_lib/cmds/aixcmds2/gprof.htm" rel="nofollow noreferrer">http://www.regatta.cs.msu.su/doc/usr/share/man/info/ru_RU/a_doc_lib/cmds/aixcmds2/gprof.htm</a>). In fact, <code>seekg</code> and <code>tellg</code> were not even on the profiling list, and they were the bottleneck!</p>',112,91,'2009-02-01T21:04:43.880Z',64,15);
+INSERT INTO answers VALUES (513154,340689,'denny','<p>The Asian Language Pack needed to be installed on the server (Windows Server 2003).</p>
 
 <p>Once the server was migrated to Windows Server 2008 installing the VNI-Times font was sufficient to solve this problem.</p>
 
-<p>This has also allowed the images to be generated properly.</p>',27,96,'2009-02-04T20:30:50.140Z',14,8);
-INSERT INTO answers VALUES (527408,'<p>There are a lot of workarounds, but none seems satisfactory.</p>
+<p>This has also allowed the images to be generated properly.</p>',27,78,'2009-02-04T20:30:50.140Z',63,26);
+INSERT INTO answers VALUES (527408,268048,'doekman','<p>There are a lot of workarounds, but none seems satisfactory.</p>
 
 <p>To quote John Skeet below (comment on a now-deleted answer):</p>
 
@@ -22430,11 +22430,11 @@ INSERT INTO answers VALUES (527408,'<p>There are a lot of workarounds, but none 
 }
 </code></pre>
 
-<p>So consider this a feature request for Visual Studio.</p>',56,51,'2009-02-09T08:17:42.857Z',17,94);
-INSERT INTO answers VALUES (586938,'<p>I just got it to build by doing the following:</p>
+<p>So consider this a feature request for Visual Studio.</p>',56,86,'2009-02-09T08:17:42.857Z',94,59);
+INSERT INTO answers VALUES (586938,290980,'Yaakov Ellis','<p>I just got it to build by doing the following:</p>
 
-<p>There had been a licenses file in the Properties of the project in question. After deleting the file (it was no longer needed) the project was able to build successfully. So it looks like that was the culprit.</p>',51,1,'2009-02-25T17:13:02.700Z',18,72);
-INSERT INTO answers VALUES (835366,'<p>I perform redirects to support legacy URLs.</p>
+<p>There had been a licenses file in the Properties of the project in question. After deleting the file (it was no longer needed) the project was able to build successfully. So it looks like that was the culprit.</p>',51,4,'2009-02-25T17:13:02.700Z',12,3);
+INSERT INTO answers VALUES (835366,217935,'','<p>I perform redirects to support legacy URLs.</p>
 
 <p>My controller looks something like this&hellip;</p>
 
@@ -22467,11 +22467,11 @@ INSERT INTO answers VALUES (835366,'<p>I perform redirects to support legacy URL
 End Class
 </code></pre>
 
-<p>I now wonder if I could handle this more cleanly with two routes and controller functions.</p>',83,44,'2009-05-07T15:33:46.697Z',46,14);
-INSERT INTO answers VALUES (911927,'<p>In the meantime since asking this question, Code Contracts have evolved, which looks like the Silver Bullet.</p>
+<p>I now wonder if I could handle this more cleanly with two routes and controller functions.</p>',83,76,'2009-05-07T15:33:46.697Z',75,1);
+INSERT INTO answers VALUES (911927,360507,'','<p>In the meantime since asking this question, Code Contracts have evolved, which looks like the Silver Bullet.</p>
 
-<p>The current CTP is <a href="http://msdn.microsoft.com/en-us/devlabs/dd491992.aspx" rel="nofollow noreferrer">available here</a> (for .net 3.5), and it is part of .net 4.0.</p>',91,25,'2009-05-26T18:01:45.797Z',55,19);
-INSERT INTO answers VALUES (1242277,'<p>Well it seems there''s no great answer for this, so we''re just making an internal extension that says "integer types are unbounded."</p>
+<p>The current CTP is <a href="http://msdn.microsoft.com/en-us/devlabs/dd491992.aspx" rel="nofollow noreferrer">available here</a> (for .net 3.5), and it is part of .net 4.0.</p>',91,39,'2009-05-26T18:01:45.797Z',68,71);
+INSERT INTO answers VALUES (1242277,467794,'','<p>Well it seems there''s no great answer for this, so we''re just making an internal extension that says "integer types are unbounded."</p>
 
 <p>In our python library, I''m commenting out this check:</p>
 
@@ -22480,8 +22480,8 @@ INSERT INTO answers VALUES (1242277,'<p>Well it seems there''s no great answer f
     ## extension: ints can be arbitrarily sized
     ## if value &gt; MAXINT or value &lt; MININT:
     ##    raise OverflowError, "int exceeds XML-RPC limits"
-</code></pre>',116,74,'2009-08-07T00:30:14.107Z',25,73);
-INSERT INTO answers VALUES (1318059,'<p>Here''s a generic version of what we''ve been using on Stack Overflow for the past year:</p>
+</code></pre>',116,62,'2009-08-07T00:30:14.107Z',90,56);
+INSERT INTO answers VALUES (1318059,33969,'','<p>Here''s a generic version of what we''ve been using on Stack Overflow for the past year:</p>
 
 <pre><code>/// &lt;summary&gt;
 /// Decorates any MVC route that needs to have client requests limited by time.
@@ -22553,9 +22553,9 @@ public ActionResult TestThrottle()
 
 <p>The ASP.NET Cache works like a champ here - by using it, you get automatic clean-up of your throttle entries.  And with our growing traffic, we''re not seeing that this is an issue on the server.</p>
 
-<p>Feel free to give feedback on this method; when we make Stack Overflow better, you get your <a href="https://stackoverflow.blog/2009/05/31/the-stack-overflow-trilogy/">Ewok fix</a> even faster :)</p>',3,48,'2009-08-23T08:21:56.053Z',91,19);
-INSERT INTO answers VALUES (1346447,'<p>It seems that there is a bug that exists when using com.orielly.servlet.MultipartRequest class and the org.apache.struts2.dispatcher.ActionContextCleanUp filter together. This is what was causing small file uploads to fail.</p>',22,54,'2009-08-28T11:33:54.027Z',4,21);
-INSERT INTO answers VALUES (1392794,'<p>In your CSS you can set the @page property as shown below. </p>
+<p>Feel free to give feedback on this method; when we make Stack Overflow better, you get your <a href="https://stackoverflow.blog/2009/05/31/the-stack-overflow-trilogy/">Ewok fix</a> even faster :)</p>',3,91,'2009-08-23T08:21:56.053Z',30,41);
+INSERT INTO answers VALUES (1346447,240163,'','<p>It seems that there is a bug that exists when using com.orielly.servlet.MultipartRequest class and the org.apache.struts2.dispatcher.ActionContextCleanUp filter together. This is what was causing small file uploads to fail.</p>',22,88,'2009-08-28T11:33:54.027Z',6,72);
+INSERT INTO answers VALUES (1392794,138422,'','<p>In your CSS you can set the @page property as shown below. </p>
 
 <pre><code>@media print{@page {size: landscape}}
 </code></pre>
@@ -22594,11 +22594,11 @@ INSERT INTO answers VALUES (1392794,'<p>In your CSS you can set the @page proper
 </code></pre>
 
 <p>In conclusion in some browsers it is relativity easy using the @page size option however in many browsers there is no sure way and it would depend on your content and environment. 
-This maybe why Google Documents creates a PDF when print is selected and then allows the user to open and print that.</p>',33,37,'2009-09-08T08:50:50.727Z',97,18);
-INSERT INTO answers VALUES (1493026,'<p>My best bet why it happens is because there is a native-managed-native boundary to cross. The native part doesn''t forward the managed exceptions correctly and there is not much that can be done.</p>
+This maybe why Google Documents creates a PDF when print is selected and then allows the user to open and print that.</p>',33,37,'2009-09-08T08:50:50.727Z',42,16);
+INSERT INTO answers VALUES (1493026,18059,'','<p>My best bet why it happens is because there is a native-managed-native boundary to cross. The native part doesn''t forward the managed exceptions correctly and there is not much that can be done.</p>
 
-<p>I am still hoping for a better answer though.</p>',42,46,'2009-09-29T14:47:38.233Z',71,67);
-INSERT INTO answers VALUES (1712228,'<h2>Current solution:</h2>
+<p>I am still hoping for a better answer though.</p>',42,11,'2009-09-29T14:47:38.233Z',10,86);
+INSERT INTO answers VALUES (1712228,357643,'','<h2>Current solution:</h2>
 
 <pre><code>YYYY/MM/DD+YY/MM/DD+DOW
 </code></pre>
@@ -22643,31 +22643,31 @@ INSERT INTO answers VALUES (1712228,'<h2>Current solution:</h2>
 <li>first weekday on or after 21st day after the 13th of the month - "//34+/1/+b"</li>
 <li>every 2 weeks from today - "+//14"</li>
 <li>last day of every second month starting with march - "/3/-1+/2/"</li>
-</ul>',80,53,'2009-11-11T00:30:57.683Z',40,2);
-INSERT INTO answers VALUES (1712234,'<p>Solution:
+</ul>',80,44,'2009-11-11T00:30:57.683Z',86,38);
+INSERT INTO answers VALUES (1712234,326905,'','<p>Solution:
 Man, this was a weird one. The problem was that the actual ASP file was encoded in ANSI. Apparently this is what encoding is used when the file is passed to the client (kinda makes sense if you remember that an asp file is just a file being passed to the client that is modified slightly by the asp engine). The solution was to change the encoding of the ASP file to utf-8. Thus, when the utf-8 characters are written into the file on its way to the client, they match the encoding of the rest of the file and are read by the browser correctly. </p>
 
 <p>Hope this helps the next person.<br>
 Cheers,<br>
-Andy.</p>',80,60,'2009-11-11T00:32:16.370Z',19,44);
-INSERT INTO answers VALUES (1948373,'<p>First Attempt:</p>
+Andy.</p>',80,3,'2009-11-11T00:32:16.370Z',56,0);
+INSERT INTO answers VALUES (1948373,142058,'','<p>First Attempt:</p>
 
 <p>I tried including script.xsl as another xml chunk and changing the import statement in every way I could imagine but without success. </p>
 
 <p>Final solution:</p>
 
-<p>Since the absolute url for includeing script.xsl worked from the beginning, my final solution was to convert style.xsl to style.asp with the correct doctype. In this file I was then able to retrieve the server name, protocol and path and echo them into the right place in the import statement using asp. Then, when this file got included in mysscript.asp, it had the correct absolute url for the server. This is a bit of a hack but the only way I found to solve this rather convoluted situation.</p>',80,47,'2009-12-22T18:46:58.777Z',63,50);
-INSERT INTO answers VALUES (1989985,'<p>As of now, this doesn''t seem to be possible in either VS 2005, 2008 and 2010 and there is no AddIn for this.</p>',91,46,'2010-01-01T23:13:33.953Z',81,59);
-INSERT INTO answers VALUES (2186878,'<p>It looks like as of Silverlight 3.1, at least, this is no longer an issue.  I can''t reproduce it, at any rate.</p>',93,19,'2010-02-02T19:13:52.120Z',24,51);
-INSERT INTO answers VALUES (2266813,'<p>On February 12, 2010 Andrew Flocchini of theappleblog.com wrote a guide to making website forms optimized for the iPod Touch, iPhone &amp; iPad using the <strong>iWebKit</strong> framework package.</p>
+<p>Since the absolute url for includeing script.xsl worked from the beginning, my final solution was to convert style.xsl to style.asp with the correct doctype. In this file I was then able to retrieve the server name, protocol and path and echo them into the right place in the import statement using asp. Then, when this file got included in mysscript.asp, it had the correct absolute url for the server. This is a bit of a hack but the only way I found to solve this rather convoluted situation.</p>',80,55,'2009-12-22T18:46:58.777Z',8,79);
+INSERT INTO answers VALUES (1989985,491751,'','<p>As of now, this doesn''t seem to be possible in either VS 2005, 2008 and 2010 and there is no AddIn for this.</p>',91,44,'2010-01-01T23:13:33.953Z',87,25);
+INSERT INTO answers VALUES (2186878,71932,'','<p>It looks like as of Silverlight 3.1, at least, this is no longer an issue.  I can''t reproduce it, at any rate.</p>',93,77,'2010-02-02T19:13:52.120Z',87,33);
+INSERT INTO answers VALUES (2266813,428835,'','<p>On February 12, 2010 Andrew Flocchini of theappleblog.com wrote a guide to making website forms optimized for the iPod Touch, iPhone &amp; iPad using the <strong>iWebKit</strong> framework package.</p>
 
 <p><a href="http://gigapple.files.wordpress.com/2010/02/namechage.png?w=570&amp;h=202" rel="nofollow noreferrer">name and password field change http://gigapple.files.wordpress.com/2010/02/namechage.png?w=570&amp;h=202</a></p>
 
-<p><a href="http://theappleblog.com/2010/02/12/how-to-create-an-iphone-web-app/" rel="nofollow noreferrer">How-To: Create an iPhone Web App</a></p>',83,17,'2010-02-15T15:11:27.560Z',41,26);
-INSERT INTO answers VALUES (6626232,'<p>Redgate has a product called <a href="http://www.red-gate.com/products/sql-development/sql-source-control/" rel="noreferrer">SQL Source Control</a>. It integrates with TFS, SVN, SourceGear Vault, Vault Pro, Mercurial, Perforce, and Git.</p>',106,76,'2011-07-08T14:51:41.783Z',85,66);
-INSERT INTO answers VALUES (62459099,'<p>This question is now ancient, and a lot has changed. For my specific purposes, <a href="https://www.litedb.org/" rel="nofollow noreferrer">LiteDB</a> is the option of choice. It''s open source and has a <a href="https://github.com/mbdavid/LiteDB" rel="nofollow noreferrer">GitHub Repository</a>.</p>
+<p><a href="http://theappleblog.com/2010/02/12/how-to-create-an-iphone-web-app/" rel="nofollow noreferrer">How-To: Create an iPhone Web App</a></p>',83,41,'2010-02-15T15:11:27.560Z',39,76);
+INSERT INTO answers VALUES (6626232,308,'','<p>Redgate has a product called <a href="http://www.red-gate.com/products/sql-development/sql-source-control/" rel="noreferrer">SQL Source Control</a>. It integrates with TFS, SVN, SourceGear Vault, Vault Pro, Mercurial, Perforce, and Git.</p>',106,43,'2011-07-08T14:51:41.783Z',21,60);
+INSERT INTO answers VALUES (62459099,705,'','<p>This question is now ancient, and a lot has changed. For my specific purposes, <a href="https://www.litedb.org/" rel="nofollow noreferrer">LiteDB</a> is the option of choice. It''s open source and has a <a href="https://github.com/mbdavid/LiteDB" rel="nofollow noreferrer">GitHub Repository</a>.</p>
 
-<p>Apart from that, <a href="https://sqlite.org/index.html" rel="nofollow noreferrer">SQLite</a> is basically the industry standard for embedded databases. There are attempts to port the code to .NET, but the prime use case involves a native library (e.g., the <a href="https://www.nuget.org/packages/sqlite/" rel="nofollow noreferrer">sqlite Nuget package</a>) and/or a .NET P/Invoke wrapper like <a href="https://www.nuget.org/packages/Microsoft.Data.Sqlite" rel="nofollow noreferrer">Microsoft.Data.SQLite</a>.</p>',91,17,'2020-06-18T20:44:01.777Z',46,94);
+<p>Apart from that, <a href="https://sqlite.org/index.html" rel="nofollow noreferrer">SQLite</a> is basically the industry standard for embedded databases. There are attempts to port the code to .NET, but the prime use case involves a native library (e.g., the <a href="https://www.nuget.org/packages/sqlite/" rel="nofollow noreferrer">sqlite Nuget package</a>) and/or a .NET P/Invoke wrapper like <a href="https://www.nuget.org/packages/Microsoft.Data.Sqlite" rel="nofollow noreferrer">Microsoft.Data.SQLite</a>.</p>',91,2,'2020-06-18T20:44:01.777Z',27,79);
 INSERT INTO question_comments VALUES (94171948,'I''m surprised no one mentioned `Shellwords.escape` ([doc](http://ruby-doc.org/stdlib-2.5.3/libdoc/shellwords/rdoc/Shellwords.html#method-c-shellescape)). You don''t want to be inserting user-input directly into shell commands - escape it first! See also [command injection](https://www.owasp.org/index.php/Command_Injection).','2018-12-06T17:31:53.397Z',2232,75,6);
 INSERT INTO question_comments VALUES (94584350,'Just type 123 question no in url and came to this question that''s y giving + 1 to answer and question. Thank you!','2018-12-20T12:27:44.797Z',123,68,0);
 INSERT INTO question_comments VALUES (94752243,'If you check on github, you will see 7K stars for SwiftMailer and on top in php section','2018-12-28T10:48:05.190Z',303783,107,0);
@@ -23710,6 +23710,1594 @@ With this code line: ''System.Text.RegularExpressions.Regex.Replace(value, "[A-Z
 INSERT INTO question_comments VALUES (45941788,'I suggest you **don''t** use regex if you need it to be secure and perfect.','2015-03-03T15:53:08.813Z',441739,116,0);
 INSERT INTO question_comments VALUES (46940404,'If you are looking for how to pass a setting to every answer, look at bchunn''s answer about context processors','2015-03-31T23:32:34.637Z',433162,43,0);
 INSERT INTO question_comments VALUES (46404695,'See also http://stackoverflow.com/questions/1527856/how-can-i-iterate-through-the-unicode-codepoints-of-a-java-string','2015-03-16T20:04:05.863Z',196830,104,3);
+INSERT INTO question_likes VALUES (0,4,32);
+INSERT INTO question_likes VALUES (1,6,40);
+INSERT INTO question_likes VALUES (0,9,92);
+INSERT INTO question_likes VALUES (0,11,103);
+INSERT INTO question_likes VALUES (1,13,18);
+INSERT INTO question_likes VALUES (1,14,45);
+INSERT INTO question_likes VALUES (0,16,48);
+INSERT INTO question_likes VALUES (0,17,16);
+INSERT INTO question_likes VALUES (0,19,78);
+INSERT INTO question_likes VALUES (0,24,87);
+INSERT INTO question_likes VALUES (1,25,17);
+INSERT INTO question_likes VALUES (0,36,105);
+INSERT INTO question_likes VALUES (0,39,53);
+INSERT INTO question_likes VALUES (0,42,96);
+INSERT INTO question_likes VALUES (1,48,47);
+INSERT INTO question_likes VALUES (1,59,96);
+INSERT INTO question_likes VALUES (1,66,89);
+INSERT INTO question_likes VALUES (0,72,91);
+INSERT INTO question_likes VALUES (0,79,115);
+INSERT INTO question_likes VALUES (0,80,74);
+INSERT INTO question_likes VALUES (0,85,61);
+INSERT INTO question_likes VALUES (0,88,61);
+INSERT INTO question_likes VALUES (1,90,35);
+INSERT INTO question_likes VALUES (0,104,65);
+INSERT INTO question_likes VALUES (0,108,64);
+INSERT INTO question_likes VALUES (0,109,87);
+INSERT INTO question_likes VALUES (1,120,21);
+INSERT INTO question_likes VALUES (1,123,107);
+INSERT INTO question_likes VALUES (0,126,53);
+INSERT INTO question_likes VALUES (1,129,21);
+INSERT INTO question_likes VALUES (1,134,10);
+INSERT INTO question_likes VALUES (0,145,85);
+INSERT INTO question_likes VALUES (0,146,59);
+INSERT INTO question_likes VALUES (0,163,73);
+INSERT INTO question_likes VALUES (1,164,104);
+INSERT INTO question_likes VALUES (1,173,5);
+INSERT INTO question_likes VALUES (1,174,36);
+INSERT INTO question_likes VALUES (1,176,56);
+INSERT INTO question_likes VALUES (0,192,70);
+INSERT INTO question_likes VALUES (1,194,5);
+INSERT INTO question_likes VALUES (0,231,49);
+INSERT INTO question_likes VALUES (1,234,91);
+INSERT INTO question_likes VALUES (1,246,67);
+INSERT INTO question_likes VALUES (0,260,31);
+INSERT INTO question_likes VALUES (0,263,101);
+INSERT INTO question_likes VALUES (0,264,64);
+INSERT INTO question_likes VALUES (1,265,27);
+INSERT INTO question_likes VALUES (1,289,78);
+INSERT INTO question_likes VALUES (1,308,82);
+INSERT INTO question_likes VALUES (1,328,103);
+INSERT INTO question_likes VALUES (0,330,43);
+INSERT INTO question_likes VALUES (1,336,110);
+INSERT INTO question_likes VALUES (0,337,55);
+INSERT INTO question_likes VALUES (0,361,38);
+INSERT INTO question_likes VALUES (0,371,104);
+INSERT INTO question_likes VALUES (1,382,79);
+INSERT INTO question_likes VALUES (0,470,44);
+INSERT INTO question_likes VALUES (1,482,29);
+INSERT INTO question_likes VALUES (0,564,4);
+INSERT INTO question_likes VALUES (1,580,88);
+INSERT INTO question_likes VALUES (0,594,30);
+INSERT INTO question_likes VALUES (0,657,72);
+INSERT INTO question_likes VALUES (0,705,94);
+INSERT INTO question_likes VALUES (1,709,95);
+INSERT INTO question_likes VALUES (0,769,81);
+INSERT INTO question_likes VALUES (1,826,93);
+INSERT INTO question_likes VALUES (0,835,59);
+INSERT INTO question_likes VALUES (1,855,31);
+INSERT INTO question_likes VALUES (0,879,86);
+INSERT INTO question_likes VALUES (1,904,50);
+INSERT INTO question_likes VALUES (1,1005,18);
+INSERT INTO question_likes VALUES (1,1010,89);
+INSERT INTO question_likes VALUES (1,1033,68);
+INSERT INTO question_likes VALUES (1,1042,24);
+INSERT INTO question_likes VALUES (1,1053,92);
+INSERT INTO question_likes VALUES (1,1131,92);
+INSERT INTO question_likes VALUES (1,1160,77);
+INSERT INTO question_likes VALUES (1,1276,8);
+INSERT INTO question_likes VALUES (1,1300,93);
+INSERT INTO question_likes VALUES (0,1304,23);
+INSERT INTO question_likes VALUES (0,1329,100);
+INSERT INTO question_likes VALUES (0,1376,98);
+INSERT INTO question_likes VALUES (1,1390,7);
+INSERT INTO question_likes VALUES (1,1408,70);
+INSERT INTO question_likes VALUES (0,1409,90);
+INSERT INTO question_likes VALUES (1,1451,83);
+INSERT INTO question_likes VALUES (0,1453,16);
+INSERT INTO question_likes VALUES (1,1476,83);
+INSERT INTO question_likes VALUES (1,1503,46);
+INSERT INTO question_likes VALUES (1,1505,32);
+INSERT INTO question_likes VALUES (1,1528,49);
+INSERT INTO question_likes VALUES (1,1584,41);
+INSERT INTO question_likes VALUES (1,1598,71);
+INSERT INTO question_likes VALUES (1,1607,34);
+INSERT INTO question_likes VALUES (0,1615,90);
+INSERT INTO question_likes VALUES (1,1644,97);
+INSERT INTO question_likes VALUES (0,1679,13);
+INSERT INTO question_likes VALUES (0,1734,106);
+INSERT INTO question_likes VALUES (1,1829,92);
+INSERT INTO question_likes VALUES (1,1848,35);
+INSERT INTO question_likes VALUES (1,1854,77);
+INSERT INTO question_likes VALUES (0,1898,107);
+INSERT INTO question_likes VALUES (1,1908,93);
+INSERT INTO question_likes VALUES (0,1949,16);
+INSERT INTO question_likes VALUES (0,1983,79);
+INSERT INTO question_likes VALUES (0,1988,22);
+INSERT INTO question_likes VALUES (0,1995,24);
+INSERT INTO question_likes VALUES (1,2027,90);
+INSERT INTO question_likes VALUES (1,2232,92);
+INSERT INTO question_likes VALUES (1,2267,40);
+INSERT INTO question_likes VALUES (0,2328,74);
+INSERT INTO question_likes VALUES (0,2349,55);
+INSERT INTO question_likes VALUES (1,2432,107);
+INSERT INTO question_likes VALUES (1,2472,112);
+INSERT INTO question_likes VALUES (1,2483,34);
+INSERT INTO question_likes VALUES (1,2488,62);
+INSERT INTO question_likes VALUES (0,2518,18);
+INSERT INTO question_likes VALUES (0,2630,102);
+INSERT INTO question_likes VALUES (1,2711,9);
+INSERT INTO question_likes VALUES (1,2732,74);
+INSERT INTO question_likes VALUES (1,2780,114);
+INSERT INTO question_likes VALUES (1,2785,62);
+INSERT INTO question_likes VALUES (1,2798,69);
+INSERT INTO question_likes VALUES (1,2815,62);
+INSERT INTO question_likes VALUES (0,2898,58);
+INSERT INTO question_likes VALUES (0,2970,84);
+INSERT INTO question_likes VALUES (1,3057,63);
+INSERT INTO question_likes VALUES (1,3061,57);
+INSERT INTO question_likes VALUES (1,3088,111);
+INSERT INTO question_likes VALUES (1,3136,91);
+INSERT INTO question_likes VALUES (0,3163,30);
+INSERT INTO question_likes VALUES (0,3255,48);
+INSERT INTO question_likes VALUES (1,3400,45);
+INSERT INTO question_likes VALUES (0,3544,69);
+INSERT INTO question_likes VALUES (0,3589,95);
+INSERT INTO question_likes VALUES (1,3607,118);
+INSERT INTO question_likes VALUES (1,3666,36);
+INSERT INTO question_likes VALUES (1,3801,84);
+INSERT INTO question_likes VALUES (0,3802,43);
+INSERT INTO question_likes VALUES (0,3831,26);
+INSERT INTO question_likes VALUES (1,3856,81);
+INSERT INTO question_likes VALUES (1,3867,101);
+INSERT INTO question_likes VALUES (0,3881,72);
+INSERT INTO question_likes VALUES (0,3894,33);
+INSERT INTO question_likes VALUES (1,3927,49);
+INSERT INTO question_likes VALUES (0,4072,62);
+INSERT INTO question_likes VALUES (0,4138,40);
+INSERT INTO question_likes VALUES (0,4164,50);
+INSERT INTO question_likes VALUES (1,4208,110);
+INSERT INTO question_likes VALUES (1,4227,58);
+INSERT INTO question_likes VALUES (0,4242,74);
+INSERT INTO question_likes VALUES (0,4287,25);
+INSERT INTO question_likes VALUES (0,4305,22);
+INSERT INTO question_likes VALUES (1,4433,11);
+INSERT INTO question_likes VALUES (0,4434,19);
+INSERT INTO question_likes VALUES (1,4458,73);
+INSERT INTO question_likes VALUES (1,4511,29);
+INSERT INTO question_likes VALUES (0,4544,66);
+INSERT INTO question_likes VALUES (0,4677,51);
+INSERT INTO question_likes VALUES (0,4684,31);
+INSERT INTO question_likes VALUES (0,4794,105);
+INSERT INTO question_likes VALUES (1,4824,66);
+INSERT INTO question_likes VALUES (1,4850,15);
+INSERT INTO question_likes VALUES (1,4994,82);
+INSERT INTO question_likes VALUES (0,5017,96);
+INSERT INTO question_likes VALUES (1,5118,84);
+INSERT INTO question_likes VALUES (1,5179,100);
+INSERT INTO question_likes VALUES (1,5260,100);
+INSERT INTO question_likes VALUES (1,5328,104);
+INSERT INTO question_likes VALUES (1,5459,55);
+INSERT INTO question_likes VALUES (0,5473,49);
+INSERT INTO question_likes VALUES (0,5527,15);
+INSERT INTO question_likes VALUES (0,5611,102);
+INSERT INTO question_likes VALUES (1,5682,83);
+INSERT INTO question_likes VALUES (0,5872,10);
+INSERT INTO question_likes VALUES (0,5908,117);
+INSERT INTO question_likes VALUES (1,5982,34);
+INSERT INTO question_likes VALUES (1,6301,25);
+INSERT INTO question_likes VALUES (1,6325,93);
+INSERT INTO question_likes VALUES (0,6340,97);
+INSERT INTO question_likes VALUES (1,6373,77);
+INSERT INTO question_likes VALUES (1,6392,11);
+INSERT INTO question_likes VALUES (0,6628,83);
+INSERT INTO question_likes VALUES (0,6811,49);
+INSERT INTO question_likes VALUES (1,6926,78);
+INSERT INTO question_likes VALUES (0,6957,60);
+INSERT INTO question_likes VALUES (1,7525,30);
+INSERT INTO question_likes VALUES (1,7540,18);
+INSERT INTO question_likes VALUES (0,7758,34);
+INSERT INTO question_likes VALUES (0,7981,37);
+INSERT INTO question_likes VALUES (1,7990,92);
+INSERT INTO question_likes VALUES (0,8128,81);
+INSERT INTO question_likes VALUES (1,8223,73);
+INSERT INTO question_likes VALUES (1,8441,118);
+INSERT INTO question_likes VALUES (0,8472,59);
+INSERT INTO question_likes VALUES (0,8604,18);
+INSERT INTO question_likes VALUES (0,8681,65);
+INSERT INTO question_likes VALUES (1,8800,64);
+INSERT INTO question_likes VALUES (0,8864,63);
+INSERT INTO question_likes VALUES (1,8970,66);
+INSERT INTO question_likes VALUES (1,9044,11);
+INSERT INTO question_likes VALUES (0,9072,46);
+INSERT INTO question_likes VALUES (0,9081,39);
+INSERT INTO question_likes VALUES (1,9122,46);
+INSERT INTO question_likes VALUES (0,9161,13);
+INSERT INTO question_likes VALUES (1,9304,9);
+INSERT INTO question_likes VALUES (0,9473,76);
+INSERT INTO question_likes VALUES (0,10149,103);
+INSERT INTO question_likes VALUES (1,10158,45);
+INSERT INTO question_likes VALUES (0,10499,74);
+INSERT INTO question_likes VALUES (1,10506,116);
+INSERT INTO question_likes VALUES (0,10515,110);
+INSERT INTO question_likes VALUES (0,10727,21);
+INSERT INTO question_likes VALUES (0,10731,72);
+INSERT INTO question_likes VALUES (1,10752,50);
+INSERT INTO question_likes VALUES (1,10980,37);
+INSERT INTO question_likes VALUES (1,11200,81);
+INSERT INTO question_likes VALUES (1,11345,57);
+INSERT INTO question_likes VALUES (1,11405,53);
+INSERT INTO question_likes VALUES (0,11665,93);
+INSERT INTO question_likes VALUES (1,11783,4);
+INSERT INTO question_likes VALUES (0,11820,79);
+INSERT INTO question_likes VALUES (1,11926,45);
+INSERT INTO question_likes VALUES (1,12009,28);
+INSERT INTO question_likes VALUES (0,12297,117);
+INSERT INTO question_likes VALUES (0,12385,98);
+INSERT INTO question_likes VALUES (1,12406,43);
+INSERT INTO question_likes VALUES (0,12516,19);
+INSERT INTO question_likes VALUES (0,12576,83);
+INSERT INTO question_likes VALUES (0,12706,61);
+INSERT INTO question_likes VALUES (1,12855,36);
+INSERT INTO question_likes VALUES (1,12905,106);
+INSERT INTO question_likes VALUES (1,12936,30);
+INSERT INTO question_likes VALUES (1,13000,29);
+INSERT INTO question_likes VALUES (0,13434,18);
+INSERT INTO question_likes VALUES (0,13589,111);
+INSERT INTO question_likes VALUES (0,13647,22);
+INSERT INTO question_likes VALUES (0,13963,26);
+INSERT INTO question_likes VALUES (0,14884,4);
+INSERT INTO question_likes VALUES (0,14923,20);
+INSERT INTO question_likes VALUES (0,15228,104);
+INSERT INTO question_likes VALUES (0,15247,62);
+INSERT INTO question_likes VALUES (1,15709,7);
+INSERT INTO question_likes VALUES (1,15731,39);
+INSERT INTO question_likes VALUES (0,15880,37);
+INSERT INTO question_likes VALUES (1,15899,43);
+INSERT INTO question_likes VALUES (1,15949,57);
+INSERT INTO question_likes VALUES (0,16096,9);
+INSERT INTO question_likes VALUES (1,16155,84);
+INSERT INTO question_likes VALUES (1,16298,90);
+INSERT INTO question_likes VALUES (1,16306,101);
+INSERT INTO question_likes VALUES (0,17172,45);
+INSERT INTO question_likes VALUES (0,17175,97);
+INSERT INTO question_likes VALUES (0,17645,4);
+INSERT INTO question_likes VALUES (0,17664,32);
+INSERT INTO question_likes VALUES (1,17966,65);
+INSERT INTO question_likes VALUES (1,18059,32);
+INSERT INTO question_likes VALUES (1,18082,118);
+INSERT INTO question_likes VALUES (0,18132,9);
+INSERT INTO question_likes VALUES (1,18216,58);
+INSERT INTO question_likes VALUES (0,18298,41);
+INSERT INTO question_likes VALUES (1,18533,7);
+INSERT INTO question_likes VALUES (0,18787,6);
+INSERT INTO question_likes VALUES (0,19349,48);
+INSERT INTO question_likes VALUES (0,19409,31);
+INSERT INTO question_likes VALUES (0,19466,104);
+INSERT INTO question_likes VALUES (1,19487,11);
+INSERT INTO question_likes VALUES (0,19653,55);
+INSERT INTO question_likes VALUES (0,19803,82);
+INSERT INTO question_likes VALUES (1,20047,90);
+INSERT INTO question_likes VALUES (1,20198,107);
+INSERT INTO question_likes VALUES (1,20484,93);
+INSERT INTO question_likes VALUES (0,20731,18);
+INSERT INTO question_likes VALUES (1,20876,118);
+INSERT INTO question_likes VALUES (1,20880,80);
+INSERT INTO question_likes VALUES (1,20998,90);
+INSERT INTO question_likes VALUES (0,21184,109);
+INSERT INTO question_likes VALUES (1,21232,17);
+INSERT INTO question_likes VALUES (0,22269,44);
+INSERT INTO question_likes VALUES (1,22319,12);
+INSERT INTO question_likes VALUES (0,22779,75);
+INSERT INTO question_likes VALUES (0,22968,110);
+INSERT INTO question_likes VALUES (1,23603,85);
+INSERT INTO question_likes VALUES (0,23763,67);
+INSERT INTO question_likes VALUES (1,24109,63);
+INSERT INTO question_likes VALUES (1,24310,84);
+INSERT INTO question_likes VALUES (1,24546,42);
+INSERT INTO question_likes VALUES (0,24886,60);
+INSERT INTO question_likes VALUES (1,24901,103);
+INSERT INTO question_likes VALUES (1,25182,72);
+INSERT INTO question_likes VALUES (1,25343,21);
+INSERT INTO question_likes VALUES (1,25767,114);
+INSERT INTO question_likes VALUES (1,26195,38);
+INSERT INTO question_likes VALUES (0,26230,7);
+INSERT INTO question_likes VALUES (1,26452,80);
+INSERT INTO question_likes VALUES (1,27027,9);
+INSERT INTO question_likes VALUES (1,27499,64);
+INSERT INTO question_likes VALUES (1,27532,91);
+INSERT INTO question_likes VALUES (0,27972,53);
+INSERT INTO question_likes VALUES (1,28559,86);
+INSERT INTO question_likes VALUES (0,28739,43);
+INSERT INTO question_likes VALUES (0,28757,95);
+INSERT INTO question_likes VALUES (0,28808,113);
+INSERT INTO question_likes VALUES (1,28946,24);
+INSERT INTO question_likes VALUES (0,28965,13);
+INSERT INTO question_likes VALUES (0,29645,35);
+INSERT INTO question_likes VALUES (0,29686,104);
+INSERT INTO question_likes VALUES (1,29743,97);
+INSERT INTO question_likes VALUES (0,29744,104);
+INSERT INTO question_likes VALUES (1,29746,77);
+INSERT INTO question_likes VALUES (0,29822,117);
+INSERT INTO question_likes VALUES (0,30171,103);
+INSERT INTO question_likes VALUES (1,30485,114);
+INSERT INTO question_likes VALUES (1,30566,35);
+INSERT INTO question_likes VALUES (0,30847,30);
+INSERT INTO question_likes VALUES (1,31077,18);
+INSERT INTO question_likes VALUES (0,31097,56);
+INSERT INTO question_likes VALUES (0,31303,72);
+INSERT INTO question_likes VALUES (1,31326,111);
+INSERT INTO question_likes VALUES (0,31346,98);
+INSERT INTO question_likes VALUES (0,31498,98);
+INSERT INTO question_likes VALUES (1,31637,85);
+INSERT INTO question_likes VALUES (0,32332,71);
+INSERT INTO question_likes VALUES (1,32395,14);
+INSERT INTO question_likes VALUES (1,32851,60);
+INSERT INTO question_likes VALUES (1,33089,41);
+INSERT INTO question_likes VALUES (1,33166,80);
+INSERT INTO question_likes VALUES (0,33242,98);
+INSERT INTO question_likes VALUES (0,33250,54);
+INSERT INTO question_likes VALUES (0,33263,47);
+INSERT INTO question_likes VALUES (0,33275,40);
+INSERT INTO question_likes VALUES (1,33395,116);
+INSERT INTO question_likes VALUES (0,33708,38);
+INSERT INTO question_likes VALUES (1,33969,88);
+INSERT INTO question_likes VALUES (0,34270,56);
+INSERT INTO question_likes VALUES (1,34726,65);
+INSERT INTO question_likes VALUES (1,35219,18);
+INSERT INTO question_likes VALUES (1,35639,4);
+INSERT INTO question_likes VALUES (0,35670,84);
+INSERT INTO question_likes VALUES (0,35709,105);
+INSERT INTO question_likes VALUES (0,35879,69);
+INSERT INTO question_likes VALUES (1,36575,87);
+INSERT INTO question_likes VALUES (1,37095,116);
+INSERT INTO question_likes VALUES (0,37104,111);
+INSERT INTO question_likes VALUES (1,37346,67);
+INSERT INTO question_likes VALUES (1,37538,31);
+INSERT INTO question_likes VALUES (1,37672,62);
+INSERT INTO question_likes VALUES (0,38824,72);
+INSERT INTO question_likes VALUES (0,38870,98);
+INSERT INTO question_likes VALUES (1,38955,26);
+INSERT INTO question_likes VALUES (1,39121,33);
+INSERT INTO question_likes VALUES (1,39533,70);
+INSERT INTO question_likes VALUES (1,39561,85);
+INSERT INTO question_likes VALUES (0,39916,35);
+INSERT INTO question_likes VALUES (0,39977,95);
+INSERT INTO question_likes VALUES (1,40116,118);
+INSERT INTO question_likes VALUES (1,40169,112);
+INSERT INTO question_likes VALUES (1,40586,38);
+INSERT INTO question_likes VALUES (1,40764,86);
+INSERT INTO question_likes VALUES (0,40966,108);
+INSERT INTO question_likes VALUES (0,41304,17);
+INSERT INTO question_likes VALUES (0,41320,39);
+INSERT INTO question_likes VALUES (0,41576,44);
+INSERT INTO question_likes VALUES (1,42197,100);
+INSERT INTO question_likes VALUES (0,42247,87);
+INSERT INTO question_likes VALUES (1,42282,83);
+INSERT INTO question_likes VALUES (0,42499,75);
+INSERT INTO question_likes VALUES (1,43291,50);
+INSERT INTO question_likes VALUES (0,43503,108);
+INSERT INTO question_likes VALUES (0,43644,106);
+INSERT INTO question_likes VALUES (1,43768,82);
+INSERT INTO question_likes VALUES (0,43803,93);
+INSERT INTO question_likes VALUES (1,44046,62);
+INSERT INTO question_likes VALUES (1,44194,117);
+INSERT INTO question_likes VALUES (1,44376,72);
+INSERT INTO question_likes VALUES (1,44777,100);
+INSERT INTO question_likes VALUES (0,45227,24);
+INSERT INTO question_likes VALUES (0,45230,111);
+INSERT INTO question_likes VALUES (1,45510,21);
+INSERT INTO question_likes VALUES (1,45729,69);
+INSERT INTO question_likes VALUES (0,46155,25);
+INSERT INTO question_likes VALUES (1,46415,104);
+INSERT INTO question_likes VALUES (1,46489,37);
+INSERT INTO question_likes VALUES (1,46859,32);
+INSERT INTO question_likes VALUES (1,47376,50);
+INSERT INTO question_likes VALUES (1,47387,108);
+INSERT INTO question_likes VALUES (0,47864,79);
+INSERT INTO question_likes VALUES (1,47937,47);
+INSERT INTO question_likes VALUES (1,48124,84);
+INSERT INTO question_likes VALUES (0,48299,14);
+INSERT INTO question_likes VALUES (1,48439,94);
+INSERT INTO question_likes VALUES (0,48458,62);
+INSERT INTO question_likes VALUES (1,48774,68);
+INSERT INTO question_likes VALUES (0,48872,16);
+INSERT INTO question_likes VALUES (1,49035,40);
+INSERT INTO question_likes VALUES (1,49562,31);
+INSERT INTO question_likes VALUES (0,49757,30);
+INSERT INTO question_likes VALUES (1,50315,38);
+INSERT INTO question_likes VALUES (0,50330,56);
+INSERT INTO question_likes VALUES (1,50747,108);
+INSERT INTO question_likes VALUES (0,50824,47);
+INSERT INTO question_likes VALUES (0,52080,11);
+INSERT INTO question_likes VALUES (1,52256,63);
+INSERT INTO question_likes VALUES (0,52398,92);
+INSERT INTO question_likes VALUES (0,52981,66);
+INSERT INTO question_likes VALUES (0,53136,9);
+INSERT INTO question_likes VALUES (0,53290,102);
+INSERT INTO question_likes VALUES (1,53802,118);
+INSERT INTO question_likes VALUES (1,54512,79);
+INSERT INTO question_likes VALUES (1,55013,82);
+INSERT INTO question_likes VALUES (0,55835,72);
+INSERT INTO question_likes VALUES (1,56078,79);
+INSERT INTO question_likes VALUES (0,56208,27);
+INSERT INTO question_likes VALUES (0,56271,27);
+INSERT INTO question_likes VALUES (1,56518,30);
+INSERT INTO question_likes VALUES (0,56729,11);
+INSERT INTO question_likes VALUES (0,56770,51);
+INSERT INTO question_likes VALUES (1,56981,106);
+INSERT INTO question_likes VALUES (0,57152,49);
+INSERT INTO question_likes VALUES (1,57194,24);
+INSERT INTO question_likes VALUES (1,57530,111);
+INSERT INTO question_likes VALUES (0,59424,33);
+INSERT INTO question_likes VALUES (0,59428,74);
+INSERT INTO question_likes VALUES (1,59761,27);
+INSERT INTO question_likes VALUES (1,60070,83);
+INSERT INTO question_likes VALUES (0,60910,75);
+INSERT INTO question_likes VALUES (1,61598,34);
+INSERT INTO question_likes VALUES (1,62188,40);
+INSERT INTO question_likes VALUES (0,62365,46);
+INSERT INTO question_likes VALUES (0,63764,14);
+INSERT INTO question_likes VALUES (1,67370,33);
+INSERT INTO question_likes VALUES (0,67659,85);
+INSERT INTO question_likes VALUES (0,67699,84);
+INSERT INTO question_likes VALUES (1,67959,100);
+INSERT INTO question_likes VALUES (0,68527,79);
+INSERT INTO question_likes VALUES (1,71440,81);
+INSERT INTO question_likes VALUES (0,71932,39);
+INSERT INTO question_likes VALUES (0,71944,43);
+INSERT INTO question_likes VALUES (1,74116,9);
+INSERT INTO question_likes VALUES (1,75411,55);
+INSERT INTO question_likes VALUES (0,76210,8);
+INSERT INTO question_likes VALUES (0,78475,29);
+INSERT INTO question_likes VALUES (0,80958,34);
+INSERT INTO question_likes VALUES (1,82788,117);
+INSERT INTO question_likes VALUES (0,82929,113);
+INSERT INTO question_likes VALUES (1,83068,82);
+INSERT INTO question_likes VALUES (0,84263,29);
+INSERT INTO question_likes VALUES (1,86181,46);
+INSERT INTO question_likes VALUES (1,86378,81);
+INSERT INTO question_likes VALUES (0,86790,36);
+INSERT INTO question_likes VALUES (0,87210,57);
+INSERT INTO question_likes VALUES (0,90812,83);
+INSERT INTO question_likes VALUES (1,91984,6);
+INSERT INTO question_likes VALUES (1,93171,111);
+INSERT INTO question_likes VALUES (0,93834,70);
+INSERT INTO question_likes VALUES (0,96279,60);
+INSERT INTO question_likes VALUES (0,96360,51);
+INSERT INTO question_likes VALUES (0,97865,81);
+INSERT INTO question_likes VALUES (0,98376,116);
+INSERT INTO question_likes VALUES (1,99348,61);
+INSERT INTO question_likes VALUES (0,103918,70);
+INSERT INTO question_likes VALUES (0,104076,115);
+INSERT INTO question_likes VALUES (0,104592,30);
+INSERT INTO question_likes VALUES (1,105504,109);
+INSERT INTO question_likes VALUES (1,105776,85);
+INSERT INTO question_likes VALUES (1,105971,52);
+INSERT INTO question_likes VALUES (1,106387,67);
+INSERT INTO question_likes VALUES (0,106632,7);
+INSERT INTO question_likes VALUES (1,106963,22);
+INSERT INTO question_likes VALUES (1,107616,51);
+INSERT INTO question_likes VALUES (1,108567,87);
+INSERT INTO question_likes VALUES (1,109594,72);
+INSERT INTO question_likes VALUES (0,109717,9);
+INSERT INTO question_likes VALUES (1,109753,79);
+INSERT INTO question_likes VALUES (1,110081,9);
+INSERT INTO question_likes VALUES (0,110362,52);
+INSERT INTO question_likes VALUES (0,110825,76);
+INSERT INTO question_likes VALUES (1,111543,83);
+INSERT INTO question_likes VALUES (0,113007,114);
+INSERT INTO question_likes VALUES (0,113352,49);
+INSERT INTO question_likes VALUES (1,115665,40);
+INSERT INTO question_likes VALUES (1,116535,7);
+INSERT INTO question_likes VALUES (1,116576,21);
+INSERT INTO question_likes VALUES (0,117094,85);
+INSERT INTO question_likes VALUES (0,117776,69);
+INSERT INTO question_likes VALUES (0,117900,43);
+INSERT INTO question_likes VALUES (1,120022,49);
+INSERT INTO question_likes VALUES (1,120404,100);
+INSERT INTO question_likes VALUES (1,121354,113);
+INSERT INTO question_likes VALUES (0,122267,8);
+INSERT INTO question_likes VALUES (0,122684,66);
+INSERT INTO question_likes VALUES (1,123080,51);
+INSERT INTO question_likes VALUES (0,123781,72);
+INSERT INTO question_likes VALUES (0,124207,22);
+INSERT INTO question_likes VALUES (0,126274,41);
+INSERT INTO question_likes VALUES (1,128011,14);
+INSERT INTO question_likes VALUES (1,128349,105);
+INSERT INTO question_likes VALUES (0,129453,83);
+INSERT INTO question_likes VALUES (1,132988,68);
+INSERT INTO question_likes VALUES (1,133515,90);
+INSERT INTO question_likes VALUES (0,134388,74);
+INSERT INTO question_likes VALUES (0,134937,72);
+INSERT INTO question_likes VALUES (1,134948,45);
+INSERT INTO question_likes VALUES (1,135375,28);
+INSERT INTO question_likes VALUES (1,135688,73);
+INSERT INTO question_likes VALUES (0,135849,67);
+INSERT INTO question_likes VALUES (1,135995,56);
+INSERT INTO question_likes VALUES (1,136035,25);
+INSERT INTO question_likes VALUES (0,136443,76);
+INSERT INTO question_likes VALUES (1,136598,41);
+INSERT INTO question_likes VALUES (1,136672,30);
+INSERT INTO question_likes VALUES (1,136734,15);
+INSERT INTO question_likes VALUES (0,136782,19);
+INSERT INTO question_likes VALUES (1,137314,21);
+INSERT INTO question_likes VALUES (0,137657,92);
+INSERT INTO question_likes VALUES (0,138097,23);
+INSERT INTO question_likes VALUES (0,138334,109);
+INSERT INTO question_likes VALUES (0,138422,100);
+INSERT INTO question_likes VALUES (1,141162,42);
+INSERT INTO question_likes VALUES (0,141973,61);
+INSERT INTO question_likes VALUES (0,142058,37);
+INSERT INTO question_likes VALUES (0,142184,49);
+INSERT INTO question_likes VALUES (1,142239,5);
+INSERT INTO question_likes VALUES (0,142527,16);
+INSERT INTO question_likes VALUES (1,144701,41);
+INSERT INTO question_likes VALUES (0,146924,32);
+INSERT INTO question_likes VALUES (0,148354,86);
+INSERT INTO question_likes VALUES (0,150010,71);
+INSERT INTO question_likes VALUES (0,150033,55);
+INSERT INTO question_likes VALUES (1,150977,117);
+INSERT INTO question_likes VALUES (0,151777,98);
+INSERT INTO question_likes VALUES (0,153248,25);
+INSERT INTO question_likes VALUES (0,153593,62);
+INSERT INTO question_likes VALUES (0,153721,82);
+INSERT INTO question_likes VALUES (1,153732,55);
+INSERT INTO question_likes VALUES (0,153801,82);
+INSERT INTO question_likes VALUES (0,155308,88);
+INSERT INTO question_likes VALUES (1,155810,53);
+INSERT INTO question_likes VALUES (1,156278,90);
+INSERT INTO question_likes VALUES (0,158219,43);
+INSERT INTO question_likes VALUES (0,158279,44);
+INSERT INTO question_likes VALUES (1,158341,97);
+INSERT INTO question_likes VALUES (1,158617,74);
+INSERT INTO question_likes VALUES (1,159459,107);
+INSERT INTO question_likes VALUES (1,161398,56);
+INSERT INTO question_likes VALUES (1,162042,39);
+INSERT INTO question_likes VALUES (1,162993,23);
+INSERT INTO question_likes VALUES (1,164181,102);
+INSERT INTO question_likes VALUES (1,164363,51);
+INSERT INTO question_likes VALUES (0,164397,78);
+INSERT INTO question_likes VALUES (0,164964,83);
+INSERT INTO question_likes VALUES (1,165101,101);
+INSERT INTO question_likes VALUES (1,165212,65);
+INSERT INTO question_likes VALUES (1,165253,114);
+INSERT INTO question_likes VALUES (0,165767,18);
+INSERT INTO question_likes VALUES (0,165975,104);
+INSERT INTO question_likes VALUES (1,166051,95);
+INSERT INTO question_likes VALUES (0,166506,69);
+INSERT INTO question_likes VALUES (1,166545,113);
+INSERT INTO question_likes VALUES (1,168912,92);
+INSERT INTO question_likes VALUES (0,169904,33);
+INSERT INTO question_likes VALUES (0,170931,109);
+INSERT INTO question_likes VALUES (0,171279,64);
+INSERT INTO question_likes VALUES (1,172869,111);
+INSERT INTO question_likes VALUES (0,173046,77);
+INSERT INTO question_likes VALUES (1,174008,76);
+INSERT INTO question_likes VALUES (1,174393,94);
+INSERT INTO question_likes VALUES (1,175091,19);
+INSERT INTO question_likes VALUES (0,176545,69);
+INSERT INTO question_likes VALUES (0,176998,102);
+INSERT INTO question_likes VALUES (1,177287,64);
+INSERT INTO question_likes VALUES (0,177389,93);
+INSERT INTO question_likes VALUES (0,178135,23);
+INSERT INTO question_likes VALUES (1,178199,62);
+INSERT INTO question_likes VALUES (1,178696,116);
+INSERT INTO question_likes VALUES (1,179140,6);
+INSERT INTO question_likes VALUES (0,180366,87);
+INSERT INTO question_likes VALUES (1,180401,80);
+INSERT INTO question_likes VALUES (1,180464,104);
+INSERT INTO question_likes VALUES (1,180563,60);
+INSERT INTO question_likes VALUES (0,180777,87);
+INSERT INTO question_likes VALUES (0,182180,36);
+INSERT INTO question_likes VALUES (1,182587,18);
+INSERT INTO question_likes VALUES (1,182901,30);
+INSERT INTO question_likes VALUES (1,183406,29);
+INSERT INTO question_likes VALUES (1,184522,88);
+INSERT INTO question_likes VALUES (1,184703,37);
+INSERT INTO question_likes VALUES (0,185033,12);
+INSERT INTO question_likes VALUES (0,185936,30);
+INSERT INTO question_likes VALUES (1,186096,72);
+INSERT INTO question_likes VALUES (0,186522,23);
+INSERT INTO question_likes VALUES (1,187455,6);
+INSERT INTO question_likes VALUES (0,187913,60);
+INSERT INTO question_likes VALUES (0,188444,67);
+INSERT INTO question_likes VALUES (1,188452,11);
+INSERT INTO question_likes VALUES (0,188853,111);
+INSERT INTO question_likes VALUES (1,189118,106);
+INSERT INTO question_likes VALUES (1,189422,39);
+INSERT INTO question_likes VALUES (0,190130,54);
+INSERT INTO question_likes VALUES (1,190504,93);
+INSERT INTO question_likes VALUES (0,190516,10);
+INSERT INTO question_likes VALUES (1,191247,80);
+INSERT INTO question_likes VALUES (1,193104,18);
+INSERT INTO question_likes VALUES (1,193499,79);
+INSERT INTO question_likes VALUES (1,193789,107);
+INSERT INTO question_likes VALUES (0,194346,41);
+INSERT INTO question_likes VALUES (0,195109,107);
+INSERT INTO question_likes VALUES (0,195151,5);
+INSERT INTO question_likes VALUES (1,196830,96);
+INSERT INTO question_likes VALUES (0,196876,59);
+INSERT INTO question_likes VALUES (0,197095,50);
+INSERT INTO question_likes VALUES (1,197713,95);
+INSERT INTO question_likes VALUES (0,197999,14);
+INSERT INTO question_likes VALUES (0,198520,91);
+INSERT INTO question_likes VALUES (1,199459,103);
+INSERT INTO question_likes VALUES (1,199483,83);
+INSERT INTO question_likes VALUES (0,199761,36);
+INSERT INTO question_likes VALUES (1,200056,49);
+INSERT INTO question_likes VALUES (0,200213,109);
+INSERT INTO question_likes VALUES (0,200837,95);
+INSERT INTO question_likes VALUES (0,201501,48);
+INSERT INTO question_likes VALUES (0,201768,105);
+INSERT INTO question_likes VALUES (0,201834,30);
+INSERT INTO question_likes VALUES (1,201959,19);
+INSERT INTO question_likes VALUES (1,202723,112);
+INSERT INTO question_likes VALUES (0,202752,83);
+INSERT INTO question_likes VALUES (1,203018,14);
+INSERT INTO question_likes VALUES (0,203758,40);
+INSERT INTO question_likes VALUES (1,204062,10);
+INSERT INTO question_likes VALUES (1,204877,36);
+INSERT INTO question_likes VALUES (1,205244,56);
+INSERT INTO question_likes VALUES (0,205447,57);
+INSERT INTO question_likes VALUES (1,205526,29);
+INSERT INTO question_likes VALUES (0,206349,91);
+INSERT INTO question_likes VALUES (0,206441,48);
+INSERT INTO question_likes VALUES (0,209415,74);
+INSERT INTO question_likes VALUES (1,209778,19);
+INSERT INTO question_likes VALUES (0,211348,11);
+INSERT INTO question_likes VALUES (1,213181,116);
+INSERT INTO question_likes VALUES (1,213295,51);
+INSERT INTO question_likes VALUES (0,214687,67);
+INSERT INTO question_likes VALUES (1,215515,72);
+INSERT INTO question_likes VALUES (1,217111,13);
+INSERT INTO question_likes VALUES (0,217741,14);
+INSERT INTO question_likes VALUES (1,217784,28);
+INSERT INTO question_likes VALUES (0,217935,75);
+INSERT INTO question_likes VALUES (0,219364,83);
+INSERT INTO question_likes VALUES (0,219618,115);
+INSERT INTO question_likes VALUES (0,219982,86);
+INSERT INTO question_likes VALUES (0,220142,42);
+INSERT INTO question_likes VALUES (1,221925,51);
+INSERT INTO question_likes VALUES (0,222230,7);
+INSERT INTO question_likes VALUES (0,222655,40);
+INSERT INTO question_likes VALUES (0,222841,40);
+INSERT INTO question_likes VALUES (0,223833,111);
+INSERT INTO question_likes VALUES (0,225830,23);
+INSERT INTO question_likes VALUES (0,227174,62);
+INSERT INTO question_likes VALUES (1,227897,113);
+INSERT INTO question_likes VALUES (0,229654,25);
+INSERT INTO question_likes VALUES (0,230011,37);
+INSERT INTO question_likes VALUES (0,232445,44);
+INSERT INTO question_likes VALUES (1,232848,53);
+INSERT INTO question_likes VALUES (1,234388,51);
+INSERT INTO question_likes VALUES (0,234848,49);
+INSERT INTO question_likes VALUES (0,237327,76);
+INSERT INTO question_likes VALUES (1,239567,15);
+INSERT INTO question_likes VALUES (1,240163,107);
+INSERT INTO question_likes VALUES (0,240836,36);
+INSERT INTO question_likes VALUES (0,240874,30);
+INSERT INTO question_likes VALUES (0,241088,100);
+INSERT INTO question_likes VALUES (1,242698,28);
+INSERT INTO question_likes VALUES (0,243388,92);
+INSERT INTO question_likes VALUES (0,243878,42);
+INSERT INTO question_likes VALUES (1,243900,104);
+INSERT INTO question_likes VALUES (0,244639,115);
+INSERT INTO question_likes VALUES (1,244875,54);
+INSERT INTO question_likes VALUES (0,244886,12);
+INSERT INTO question_likes VALUES (1,245725,8);
+INSERT INTO question_likes VALUES (1,247103,30);
+INSERT INTO question_likes VALUES (1,247706,109);
+INSERT INTO question_likes VALUES (0,248016,111);
+INSERT INTO question_likes VALUES (0,249220,4);
+INSERT INTO question_likes VALUES (0,249222,48);
+INSERT INTO question_likes VALUES (0,250970,7);
+INSERT INTO question_likes VALUES (0,251389,78);
+INSERT INTO question_likes VALUES (0,252035,107);
+INSERT INTO question_likes VALUES (0,252242,47);
+INSERT INTO question_likes VALUES (0,252249,50);
+INSERT INTO question_likes VALUES (0,252257,94);
+INSERT INTO question_likes VALUES (0,252886,78);
+INSERT INTO question_likes VALUES (1,254256,13);
+INSERT INTO question_likes VALUES (0,254349,91);
+INSERT INTO question_likes VALUES (1,254809,5);
+INSERT INTO question_likes VALUES (1,254992,111);
+INSERT INTO question_likes VALUES (0,258091,56);
+INSERT INTO question_likes VALUES (0,258119,92);
+INSERT INTO question_likes VALUES (0,258134,74);
+INSERT INTO question_likes VALUES (1,258840,78);
+INSERT INTO question_likes VALUES (1,259678,111);
+INSERT INTO question_likes VALUES (0,259800,10);
+INSERT INTO question_likes VALUES (1,259887,62);
+INSERT INTO question_likes VALUES (1,260129,8);
+INSERT INTO question_likes VALUES (1,260179,81);
+INSERT INTO question_likes VALUES (1,260233,16);
+INSERT INTO question_likes VALUES (1,262339,105);
+INSERT INTO question_likes VALUES (0,262443,68);
+INSERT INTO question_likes VALUES (1,264400,48);
+INSERT INTO question_likes VALUES (1,264782,80);
+INSERT INTO question_likes VALUES (0,266664,57);
+INSERT INTO question_likes VALUES (0,267006,102);
+INSERT INTO question_likes VALUES (0,267200,117);
+INSERT INTO question_likes VALUES (1,267421,14);
+INSERT INTO question_likes VALUES (0,268048,40);
+INSERT INTO question_likes VALUES (0,269523,106);
+INSERT INTO question_likes VALUES (0,269594,106);
+INSERT INTO question_likes VALUES (0,270124,61);
+INSERT INTO question_likes VALUES (0,270434,13);
+INSERT INTO question_likes VALUES (1,271394,38);
+INSERT INTO question_likes VALUES (1,272633,80);
+INSERT INTO question_likes VALUES (0,272854,24);
+INSERT INTO question_likes VALUES (1,273200,66);
+INSERT INTO question_likes VALUES (0,273279,94);
+INSERT INTO question_likes VALUES (1,276281,49);
+INSERT INTO question_likes VALUES (0,276585,44);
+INSERT INTO question_likes VALUES (0,276813,16);
+INSERT INTO question_likes VALUES (1,276829,101);
+INSERT INTO question_likes VALUES (1,277926,10);
+INSERT INTO question_likes VALUES (1,278186,67);
+INSERT INTO question_likes VALUES (1,278507,75);
+INSERT INTO question_likes VALUES (1,279296,87);
+INSERT INTO question_likes VALUES (1,279557,87);
+INSERT INTO question_likes VALUES (1,282613,79);
+INSERT INTO question_likes VALUES (1,283263,81);
+INSERT INTO question_likes VALUES (0,283749,68);
+INSERT INTO question_likes VALUES (0,287489,33);
+INSERT INTO question_likes VALUES (1,290335,42);
+INSERT INTO question_likes VALUES (1,290493,42);
+INSERT INTO question_likes VALUES (0,290980,95);
+INSERT INTO question_likes VALUES (0,291278,71);
+INSERT INTO question_likes VALUES (0,291537,104);
+INSERT INTO question_likes VALUES (1,291848,72);
+INSERT INTO question_likes VALUES (0,292463,106);
+INSERT INTO question_likes VALUES (0,294021,44);
+INSERT INTO question_likes VALUES (0,294228,83);
+INSERT INTO question_likes VALUES (0,294417,67);
+INSERT INTO question_likes VALUES (0,295626,100);
+INSERT INTO question_likes VALUES (0,295687,52);
+INSERT INTO question_likes VALUES (0,296750,29);
+INSERT INTO question_likes VALUES (1,296842,14);
+INSERT INTO question_likes VALUES (1,298976,70);
+INSERT INTO question_likes VALUES (0,299703,10);
+INSERT INTO question_likes VALUES (1,302244,42);
+INSERT INTO question_likes VALUES (1,302365,60);
+INSERT INTO question_likes VALUES (0,302399,61);
+INSERT INTO question_likes VALUES (0,302591,83);
+INSERT INTO question_likes VALUES (0,303783,45);
+INSERT INTO question_likes VALUES (0,303929,42);
+INSERT INTO question_likes VALUES (1,304054,98);
+INSERT INTO question_likes VALUES (1,304391,99);
+INSERT INTO question_likes VALUES (1,305140,103);
+INSERT INTO question_likes VALUES (0,305162,46);
+INSERT INTO question_likes VALUES (1,305759,50);
+INSERT INTO question_likes VALUES (1,306622,71);
+INSERT INTO question_likes VALUES (0,306642,89);
+INSERT INTO question_likes VALUES (1,306830,14);
+INSERT INTO question_likes VALUES (1,307494,109);
+INSERT INTO question_likes VALUES (1,308659,82);
+INSERT INTO question_likes VALUES (0,311807,111);
+INSERT INTO question_likes VALUES (1,311882,45);
+INSERT INTO question_likes VALUES (1,312284,72);
+INSERT INTO question_likes VALUES (1,312286,59);
+INSERT INTO question_likes VALUES (0,312846,87);
+INSERT INTO question_likes VALUES (0,315646,67);
+INSERT INTO question_likes VALUES (0,315829,27);
+INSERT INTO question_likes VALUES (0,316727,73);
+INSERT INTO question_likes VALUES (0,317619,90);
+INSERT INTO question_likes VALUES (1,318210,14);
+INSERT INTO question_likes VALUES (0,318761,38);
+INSERT INTO question_likes VALUES (0,318816,71);
+INSERT INTO question_likes VALUES (0,319730,115);
+INSERT INTO question_likes VALUES (1,321127,42);
+INSERT INTO question_likes VALUES (0,321180,4);
+INSERT INTO question_likes VALUES (0,323200,84);
+INSERT INTO question_likes VALUES (0,326905,98);
+INSERT INTO question_likes VALUES (1,327223,25);
+INSERT INTO question_likes VALUES (0,327226,75);
+INSERT INTO question_likes VALUES (1,327311,113);
+INSERT INTO question_likes VALUES (1,327379,115);
+INSERT INTO question_likes VALUES (0,328490,62);
+INSERT INTO question_likes VALUES (0,328492,64);
+INSERT INTO question_likes VALUES (1,329216,67);
+INSERT INTO question_likes VALUES (0,330032,44);
+INSERT INTO question_likes VALUES (0,330320,49);
+INSERT INTO question_likes VALUES (0,331205,95);
+INSERT INTO question_likes VALUES (1,332567,34);
+INSERT INTO question_likes VALUES (1,332727,100);
+INSERT INTO question_likes VALUES (0,333130,40);
+INSERT INTO question_likes VALUES (1,333960,44);
+INSERT INTO question_likes VALUES (1,334207,76);
+INSERT INTO question_likes VALUES (0,334214,103);
+INSERT INTO question_likes VALUES (1,335052,28);
+INSERT INTO question_likes VALUES (1,336124,31);
+INSERT INTO question_likes VALUES (0,337254,69);
+INSERT INTO question_likes VALUES (0,337334,105);
+INSERT INTO question_likes VALUES (1,337704,44);
+INSERT INTO question_likes VALUES (0,337781,79);
+INSERT INTO question_likes VALUES (1,338235,76);
+INSERT INTO question_likes VALUES (0,340689,7);
+INSERT INTO question_likes VALUES (0,340794,94);
+INSERT INTO question_likes VALUES (1,341602,43);
+INSERT INTO question_likes VALUES (1,342729,79);
+INSERT INTO question_likes VALUES (1,343852,96);
+INSERT INTO question_likes VALUES (0,344823,93);
+INSERT INTO question_likes VALUES (1,344963,64);
+INSERT INTO question_likes VALUES (0,350354,72);
+INSERT INTO question_likes VALUES (1,350880,42);
+INSERT INTO question_likes VALUES (1,352039,47);
+INSERT INTO question_likes VALUES (1,352537,115);
+INSERT INTO question_likes VALUES (1,352618,47);
+INSERT INTO question_likes VALUES (0,352674,118);
+INSERT INTO question_likes VALUES (0,352785,79);
+INSERT INTO question_likes VALUES (1,356515,54);
+INSERT INTO question_likes VALUES (0,357046,113);
+INSERT INTO question_likes VALUES (1,357086,86);
+INSERT INTO question_likes VALUES (0,357364,83);
+INSERT INTO question_likes VALUES (0,357643,88);
+INSERT INTO question_likes VALUES (0,358091,37);
+INSERT INTO question_likes VALUES (0,359047,103);
+INSERT INTO question_likes VALUES (1,359052,110);
+INSERT INTO question_likes VALUES (1,359732,79);
+INSERT INTO question_likes VALUES (0,359895,39);
+INSERT INTO question_likes VALUES (0,360507,8);
+INSERT INTO question_likes VALUES (0,361304,15);
+INSERT INTO question_likes VALUES (1,362763,79);
+INSERT INTO question_likes VALUES (0,363292,34);
+INSERT INTO question_likes VALUES (0,364665,27);
+INSERT INTO question_likes VALUES (0,365058,8);
+INSERT INTO question_likes VALUES (1,366291,101);
+INSERT INTO question_likes VALUES (0,368958,78);
+INSERT INTO question_likes VALUES (1,371657,4);
+INSERT INTO question_likes VALUES (0,372370,46);
+INSERT INTO question_likes VALUES (1,372401,60);
+INSERT INTO question_likes VALUES (0,372778,72);
+INSERT INTO question_likes VALUES (1,374946,73);
+INSERT INTO question_likes VALUES (1,375301,18);
+INSERT INTO question_likes VALUES (0,375678,114);
+INSERT INTO question_likes VALUES (1,375841,62);
+INSERT INTO question_likes VALUES (0,376101,63);
+INSERT INTO question_likes VALUES (0,376237,102);
+INSERT INTO question_likes VALUES (1,376844,106);
+INSERT INTO question_likes VALUES (1,381492,37);
+INSERT INTO question_likes VALUES (1,381760,98);
+INSERT INTO question_likes VALUES (0,381873,26);
+INSERT INTO question_likes VALUES (0,382003,109);
+INSERT INTO question_likes VALUES (0,382197,41);
+INSERT INTO question_likes VALUES (1,382633,10);
+INSERT INTO question_likes VALUES (0,384228,92);
+INSERT INTO question_likes VALUES (1,384232,7);
+INSERT INTO question_likes VALUES (1,384886,77);
+INSERT INTO question_likes VALUES (1,385531,26);
+INSERT INTO question_likes VALUES (0,386133,104);
+INSERT INTO question_likes VALUES (0,387008,96);
+INSERT INTO question_likes VALUES (0,390067,95);
+INSERT INTO question_likes VALUES (0,390605,51);
+INSERT INTO question_likes VALUES (1,390977,18);
+INSERT INTO question_likes VALUES (0,391036,68);
+INSERT INTO question_likes VALUES (0,394051,61);
+INSERT INTO question_likes VALUES (0,394492,70);
+INSERT INTO question_likes VALUES (0,396500,63);
+INSERT INTO question_likes VALUES (1,397257,18);
+INSERT INTO question_likes VALUES (1,398734,44);
+INSERT INTO question_likes VALUES (1,399135,100);
+INSERT INTO question_likes VALUES (1,401095,87);
+INSERT INTO question_likes VALUES (0,401535,42);
+INSERT INTO question_likes VALUES (1,401816,28);
+INSERT INTO question_likes VALUES (1,404600,88);
+INSERT INTO question_likes VALUES (0,405288,75);
+INSERT INTO question_likes VALUES (1,407235,65);
+INSERT INTO question_likes VALUES (0,407420,16);
+INSERT INTO question_likes VALUES (0,411579,71);
+INSERT INTO question_likes VALUES (0,413095,12);
+INSERT INTO question_likes VALUES (0,414294,75);
+INSERT INTO question_likes VALUES (1,414685,67);
+INSERT INTO question_likes VALUES (0,414891,39);
+INSERT INTO question_likes VALUES (1,417108,21);
+INSERT INTO question_likes VALUES (1,420429,93);
+INSERT INTO question_likes VALUES (1,420620,96);
+INSERT INTO question_likes VALUES (1,420867,48);
+INSERT INTO question_likes VALUES (0,424220,63);
+INSERT INTO question_likes VALUES (1,425559,69);
+INSERT INTO question_likes VALUES (1,428835,61);
+INSERT INTO question_likes VALUES (1,428870,46);
+INSERT INTO question_likes VALUES (0,429777,51);
+INSERT INTO question_likes VALUES (0,430127,93);
+INSERT INTO question_likes VALUES (0,431644,20);
+INSERT INTO question_likes VALUES (1,432556,97);
+INSERT INTO question_likes VALUES (1,433162,114);
+INSERT INTO question_likes VALUES (0,433507,42);
+INSERT INTO question_likes VALUES (1,433881,26);
+INSERT INTO question_likes VALUES (1,434528,89);
+INSERT INTO question_likes VALUES (1,434546,54);
+INSERT INTO question_likes VALUES (0,435133,24);
+INSERT INTO question_likes VALUES (1,435886,90);
+INSERT INTO question_likes VALUES (0,437114,30);
+INSERT INTO question_likes VALUES (0,437589,70);
+INSERT INTO question_likes VALUES (1,438607,107);
+INSERT INTO question_likes VALUES (0,438729,34);
+INSERT INTO question_likes VALUES (1,439729,95);
+INSERT INTO question_likes VALUES (1,439870,64);
+INSERT INTO question_likes VALUES (1,439877,95);
+INSERT INTO question_likes VALUES (1,440375,43);
+INSERT INTO question_likes VALUES (1,441038,85);
+INSERT INTO question_likes VALUES (0,441739,61);
+INSERT INTO question_likes VALUES (1,441792,30);
+INSERT INTO question_likes VALUES (0,442235,51);
+INSERT INTO question_likes VALUES (1,442258,11);
+INSERT INTO question_likes VALUES (1,442405,116);
+INSERT INTO question_likes VALUES (0,442941,93);
+INSERT INTO question_likes VALUES (1,443648,5);
+INSERT INTO question_likes VALUES (1,444152,84);
+INSERT INTO question_likes VALUES (1,444248,29);
+INSERT INTO question_likes VALUES (0,444354,5);
+INSERT INTO question_likes VALUES (1,444657,118);
+INSERT INTO question_likes VALUES (0,445136,47);
+INSERT INTO question_likes VALUES (0,446052,100);
+INSERT INTO question_likes VALUES (1,446320,98);
+INSERT INTO question_likes VALUES (0,446483,32);
+INSERT INTO question_likes VALUES (0,450209,97);
+INSERT INTO question_likes VALUES (0,450936,35);
+INSERT INTO question_likes VALUES (1,450953,99);
+INSERT INTO question_likes VALUES (1,451424,20);
+INSERT INTO question_likes VALUES (1,452060,48);
+INSERT INTO question_likes VALUES (0,452556,49);
+INSERT INTO question_likes VALUES (0,454557,90);
+INSERT INTO question_likes VALUES (0,454622,22);
+INSERT INTO question_likes VALUES (0,454703,79);
+INSERT INTO question_likes VALUES (1,456434,44);
+INSERT INTO question_likes VALUES (1,457549,75);
+INSERT INTO question_likes VALUES (0,458504,61);
+INSERT INTO question_likes VALUES (1,459146,79);
+INSERT INTO question_likes VALUES (1,460905,67);
+INSERT INTO question_likes VALUES (1,461714,78);
+INSERT INTO question_likes VALUES (1,461889,81);
+INSERT INTO question_likes VALUES (1,462693,96);
+INSERT INTO question_likes VALUES (1,462967,62);
+INSERT INTO question_likes VALUES (0,463282,20);
+INSERT INTO question_likes VALUES (1,464765,10);
+INSERT INTO question_likes VALUES (0,465659,60);
+INSERT INTO question_likes VALUES (1,465747,22);
+INSERT INTO question_likes VALUES (1,466963,18);
+INSERT INTO question_likes VALUES (0,467225,100);
+INSERT INTO question_likes VALUES (0,467715,27);
+INSERT INTO question_likes VALUES (0,467794,99);
+INSERT INTO question_likes VALUES (1,468090,44);
+INSERT INTO question_likes VALUES (0,468560,23);
+INSERT INTO question_likes VALUES (1,470346,43);
+INSERT INTO question_likes VALUES (0,470961,47);
+INSERT INTO question_likes VALUES (1,471732,116);
+INSERT INTO question_likes VALUES (0,471833,8);
+INSERT INTO question_likes VALUES (1,471973,70);
+INSERT INTO question_likes VALUES (1,472700,117);
+INSERT INTO question_likes VALUES (0,476065,96);
+INSERT INTO question_likes VALUES (1,476299,107);
+INSERT INTO question_likes VALUES (1,476488,26);
+INSERT INTO question_likes VALUES (1,477108,6);
+INSERT INTO question_likes VALUES (1,477225,29);
+INSERT INTO question_likes VALUES (0,477331,114);
+INSERT INTO question_likes VALUES (0,479706,17);
+INSERT INTO question_likes VALUES (1,479979,102);
+INSERT INTO question_likes VALUES (1,480258,113);
+INSERT INTO question_likes VALUES (1,481494,42);
+INSERT INTO question_likes VALUES (0,481760,75);
+INSERT INTO question_likes VALUES (1,482303,107);
+INSERT INTO question_likes VALUES (1,482847,14);
+INSERT INTO question_likes VALUES (0,482904,76);
+INSERT INTO question_likes VALUES (0,483874,113);
+INSERT INTO question_likes VALUES (0,484113,63);
+INSERT INTO question_likes VALUES (1,484152,94);
+INSERT INTO question_likes VALUES (1,484327,43);
+INSERT INTO question_likes VALUES (0,484499,57);
+INSERT INTO question_likes VALUES (0,485649,60);
+INSERT INTO question_likes VALUES (1,487876,13);
+INSERT INTO question_likes VALUES (1,487969,92);
+INSERT INTO question_likes VALUES (1,488614,102);
+INSERT INTO question_likes VALUES (0,488778,73);
+INSERT INTO question_likes VALUES (1,488873,102);
+INSERT INTO question_likes VALUES (0,489401,68);
+INSERT INTO question_likes VALUES (1,490105,43);
+INSERT INTO question_likes VALUES (1,491751,109);
+INSERT INTO question_likes VALUES (0,492262,85);
+INSERT INTO question_likes VALUES (0,493236,99);
+INSERT INTO question_likes VALUES (0,494016,83);
+INSERT INTO question_likes VALUES (0,494721,28);
+INSERT INTO question_likes VALUES (0,495004,62);
+INSERT INTO question_likes VALUES (0,495705,113);
+INSERT INTO question_likes VALUES (0,496255,116);
+INSERT INTO question_likes VALUES (0,497454,69);
+INSERT INTO question_likes VALUES (0,503322,114);
+INSERT INTO question_likes VALUES (0,504272,101);
+INSERT INTO question_likes VALUES (1,505989,67);
+INSERT INTO answer_likes VALUES (1,7,35);
+INSERT INTO answer_likes VALUES (0,12,102);
+INSERT INTO answer_likes VALUES (1,22,33);
+INSERT INTO answer_likes VALUES (0,26,32);
+INSERT INTO answer_likes VALUES (0,27,110);
+INSERT INTO answer_likes VALUES (1,29,104);
+INSERT INTO answer_likes VALUES (0,30,25);
+INSERT INTO answer_likes VALUES (0,33,113);
+INSERT INTO answer_likes VALUES (0,44,15);
+INSERT INTO answer_likes VALUES (1,45,100);
+INSERT INTO answer_likes VALUES (0,49,5);
+INSERT INTO answer_likes VALUES (0,51,59);
+INSERT INTO answer_likes VALUES (0,56,66);
+INSERT INTO answer_likes VALUES (1,58,48);
+INSERT INTO answer_likes VALUES (1,62,109);
+INSERT INTO answer_likes VALUES (0,68,77);
+INSERT INTO answer_likes VALUES (1,71,93);
+INSERT INTO answer_likes VALUES (1,73,67);
+INSERT INTO answer_likes VALUES (0,76,23);
+INSERT INTO answer_likes VALUES (1,77,91);
+INSERT INTO answer_likes VALUES (1,78,117);
+INSERT INTO answer_likes VALUES (0,82,75);
+INSERT INTO answer_likes VALUES (1,84,102);
+INSERT INTO answer_likes VALUES (0,86,98);
+INSERT INTO answer_likes VALUES (0,87,45);
+INSERT INTO answer_likes VALUES (0,92,25);
+INSERT INTO answer_likes VALUES (0,93,57);
+INSERT INTO answer_likes VALUES (0,99,70);
+INSERT INTO answer_likes VALUES (0,103,27);
+INSERT INTO answer_likes VALUES (1,107,85);
+INSERT INTO answer_likes VALUES (0,110,46);
+INSERT INTO answer_likes VALUES (0,112,63);
+INSERT INTO answer_likes VALUES (1,113,76);
+INSERT INTO answer_likes VALUES (1,114,107);
+INSERT INTO answer_likes VALUES (1,116,38);
+INSERT INTO answer_likes VALUES (1,124,101);
+INSERT INTO answer_likes VALUES (1,127,113);
+INSERT INTO answer_likes VALUES (1,128,46);
+INSERT INTO answer_likes VALUES (0,133,8);
+INSERT INTO answer_likes VALUES (1,135,6);
+INSERT INTO answer_likes VALUES (1,139,48);
+INSERT INTO answer_likes VALUES (1,141,96);
+INSERT INTO answer_likes VALUES (1,142,43);
+INSERT INTO answer_likes VALUES (0,143,7);
+INSERT INTO answer_likes VALUES (0,148,46);
+INSERT INTO answer_likes VALUES (0,149,107);
+INSERT INTO answer_likes VALUES (1,151,94);
+INSERT INTO answer_likes VALUES (0,153,17);
+INSERT INTO answer_likes VALUES (1,155,12);
+INSERT INTO answer_likes VALUES (0,158,9);
+INSERT INTO answer_likes VALUES (1,159,82);
+INSERT INTO answer_likes VALUES (0,160,20);
+INSERT INTO answer_likes VALUES (1,161,90);
+INSERT INTO answer_likes VALUES (0,166,85);
+INSERT INTO answer_likes VALUES (1,167,58);
+INSERT INTO answer_likes VALUES (0,169,88);
+INSERT INTO answer_likes VALUES (1,170,103);
+INSERT INTO answer_likes VALUES (1,183,15);
+INSERT INTO answer_likes VALUES (0,190,103);
+INSERT INTO answer_likes VALUES (1,195,39);
+INSERT INTO answer_likes VALUES (0,197,62);
+INSERT INTO answer_likes VALUES (0,206,18);
+INSERT INTO answer_likes VALUES (1,207,17);
+INSERT INTO answer_likes VALUES (0,210,16);
+INSERT INTO answer_likes VALUES (1,212,11);
+INSERT INTO answer_likes VALUES (0,229,6);
+INSERT INTO answer_likes VALUES (1,233,107);
+INSERT INTO answer_likes VALUES (1,236,94);
+INSERT INTO answer_likes VALUES (0,238,19);
+INSERT INTO answer_likes VALUES (1,243,110);
+INSERT INTO answer_likes VALUES (1,258,55);
+INSERT INTO answer_likes VALUES (1,266,55);
+INSERT INTO answer_likes VALUES (1,268,11);
+INSERT INTO answer_likes VALUES (1,269,65);
+INSERT INTO answer_likes VALUES (0,290,93);
+INSERT INTO answer_likes VALUES (0,291,22);
+INSERT INTO answer_likes VALUES (0,292,36);
+INSERT INTO answer_likes VALUES (1,297,108);
+INSERT INTO answer_likes VALUES (0,298,113);
+INSERT INTO answer_likes VALUES (1,304,71);
+INSERT INTO answer_likes VALUES (0,307,55);
+INSERT INTO answer_likes VALUES (0,310,58);
+INSERT INTO answer_likes VALUES (1,329,4);
+INSERT INTO answer_likes VALUES (1,331,11);
+INSERT INTO answer_likes VALUES (0,332,94);
+INSERT INTO answer_likes VALUES (0,335,44);
+INSERT INTO answer_likes VALUES (0,339,25);
+INSERT INTO answer_likes VALUES (1,342,38);
+INSERT INTO answer_likes VALUES (1,344,38);
+INSERT INTO answer_likes VALUES (1,347,39);
+INSERT INTO answer_likes VALUES (1,352,40);
+INSERT INTO answer_likes VALUES (0,354,37);
+INSERT INTO answer_likes VALUES (0,356,39);
+INSERT INTO answer_likes VALUES (0,359,41);
+INSERT INTO answer_likes VALUES (0,360,53);
+INSERT INTO answer_likes VALUES (0,362,79);
+INSERT INTO answer_likes VALUES (0,363,86);
+INSERT INTO answer_likes VALUES (0,364,79);
+INSERT INTO answer_likes VALUES (1,367,83);
+INSERT INTO answer_likes VALUES (0,384,21);
+INSERT INTO answer_likes VALUES (1,388,98);
+INSERT INTO answer_likes VALUES (1,451,69);
+INSERT INTO answer_likes VALUES (0,473,39);
+INSERT INTO answer_likes VALUES (1,530,70);
+INSERT INTO answer_likes VALUES (1,532,61);
+INSERT INTO answer_likes VALUES (1,568,85);
+INSERT INTO answer_likes VALUES (0,583,22);
+INSERT INTO answer_likes VALUES (0,586,76);
+INSERT INTO answer_likes VALUES (0,590,92);
+INSERT INTO answer_likes VALUES (1,591,41);
+INSERT INTO answer_likes VALUES (1,595,110);
+INSERT INTO answer_likes VALUES (0,597,68);
+INSERT INTO answer_likes VALUES (0,608,33);
+INSERT INTO answer_likes VALUES (0,669,99);
+INSERT INTO answer_likes VALUES (1,679,112);
+INSERT INTO answer_likes VALUES (1,691,8);
+INSERT INTO answer_likes VALUES (1,699,7);
+INSERT INTO answer_likes VALUES (1,707,96);
+INSERT INTO answer_likes VALUES (0,710,100);
+INSERT INTO answer_likes VALUES (0,712,66);
+INSERT INTO answer_likes VALUES (0,713,95);
+INSERT INTO answer_likes VALUES (1,718,84);
+INSERT INTO answer_likes VALUES (0,840,100);
+INSERT INTO answer_likes VALUES (1,858,109);
+INSERT INTO answer_likes VALUES (0,859,39);
+INSERT INTO answer_likes VALUES (0,880,65);
+INSERT INTO answer_likes VALUES (0,881,8);
+INSERT INTO answer_likes VALUES (0,885,12);
+INSERT INTO answer_likes VALUES (1,896,32);
+INSERT INTO answer_likes VALUES (0,911,8);
+INSERT INTO answer_likes VALUES (0,931,60);
+INSERT INTO answer_likes VALUES (0,971,40);
+INSERT INTO answer_likes VALUES (0,1006,68);
+INSERT INTO answer_likes VALUES (1,1012,72);
+INSERT INTO answer_likes VALUES (0,1034,25);
+INSERT INTO answer_likes VALUES (1,1054,35);
+INSERT INTO answer_likes VALUES (0,1057,114);
+INSERT INTO answer_likes VALUES (0,1061,64);
+INSERT INTO answer_likes VALUES (0,1065,97);
+INSERT INTO answer_likes VALUES (1,1074,93);
+INSERT INTO answer_likes VALUES (1,1093,45);
+INSERT INTO answer_likes VALUES (0,1120,78);
+INSERT INTO answer_likes VALUES (1,1123,116);
+INSERT INTO answer_likes VALUES (0,1136,91);
+INSERT INTO answer_likes VALUES (0,1164,94);
+INSERT INTO answer_likes VALUES (1,1168,80);
+INSERT INTO answer_likes VALUES (0,1216,116);
+INSERT INTO answer_likes VALUES (0,1281,19);
+INSERT INTO answer_likes VALUES (1,1331,68);
+INSERT INTO answer_likes VALUES (0,1335,101);
+INSERT INTO answer_likes VALUES (0,1338,70);
+INSERT INTO answer_likes VALUES (0,1339,59);
+INSERT INTO answer_likes VALUES (1,1347,15);
+INSERT INTO answer_likes VALUES (0,1353,26);
+INSERT INTO answer_likes VALUES (1,1364,14);
+INSERT INTO answer_likes VALUES (1,1380,88);
+INSERT INTO answer_likes VALUES (1,1394,26);
+INSERT INTO answer_likes VALUES (1,1397,21);
+INSERT INTO answer_likes VALUES (0,1414,104);
+INSERT INTO answer_likes VALUES (0,1420,65);
+INSERT INTO answer_likes VALUES (1,1421,26);
+INSERT INTO answer_likes VALUES (0,1456,65);
+INSERT INTO answer_likes VALUES (0,1464,33);
+INSERT INTO answer_likes VALUES (1,1488,29);
+INSERT INTO answer_likes VALUES (1,1504,81);
+INSERT INTO answer_likes VALUES (0,1514,106);
+INSERT INTO answer_likes VALUES (1,1533,25);
+INSERT INTO answer_likes VALUES (1,1534,112);
+INSERT INTO answer_likes VALUES (1,1536,4);
+INSERT INTO answer_likes VALUES (0,1588,41);
+INSERT INTO answer_likes VALUES (0,1599,15);
+INSERT INTO answer_likes VALUES (1,1608,45);
+INSERT INTO answer_likes VALUES (1,1609,50);
+INSERT INTO answer_likes VALUES (1,1628,58);
+INSERT INTO answer_likes VALUES (0,1647,63);
+INSERT INTO answer_likes VALUES (0,1656,101);
+INSERT INTO answer_likes VALUES (0,1661,89);
+INSERT INTO answer_likes VALUES (1,1684,15);
+INSERT INTO answer_likes VALUES (1,1704,36);
+INSERT INTO answer_likes VALUES (0,1780,29);
+INSERT INTO answer_likes VALUES (1,1812,25);
+INSERT INTO answer_likes VALUES (0,1840,37);
+INSERT INTO answer_likes VALUES (1,1852,101);
+INSERT INTO answer_likes VALUES (1,1870,75);
+INSERT INTO answer_likes VALUES (1,1879,99);
+INSERT INTO answer_likes VALUES (1,1885,23);
+INSERT INTO answer_likes VALUES (0,1905,58);
+INSERT INTO answer_likes VALUES (0,1911,85);
+INSERT INTO answer_likes VALUES (1,1912,107);
+INSERT INTO answer_likes VALUES (0,1928,104);
+INSERT INTO answer_likes VALUES (1,1948,50);
+INSERT INTO answer_likes VALUES (1,1957,7);
+INSERT INTO answer_likes VALUES (1,1993,55);
+INSERT INTO answer_likes VALUES (0,2009,112);
+INSERT INTO answer_likes VALUES (1,2028,46);
+INSERT INTO answer_likes VALUES (1,2086,54);
+INSERT INTO answer_likes VALUES (1,2126,60);
+INSERT INTO answer_likes VALUES (1,2213,96);
+INSERT INTO answer_likes VALUES (0,2324,71);
+INSERT INTO answer_likes VALUES (1,2376,60);
+INSERT INTO answer_likes VALUES (1,2379,114);
+INSERT INTO answer_likes VALUES (0,2385,60);
+INSERT INTO answer_likes VALUES (0,2434,26);
+INSERT INTO answer_likes VALUES (0,2442,40);
+INSERT INTO answer_likes VALUES (0,2460,70);
+INSERT INTO answer_likes VALUES (0,2462,9);
+INSERT INTO answer_likes VALUES (1,2468,31);
+INSERT INTO answer_likes VALUES (1,2471,92);
+INSERT INTO answer_likes VALUES (1,2495,101);
+INSERT INTO answer_likes VALUES (1,2522,10);
+INSERT INTO answer_likes VALUES (1,2554,92);
+INSERT INTO answer_likes VALUES (0,2585,93);
+INSERT INTO answer_likes VALUES (1,2614,78);
+INSERT INTO answer_likes VALUES (1,2699,33);
+INSERT INTO answer_likes VALUES (1,2716,9);
+INSERT INTO answer_likes VALUES (1,2731,29);
+INSERT INTO answer_likes VALUES (0,2764,88);
+INSERT INTO answer_likes VALUES (0,2797,42);
+INSERT INTO answer_likes VALUES (0,2807,8);
+INSERT INTO answer_likes VALUES (0,2819,91);
+INSERT INTO answer_likes VALUES (1,2822,96);
+INSERT INTO answer_likes VALUES (1,2878,76);
+INSERT INTO answer_likes VALUES (1,2905,24);
+INSERT INTO answer_likes VALUES (0,2920,27);
+INSERT INTO answer_likes VALUES (0,2973,88);
+INSERT INTO answer_likes VALUES (1,3055,45);
+INSERT INTO answer_likes VALUES (1,3059,111);
+INSERT INTO answer_likes VALUES (1,3068,41);
+INSERT INTO answer_likes VALUES (0,3097,69);
+INSERT INTO answer_likes VALUES (0,3105,65);
+INSERT INTO answer_likes VALUES (0,3109,98);
+INSERT INTO answer_likes VALUES (0,3117,32);
+INSERT INTO answer_likes VALUES (1,3139,43);
+INSERT INTO answer_likes VALUES (1,3145,45);
+INSERT INTO answer_likes VALUES (0,3422,110);
+INSERT INTO answer_likes VALUES (1,3427,11);
+INSERT INTO answer_likes VALUES (0,3526,10);
+INSERT INTO answer_likes VALUES (0,3549,64);
+INSERT INTO answer_likes VALUES (1,3550,43);
+INSERT INTO answer_likes VALUES (0,3557,24);
+INSERT INTO answer_likes VALUES (0,3561,118);
+INSERT INTO answer_likes VALUES (0,3580,96);
+INSERT INTO answer_likes VALUES (0,3609,15);
+INSERT INTO answer_likes VALUES (0,3610,108);
+INSERT INTO answer_likes VALUES (1,3651,118);
+INSERT INTO answer_likes VALUES (0,3738,25);
+INSERT INTO answer_likes VALUES (0,3742,47);
+INSERT INTO answer_likes VALUES (1,3779,58);
+INSERT INTO answer_likes VALUES (1,3811,72);
+INSERT INTO answer_likes VALUES (0,3825,95);
+INSERT INTO answer_likes VALUES (1,3855,98);
+INSERT INTO answer_likes VALUES (0,3874,65);
+INSERT INTO answer_likes VALUES (1,3878,47);
+INSERT INTO answer_likes VALUES (0,3886,11);
+INSERT INTO answer_likes VALUES (1,3897,11);
+INSERT INTO answer_likes VALUES (0,3932,117);
+INSERT INTO answer_likes VALUES (1,3935,72);
+INSERT INTO answer_likes VALUES (0,4078,31);
+INSERT INTO answer_likes VALUES (0,4140,14);
+INSERT INTO answer_likes VALUES (0,4247,103);
+INSERT INTO answer_likes VALUES (0,4279,64);
+INSERT INTO answer_likes VALUES (1,4301,56);
+INSERT INTO answer_likes VALUES (1,4307,63);
+INSERT INTO answer_likes VALUES (0,4313,100);
+INSERT INTO answer_likes VALUES (0,4439,54);
+INSERT INTO answer_likes VALUES (1,4444,34);
+INSERT INTO answer_likes VALUES (0,4446,35);
+INSERT INTO answer_likes VALUES (0,4515,99);
+INSERT INTO answer_likes VALUES (0,4576,19);
+INSERT INTO answer_likes VALUES (1,4832,37);
+INSERT INTO answer_likes VALUES (0,4910,25);
+INSERT INTO answer_likes VALUES (1,4919,107);
+INSERT INTO answer_likes VALUES (0,4934,49);
+INSERT INTO answer_likes VALUES (1,5016,62);
+INSERT INTO answer_likes VALUES (1,5160,84);
+INSERT INTO answer_likes VALUES (0,5161,16);
+INSERT INTO answer_likes VALUES (1,5219,40);
+INSERT INTO answer_likes VALUES (0,5245,90);
+INSERT INTO answer_likes VALUES (0,5266,89);
+INSERT INTO answer_likes VALUES (1,5303,19);
+INSERT INTO answer_likes VALUES (0,5336,4);
+INSERT INTO answer_likes VALUES (0,5448,45);
+INSERT INTO answer_likes VALUES (1,5453,27);
+INSERT INTO answer_likes VALUES (1,5498,36);
+INSERT INTO answer_likes VALUES (0,5532,72);
+INSERT INTO answer_likes VALUES (1,5640,78);
+INSERT INTO answer_likes VALUES (0,5684,75);
+INSERT INTO answer_likes VALUES (0,5696,92);
+INSERT INTO answer_likes VALUES (0,5720,102);
+INSERT INTO answer_likes VALUES (0,5835,71);
+INSERT INTO answer_likes VALUES (1,5884,110);
+INSERT INTO answer_likes VALUES (1,5887,88);
+INSERT INTO answer_likes VALUES (0,6199,33);
+INSERT INTO answer_likes VALUES (1,6364,17);
+INSERT INTO answer_likes VALUES (0,6387,29);
+INSERT INTO answer_likes VALUES (1,6650,86);
+INSERT INTO answer_likes VALUES (0,6852,6);
+INSERT INTO answer_likes VALUES (1,7078,68);
+INSERT INTO answer_likes VALUES (1,7536,89);
+INSERT INTO answer_likes VALUES (0,7559,40);
+INSERT INTO answer_likes VALUES (0,7584,71);
+INSERT INTO answer_likes VALUES (0,8130,13);
+INSERT INTO answer_likes VALUES (0,8195,26);
+INSERT INTO answer_likes VALUES (0,8454,46);
+INSERT INTO answer_likes VALUES (0,8474,108);
+INSERT INTO answer_likes VALUES (1,8610,105);
+INSERT INTO answer_likes VALUES (0,8713,40);
+INSERT INTO answer_likes VALUES (1,8814,80);
+INSERT INTO answer_likes VALUES (1,8977,92);
+INSERT INTO answer_likes VALUES (0,9124,50);
+INSERT INTO answer_likes VALUES (1,9269,36);
+INSERT INTO answer_likes VALUES (1,9310,70);
+INSERT INTO answer_likes VALUES (1,9342,43);
+INSERT INTO answer_likes VALUES (0,10161,80);
+INSERT INTO answer_likes VALUES (1,10187,85);
+INSERT INTO answer_likes VALUES (1,10202,72);
+INSERT INTO answer_likes VALUES (0,10325,56);
+INSERT INTO answer_likes VALUES (1,10501,98);
+INSERT INTO answer_likes VALUES (0,10519,80);
+INSERT INTO answer_likes VALUES (0,10545,53);
+INSERT INTO answer_likes VALUES (0,10549,47);
+INSERT INTO answer_likes VALUES (0,10745,104);
+INSERT INTO answer_likes VALUES (1,10820,30);
+INSERT INTO answer_likes VALUES (0,11023,34);
+INSERT INTO answer_likes VALUES (1,11214,39);
+INSERT INTO answer_likes VALUES (0,11240,6);
+INSERT INTO answer_likes VALUES (0,11832,43);
+INSERT INTO answer_likes VALUES (0,11946,62);
+INSERT INTO answer_likes VALUES (1,12026,56);
+INSERT INTO answer_likes VALUES (0,12032,14);
+INSERT INTO answer_likes VALUES (1,12310,66);
+INSERT INTO answer_likes VALUES (0,12362,48);
+INSERT INTO answer_likes VALUES (0,12436,100);
+INSERT INTO answer_likes VALUES (1,12446,89);
+INSERT INTO answer_likes VALUES (1,12469,49);
+INSERT INTO answer_likes VALUES (1,12580,74);
+INSERT INTO answer_likes VALUES (0,12719,27);
+INSERT INTO answer_likes VALUES (1,12861,96);
+INSERT INTO answer_likes VALUES (1,12873,48);
+INSERT INTO answer_likes VALUES (0,12876,7);
+INSERT INTO answer_likes VALUES (0,12893,81);
+INSERT INTO answer_likes VALUES (0,12962,23);
+INSERT INTO answer_likes VALUES (1,13008,34);
+INSERT INTO answer_likes VALUES (1,13029,41);
+INSERT INTO answer_likes VALUES (0,13075,63);
+INSERT INTO answer_likes VALUES (0,13420,100);
+INSERT INTO answer_likes VALUES (1,13585,30);
+INSERT INTO answer_likes VALUES (0,14237,6);
+INSERT INTO answer_likes VALUES (1,15742,55);
+INSERT INTO answer_likes VALUES (1,16245,30);
+INSERT INTO answer_likes VALUES (0,16307,26);
+INSERT INTO answer_likes VALUES (0,17210,97);
+INSERT INTO answer_likes VALUES (1,17698,15);
+INSERT INTO answer_likes VALUES (0,18085,70);
+INSERT INTO answer_likes VALUES (0,18349,29);
+INSERT INTO answer_likes VALUES (1,18394,27);
+INSERT INTO answer_likes VALUES (0,18830,24);
+INSERT INTO answer_likes VALUES (1,19426,45);
+INSERT INTO answer_likes VALUES (1,19827,79);
+INSERT INTO answer_likes VALUES (1,19859,75);
+INSERT INTO answer_likes VALUES (0,20056,17);
+INSERT INTO answer_likes VALUES (1,20219,44);
+INSERT INTO answer_likes VALUES (1,20315,30);
+INSERT INTO answer_likes VALUES (1,20473,14);
+INSERT INTO answer_likes VALUES (0,20513,46);
+INSERT INTO answer_likes VALUES (1,20515,71);
+INSERT INTO answer_likes VALUES (1,20732,23);
+INSERT INTO answer_likes VALUES (1,21074,91);
+INSERT INTO answer_likes VALUES (1,21158,12);
+INSERT INTO answer_likes VALUES (0,21963,40);
+INSERT INTO answer_likes VALUES (1,24574,21);
+INSERT INTO answer_likes VALUES (0,24887,38);
+INSERT INTO answer_likes VALUES (1,24904,103);
+INSERT INTO answer_likes VALUES (0,25805,7);
+INSERT INTO answer_likes VALUES (0,26235,80);
+INSERT INTO answer_likes VALUES (1,27617,45);
+INSERT INTO answer_likes VALUES (0,28889,92);
+INSERT INTO answer_likes VALUES (0,29092,7);
+INSERT INTO answer_likes VALUES (1,29675,37);
+INSERT INTO answer_likes VALUES (1,30172,102);
+INSERT INTO answer_likes VALUES (1,30491,67);
+INSERT INTO answer_likes VALUES (0,30493,102);
+INSERT INTO answer_likes VALUES (1,33092,104);
+INSERT INTO answer_likes VALUES (1,33170,82);
+INSERT INTO answer_likes VALUES (1,33396,8);
+INSERT INTO answer_likes VALUES (0,33704,10);
+INSERT INTO answer_likes VALUES (0,37539,56);
+INSERT INTO answer_likes VALUES (1,39828,48);
+INSERT INTO answer_likes VALUES (0,40118,76);
+INSERT INTO answer_likes VALUES (1,40593,45);
+INSERT INTO answer_likes VALUES (0,42502,116);
+INSERT INTO answer_likes VALUES (0,42508,75);
+INSERT INTO answer_likes VALUES (1,43728,19);
+INSERT INTO answer_likes VALUES (0,43922,49);
+INSERT INTO answer_likes VALUES (0,44081,58);
+INSERT INTO answer_likes VALUES (0,44378,43);
+INSERT INTO answer_likes VALUES (1,44783,74);
+INSERT INTO answer_likes VALUES (0,44877,58);
+INSERT INTO answer_likes VALUES (1,45254,25);
+INSERT INTO answer_likes VALUES (0,45590,65);
+INSERT INTO answer_likes VALUES (1,47391,60);
+INSERT INTO answer_likes VALUES (1,49786,52);
+INSERT INTO answer_likes VALUES (0,49875,54);
+INSERT INTO answer_likes VALUES (0,50586,65);
+INSERT INTO answer_likes VALUES (1,50671,39);
+INSERT INTO answer_likes VALUES (0,50976,58);
+INSERT INTO answer_likes VALUES (0,52083,12);
+INSERT INTO answer_likes VALUES (0,53192,43);
+INSERT INTO answer_likes VALUES (0,53241,22);
+INSERT INTO answer_likes VALUES (0,57040,44);
+INSERT INTO answer_likes VALUES (1,57460,20);
+INSERT INTO answer_likes VALUES (1,62189,104);
+INSERT INTO answer_likes VALUES (0,62231,92);
+INSERT INTO answer_likes VALUES (0,62370,114);
+INSERT INTO answer_likes VALUES (1,62587,20);
+INSERT INTO answer_likes VALUES (1,62774,27);
+INSERT INTO answer_likes VALUES (0,68960,69);
+INSERT INTO answer_likes VALUES (0,71833,75);
+INSERT INTO answer_likes VALUES (1,72009,78);
+INSERT INTO answer_likes VALUES (0,84774,65);
+INSERT INTO answer_likes VALUES (1,86606,70);
+INSERT INTO answer_likes VALUES (1,96293,11);
+INSERT INTO answer_likes VALUES (0,97376,50);
+INSERT INTO answer_likes VALUES (1,103466,45);
+INSERT INTO answer_likes VALUES (1,104140,28);
+INSERT INTO answer_likes VALUES (1,104490,99);
+INSERT INTO answer_likes VALUES (1,109868,39);
+INSERT INTO answer_likes VALUES (1,116605,116);
+INSERT INTO answer_likes VALUES (0,118622,84);
+INSERT INTO answer_likes VALUES (1,120639,89);
+INSERT INTO answer_likes VALUES (0,123087,27);
+INSERT INTO answer_likes VALUES (1,128033,73);
+INSERT INTO answer_likes VALUES (1,135220,113);
+INSERT INTO answer_likes VALUES (0,135951,29);
+INSERT INTO answer_likes VALUES (0,136038,103);
+INSERT INTO answer_likes VALUES (1,136872,68);
+INSERT INTO answer_likes VALUES (0,137513,51);
+INSERT INTO answer_likes VALUES (1,138098,29);
+INSERT INTO answer_likes VALUES (1,141165,114);
+INSERT INTO answer_likes VALUES (1,155826,66);
+INSERT INTO answer_likes VALUES (0,156321,111);
+INSERT INTO answer_likes VALUES (1,156760,79);
+INSERT INTO answer_likes VALUES (0,157696,57);
+INSERT INTO answer_likes VALUES (1,158351,35);
+INSERT INTO answer_likes VALUES (0,161900,86);
+INSERT INTO answer_likes VALUES (1,161907,25);
+INSERT INTO answer_likes VALUES (0,165181,47);
+INSERT INTO answer_likes VALUES (1,165327,49);
+INSERT INTO answer_likes VALUES (0,165782,106);
+INSERT INTO answer_likes VALUES (1,166552,100);
+INSERT INTO answer_likes VALUES (0,166589,20);
+INSERT INTO answer_likes VALUES (0,171146,6);
+INSERT INTO answer_likes VALUES (1,180495,49);
+INSERT INTO answer_likes VALUES (1,180641,32);
+INSERT INTO answer_likes VALUES (1,189119,60);
+INSERT INTO answer_likes VALUES (0,189127,99);
+INSERT INTO answer_likes VALUES (0,189133,117);
+INSERT INTO answer_likes VALUES (0,189432,57);
+INSERT INTO answer_likes VALUES (0,190159,5);
+INSERT INTO answer_likes VALUES (0,190506,71);
+INSERT INTO answer_likes VALUES (1,197370,33);
+INSERT INTO answer_likes VALUES (0,197729,47);
+INSERT INTO answer_likes VALUES (0,199502,36);
+INSERT INTO answer_likes VALUES (1,199765,32);
+INSERT INTO answer_likes VALUES (1,201763,76);
+INSERT INTO answer_likes VALUES (1,201811,68);
+INSERT INTO answer_likes VALUES (1,201836,75);
+INSERT INTO answer_likes VALUES (0,205332,114);
+INSERT INTO answer_likes VALUES (1,205459,78);
+INSERT INTO answer_likes VALUES (0,205537,111);
+INSERT INTO answer_likes VALUES (1,209459,16);
+INSERT INTO answer_likes VALUES (1,209683,44);
+INSERT INTO answer_likes VALUES (0,213305,85);
+INSERT INTO answer_likes VALUES (0,219232,93);
+INSERT INTO answer_likes VALUES (0,219985,53);
+INSERT INTO answer_likes VALUES (1,223949,90);
+INSERT INTO answer_likes VALUES (0,226000,35);
+INSERT INTO answer_likes VALUES (1,227216,77);
+INSERT INTO answer_likes VALUES (1,227247,29);
+INSERT INTO answer_likes VALUES (1,230950,76);
+INSERT INTO answer_likes VALUES (1,232454,37);
+INSERT INTO answer_likes VALUES (0,237328,103);
+INSERT INTO answer_likes VALUES (1,239170,98);
+INSERT INTO answer_likes VALUES (1,240321,86);
+INSERT INTO answer_likes VALUES (1,240880,88);
+INSERT INTO answer_likes VALUES (0,244835,47);
+INSERT INTO answer_likes VALUES (0,247192,18);
+INSERT INTO answer_likes VALUES (0,251383,48);
+INSERT INTO answer_likes VALUES (0,252254,72);
+INSERT INTO answer_likes VALUES (0,254280,73);
+INSERT INTO answer_likes VALUES (0,258259,68);
+INSERT INTO answer_likes VALUES (1,258852,9);
+INSERT INTO answer_likes VALUES (0,258957,5);
+INSERT INTO answer_likes VALUES (0,258973,30);
+INSERT INTO answer_likes VALUES (1,259089,69);
+INSERT INTO answer_likes VALUES (0,259776,53);
+INSERT INTO answer_likes VALUES (0,259805,53);
+INSERT INTO answer_likes VALUES (0,260039,39);
+INSERT INTO answer_likes VALUES (1,273535,53);
+INSERT INTO answer_likes VALUES (1,275751,55);
+INSERT INTO answer_likes VALUES (0,278519,58);
+INSERT INTO answer_likes VALUES (0,294310,114);
+INSERT INTO answer_likes VALUES (0,297067,41);
+INSERT INTO answer_likes VALUES (1,306595,35);
+INSERT INTO answer_likes VALUES (0,306646,13);
+INSERT INTO answer_likes VALUES (1,306965,15);
+INSERT INTO answer_likes VALUES (0,315658,70);
+INSERT INTO answer_likes VALUES (1,315837,56);
+INSERT INTO answer_likes VALUES (0,327386,67);
+INSERT INTO answer_likes VALUES (0,327860,41);
+INSERT INTO answer_likes VALUES (0,331174,81);
+INSERT INTO answer_likes VALUES (0,331576,50);
+INSERT INTO answer_likes VALUES (1,331677,114);
+INSERT INTO answer_likes VALUES (1,333140,51);
+INSERT INTO answer_likes VALUES (0,333412,116);
+INSERT INTO answer_likes VALUES (1,334208,33);
+INSERT INTO answer_likes VALUES (0,337817,109);
+INSERT INTO answer_likes VALUES (0,338199,94);
+INSERT INTO answer_likes VALUES (1,338296,54);
+INSERT INTO answer_likes VALUES (1,339320,77);
+INSERT INTO answer_likes VALUES (1,340796,88);
+INSERT INTO answer_likes VALUES (1,344870,96);
+INSERT INTO answer_likes VALUES (0,347732,51);
+INSERT INTO answer_likes VALUES (0,350223,44);
+INSERT INTO answer_likes VALUES (1,350424,4);
+INSERT INTO answer_likes VALUES (0,352856,65);
+INSERT INTO answer_likes VALUES (1,354920,53);
+INSERT INTO answer_likes VALUES (0,359980,43);
+INSERT INTO answer_likes VALUES (1,361309,80);
+INSERT INTO answer_likes VALUES (0,361476,19);
+INSERT INTO answer_likes VALUES (0,376985,35);
+INSERT INTO answer_likes VALUES (1,381503,106);
+INSERT INTO answer_likes VALUES (0,381698,83);
+INSERT INTO answer_likes VALUES (0,382027,93);
+INSERT INTO answer_likes VALUES (1,382031,59);
+INSERT INTO answer_likes VALUES (1,382081,33);
+INSERT INTO answer_likes VALUES (0,391040,27);
+INSERT INTO answer_likes VALUES (1,401582,67);
+INSERT INTO answer_likes VALUES (0,414737,106);
+INSERT INTO answer_likes VALUES (1,417427,37);
+INSERT INTO answer_likes VALUES (1,420995,74);
+INSERT INTO answer_likes VALUES (1,426326,49);
+INSERT INTO answer_likes VALUES (1,428925,42);
+INSERT INTO answer_likes VALUES (1,431707,112);
+INSERT INTO answer_likes VALUES (1,441050,15);
+INSERT INTO answer_likes VALUES (0,441082,104);
+INSERT INTO answer_likes VALUES (0,443156,50);
+INSERT INTO answer_likes VALUES (0,443553,19);
+INSERT INTO answer_likes VALUES (1,444658,111);
+INSERT INTO answer_likes VALUES (1,448222,31);
+INSERT INTO answer_likes VALUES (1,454665,87);
+INSERT INTO answer_likes VALUES (1,454667,103);
+INSERT INTO answer_likes VALUES (1,459272,90);
+INSERT INTO answer_likes VALUES (0,466015,108);
+INSERT INTO answer_likes VALUES (1,470973,4);
+INSERT INTO answer_likes VALUES (1,471837,53);
+INSERT INTO answer_likes VALUES (0,480759,94);
+INSERT INTO answer_likes VALUES (1,480812,106);
+INSERT INTO answer_likes VALUES (0,483968,111);
+INSERT INTO answer_likes VALUES (0,484433,66);
+INSERT INTO answer_likes VALUES (0,484467,50);
+INSERT INTO answer_likes VALUES (1,484721,16);
+INSERT INTO answer_likes VALUES (0,485771,71);
+INSERT INTO answer_likes VALUES (0,487955,48);
+INSERT INTO answer_likes VALUES (1,490107,103);
+INSERT INTO answer_likes VALUES (1,490112,45);
+INSERT INTO answer_likes VALUES (0,492948,91);
+INSERT INTO answer_likes VALUES (1,494038,38);
+INSERT INTO answer_likes VALUES (0,499671,91);
+INSERT INTO answer_likes VALUES (1,501573,62);
+INSERT INTO answer_likes VALUES (1,513154,16);
+INSERT INTO answer_likes VALUES (0,527408,46);
+INSERT INTO answer_likes VALUES (0,586938,19);
+INSERT INTO answer_likes VALUES (1,835366,34);
+INSERT INTO answer_likes VALUES (1,911927,65);
+INSERT INTO answer_likes VALUES (1,1242277,7);
+INSERT INTO answer_likes VALUES (0,1318059,116);
+INSERT INTO answer_likes VALUES (0,1346447,90);
+INSERT INTO answer_likes VALUES (0,1392794,112);
+INSERT INTO answer_likes VALUES (0,1493026,37);
+INSERT INTO answer_likes VALUES (0,1712228,82);
+INSERT INTO answer_likes VALUES (1,1712234,84);
+INSERT INTO answer_likes VALUES (0,1948373,44);
+INSERT INTO answer_likes VALUES (1,1989985,19);
+INSERT INTO answer_likes VALUES (1,2186878,110);
+INSERT INTO answer_likes VALUES (0,2266813,23);
+INSERT INTO answer_likes VALUES (1,6626232,93);
+INSERT INTO answer_likes VALUES (0,62459099,110);
 INSERT INTO answer_comments VALUES (9459285,'It might be a good idea to catch socket.error exceptions which may be risen by s.connect()!','2011-10-14T14:52:51.287Z',166589,59,5);
 INSERT INTO answer_comments VALUES (8958492,'Works perfectly fine on Windows XP. Will it provide the same for Vista, Windows 7 and iMac?','2011-09-14T08:15:10.463Z',1397,26,0);
 INSERT INTO answer_comments VALUES (10077232,'I have voted this answer up because the latitude and longitude obtained from databases like GeoIP (which has a free version available as of now) can be combined with databases that convert such a coordinate to a time zone.  I think GeoNames has a latter such database.','2011-11-20T06:52:34.140Z',103,111,0);
