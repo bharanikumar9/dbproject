@@ -55,8 +55,10 @@ ALTER TABLE public.answer_comments OWNER TO postgres;
 --
 
 CREATE TABLE public.answers (
-    answer_id integer NOT NULL,
-    body character varying,
+    answer_id integer NOT NULL, 
+       parent_id integer,
+       display_name character varying,
+        body character varying,
     user_id integer,
     view_count integer,
     creation_date timestamp without time zone,
@@ -252,6 +254,9 @@ ALTER TABLE ONLY public.answer_comments
 
 ALTER TABLE ONLY public.answers
     ADD CONSTRAINT answers_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(user_id);
+
+ALTER TABLE ONLY public.answers
+    ADD CONSTRAINT answers_parent_id_fkey FOREIGN KEY (parent_id) REFERENCES public.questions(question_id);
 
 
 --
