@@ -3,6 +3,8 @@ import Home from ".";
 import parse from 'html-react-parser'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import { FiThumbsUp, FiThumbsDown } from "react-icons/fi";
+
 
 class Questions extends React.Component {
     constructor(props) {
@@ -74,7 +76,7 @@ class Questions extends React.Component {
 
                                         <Card.Text>
                                             {/* {parse(item.body)} */}
-                                            upvotes {item.upvotes} downvotes {item.downvotes}
+                                            <FiThumbsUp /> {item.upvotes} <FiThumbsDown /> {item.downvotes}
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
