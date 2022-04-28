@@ -66,18 +66,14 @@ class Tags extends React.Component {
                                             <Card className="mb-3" key={item.tag_id} style={{ padding: 0 }}>
                                                 <Card.Body style={{ padding: 5 }}>
                                                 <a href={`/tags/${item.tag_id}`}>
-
                                                     <Card.Header>
                                                         {item.tag_name}
                                                     </Card.Header>
-                                                    </a>
+                                                </a>
                                                     &nbsp;
                                                     <Card.Text>
                                                         <h5>
-                                                            related to course #{item.course_id}
-                                                        </h5>
-                                                        <h5>
-                                                            tagged {item.count} times
+                                                            tagged in course #{item.course_id}
                                                         </h5>
                                                     </Card.Text>
                                                 </Card.Body>
@@ -93,12 +89,12 @@ class Tags extends React.Component {
 
 
                         <left>
-                            <Button variant="primary" onClick={this.Decreasepage} >
+                            <Button onClick={this.Decreasepage} >
                                 Previous Page
                             </Button>
                         </left>
                         <right>
-                            <Button variant="primary" onClick={this.Incrementpage}>
+                            <Button onClick={this.Incrementpage}>
                                 Next Page
                             </Button>
                         </right>
@@ -113,9 +109,6 @@ class Tags extends React.Component {
 
                     h1,h4{
                         text-align: center;
-                    }
-                    a:link{
-                        text-decoration: none!important;
                     }
 
                     .container-body{

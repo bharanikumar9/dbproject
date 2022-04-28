@@ -66,13 +66,12 @@ class Questions extends React.Component {
 
                                         <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
 
-                                        <Button size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
-                                        {item.tag_2 ? <Button size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
-                                        {item.tag_3 ? <Button size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
-                                        {item.tag_4 ? <Button size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
-                                        {item.tag_5 ? <Button size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
-                                        {item.tag_6 ? <Button size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
-
+                                        <Button href={`/tagsname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
+                                    {item.tag_2 ? <Button href={`/tagsname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
+                                    {item.tag_3 ? <Button href={`/tagsname/${item.tag_3}`} size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
+                                    {item.tag_4 ? <Button href={`/tagsname/${item.tag_4}`} size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
+                                    {item.tag_5 ? <Button href={`/tagsname/${item.tag_5}`} size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
+                                    {item.tag_6 ? <Button href={`/tagsname/${item.tag_6}`} size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
 
                                         <Card.Text>
                                             {/* {parse(item.body)} */}

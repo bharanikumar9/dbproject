@@ -44,6 +44,10 @@ export default function Home() {
 
       <style jsx>{`
 
+          a:link{
+            text-decoration: none!important;
+          }
+
           .container {
             position: relative
           }

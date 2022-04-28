@@ -33,7 +33,6 @@ class Ask_question extends React.Component {
                 <Home />
                 <div className="container-body">
 
-                    <h5>Form to ask questions</h5>
 
                 </div>
                 <div>
