@@ -267,11 +267,28 @@ app.get("/answers/:question_id", async (req, res) => {
 });
 
 
-app.get("/comments/:question_id", async (req, res) => {
+app.get("/questioncomments/:question_id", async (req, res) => {
     try {
         const { question_id } = req.params;
-        const allTodos = await client.query(` select display_name, comment_id ,answer_id , score ,  body  ,users.user_id ,  substring(CAST(a.creation_date as varchar),0,11) as date , display_name from users, ( SELECT  comment_id ,answer_id , score ,  body  ,user_id ,  creation_date  from answer_comments where answer_id in  (select answer_id from answers where question_id = $1)
-       ) a where a.user_id = users.user_id order by answer_id,comments.date`
+        const allTodos = await client.query(` 
+        select substring(CAST(question_comments.creation_date as varchar),0,11) as date, 
+        body, users.user_id, users.display_name from question_comments, users
+        where question_comments.question_id = $1 and users.user_id = question_comments.user_id order by date ASC`
+            , [question_id]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+app.get("/answercomments/:answer_id", async (req, res) => {
+    try {
+        const { question_id } = req.params;
+        const allTodos = await client.query(` 
+        with t1 as (select answer_id from answers where question_id = $1)
+        select substring(CAST(answer_comments.creation_date as varchar),0,11) as date, 
+        body, users.user_id, users.display_name from answer_comments, users, t1 
+        where answer_comments.answer_id = t1.answer_id and users.user_id = answer_comments.user_id order by date ASC`
             , [question_id]);
         res.json(allTodos.rows);
     } catch (err) {
@@ -290,13 +307,44 @@ app.get("/user/:user_id", async (req, res) => {
     }
 });
 
+app.get("/tags/:offset/:limit", async (req, res) => {
+    try {
+        const { offset, limit } = req.params;
+
+        const allTodos = await client.query(`select tag_id, tag_name,course_id, count(tag_name) from tags_courses,questions where 
+        (tag_1 = tag_name or tag_2 = tag_name or tag_3 = tag_name or tag_4 = tag_name or tag_5 = tag_name or tag_6 = tag_name) 
+        group by tag_id,tag_name,course_id order by count(tag_name) DESC
+        OFFSET $1 LIMIT $2`
+            , [offset, limit]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
 
 
 app.get("/tags/:tag_id", async (req, res) => {
     try {
         const tag_id = req.params.tag_id;
 
-        const allTodos = await client.query(`SELECT questions.title,questions.question_id,questions.upvotes,questions.downvotes,questions.view_count,questions.creation_date,questions.user_id, users.display_name from questions,tags_courses,users where tags_courses.tag_id= $1 and questions.user_id=users.user_id and tag_name in (tag_1,tag_2,tag_3,tag_4,tag_5);`, [tag_id]);
+        const allTodos = await client.query(`SELECT questions.title,questions.question_id,questions.upvotes,questions.downvotes,
+        questions.view_count,questions.creation_date,questions.user_id, users.display_name from questions,tags_courses,users
+        where tags_courses.tag_id= $1 and questions.user_id=users.user_id and tag_name in (tag_1,tag_2,tag_3,tag_4,tag_5,tag_6)`
+            , [tag_id]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+app.get("/tagsname/:tag_name", async (req, res) => {
+    try {
+        const tag_name = req.params.tag_name;
+
+        const allTodos = await client.query(`SELECT questions.title,questions.question_id,questions.upvotes,questions.downvotes,
+        questions.view_count,questions.creation_date,questions.user_id, users.display_name from questions,tags_courses,users
+        where tags_courses.tag_name = $1 and questions.user_id=users.user_id and tag_name in (tag_1,tag_2,tag_3,tag_4,tag_5,tag_6)`
+            , [tag_name]);
         res.json(allTodos.rows);
     } catch (err) {
         console.error(err.message);
@@ -308,6 +356,17 @@ app.get("/tags1/:tag_id", async (req, res) => {
         const tag_id = req.params.tag_id;
 
         const allTodos = await client.query(`select tag_name from tags_courses where tag_id=$1`, [tag_id]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+app.get("/tagsname1/:tag_name", async (req, res) => {
+    try {
+        const tag_name = req.params.tag_name;
+
+        const allTodos = await client.query(`select tag_name from tags_courses where tag_name=$1`, [tag_name]);
         res.json(allTodos.rows);
     } catch (err) {
         console.error(err.message);
