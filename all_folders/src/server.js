@@ -8,9 +8,15 @@ const session = require('express-session')
 
 
 const app = express();
-app.use(cors())
+app.use(
+    cors({
+        origin: 'http://localhost:3000',
+        methods: ['POST', 'PUT', 'GET', 'OPTIONS', 'HEAD'],
+        credentials: true,
+    })
+)
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 
 PGHOST = process.env.host
 PGUSER = process.env.username
@@ -48,7 +54,7 @@ app.use(
             secure: false,
             httpOnly: false,
             sameSite: false,
-            maxAge: 1000 * 60 * 60 * 24,
+            originalMaxAge: 20000,
         },
     })
 )
@@ -56,7 +62,21 @@ app.use(
 // user_id,display_name,password,age,location,about,creation_date,is_instructor,reputation,upvotes,downvotes,views
 
 app.post('/register', async (req, res) => {
-    const { display_name, password, age, location, about, creation_date, is_instructor, reputation, upvotes, downvotes, views } = req.query
+    const { display_name, password, age, location, about, is_instructor } = req.body
+    // const
+
+    // console.log(req)
+
+    const reputation = 0
+    const upvotes = 0
+    const downvotes = 0
+    const views = 0
+    console.error(req.body)
+
+    console.error(display_name)
+    console.error(password)
+    console.error(age)
+    console.error(is_instructor)
 
     if (
         display_name == null ||
@@ -64,20 +84,22 @@ app.post('/register', async (req, res) => {
         password == null ||
         is_instructor == null
     ) {
-        console.error(req.query)
+        
         return res.sendStatus(403)
     }
+
 
     try {
         // const hashedPassword = bcrypt.hashSync(req.body.password, 10)
         const data = await client.query(
-            `INSERT INTO users (display_name, password, age, location, about, creation_date, is_instructor, reputation, upvotes, downvotes, views
-                ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING *`,
-            [display_name, password, age, location, about, creation_date, is_instructor, reputation, upvotes, downvotes, views]
+            `INSERT INTO users (display_name, password, age, location, about, is_instructor, reputation, upvotes, downvotes, views
+                ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING *`,
+            [display_name, password, age, location, about, is_instructor, reputation, upvotes, downvotes, views]
         )
-
+        console.log(data)
         if (data.rows.length === 0) {
-            res.sendStatus(403)
+
+            res.sendStatus(400)
         }
         const user = data.rows[0]
 
@@ -118,7 +140,7 @@ app.post('/login', async (req, res) => {
         // }
 
         req.session.user = {
-            id: user.id,
+            user_id: user.id,
             display_name: user.display_name,
         }
 
@@ -132,6 +154,15 @@ app.post('/login', async (req, res) => {
 
 
 app.post('/logout', async (req, res) => {
+
+    // const { display_name } = req.query
+    // if (display_name == null) {
+    //     return res.sendStatus(403)
+    // }
+
+    console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+    console.log(req)
+
     try {
         await req.session.destroy()
         return res.sendStatus(200)
@@ -299,34 +330,74 @@ app.get("/user_tags/:user_id", async (req, res) => {
 app.get("/user_questions/:user_id", async (req, res) => {
     try {
         const user_id = req.params.user_id;
-        const allTodos = await client.query(`SELECT *,substring(CAST(creation_date as varchar),0,11) as date from questions where user_id=$1 order by view_count desc limit 5;`, [user_id]);
+        const allTodos = await client.query(`SELECT * from questions where user_id=$1 order by view_count desc limit 5;`, [user_id]);
         res.json(allTodos.rows);
     } catch (err) {
         console.error(err.message);
     }
 });
-app.get("/tags/:tag_id", async (req, res) => {
+
+
+/* 
+
+user_posted_question - token(user_id), question_title, question_body, tags
+
+
+*/
+
+app.post('/user_posted_question', async (req, res) => {
+    const { question_title, question_body, tags } = req.query
+
+    if (display_name == null || password == null) {
+        return res.sendStatus(403)
+    }
+
     try {
-        const tag_id = req.params.tag_id;
+        const data = await client.query(
+            'SELECT display_name, password FROM users WHERE display_name = $1',
+            [display_name]
+        )
 
-        const allTodos = await client.query(`SELECT questions.title,questions.question_id,questions.upvotes,questions.downvotes,questions.view_count,substring(CAST(questions.creation_date as varchar),0,11) as date,questions.user_id, users.display_name from questions,tags_courses,users where tags_courses.tag_id= $1 and questions.user_id=users.user_id and tag_name in (tag_1,tag_2,tag_3,tag_4,tag_5);`, [tag_id]);
-        res.json(allTodos.rows);
-    } catch (err) {
-        console.error(err.message);
+        if (data.rows.length === 0) {
+            return res.sendStatus(403)
+        }
+        const user = data.rows[0]
+
+        // const matches = bcrypt.compareSync(password, user.password)
+        // if (!matches) {
+        //     return res.sendStatus(403)
+        // }
+
+        req.session.user = {
+            user_id: user.id,
+            display_name: user.display_name,
+        }
+
+        res.status(200)
+        return res.json({ user: req.session.user })
+    } catch (e) {
+        console.error(e)
+        return res.sendStatus(403)
     }
 });
 
-app.get("/tags1/:tag_id", async (req, res) => {
-    try {
-        const tag_id = req.params.tag_id;
 
-        const allTodos = await client.query(`select tag_name from tags_courses where tag_id=$1`, [tag_id]);
-        res.json(allTodos.rows);
-    } catch (err) {
-        console.error(err.message);
-    }
-});
 
+
+
+
+/*
+
+
+user_answered_question - question_id, user_id, answer,
+user_commented_question - question_id, user_id, comment,
+user_commented_answer - answer_id, user_id, comment,
+
+user_liked_question - question_id, like_type, user_id
+user_liked_answer - answer_id, like_type, user_id
+
+
+*/
 
 var server = app.listen(5000, function () {
     var host = server.address().address
