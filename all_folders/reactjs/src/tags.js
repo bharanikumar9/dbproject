@@ -71,7 +71,10 @@ class Tags extends React.Component {
                                                     &nbsp;
                                                     <Card.Text>
                                                         <h5>
-                                                            tagged in course #{item.course_id}
+                                                            related to course #{item.course_id}
+                                                        </h5>
+                                                        <h5>
+                                                            tagged {item.count} times
                                                         </h5>
                                                     </Card.Text>
                                                 </Card.Body>

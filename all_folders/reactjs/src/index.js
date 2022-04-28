@@ -20,6 +20,8 @@ export default function Home() {
 
             <div className="float-right">
               <Button href="/questions/ask" variant="success">Ask a question</Button>
+              &nbsp;
+              <Button href="/logout" variant="secondary">Log out</Button>
             </div>
 
           </Container>
