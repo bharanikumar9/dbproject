@@ -33,7 +33,7 @@ client.connect()
 
 // session store and session config
 const store = new (require('connect-pg-simple')(session))({
-    conObject,
+    pool: client
 })
 
 
@@ -131,7 +131,15 @@ app.post('/login', async (req, res) => {
 });
 
 
-
+app.post('/logout', async (req, res) => {
+    try {
+        await req.session.destroy()
+        return res.sendStatus(200)
+    } catch (e) {
+        console.error(e)
+        return res.sendStatus(500)
+    }
+});
 
 app.get("/questions/:offset/:limit", async (req, res) => {
     try {
@@ -198,8 +206,8 @@ app.get("/toptags/:offset/:limit", async (req, res) => {
 app.get("/users/:offset/:limit", async (req, res) => {
     try {
         const { offset, limit } = req.params;
-        const allTodos = await client.query(`SELECT users.display_name, users.reputation,
-        users.is_instructor, users.creation_date from users ORDER BY views DESC        
+        const allTodos = await client.query(`SELECT users.user_id, users.display_name, users.reputation,
+        users.is_instructor,substring(CAST(creation_date as varchar),0,11) as date from users ORDER BY views DESC        
         OFFSET $1 LIMIT $2`
             , [offset, limit]);
         res.json(allTodos.rows);
@@ -249,10 +257,10 @@ app.get("/comments/:question_id", async (req, res) => {
     }
 });
 
-app.get("/users/:user_id", async (req, res) => {
+app.get("/user/:user_id", async (req, res) => {
     try {
         const { user_id } = req.params;
-        const allTodos = await client.query(`SELECT * from users where user.user_id = $1`
+        const allTodos = await client.query(`SELECT *,substring(CAST(creation_date as varchar),0,11) as date from users where users.user_id = $1`
             , [user_id]);
         res.json(allTodos.rows);
     } catch (err) {
@@ -266,9 +274,32 @@ app.get("/tags/:offset/:limit", async (req, res) => {
     try {
         const { offset, limit } = req.params;
 
-        const allTodos = await client.query(`SELECT tag_id,tag_name, course_id from tags_courses
+        const allTodos = await client.query(`select tag_id, tag_name,course_id, count(tag_name) from tags_courses,questions where 
+        (tag_1 = tag_name or tag_2 = tag_name or tag_3 = tag_name or tag_4 = tag_name or tag_5 = tag_name or tag_6 = tag_name) 
+        group by tag_id,tag_name,course_id order by count(tag_name) DESC
         OFFSET $1 LIMIT $2`
             , [offset, limit]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+
+app.get("/user_tags/:user_id", async (req, res) => {
+    try {
+        const user_id = req.params.user_id;
+        const allTodos = await client.query(`SELECT tag_name,tag_id, count(*) as counts FROM tags_courses,questions WHERE tag_name in (questions.tag_1,questions.tag_2,questions.tag_3,questions.tag_4,questions.tag_5,questions.tag_6) AND questions.user_id = $1 GROUP BY tag_name,tag_id ORDER BY counts desc limit 5;`, [user_id]);
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+app.get("/user_questions/:user_id", async (req, res) => {
+    try {
+        const user_id = req.params.user_id;
+        const allTodos = await client.query(`SELECT * from questions where user_id=$1 order by view_count desc limit 5;`, [user_id]);
         res.json(allTodos.rows);
     } catch (err) {
         console.error(err.message);
