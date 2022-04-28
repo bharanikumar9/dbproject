@@ -14,6 +14,14 @@ import {
 import { FiThumbsUp, FiThumbsDown } from "react-icons/fi";
 
 
+
+
+
+
+
+
+
+
 function QuestionDetails() {
     let { question_id } = useParams();
     const fetchdata = async (api) => {
@@ -21,6 +29,12 @@ function QuestionDetails() {
         const json = await res.json();
         return json
     }
+
+
+
+    
+
+
 
 
     const [info, setInfo] = useState([{}]);
@@ -121,6 +135,18 @@ function QuestionDetails() {
                                             </div>
                                         ) : null)}
                                     </div>
+
+                                    <Card style={{ marginLeft: '20px' }}>
+                                                    <Card.Body style={{ padding:'30px'}}>
+                                                        <Card.Text>
+                                                        <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+  <Button style={{ marginTop: '20px' }} variant="success">Add Comment</Button>
+</div>
+                                                                              
+                                                        </Card.Text>
+                                                    </Card.Body>
+                                                </Card>
                                 </Card.Footer>
                             </Card>
 
@@ -131,12 +157,40 @@ function QuestionDetails() {
                 }
 
 
+<Card style={{ marginLeft: '350px' }}>
+                                                    <Card.Body style={{ padding:'30px'}}>
+                                                        <Card.Text>
+                                                        {/* <div class="col-md-2">
+        
+        <div class="md-form">
+            <textarea type="text" id="textarea" class="md-textarea" rows="4" cols="80"></textarea>
+            <Button style={{ marginLeft: '20px' }} variant="success">Add Answer</Button>
+        </div>
+    </div> */}
+
+
+    <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+  <Button style={{ marginTop: '20px' }} variant="success">Add Answer</Button>
+</div>
+                                                                                                           
+                                                        </Card.Text>
+                                                    </Card.Body>
+                                                </Card>
+
+                                                <div class="container">
+    
+</div>
+
 
             </div>
 
             <style jsx>{`
 
-
+input {
+    
+    line-height:10px
+}
 
         h1, h2, h3, h4{
             text - align: center;
@@ -148,7 +202,37 @@ function QuestionDetails() {
             z-index: 10;
             // box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1)
         }
+        textarea.md-textarea-scroll{
+            overflow-y: visible;
+          }
+          textarea.md-textarea {
+            padding: 0;
+            resize: none;
+            min-height: 3rem;
+          }
 
+          ::-webkit-scrollbar {
+            width: 8px;
+        }
+        /* Track */
+        
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+        /* Handle */
+        
+        ::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background: #your-color;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        }
+        
+        ::-webkit-scrollbar-thumb:window-inactive {
+           background: #your-color;
+        }
         main{
             text - align: center;
             z - index: 1;
@@ -179,6 +263,12 @@ function QuestionDetails() {
             right: 10px;
             bottom: 20px;
         }
+
+        .btn{
+            padding: 10px;
+            border: 1px solid #d8d8d8;
+            border-radius: 3px;
+          }
 
         .btn:hover {
             color: black;
