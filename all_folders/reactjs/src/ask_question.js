@@ -3,6 +3,13 @@ import Home from ".";
 import parse from 'html-react-parser'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import axios from 'axios';
+import {
+    BrowserRouter,
+    Switch,
+    Route,
+    useParams,
+} from "react-router-dom";
 
 class Ask_question extends React.Component {
 
@@ -28,7 +35,47 @@ class Ask_question extends React.Component {
 
                     <h5>Form to ask questions</h5>
 
+                </div>
+                <div>
+                <Card style={{ marginLeft: '350px', padding: '25px' }}>
+                          
 
+        
+
+                                 
+                                                    <Card.Body style={{ padding:'30px'}}>
+                                                        <Card.Text>
+                                                        <label for="exampleFormControlTextarea6">Title</label>
+            
+                                                        <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+</div>
+
+
+
+
+<label for="exampleFormControlTextarea6">Body</label>
+            
+                                                        <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="8" placeholder="Write something here..."></textarea>
+</div>
+
+
+
+
+<label for="exampleFormControlTextarea6">Tags</label>
+            
+                                                        <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="1" placeholder="Write something here..."></textarea>
+</div>
+
+
+                                               <Button style={{ marginTop: '20px' }} variant="success">Submit</Button>                                
+                                                        </Card.Text>
+                                                    </Card.Body>
+                                    
+                
+                            </Card>
 
                 </div>
 
