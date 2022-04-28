@@ -54,103 +54,112 @@ function View_profile() {
                 {
                     info1.map((item) => (
                         <div>
-                            <Card style={{ marginRight: '200px' }}>
-                                <Card.Body>
+                           <Card style={{ marginRight: '200px' }}>
+                                    <Card.Body>
+                                        
 
+                                            <Card.Title>
+                                                <h1>{item.display_name}</h1>
+                                            </Card.Title>
+                                       
 
-                                    <Card.Title>
-                                        <h1>{item.display_name}</h1>
-                                    </Card.Title>
-
-
-                                    <Card.Subtitle className="mb-2 text-muted">joined on {item.date} </Card.Subtitle>
-                                    <Card.Text>
-                                        <h2>About </h2>  {item.about ? parse(item.about) : null}
-                                    </Card.Text>
-                                    <Card.Text>
-                                        upvotes {item.upvotes}
-                                    </Card.Text>
-                                    <Card.Text>
-                                        downvotes {item.downvotes}
-                                    </Card.Text>
-                                    <Card.Text>
-                                        reputation {item.reputation}
-                                    </Card.Text>
-                                    <Card.Text>
-                                        views {item.views}
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-
-
-
+                                        <Card.Subtitle className="mb-2 text-muted">joined on {item.date} </Card.Subtitle>
+                                        <Card.Text>
+                                            {/* {parse(item.body)} */}
+                                            <h2>About </h2>  {item.about ? parse(item.about) : null} 
+                                        </Card.Text>
+                                        <Card.Text>
+                                            {/* {parse(item.body)} */}
+                                            upvotes {item.upvotes} 
+                                        </Card.Text>
+                                        <Card.Text>
+                                            {/* {parse(item.body)} */}
+                                            downvotes {item.downvotes} 
+                                        </Card.Text>
+                                        <Card.Text>
+                                            {/* {parse(item.body)} */}
+                                            reputation {item.reputation}
+                                        </Card.Text>
+                                        <Card.Text>
+                                            {/* {parse(item.body)} */}
+                                            views {item.views} 
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                                    
+                    
+                                   
                         </div>
                     ))
 
+                    
+
                 }
 
-                <br></br>
                 <h2>Top Tags</h2>
 
 
                 {
-
                     info2.map((item) => (
                         <div>
-
-
-                            <Card style={{ marginRight: '200px' }}>
-                                <Card.Body className="flex-fill">
+                           
+                           <Card style={{  marginRight: '200px' }}>
+                                    <Card.Body>
                                     <a href={`/tags/${item.tag_id}`}>
-                                        <Card.Title>
-                                            {item.tag_name}
-                                        </Card.Title>
-                                    </a>
-                                    <Card.Text>
-                                        posts {item.counts}
-                                    </Card.Text>
+                                            <Card.Title>
+                                                {item.tag_name}
+                                            </Card.Title>
+                                            </a>
 
-                                </Card.Body>
-                            </Card>
+                                        
 
-
-
+                                        <Card.Text>
+                                            {/* {parse(item.body)} */}
+                                    
+                                            posts {item.counts} 
+                                        </Card.Text>
+                                        
+                                    </Card.Body>
+                                </Card>
+                                    
+                    
+                                   
                         </div>
                     ))
                 }
-                <br></br>
 
                 <h2>Top Questions</h2>
 
-                {
+
+{
                     info3.map((item) => (
                         <div>
-
-                            <Card style={{ marginRight: '200px' }}>
-                                <Card.Body>
-
+                           
+                           <Card style={{  marginRight: '200px' }}>
+                                    <Card.Body>
+                                        
                                     <a href={`/questions/${item.question_id}`}>
-                                        <Card.Title>
-                                            {item.title}
-                                        </Card.Title>
-                                    </a>
+                                            <Card.Title>
+                                                {item.title}
+                                            </Card.Title>
+                                       </a>
 
+                                        
 
-
-                                    <Card.Text>
-                                        {/* {parse(item.body)} */}
-                                        creation on  {item.creation_date}
-                                    </Card.Text>
-                                    <Card.Text>
-                                        {/* {parse(item.body)} */}
-                                        views {item.view_count}
-                                    </Card.Text>
-
-                                </Card.Body>
-                            </Card>
-
-
-
+                                        <Card.Text>
+                                            {/* {parse(item.body)} */}
+                                            creation on  {item.date} 
+                                        </Card.Text>
+                                        <Card.Text>
+                                            {/* {parse(item.body)} */}
+                                            views {item.view_count} 
+                                        </Card.Text>
+                                        
+                                    </Card.Body>
+                                </Card>
+                                    
+                    
+                                   
                         </div>
                     ))
                 }
@@ -170,40 +179,41 @@ function View_profile() {
                     // box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1)
                 }
                 
-                main{
-                    text - align: center;
-                    z - index: 1;
-                }
-                a:link{
-                    text-decoration: none!important;
-                }
-                .boxed {
-                    z - index: 1;
-                    width: 800px;
-                    padding: 40px;
-                    text - align: center;
-                } 
-                .boxhead {
-                    text - decoration: none;
-                }
-                left {
-                    z - index: 2;
-                    background - color: rgb(179, 179, 179);
-                    position: fixed;
-                    left: 10px;
-                    bottom: 20px;
-                }
-                right {
-                    z - index: 2;
-                    background - color: rgb(179, 179, 179);
-                    position: fixed;
-                    right: 10px;
-                    bottom: 20px;
-                }
-        
-                .btn:hover {
-                    color: black;
-                }
+
+                    main{
+                        text - align: center;
+                        z - index: 1;
+                    }
+                    a{
+                        text - decoration: none;
+                    }
+                    .boxed {
+                        z - index: 1;
+                        width: 800px;
+                        padding: 40px;
+                        text - align: center;
+                    } 
+                    .boxhead {
+                        text - decoration: none;
+                    }
+                    left {
+                        z - index: 2;
+                        background - color: rgb(179, 179, 179);
+                        position: fixed;
+                        left: 10px;
+                        bottom: 20px;
+                    }
+                    right {
+                        z - index: 2;
+                        background - color: rgb(179, 179, 179);
+                        position: fixed;
+                        right: 10px;
+                        bottom: 20px;
+                    }
+            
+                    .btn:hover {
+                        color: black;
+                    }
             `}</style>
 
         </div>

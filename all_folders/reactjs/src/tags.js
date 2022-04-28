@@ -65,9 +65,12 @@ class Tags extends React.Component {
                                         <Col>
                                             <Card className="mb-3" key={item.tag_id} style={{ padding: 0 }}>
                                                 <Card.Body style={{ padding: 5 }}>
+                                                <a href={`/tags/${item.tag_id}`}>
+
                                                     <Card.Header>
                                                         {item.tag_name}
                                                     </Card.Header>
+                                                    </a>
                                                     &nbsp;
                                                     <Card.Text>
                                                         <h5>
@@ -110,6 +113,9 @@ class Tags extends React.Component {
 
                     h1,h4{
                         text-align: center;
+                    }
+                    a:link{
+                        text-decoration: none!important;
                     }
 
                     .container-body{

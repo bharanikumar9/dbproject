@@ -46,21 +46,18 @@ function TagDetails() {
         <div>
             <Home />
             <div className="container-body">{
-                info1.map((item) => (
+                    info1.map((item) => (
+                           
+                                <h2>
+                                    {item.tag_name}
+                                </h2>
+                                   
 
-                    <h2>
+                                    
+                                
+                    ))
 
-                        {item.tag_name}
-
-
-                    </h2>
-
-
-
-
-                ))
-
-            }
+                }
 
 
 
@@ -68,16 +65,16 @@ function TagDetails() {
                 {
                     info.map((item) => (
                         <div>
-                            <Card style={{ marginLeft: '350px' }}>
+                            <Card style={{ marginLeft: '0px' }}>
                                 <Card.Body>
-                                    <a href={`/questions/${item.question_id}`}>
-                                        <Card.Title>
-                                            {item.title}
-                                        </Card.Title>
-                                    </a>
-                                    <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
+                                <a href={`/questions/${item.question_id}`}>
+                                    <Card.Title>
+                                        {item.title}
+                                    </Card.Title>
+</a>
+                                    <Card.Subtitle className="mb-2 text-muted">posted on {item.date} by {item.display_name}</Card.Subtitle>
 
-
+                                   
 
                                     <Card.Text>
                                         {item.body ? parse(item.body) : null}
@@ -102,19 +99,20 @@ function TagDetails() {
                     text - align: center;
                 }
                 .container-body{
-                    padding-left: 0px;
+                    padding-left: 350px;
                     padding-top: 70px;
                     // position: fixed;
                     z-index: 10;
                     // box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1)
                 }
                 
+
                     main{
                         text - align: center;
                         z - index: 1;
                     }
-                    a{
-                        text - decoration: none;
+                    a:link{
+                        text-decoration: none!important;
                     }
                     .boxed {
                         z - index: 1;
