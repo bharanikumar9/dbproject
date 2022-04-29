@@ -2,6 +2,7 @@ import { Button } from 'reactstrap';
 
 import { useState, useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Home from '.';
 // import GlobalContext from './GlobalContext.js'
 const axios = require('axios')
 
@@ -112,12 +113,15 @@ const Login = () => {
             })
             .finally(() => {
                 setLoading(false)
+
             })        
           }
 
 
         return (
+
             <div>
+                {/* <Home /> */}
                 <div id='vspace'></div>
                 <div id='vspace'></div>
 

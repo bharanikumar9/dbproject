@@ -93,7 +93,7 @@ function Main_page() {
                           </Card.Title>
                         </a>
 
-                        <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">posted on {item.date} by {item.display_name}</Card.Subtitle>
 
                         <Button href={`/tagname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
                         {item.tag_2 ? <Button href={`/tagname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
@@ -130,7 +130,7 @@ function Main_page() {
                           </Card.Title>
                         </a>
 
-                        <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">posted on {item.date} by {item.display_name}</Card.Subtitle>
 
                         <Button href={`/tagname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
                         {item.tag_2 ? <Button href={`/tagname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
@@ -169,7 +169,7 @@ function Main_page() {
                           </Card.Title>
                         </a>
 
-                        <Card.Subtitle className="mb-2 text-muted">joined on {item.creation_date}</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">joined on {item.date}</Card.Subtitle>
 
                         <Card.Text>
                           viewed {item.views} times <br></br>

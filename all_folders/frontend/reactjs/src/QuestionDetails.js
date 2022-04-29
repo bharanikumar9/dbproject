@@ -13,6 +13,8 @@ import {
 } from "react-router-dom";
 import { FiThumbsUp, FiThumbsDown } from "react-icons/fi";
 import { CardFooter } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faThumbsUp, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
 
 
 function QuestionDetails() {
@@ -25,9 +27,19 @@ function QuestionDetails() {
 
 
     const [info, setInfo] = useState([{}]);
+    const [tem, settem] = useState(-1);
     const [answers, setanswers] = useState([{}]);
     const [questioncomments, setquestioncomments] = useState([{}]);
     const [answercomments, setanswercomments] = useState([{}]);
+    const [answerlikes, setanswerlikes] = useState({
+    });
+    const [loading, setLoading] = useState(false);
+    const [like, setliked] = useState(2);
+    const [newanswer, setnewanswer] = useState("");
+    const [newcommentq, setnewcommentqf] = useState("");
+    const [newcomments, setnewcomments] = useState({
+        'user': "bh"
+    });
 
 
     useEffect(() => {
@@ -36,14 +48,61 @@ function QuestionDetails() {
             setInfo(data)
         })
     }, [])
+    useEffect(() => {
+        axios.get(`http://localhost:5000/user_liked_questions/${question_id}`, {
+            withCredentials: true,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+            },
+        }).then(res => {
+
+            if (res.data.length != 0) {
+                console.log(res.data[0].like_type)
+                setliked(res.data[0].like_type)
+            }
+        }).catch(err => console.log(err));
+
+    }, [])
+
 
 
     useEffect(() => {
         axios.get(`http://localhost:5000/answers/${question_id}`).then(res => {
             setanswers(res.data);
             console.log(res);
+            const c = res.data;
+            let fields = answerlikes
+            c.forEach(element => {
+                // console.log(element)
+                // console.log(fields)
+                fields[element.answer_id] = 2;
+            })
+            setanswerlikes(fields);
+            console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            console.log(answerlikes)
 
-        }).catch(err => console.log(err));
+        }).then(() => {
+            axios.get(`http://localhost:5000/user_liked_answers/${question_id}`, {
+                withCredentials: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                },
+            }).then(res => {
+                console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                console.log(res.data);
+                const coin = res.data;
+                let fields = answerlikes;
+                coin.forEach(element => {
+                    fields[element.answer_id] = element.like_type;
+                })
+                fields[tem] = 0
+                settem(tem-1)
+                setanswerlikes(fields);
+                console.log(answerlikes)
+            }).catch(err => console.log(err));
+
+
+        });
 
     }, [])
 
@@ -66,6 +125,197 @@ function QuestionDetails() {
     }, [])
 
 
+    const addanswer = () => {
+        setLoading(true)
+        console.log(newanswer)
+        if (newanswer == "") {
+            setLoading(false)
+            return
+        }
+
+        axios
+            .post('http://localhost:5000/user_answered_question', {
+                question_id: question_id,
+                body: newanswer,
+            }, {
+                withCredentials: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                },
+            })
+            .then((response) => {
+                console.log(response)
+                if (response.status === 200) {
+                    console.log(response);
+                    window.location.reload(false)
+
+                } else {
+                    throw new Error()
+                }
+            })
+            .catch((error) => {
+                console.error(`Couldn't log the user out: ${error}`)
+            })
+            .finally(() => {
+                setLoading(false)
+            })
+    }
+
+    const addcomment = (ansid) => {
+        setLoading(true)
+        console.log(ansid)
+        console.log(newcomments[ansid])
+        if (!newcomments[ansid] || newcomments[ansid] == "") {
+            console.log("empty")
+            return
+        }
+        console.log(ansid)
+
+        axios
+            .post('http://localhost:5000/user_commented_answer', {
+                answer_id: ansid,
+                body: newcomments[ansid],
+            }, {
+                withCredentials: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                },
+            })
+            .then((response) => {
+                console.log(response)
+                if (response.status === 200) {
+                    console.log(response);
+                    window.location.reload(false)
+                } else {
+                    throw new Error()
+                }
+            })
+            .catch((error) => {
+                console.error(`Couldn't log the user out: ${error}`)
+            })
+            .finally(() => {
+                setLoading(false)
+            })
+    }
+    const addcommentquestion = () => {
+        setLoading(true)
+        console.log(newcommentq)
+        if (newcommentq == "") {
+            console.log("empty")
+            return
+        }
+
+        axios
+            .post('http://localhost:5000/user_commented_question', {
+                question_id: question_id,
+                body: newcommentq,
+            }, {
+                withCredentials: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                },
+            })
+            .then((response) => {
+                console.log(response)
+                if (response.status === 200) {
+                    console.log(response);
+                    window.location.reload(false)
+                } else {
+                    throw new Error()
+                }
+            })
+            .catch((error) => {
+                console.error(`Couldn't log the user out: ${error}`)
+            })
+            .finally(() => {
+                setLoading(false)
+            })
+    }
+    const handleChange = (field, e) => {
+        let fields = newcomments;
+        console.log(fields)
+        fields[field] = e.target.value;
+        setnewcomments(fields);
+    }
+    const handlelike = (e) => {
+
+        console.log(e)
+        setliked(e)
+        let a = info
+        if(e==1)
+        a[0].upvotes+=1
+        else 
+        a[0].downvotes+=1
+        setInfo(a)
+        console.log(info)
+        axios
+            .post('http://localhost:5000/user_liked_question', {
+                question_id: question_id,
+                like_type: e,
+            }, {
+                withCredentials: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                },
+            })
+            .then((response) => {
+                console.log(response)
+                if (response.status === 200) {
+                    console.log(response);
+                    // window.location.reload(false)
+                } else {
+                    throw new Error()
+                }
+            })
+            .catch((error) => {
+                console.error(`Couldn't liket: ${error}`)
+            })
+
+    }
+    const handlelikea = (e, ansid) => {
+
+        // answers.forEach(element => {
+        //            if(element.answer_id == ansid){
+        //                answer
+        //            }
+
+    
+        // });
+        console.log(answerlikes[ansid])
+        console.log(answerlikes)
+        console.log("WW")
+        let id = answerlikes
+        id[ansid] = e
+        id[tem]=0
+        settem(tem-1)
+        setanswerlikes(id);
+        setanswerlikes(answerlikes);
+
+        
+        axios
+            .post('http://localhost:5000/user_liked_answer', {
+                answer_id: ansid,
+                like_type: e,
+            }, {
+                withCredentials: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                },
+            })
+            .then((response) => {
+                console.log(response)
+                if (response.status === 200) {
+                    console.log(response);
+                    window.location.reload(false)
+                } else {
+                    throw new Error()
+                }
+            })
+            .catch((error) => {
+                console.error(`Couldn't liket: ${error}`)
+            })
+
+    }
     return (
         <div>
             <Home />
@@ -94,7 +344,32 @@ function QuestionDetails() {
 
                                     <Card.Text>
                                         {item.body ? parse(item.body) : null}
-                                        <FiThumbsUp /> {item.upvotes} <FiThumbsDown /> {item.downvotes}
+                                        <br></br>
+                                        <button
+                                            style={{ color: like == 1 ? 'green' : 'grey', backgroundColor: 'transparent', border: 'none' }}
+                                            variant="contained" color="success"
+                                            disabled={like == 2 ? false : true}
+                                            onClick={() => handlelike(1)}
+
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faThumbsUp}
+                                                style={{ paddingRight: 5 }}
+                                            />
+                                        </button>
+                                        {item.upvotes}
+                                        <button
+                                            style={{ color: like == 0 ? 'red' : 'grey', backgroundColor: 'transparent', border: 'none' }}
+                                            variant="contained" color="success"
+                                            disabled={like == 2 ? false : true}
+                                            onClick={() => handlelike(0)}
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faThumbsDown}
+                                                style={{ paddingRight: 5 }}
+                                            />
+                                        </button>
+                                        {item.downvotes}
                                     </Card.Text>
                                 </Card.Body>
 
@@ -115,16 +390,16 @@ function QuestionDetails() {
                                         ) : null)}
                                     </div>
                                 </Card.Footer>
-                                <Card style={{ marginLeft: '10px' , marginRight: '10px', marginBottom : '5px'}}>
-                                        <Card.Body style={{ padding: '10px' }}>
-                                            <Card.Text>
-                                                <div class="form-group shadow-textarea">
-                                                    <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
-                                                    <Button style={{ marginTop: '10px', marginBottom : '0px' }} variant="success">Add Comment</Button>
-                                                </div>
+                                <Card style={{ marginLeft: '10px', marginRight: '10px', marginBottom: '5px' }}>
+                                    <Card.Body style={{ padding: '10px' }}>
+                                        <Card.Text>
+                                            <div class="form-group shadow-textarea">
+                                                <textarea onChange={(e) => setnewcommentqf(e.target.value)} value={newcommentq} class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+                                                <Button style={{ marginTop: '20px' }} onClick={() => addcommentquestion()} variant="success">Add Comment</Button>
+                                            </div>
 
-                                            </Card.Text>
-                                        </Card.Body>
+                                        </Card.Text>
+                                    </Card.Body>
                                 </Card>
                             </Card>
                         </div>
@@ -134,7 +409,7 @@ function QuestionDetails() {
 
 
                 <h5 >Answers</h5>
-                
+
                 {
                     answers.map((item) => (
                         <div >
@@ -146,17 +421,39 @@ function QuestionDetails() {
                                     <Card.Text>
                                         {item.body ? parse(item.body) : null}
                                     </Card.Text>
-                                    <FiThumbsUp /> {item.upvotes} <FiThumbsDown /> {item.downvotes}
+                                <button
+                                        style={{ color: answerlikes[item.answer_id] == 1 ? 'green' : 'grey', backgroundColor: 'transparent', border: 'none' }}
+                                        variant="contained" color="success"
+                                        disabled={(answerlikes[item.answer_id] == 2) ? false : true}
+                                        onClick={() => handlelikea(1, item.answer_id)}
 
+                                    >
+                                        <FontAwesomeIcon
+                                            icon={faThumbsUp}
+                                            style={{ paddingRight: 5 }}
+                                        />
+                                    </button>
+                                    {item.upvotes}
+                                    <button
+                                        style={{ color: answerlikes[item.answer_id] == 0 ? 'red' : 'grey', backgroundColor: 'transparent', border: 'none' }}
+                                        variant="contained" color="success"
+                                        disabled={(answerlikes[item.answer_id] == 2) ? false : true}
+                                        onClick={() => handlelikea(0, item.answer_id)}
+                                    >
+                                        <FontAwesomeIcon
+                                            icon={faThumbsDown}
+                                            style={{ paddingRight: 5 }}
+                                        />
+                                    </button>
+                                    {item.downvotes}
                                 </Card.Body>
                                 <Card.Footer>
 
                                     <div style={{ padding: 0 }} >
-                                        <h5>Answer comments</h5>
 
                                         {answercomments.map((comment) => comment.answer_id == item.answer_id ? (
-                                            <div style={{ padding: '3px' }} >
-                                                <Card style={{ marginLeft: '-3px' }}>
+                                            <div style={{ padding: -0 }} >
+                                                <Card style={{ marginLeft: '20px' }}>
                                                     <Card.Body>
                                                         <Card.Text>
                                                             {comment.body ? parse(comment.body) : null}
@@ -168,12 +465,12 @@ function QuestionDetails() {
                                         ) : null)}
                                     </div>
 
-                                    <Card style={{ marginLeft: '10px' , marginRight: '10px', marginBottom : '5px'}}>
-                                        <Card.Body style={{ padding: '10px' }}>
+                                    <Card style={{ marginLeft: '20px' }}>
+                                        <Card.Body style={{ padding: '30px' }}>
                                             <Card.Text>
                                                 <div class="form-group shadow-textarea">
-                                                    <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
-                                                    <Button style={{ marginTop: '10px', marginBottom : '0px' }} variant="success">Add Comment</Button>
+                                                    <textarea onChange={handleChange.bind(this, `${item.answer_id}`)} value={newcomments[`${item.answer_id}`]} class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+                                                    <Button style={{ marginTop: '20px' }} onClick={() => addcomment(item.answer_id)} variant="success">Add Comment</Button>
                                                 </div>
 
                                             </Card.Text>
@@ -189,12 +486,12 @@ function QuestionDetails() {
                 }
 
 
-                <Card style={{ }}>
+                <Card style={{}}>
                     <Card.Body style={{ padding: '10px' }}>
                         <Card.Text>
                             <div class="form-group shadow-textarea">
-                                <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
-                                <Button style={{ marginTop: '10px', marginBottom : '0px' }} variant="success">Add your answer</Button>
+                                <textarea value={newanswer} onChange={(e) => setnewanswer(e.target.value)} class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+                                <Button style={{ marginTop: '20px' }} onClick={addanswer} variant="success">Add Answer</Button>
                             </div>
 
                         </Card.Text>

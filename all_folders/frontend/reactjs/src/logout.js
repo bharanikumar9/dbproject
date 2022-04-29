@@ -29,21 +29,30 @@ function Logout() {
                 </Navbar>
 
                 <div className="container-body" style={{ textAlign: 'center' }}>
-                    <img src="logo1.png" alt="Discussion logo" />
+                    <img src="logout.png" width="100%" height="650" alt="Discussion logo" />
+                    <div id='vspace'></div>
+
                     <h1>Join the community</h1>
                 </div>
             </div>
 
             <style jsx>{`
 
+                #vspace{
+                    height: 0px;
+                }
+
+
                 h1, h2, h3, h4{
                     text - align: center;
                 }
                 .container-body{
-                    padding-top: 60px;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+
                     // position: fixed;
                     z-index: 10;
-                    // box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1)
+                    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1)
                 }
 
                 main{
@@ -76,6 +85,7 @@ function Logout() {
                     right: 10px;
                     bottom: 20px;
                 }
+                
 
                 .btn:hover {
                     color: black;

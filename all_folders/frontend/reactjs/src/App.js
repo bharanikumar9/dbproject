@@ -11,15 +11,16 @@ import Ask_question from "./ask_question";
 import Login from "./Login";
 import Logout from "./logout";
 import Main_page from "./main";
-import View_profile from "./profile";
+import View_profile from "./other_profile";
 import QuestionDetails from "./QuestionDetails";
 import Questions from "./questions";
 import TagDetails from "./tagDetails";
 import TagDetails1 from "./tagDetails1";
-
 import Tags from "./tags";
 import Users from "./users";
 import Add_User from "./register";
+import User_profile from "./user_profile";
+import Edit_profile from "./edit_profile";
 
 export default function App() {
 	return (
@@ -40,6 +41,8 @@ export default function App() {
 					<Route exact path="/Register" element={<Add_User />} />
 					<Route exact path="/logout" element={<Logout />} />
 					<Route exact path="/questions/ask" element={<Ask_question />} />
+					<Route exact path="/userprofile/:user_id" element={<User_profile/>} />
+					<Route exact path="/editprofile/:user_id" element={<Edit_profile/>} />
 
 
 				</Routes>
