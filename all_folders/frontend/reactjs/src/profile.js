@@ -9,6 +9,9 @@ import {
     Route,
     useParams,
 } from "react-router-dom";
+
+import { FiThumbsUp, FiThumbsDown,FiUser } from "react-icons/fi";
+import { CardBody } from 'reactstrap'
 function View_profile() {
     let { user_id } = useParams();
     const fetchdata = async (api) => {
@@ -53,7 +56,9 @@ function View_profile() {
 
                 {
                     info1.map((item) => (
-                        <div>
+                        <div className="float-right">
+                                               <a href='/editprofile'> <h3>Edit profile</h3> </a>
+
                            <Card style={{ marginRight: '200px' }}>
                                     <Card.Body>
                                         
@@ -68,26 +73,35 @@ function View_profile() {
                                             {/* {parse(item.body)} */}
                                             <h2>About </h2>  {item.about ? parse(item.about) : null} 
                                         </Card.Text>
+
+                                        <Card style={{width: '18rem' }}><CardBody>
+
+                                        <Card.Title>
+                                                <h3>Stats</h3>
+                                            </Card.Title>
+                                       
                                         <Card.Text>
                                             {/* {parse(item.body)} */}
-                                            upvotes {item.upvotes} 
+                                            
+                                            <h5>{item.upvotes}</h5> 
+                                            <Card.Subtitle className="mb-2 text-muted"> upvotes </Card.Subtitle>
+                                            &nbsp;
+                                            <h5>{item.downvotes}</h5> 
+                                            <Card.Subtitle className="mb-2 text-muted"> downvotes </Card.Subtitle>
+                                          
+                                        
                                         </Card.Text>
                                         <Card.Text>
-                                            {/* {parse(item.body)} */}
-                                            downvotes {item.downvotes} 
+                                        <h5>{item.reputation}</h5> 
+                                            <Card.Subtitle className="mb-2 text-muted"> reputation </Card.Subtitle>
+                                            &nbsp;
+                                            <h5>{item.views}</h5> 
+                                            <Card.Subtitle className="mb-2 text-muted"> views </Card.Subtitle> 
                                         </Card.Text>
-                                        <Card.Text>
-                                            {/* {parse(item.body)} */}
-                                            reputation {item.reputation}
-                                        </Card.Text>
-                                        <Card.Text>
-                                            {/* {parse(item.body)} */}
-                                            views {item.views} 
-                                        </Card.Text>
+                                </CardBody></Card>
                                     </Card.Body>
                                 </Card>
                                     
-                    
                                    
                         </div>
                     ))
