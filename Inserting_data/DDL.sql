@@ -14,7 +14,7 @@ create table if not exists users
 (
     user_id serial primary key,
     display_name text not null,
-    password varchar(15) not null,
+    password varchar(50) not null,
     age int not null,
     location text,
     about varchar,
