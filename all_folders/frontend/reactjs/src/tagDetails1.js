@@ -27,7 +27,7 @@ function TagDetails1() {
 
     const [info, setInfo] = useState([{}]);
     useEffect(() => {
-        const api1 = `http://localhost:5000/tagsname/${tag_name}`;
+        const api1 = `http://localhost:5000/tagname/${tag_name}`;
         fetchdata(api1).then(data => {
             setInfo(data)
         })
@@ -35,7 +35,7 @@ function TagDetails1() {
 
     const [info1, setInfo1] = useState([{}]);
     useEffect(() => {
-        const api1 = `http://localhost:5000/tagsname1/${tag_name}`;
+        const api1 = `http://localhost:5000/tagname1/${tag_name}`;
         fetchdata(api1).then(data => {
             setInfo1(data)
         })

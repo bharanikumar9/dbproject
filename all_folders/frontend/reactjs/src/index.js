@@ -11,7 +11,7 @@ export default function Home() {
 
         <Navbar className="fixed-top" bg="light" expand="lg" sticky="top" >
           <Container>
-            <Navbar.Brand href="#" style={{ marginLeft: '20px' }}>Discussion Forum</Navbar.Brand>
+            <Navbar.Brand href="/" style={{ marginLeft: '20px' }}>Discussion Forum</Navbar.Brand>
             <Nav
               style={{ maxHeight: '100px' }}
               navbarScroll

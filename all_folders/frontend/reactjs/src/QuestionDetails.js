@@ -56,14 +56,14 @@ function QuestionDetails() {
 
     }, [])
 
-    // useEffect(() => {
-    //     axios.get(`http://localhost:5000/answercomments/${answer_id}`).then(res => {
-    //         setanswercomments(res.data);
-    //         console.log(res);
+    useEffect(() => {
+        axios.get(`http://localhost:5000/answercomments/${question_id}`).then(res => {
+            setanswercomments(res.data);
+            console.log(res);
 
-    //     }).catch(err => console.log(err));
+        }).catch(err => console.log(err));
 
-    // }, [])
+    }, [])
 
 
     return (
@@ -73,7 +73,7 @@ function QuestionDetails() {
                 {
                     info.map((item) => (
                         <div>
-                            <Card style={{ marginLeft: '350px', marginRight: '10px' }} >
+                            <Card style={{ marginRight: '10px' }} >
                                 <Card.Body>
                                     <a style={{ textDecoration: 'none' }} href={`/questions/${question_id}`}>
 
@@ -82,14 +82,14 @@ function QuestionDetails() {
                                         </Card.Title>
                                     </a>
 
-                                    <Card.Subtitle className="mb-2 text-muted">asked on {item.date} by {item.display_name}</Card.Subtitle>
+                                    <Card.Subtitle className="mb-2 text-muted">-{item.display_name} on {item.date} </Card.Subtitle>
 
-                                    <Button href={`/tagsname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
-                                    {item.tag_2 ? <Button href={`/tagsname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
-                                    {item.tag_3 ? <Button href={`/tagsname/${item.tag_3}`} size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
-                                    {item.tag_4 ? <Button href={`/tagsname/${item.tag_4}`} size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
-                                    {item.tag_5 ? <Button href={`/tagsname/${item.tag_5}`} size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
-                                    {item.tag_6 ? <Button href={`/tagsname/${item.tag_6}`} size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
+                                    <Button href={`/tagname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
+                                    {item.tag_2 ? <Button href={`/tagname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
+                                    {item.tag_3 ? <Button href={`/tagname/${item.tag_3}`} size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
+                                    {item.tag_4 ? <Button href={`/tagname/${item.tag_4}`} size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
+                                    {item.tag_5 ? <Button href={`/tagname/${item.tag_5}`} size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
+                                    {item.tag_6 ? <Button href={`/tagname/${item.tag_6}`} size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
 
 
                                     <Card.Text>
@@ -100,6 +100,7 @@ function QuestionDetails() {
 
                                 <Card.Footer>
                                     <div style={{ padding: 0 }} >
+                                        <h5>Question comments</h5>
                                         {questioncomments.map((comment) => comment.question_id == item.answer_id ? (
                                             <div style={{ padding: '3px' }} >
                                                 <Card style={{ marginLeft: '20px' }}>
@@ -107,7 +108,7 @@ function QuestionDetails() {
                                                         <Card.Text>
                                                             {comment.body ? parse(comment.body) : null}
                                                         </Card.Text>
-                                                        <Card.Subtitle className="mb-2 text-muted">   {comment.display_name} commented on {comment.date} </Card.Subtitle>
+                                                        <Card.Subtitle className="mb-2 text-muted">   -{comment.display_name} on {comment.date} </Card.Subtitle>
                                                     </Card.Body>
                                                 </Card>
                                             </div>
@@ -132,14 +133,15 @@ function QuestionDetails() {
                 }
 
 
-
+                <h5 >Answers</h5>
+                
                 {
                     answers.map((item) => (
-                        <div style={{ padding: 30 }} >
-                            <Card style={{ marginLeft: '350px', padding: '25px' }}>
+                        <div >
+                            <Card style={{ padding: '10px' }}>
                                 <Card.Body>
 
-                                    <Card.Subtitle className="mb-2 text-muted">answered on {item.date} by {item.display_name}</Card.Subtitle>
+                                    <Card.Subtitle className="mb-2 text-muted">-{item.display_name} on {item.date} </Card.Subtitle>
 
                                     <Card.Text>
                                         {item.body ? parse(item.body) : null}
@@ -150,10 +152,11 @@ function QuestionDetails() {
                                 <Card.Footer>
 
                                     <div style={{ padding: 0 }} >
+                                        <h5>Answer comments</h5>
 
                                         {answercomments.map((comment) => comment.answer_id == item.answer_id ? (
-                                            <div style={{ padding: -0 }} >
-                                                <Card style={{ marginLeft: '20px' }}>
+                                            <div style={{ padding: '3px' }} >
+                                                <Card style={{ marginLeft: '-3px' }}>
                                                     <Card.Body>
                                                         <Card.Text>
                                                             {comment.body ? parse(comment.body) : null}
@@ -186,12 +189,12 @@ function QuestionDetails() {
                 }
 
 
-                <Card style={{ marginLeft: '350px' }}>
+                <Card style={{ }}>
                     <Card.Body style={{ padding: '10px' }}>
                         <Card.Text>
                             <div class="form-group shadow-textarea">
                                 <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
-                                <Button style={{ marginTop: '10px', marginBottom : '0px' }} variant="success">Add Answer</Button>
+                                <Button style={{ marginTop: '10px', marginBottom : '0px' }} variant="success">Add your answer</Button>
                             </div>
 
                         </Card.Text>
@@ -206,12 +209,15 @@ function QuestionDetails() {
                     
                     line-height:10px
                 }
-
+                h5 {
+                    padding-top: 10px;
+                    // padding-left: 30px;
+                }
                 h1, h2, h3, h4{
                     text - align: center;
                 }
                 .container-body{
-                    padding-left: 0px;
+                    padding-left: 350px;
                     padding-top: 60px;
                     // position: fixed;
                     z-index: 10;

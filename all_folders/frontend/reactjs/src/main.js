@@ -95,12 +95,12 @@ function Main_page() {
 
                         <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
 
-                        <Button size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
-                        {item.tag_2 ? <Button size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
-                        {item.tag_3 ? <Button size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
-                        {item.tag_4 ? <Button size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
-                        {item.tag_5 ? <Button size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
-                        {item.tag_6 ? <Button size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
+                        <Button href={`/tagname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
+                        {item.tag_2 ? <Button href={`/tagname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
+                        {item.tag_3 ? <Button href={`/tagname/${item.tag_3}`} size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
+                        {item.tag_4 ? <Button href={`/tagname/${item.tag_4}`} size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
+                        {item.tag_5 ? <Button href={`/tagname/${item.tag_5}`} size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
+                        {item.tag_6 ? <Button href={`/tagname/${item.tag_6}`} size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
 
 
                         <Card.Text>
@@ -132,12 +132,12 @@ function Main_page() {
 
                         <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
 
-                        <Button size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
-                        {item.tag_2 ? <Button size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
-                        {item.tag_3 ? <Button size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
-                        {item.tag_4 ? <Button size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
-                        {item.tag_5 ? <Button size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
-                        {item.tag_6 ? <Button size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
+                        <Button href={`/tagname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
+                        {item.tag_2 ? <Button href={`/tagname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
+                        {item.tag_3 ? <Button href={`/tagname/${item.tag_3}`} size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
+                        {item.tag_4 ? <Button href={`/tagname/${item.tag_4}`} size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
+                        {item.tag_5 ? <Button href={`/tagname/${item.tag_5}`} size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
+                        {item.tag_6 ? <Button href={`/tagname/${item.tag_6}`} size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
 
 
                         <Card.Text>
@@ -193,7 +193,7 @@ function Main_page() {
 
                     <Card style={{ marginLeft: '0px', marginRight: '10px' }}>
                       <Card.Body>
-                        <a style={{ textDecoration: 'none' }} href={`/tag/${item.tag_id}`}>
+                        <a style={{ textDecoration: 'none' }} href={`/tags/${item.tag_id}`}>
                           <Card.Title>
                             {item.tag_name}
                           </Card.Title>
