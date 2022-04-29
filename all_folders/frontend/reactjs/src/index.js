@@ -1,9 +1,33 @@
-import React from 'react'
+import React, { useState, useEffect }from 'react'
 import App from './App'
 import ReactDOM from 'react-dom';
 import { Navbar, Nav, Form, Button, Container, FormControl } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FiThumbsUp, FiThumbsDown,FiUser } from "react-icons/fi"
+import axios from 'axios';
 export default function Home() {
+  
+  const fetchdata = async (api) => {
+      const res = await fetch(api)
+      const json = await res.json();
+      return json
+  }
+
+
+  const [info1, setInfo1] = useState([{}]);
+  useEffect(() => {
+    axios
+    .get('http://localhost:5000/fetch-user', {
+        withCredentials: true,
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+        },
+    })
+      console.log("sssssssssssssssssss")
+  }, [])
+
+
+
   return (
     <div >
 
@@ -22,6 +46,28 @@ export default function Home() {
               <Button href="/questions/ask" variant="success">Ask a question</Button>
               &nbsp;
               <Button href="/logout" variant="secondary">Log out</Button>
+              <div>
+            
+
+
+                {/* <div>
+                  {info1}
+                </div> */}
+                  
+              {/* {
+                        info1.map((item) => (
+
+                          <div>
+                            <a href={`/userprofile/${item["user"]["user_id"]}`}> <FiUser size="25px" /></a>
+                            </div>
+                        ))
+                    } */}
+
+
+
+              </div>
+              
+
             </div>
 
           </Container>
