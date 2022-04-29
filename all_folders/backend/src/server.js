@@ -165,14 +165,19 @@ app.post('/logout', async (req, res) => {
         return res.sendStatus(500)
     }
 });
-app.post('/fetch-user', async (req, res) => {
+app.get('/fetch-user', async (req, res) => {
+
     
     if (req.sessionID && req.session.user) {
-        console.log(req.session.user)
+
         console.log("fetch user successful")
         res.status(200)
         return res.json({ user: req.session.user })
+        
     }
+    console.log(req.session)
+    console.log("Ssss")
+
     return res.sendStatus(403)
 })
 app.get("/questions/:offset/:limit", async (req, res) => {
