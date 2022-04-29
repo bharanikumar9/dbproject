@@ -70,7 +70,7 @@ app.post('/register', async (req, res) => {
         password == null ||
         is_instructor == null
     ) {
-        // console.error(req.query)
+        // console.error(req.body)
         return res.sendStatus(403)
     }
 
@@ -103,16 +103,17 @@ app.post('/register', async (req, res) => {
 });
 
 app.post('/login', async (req, res) => {
-    const { display_name, password } = req.query
-
-    if (display_name == null || password == null) {
+    const { username, password } = req.body
+    console.log(req.body)
+    if (username == null || password == null) {
+        console.log(display_name)
         return res.sendStatus(403)
     }
 
     try {
         const data = await client.query(
-            'SELECT user_id, display_name FROM users WHERE display_name = $1',
-            [display_name]
+            'SELECT user_id, display_name FROM users WHERE display_name = $1 and password = $2',
+            [username, password]
         )
 
         if (data.rows.length === 0) {
@@ -146,23 +147,34 @@ app.post('/login', async (req, res) => {
 
 app.post('/logout', async (req, res) => {
 
-    // const { display_name } = req.query
+    // const { display_name } = req.body
     // if (display_name == null) {
     //     return res.sendStatus(403)
     // }
 
-    console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-    console.log(req)
+    
 
     try {
         await req.session.destroy()
+        console.log("logout user successful")
+        console.log(req.session.user)
         return res.sendStatus(200)
     } catch (e) {
+        console.log("logout user failed")
         console.error(e)
         return res.sendStatus(500)
     }
 });
-
+app.post('/fetch-user', async (req, res) => {
+    
+    if (req.sessionID && req.session.user) {
+        console.log(req.session.user)
+        console.log("fetch user successful")
+        res.status(200)
+        return res.json({ user: req.session.user })
+    }
+    return res.sendStatus(403)
+})
 app.get("/questions/:offset/:limit", async (req, res) => {
     try {
         const { offset, limit } = req.params;
@@ -281,12 +293,12 @@ app.get("/questioncomments/:question_id", async (req, res) => {
     }
 });
 
-app.get("/answercomments/:answer_id", async (req, res) => {
+app.get("/answercomments/:question_id", async (req, res) => {
     try {
         const { question_id } = req.params;
         const allTodos = await client.query(` 
         with t1 as (select answer_id from answers where question_id = $1)
-        select substring(CAST(answer_comments.creation_date as varchar),0,11) as date, 
+        select t1.answer_id, substring(CAST(answer_comments.creation_date as varchar),0,11) as date, 
         body, users.user_id, users.display_name from answer_comments, users, t1 
         where answer_comments.answer_id = t1.answer_id and users.user_id = answer_comments.user_id order by date ASC`
             , [question_id]);
@@ -295,6 +307,8 @@ app.get("/answercomments/:answer_id", async (req, res) => {
         console.error(err.message);
     }
 });
+
+
 
 app.get("/user/:user_id", async (req, res) => {
     try {
@@ -327,17 +341,14 @@ app.get("/tags/:tag_id", async (req, res) => {
     try {
         const tag_id = req.params.tag_id;
 
-        const allTodos = await client.query(`SELECT questions.title,questions.question_id,questions.upvotes,questions.downvotes,
-        questions.view_count,questions.creation_date,questions.user_id, users.display_name from questions,tags_courses,users
-        where tags_courses.tag_id= $1 and questions.user_id=users.user_id and tag_name in (tag_1,tag_2,tag_3,tag_4,tag_5,tag_6)`
-            , [tag_id]);
+        const allTodos = await client.query(`SELECT questions.title,questions.question_id,questions.upvotes,questions.downvotes,questions.view_count,questions.creation_date,questions.user_id, users.display_name from questions,tags_courses,users where tags_courses.tag_id= $1 and questions.user_id=users.user_id and tag_name in (tag_1,tag_2,tag_3,tag_4,tag_5);`, [tag_id]);
         res.json(allTodos.rows);
     } catch (err) {
         console.error(err.message);
     }
 });
 
-app.get("/tagsname/:tag_name", async (req, res) => {
+app.get("/tagname/:tag_name", async (req, res) => {
     try {
         const tag_name = req.params.tag_name;
 
@@ -362,7 +373,7 @@ app.get("/tags1/:tag_id", async (req, res) => {
     }
 });
 
-app.get("/tagsname1/:tag_name", async (req, res) => {
+app.get("/tagname1/:tag_name", async (req, res) => {
     try {
         const tag_name = req.params.tag_name;
 
@@ -402,8 +413,8 @@ user_posted_question - token(user_id), question_title, question_body, tags
 */
 
 app.post('/user_posted_question', async (req, res) => {
-    const { title, body, tag_1, tag_2, tag_3, tag_4, tag_5, tag_6 } = req.query
-    console.log(req.query)
+    const { title, body, tag_1, tag_2, tag_3, tag_4, tag_5, tag_6 } = req.body
+    console.log(req.body)
 
     if (tag_1 == null || title == null || body == null) {
         return res.sendStatus(403)
@@ -449,9 +460,14 @@ user_answered_question - question_id, user_id, answer,
 
 
 app.post('/user_answered_question', async (req, res) => {
-    const { question_id, body } = req.query
+    const { question_id, body } = req.body
     console.log(req.session.user)
+    console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1")
 
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
     if (body == null || question_id == null) {
         return res.sendStatus(403)
     }
@@ -490,8 +506,8 @@ user_commented_question - question_id, user_id, comment,
 
 
 app.post('/user_commented_question', async (req, res) => {
-    const { question_id, body } = req.query
-    console.log(req.query)
+    const { question_id, body } = req.body
+    console.log(req.body)
 
     if (body == null || question_id == null) {
         return res.sendStatus(403)
@@ -530,8 +546,8 @@ comment_id,body,creation_date,answer_id,user_id,score
 */
 
 app.post('/user_commented_answer', async (req, res) => {
-    const { answer_id, body } = req.query
-    console.log(req.query)
+    const { answer_id, body } = req.body
+    console.log(req.body)
 
     if (body == null || answer_id == null) {
         return res.sendStatus(403)
@@ -571,8 +587,8 @@ user_liked_answer - answer_id, like_type, user_id
 
 
 app.post('/user_liked_question', async (req, res) => {
-    const { question_id, like_type } = req.query
-    console.log(req.query)
+    const { question_id, like_type } = req.body
+    console.log(req.body)
 
     if (like_type == null || question_id == null) {
         return res.sendStatus(403)
@@ -602,8 +618,8 @@ app.post('/user_liked_question', async (req, res) => {
 
 
 app.post('/user_liked_answer', async (req, res) => {
-    const { answer_id, like_type } = req.query
-    console.log(req.query)
+    const { answer_id, like_type } = req.body
+    console.log(req.body)
 
     if (like_type == null || answer_id == null) {
         return res.sendStatus(403)
