@@ -1,9 +1,70 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import App from './App'
 import ReactDOM from 'react-dom';
+import { useNavigate } from 'react-router-dom'
+import './index.css'
+
 import { Navbar, Nav, Form, Button, Container, FormControl } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FiThumbsUp, FiThumbsDown, FiUser } from "react-icons/fi"
+import axios from 'axios';
 export default function Home() {
+
+  const fetchdata = async (api) => {
+    const res = await fetch(api)
+    const json = await res.json();
+    return json
+  }
+
+  const [loading, setLoading] = useState(false)
+const navigate = useNavigate()
+  const logout = () => {
+      setLoading(true)
+      axios
+          .post('http://localhost:5000/logout', null, {
+              withCredentials: true,
+              headers: {
+                  'Access-Control-Allow-Origin': '*',
+              },
+          })
+          .then((response) => {
+            console.log(response)
+            console.log("QQQQQQQQQQQQQWWWWWWWWWWWWW")
+              if (response.status === 200) {
+                  navigate('/logout')
+              } else {
+                  throw new Error()
+              }
+          })
+          .catch((error) => {
+            console.log("QQQQQQQQQ66666666666WWWWWWWWWWW")
+              console.error(`Couldn't log the user out: ${error}`)
+          })
+          .finally(() => {
+              setLoading(false)
+          })
+  }
+
+  const [user_id, setuser_id] = useState({});
+  useEffect(() => {
+    axios
+      .get('http://localhost:5000/fetch-user', {
+        withCredentials: true,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+        },
+      }).then(res => {
+        console.log(res)
+        setuser_id(res.data[0].user_id)
+        console.log("user_id")
+        console.log(user_id)
+
+        
+    }).catch(err => console.log(err));
+  }, [])
+
+
+
   return (
     <div >
 
@@ -11,7 +72,7 @@ export default function Home() {
 
         <Navbar className="fixed-top" bg="light" expand="lg" sticky="top" >
           <Container>
-            <Navbar.Brand href="#" style={{ marginLeft: '20px' }}>Discussion Forum</Navbar.Brand>
+            <Navbar.Brand href="/" style={{ marginLeft: '20px' }}>Discussion Forum</Navbar.Brand>
             <Nav
               style={{ maxHeight: '100px' }}
               navbarScroll
@@ -20,6 +81,19 @@ export default function Home() {
 
             <div className="float-right">
               <Button href="/questions/ask" variant="success">Ask a question</Button>
+              &nbsp;
+              <Button  onClick={logout}  loading = {loading}  variant="secondary">Log out</Button>
+              <Button variant="light"><a href={`/userprofile/${user_id}`}> <FiUser size="25px" /></a></Button>
+              
+              {/* ${info1.user_id} */}
+              <div>
+
+
+
+
+              </div>
+
+
             </div>
 
           </Container>
@@ -41,6 +115,10 @@ export default function Home() {
 
 
       <style jsx>{`
+
+          a:link{
+            text-decoration: none!important;
+          }
 
           .container {
             position: relative
@@ -68,7 +146,7 @@ export default function Home() {
           .sidebar li:hover {
             padding: 30px 0px;
             background-color: transparent;
-            color: #000
+            
           }
 
 
