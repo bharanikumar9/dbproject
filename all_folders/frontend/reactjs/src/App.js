@@ -16,7 +16,7 @@ import QuestionDetails from "./QuestionDetails";
 import Questions from "./questions";
 import TagDetails from "./tagDetails";
 import TagDetails1 from "./tagDetails1";
-
+import User_profile from "./user_profile";
 import Tags from "./tags";
 import Users from "./users";
 import Add_User from "./register";
@@ -40,6 +40,7 @@ export default function App() {
 					<Route exact path="/Register" element={<Add_User />} />
 					<Route exact path="/logout" element={<Logout />} />
 					<Route exact path="/questions/ask" element={<Ask_question />} />
+					<Route exact path="/userprofile/:user_id" element={<User_profile/>} />
 
 
 				</Routes>
