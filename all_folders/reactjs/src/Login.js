@@ -1,141 +1,135 @@
-
-import React, { useState, useEffect } from 'react';
 import { Button } from 'reactstrap';
+import React, { useState, useEffect } from 'react'
 
+import { useNavigate } from 'react-router-dom'
+import Home from '.';
+// import GlobalContext from './GlobalContext.js'
+const axios = require('axios')
 
-class Login extends React.Component {
-  constructor(props) {
-    super(props);
+const Login = () => {
+    // const globalContext = useContext(GlobalContext)
+    const navigate = useNavigate()
 
-    this.state = {
-      fields: {},
-      errors: {}
-    }
-  }
+    const [loading, setLoading] = useState(false)
+    const [error, setError] = useState()
+    const [formData, setFormData] = useState({
+        username: '',
+        password: '',
+    })
 
-
-
-  handleValidation() {
-    let fields = this.state.fields;
-    let errors = {};
-    let formIsValid = true;
-
-    if (!fields["Username"]) {
-      formIsValid = false;
-      errors["Username"] = "Cannot be empty";
-    }
-
-    if (typeof fields["Username"] !== "undefined") {
-      if (!fields["Username"].match(/^[a-zA-Z0-9]+$/)) {
-        formIsValid = false;
-        errors["Username"] = "Invalid Format of Username";
-      }
-    }
-
-    if (!fields["Password"]) {
-      formIsValid = false;
-      errors["Password"] = "Cannot be empty";
-    }
-
-    if (typeof fields["Password"] !== "undefined") {
-      if (!fields["Password"].match(/^[0-9A-za-z!@#]+$/)) {
-        formIsValid = false;
-        errors["Password"] = "Password must contain atleast one lower case , one upper case, special character";////////////////////////////
-      }
-    }
-
+    useEffect(() => {
+        axios
+          .get('http://localhost:5000/fetch-user', {
+            withCredentials: true,
+            headers: {
+              'Access-Control-Allow-Origin': '*',
+            },
+          }).then(response => {
+            if (response.status === 200) {
+                // globalContext.setUser({})
+                navigate('/')
+            } else {
+                throw new Error()
+            }
+            
+        }).catch(err => console.log(err));
+      }, [])
     
 
+   
+
+    const contactSubmit=(e)=> {
+        e.preventDefault();
+        console.log(formData);
+
+        setLoading(true)
+        axios
+            .post('http://localhost:5000/login', formData, {
+                withCredentials: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                },
+            })
+            .then((response) => {
+                if (response.status === 200) {
+                    console.log(response.data.user)
+                        
+                    // globalContext.setUser(response.data.user)
     
-    
+                    console.log("RR")
+                    navigate('/')
+                } else {
+                    throw new Error()
+                }
+            })
+            .catch((error) => {
+                setError('Incorrect details')
+            })
+            .finally(() => {
+                setLoading(false)
 
-  
-
-
-
-
-
-    this.setState({ errors: errors });
-    return formIsValid;
-  }
-
-  contactSubmit(e) {
-    e.preventDefault();
-    // console.log(this.state.fields);
-
-    if (this.handleValidation()) {
-      fetch('http://localhost:5000/Signup', {  // Enter your IP address here
-        headers: { 'Content-Type': 'application/json' },
-        method: 'POST',
-        body: JSON.stringify(this.state.fields)
-      })
-      alert("Successfully logged in");
-      <a href='/'> <span>Home</span> </a>
-      }
-     else {
-      alert("Form has errors.")
-    }
-
-  }
-
-  handleChange(field, e) {
-    let fields = this.state.fields;
-    fields[field] = e.target.value;
-    this.setState({ fields });
-  }
-
-  render() {
-    return (
-      <div>
-        <div id='vspace'></div>
-        <div id='vspace'></div>
-
-        <form name="contactform" className="contactform" onSubmit={this.contactSubmit.bind(this)}>
-
-          <div id="main">
-            <img src="logo1.png" alt="Discussion logo" width="128" height="128" />
+            })        
+          }
 
 
+        return (
 
-            <fieldset>
-              <div id='vspace'></div>
-              <div id='vspace'></div>
-              <label>
-                USERNAME: <input type="text" size="30" onChange={this.handleChange.bind(this, "Username")} value={this.state.fields["Username"]} />
-                <span className="error">{this.state.errors["Username"]}</span>
-                <br />
-              </label>
-              <div id="vspace"></div>
+            <div>
+                {/* <Home /> */}
+                <div id='vspace'></div>
+                <div id='vspace'></div>
 
-              <label>
-                PASSWORD: <input type="text" size="30" onChange={this.handleChange.bind(this, "Password")} value={this.state.fields["Password"]} />
-                <span className="error">{this.state.errors["Password"]}</span>
-                <br />
-              </label>
-              <div id="vspace"></div>
+                <form name="contactform" className="contactform" onSubmit={contactSubmit.bind(this)}>
 
-              
+                    <div id="main">
 
-              
-              <button className="btn info" id="submit" value="Submit">
-              Login
-              </button>
-              <br />
-              <br />
-            </fieldset>
-            <div id="vspace"></div>
+
+                                    {error && error}
+
+                        <fieldset>
+                            <div id='vspace'></div>
+                            <div id='vspace'></div>
+                            <div className="form-group">
+                            <label style={{color:"black"}}> <strong>Username: </strong></label>
+<input type="text" size="30" className="form-control"
+                                    onChange={(e) => setFormData({ ...formData, username: e.target.value })}
+                                    value={formData.username} />
+                                <br />
+                            </div>
+                            <div id="vspace"></div>
+                            <div className="form-group">
+                            <label style={{color:"black"}}>
+                                <strong>Password: </strong></label>
+                                <input className="form-control" type="text" size="30" onChange={(e) => setFormData({ ...formData, password: e.target.value })}
+                                    value={formData.password}
+                                />
+                               
+                                <br />
+                                </div>
+                            <div id="vspace"></div>
 
 
 
 
-          </div>
+                            <button className="btn info" loading={loading} id="submit" value="Submit">
+                                Login
+                            </button>
+                            <br />
+                            <br />
+                        </fieldset>
+                        <div id="vspace"></div>
 
-        </form>
 
 
 
-        <style jsx>{`
-              h3{
+                    </div>
+
+                </form>
+
+
+
+                <style jsx>{`
+             h3{
                   text-align: center;
               }
               .home{
@@ -156,6 +150,13 @@ class Login extends React.Component {
               #vspace {
                 height: 30px;
               }
+              form {
+                border-style: solid;
+                border-color: rgb(140, 166, 180);
+                background-color: rgb(140, 166, 180);
+                opacity: 0.7;
+              
+              }
               .btn{
                 padding: 10px;
                 border: 1px solid #d8d8d8;
@@ -165,6 +166,7 @@ class Login extends React.Component {
               .info {
                 border-color: #2196F3;
                 color: dodgerblue
+                opacity:2;
               }
               
               .info:hover {
@@ -174,9 +176,9 @@ class Login extends React.Component {
               
             `}</style>
 
-      </div>
-    )
-  }
+            </div>
+        )
+    
 }
 
 export default Login;  
