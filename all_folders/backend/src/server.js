@@ -152,7 +152,7 @@ app.post('/logout', async (req, res) => {
     //     return res.sendStatus(403)
     // }
 
-    
+
 
     try {
         await req.session.destroy()
@@ -167,13 +167,13 @@ app.post('/logout', async (req, res) => {
 });
 app.get('/fetch-user', async (req, res) => {
 
-    
+
     if (req.sessionID && req.session.user) {
 
         console.log("fetch user successful")
         res.status(200)
         return res.json({ user: req.session.user })
-        
+
     }
     console.log(req.session)
     console.log("Ssss")
@@ -352,6 +352,17 @@ app.get("/tags/:tag_id", async (req, res) => {
         console.error(err.message);
     }
 });
+app.get("/tags", async (req, res) => {
+    try {
+        const tag_id = req.params.tag_id;
+
+        const allTodos = await client.query(`SELECT * from tags_courses;`)
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
 
 app.get("/tagname/:tag_name", async (req, res) => {
     try {
@@ -510,14 +521,14 @@ user_commented_question - question_id, user_id, comment,
 // comment_id,body,creation_date,question_id,user_id,score
 
 app.post("/user_liked_questions/:question_id", async (req, res) => {
- 
+
     const question_id = req.params.question_id;
 
-console.log(req.session.user)
+    console.log(req.session.user)
     try {
         const data = await client.query(
             `SELECT like_type from question_likes where user_id=$1 and question_id = $2;`,
-            [  req.session.user.user_id, question_id,]
+            [req.session.user.user_id, question_id,]
         )
         res.json(data.rows);
 
