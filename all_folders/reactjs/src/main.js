@@ -61,17 +61,17 @@ function Main_page() {
       <Home />
 
       <div className='container-body'>
-        <ToggleButtonGroup style={{ marginLeft: '470px' }} type="radio" name="options" defaultValue={1} onChange={handleChange}>
-          <ToggleButton id="tbg-radio-1" value={1}>
+        <ToggleButtonGroup variant="dark" style={{ marginLeft: '470px' }} type="radio" name="options" defaultValue={1} onChange={handleChange}>
+          <ToggleButton variant="outline-secondary" id="tbg-radio-1" value={1}>
             Popular questions
           </ToggleButton> <h3>&nbsp;</h3>
-          <ToggleButton id="tbg-radio-2" value={2}>
+          <ToggleButton variant="outline-secondary" id="tbg-radio-2" value={2}>
             Recent questions
           </ToggleButton> <h3>&nbsp;</h3>
-          <ToggleButton id="tbg-radio-3" value={3}>
+          <ToggleButton variant="outline-secondary" id="tbg-radio-3" value={3}>
             Popular users
           </ToggleButton> <h3>&nbsp;</h3>
-          <ToggleButton id="tbg-radio-4" value={4}>
+          <ToggleButton variant="outline-secondary" id="tbg-radio-4" value={4}>
             Popular tags
           </ToggleButton>
         </ToggleButtonGroup>
@@ -93,14 +93,14 @@ function Main_page() {
                           </Card.Title>
                         </a>
 
-                        <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">posted on {item.date} by {item.display_name}</Card.Subtitle>
 
-                        <Button size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
-                        {item.tag_2 ? <Button size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
-                        {item.tag_3 ? <Button size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
-                        {item.tag_4 ? <Button size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
-                        {item.tag_5 ? <Button size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
-                        {item.tag_6 ? <Button size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
+                        <Button href={`/tagname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
+                        {item.tag_2 ? <Button href={`/tagname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
+                        {item.tag_3 ? <Button href={`/tagname/${item.tag_3}`} size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
+                        {item.tag_4 ? <Button href={`/tagname/${item.tag_4}`} size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
+                        {item.tag_5 ? <Button href={`/tagname/${item.tag_5}`} size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
+                        {item.tag_6 ? <Button href={`/tagname/${item.tag_6}`} size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
 
 
                         <Card.Text>
@@ -130,14 +130,14 @@ function Main_page() {
                           </Card.Title>
                         </a>
 
-                        <Card.Subtitle className="mb-2 text-muted">posted on {item.creation_date} by {item.display_name}</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">posted on {item.date} by {item.display_name}</Card.Subtitle>
 
-                        <Button size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
-                        {item.tag_2 ? <Button size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
-                        {item.tag_3 ? <Button size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
-                        {item.tag_4 ? <Button size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
-                        {item.tag_5 ? <Button size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
-                        {item.tag_6 ? <Button size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
+                        <Button href={`/tagname/${item.tag_1}`} size="sm" variant="outline-info">{item.tag_1}</Button>{' '}
+                        {item.tag_2 ? <Button href={`/tagname/${item.tag_2}`} size="sm" variant="outline-info">{item.tag_2}</Button> : null}{' '}
+                        {item.tag_3 ? <Button href={`/tagname/${item.tag_3}`} size="sm" variant="outline-info">{item.tag_3}</Button> : null}{' '}
+                        {item.tag_4 ? <Button href={`/tagname/${item.tag_4}`} size="sm" variant="outline-info">{item.tag_4}</Button> : null}{' '}
+                        {item.tag_5 ? <Button href={`/tagname/${item.tag_5}`} size="sm" variant="outline-info">{item.tag_5}</Button> : null}{' '}
+                        {item.tag_6 ? <Button href={`/tagname/${item.tag_6}`} size="sm" variant="outline-info">{item.tag_6}</Button> : null}{' '}
 
 
                         <Card.Text>
@@ -169,7 +169,7 @@ function Main_page() {
                           </Card.Title>
                         </a>
 
-                        <Card.Subtitle className="mb-2 text-muted">joined on {item.creation_date}</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">joined on {item.date}</Card.Subtitle>
 
                         <Card.Text>
                           viewed {item.views} times <br></br>
@@ -193,7 +193,7 @@ function Main_page() {
 
                     <Card style={{ marginLeft: '0px', marginRight: '10px' }}>
                       <Card.Body>
-                        <a style={{ textDecoration: 'none' }} href={`/tag/${item.tag_id}`}>
+                        <a style={{ textDecoration: 'none' }} href={`/tags/${item.tag_id}`}>
                           <Card.Title>
                             {item.tag_name}
                           </Card.Title>
