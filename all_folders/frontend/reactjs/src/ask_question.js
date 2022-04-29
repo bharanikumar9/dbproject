@@ -1,4 +1,4 @@
-import React, { createRef } from "react";
+import React, { useState, useEffect } from "react";
 import Home from ".";
 import parse from 'html-react-parser'
 import Card from 'react-bootstrap/Card'
@@ -11,21 +11,24 @@ import {
     useParams,
 } from "react-router-dom";
 
-class Ask_question extends React.Component {
+function Ask_question()  {
 
-    // async componentDidMount() {
-    //     fetch(`http://localhost:5000/`)
-    //         .then((res) => res.json())
-    //         .then((json) => {
-    //             this.setState({
-    //                 DataisLoaded: true,
-    //                 items: json
-    //             });
-    //         })
-    // }
+    let { user_id } = useParams();
+    const fetchdata = async (api) => {
+        const res = await fetch(api)
+        const json = await res.json();
+        return json
+    }
+
+    const [info2, setInfo2] = useState([{}]);
+    useEffect(() => {
+        const api1 = `http://localhost:5000/tags`;
+        fetchdata(api1).then(data => {
+            setInfo2(data)
+        })
+    }, [])
 
 
-    render() {
 
 
         return (
@@ -61,12 +64,103 @@ class Ask_question extends React.Component {
 
 
 
-
-<label for="exampleFormControlTextarea6">Tags</label>
+{/* 
+<label for="exampleFormControlTextarea6">Tag_1</label>
             
                                                         <div class="form-group shadow-textarea">
   <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="1" placeholder="Write something here..."></textarea>
 </div>
+
+
+
+<label for="exampleFormControlTextarea6">Tag_2</label>
+            
+                                                        <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="1" placeholder="Write something here..."></textarea>
+</div>
+
+
+<label for="exampleFormControlTextarea6">Tag_3</label>
+            
+                                                        <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="1" placeholder="Write something here..."></textarea>
+</div>
+
+
+<label for="exampleFormControlTextarea6">Tag_4</label>
+            
+                                                        <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="1" placeholder="Write something here..."></textarea>
+</div>
+
+
+<label for="exampleFormControlTextarea6">Tag_5</label>
+            
+                                                        <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="1" placeholder="Write something here..."></textarea>
+</div>
+
+
+<label for="exampleFormControlTextarea6">Tag_6</label> */}
+            
+                                                        {/* <div class="form-group shadow-textarea">
+  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="1" placeholder="Write something here..."></textarea>
+</div> */}
+<br/>
+<label for="ice-cream-choice">Tag_1:</label>
+&nbsp;
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" size="35"/>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="ice-cream-choice">Tag_2:</label>
+&nbsp;
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" size="35"/>
+
+<br/>
+<br/>
+<label for="ice-cream-choice">Tag_3:</label>
+&nbsp;
+
+
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" size="35"/>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="ice-cream-choice">Tag_4:</label>
+
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" size="35"/>
+
+
+<br/>
+<br/>
+<label for="ice-cream-choice">Tag_5:</label>
+&nbsp;
+
+
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" size="35"/>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="ice-cream-choice">Tag_6:</label>
+&nbsp;
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" size="35"/>
+
+<datalist id="ice-cream-flavors">
+     
+
+
+{
+                    info2.map((item) => (
+            
+                          
+                          <option value={item.tag_name}/>
+                    
+                    ))
+                }
+   
+
+</datalist>
+
+<br/>
+
 
 
                                                <Button style={{ marginTop: '20px' }} variant="success">Submit</Button>                                
@@ -125,6 +219,6 @@ class Ask_question extends React.Component {
             </div>
         );
     }
-}
+
 
 export default Ask_question;
