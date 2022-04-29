@@ -29,6 +29,7 @@ const conObject = {
     database: PGDATABASE,
     password: PGPASSWORD,
     port: PGPORT,
+    multipleStatements: true
 }
 
 const client = new Client(conObject)
@@ -106,14 +107,13 @@ app.post('/login', async (req, res) => {
     const { username, password } = req.body
     console.log(req.body)
     if (username == null || password == null) {
-        console.log(display_name)
         return res.sendStatus(403)
     }
 
     try {
         const data = await client.query(
-            'SELECT user_id, display_name FROM users WHERE display_name = $1 and password = $2',
-            [username, password]
+            'SELECT user_id, display_name FROM users WHERE display_name = $1',
+            [username]
         )
 
         if (data.rows.length === 0) {
@@ -123,6 +123,7 @@ app.post('/login', async (req, res) => {
 
 
         console.log("user login successful")
+
 
         console.log(user)
 
@@ -135,6 +136,7 @@ app.post('/login', async (req, res) => {
             user_id: user.user_id,
             display_name: user.display_name,
         }
+        console.log("session create successful")
 
         res.status(200)
         return res.json({ user: req.session.user })
@@ -152,7 +154,7 @@ app.post('/logout', async (req, res) => {
     //     return res.sendStatus(403)
     // }
 
-    
+
 
     try {
         await req.session.destroy()
@@ -165,13 +167,13 @@ app.post('/logout', async (req, res) => {
         return res.sendStatus(500)
     }
 });
-app.post('/fetch-user', async (req, res) => {
-    
+app.get('/fetch-user', async (req, res) => {
+
     if (req.sessionID && req.session.user) {
         console.log(req.session.user)
         console.log("fetch user successful")
         res.status(200)
-        return res.json({ user: req.session.user })
+        return res.json([req.session.user])
     }
     return res.sendStatus(403)
 })
@@ -179,7 +181,7 @@ app.get("/questions/:offset/:limit", async (req, res) => {
     try {
         const { offset, limit } = req.params;
         const allTodos = await client.query(`SELECT questions.question_id,questions.title, questions.body, users.display_name, 
-        questions.creation_date, questions.tag_1, questions.tag_2, questions.tag_3, questions.tag_4,
+        substring(CAST(questions.creation_date as varchar),0,11) as date, questions.tag_1, questions.tag_2, questions.tag_3, questions.tag_4,
         questions.tag_5, questions.tag_6, questions.upvotes, questions.downvotes from questions,users 
         where questions.user_id = users.user_id ORDER BY view_count DESC,upvotes DESC, downvotes ASC
         OFFSET $1 LIMIT $2`
@@ -195,9 +197,9 @@ app.get("/recentquestions/:offset/:limit", async (req, res) => {
     try {
         const { offset, limit } = req.params;
         const allTodos = await client.query(`SELECT questions.question_id,questions.title, questions.body, users.display_name, 
-        questions.creation_date, questions.tag_1, questions.tag_2, questions.tag_3, questions.tag_4,
+        substring(CAST(questions.creation_date as varchar),0,11) as date, questions.tag_1, questions.tag_2, questions.tag_3, questions.tag_4,
         questions.tag_5, questions.tag_6, questions.upvotes, questions.downvotes from questions,users 
-        where questions.user_id = users.user_id ORDER BY questions.creation_date ASC, view_count DESC,upvotes DESC, downvotes ASC
+        where questions.user_id = users.user_id ORDER BY date DESC, view_count DESC,upvotes DESC, downvotes ASC
         OFFSET $1 LIMIT $2`
             , [offset, limit]);
         res.json(allTodos.rows);
@@ -209,7 +211,7 @@ app.get("/recentquestions/:offset/:limit", async (req, res) => {
 app.get("/topusers/:offset/:limit", async (req, res) => {
     try {
         const { offset, limit } = req.params;
-        const allTodos = await client.query(`SELECT * from users
+        const allTodos = await client.query(`SELECT *,substring(CAST(users.creation_date as varchar),0,11) as date from users
         ORDER BY views DESC, reputation DESC 
         OFFSET $1 LIMIT $2`
             , [offset, limit]);
@@ -315,6 +317,8 @@ app.get("/user/:user_id", async (req, res) => {
         const { user_id } = req.params;
         const allTodos = await client.query(`SELECT *,substring(CAST(creation_date as varchar),0,11) as date from users where users.user_id = $1`
             , [user_id]);
+        const addtoviewcount = await client.query(`UPDATE users SET views = views + 1  where users.user_id = $1`
+            , [user_id]);
         res.json(allTodos.rows);
     } catch (err) {
         console.error(err.message);
@@ -413,12 +417,17 @@ user_posted_question - token(user_id), question_title, question_body, tags
 */
 
 app.post('/user_posted_question', async (req, res) => {
-    const { title, body, tag_1, tag_2, tag_3, tag_4, tag_5, tag_6 } = req.body
+    let { title, body, tag_1, tag_2, tag_3, tag_4, tag_5, tag_6 } = req.body
     console.log(req.body)
 
     if (tag_1 == null || title == null || body == null) {
         return res.sendStatus(403)
     }
+    if(tag_2 == "" ) tag_2 = null
+    if(tag_3 == "" ) tag_3 = null
+    if(tag_4 == "" ) tag_4 = null
+    if(tag_5 == "" ) tag_5 = null
+    if(tag_6 == "" ) tag_6 = null
 
 
     // question_id,title,body,user_id,view_count,creation_date,upvotes,downvotes,tag_1,tag_2,tag_3,tag_4,tag_5,tag_6
@@ -442,6 +451,13 @@ app.post('/user_posted_question', async (req, res) => {
         console.error(e)
         return res.sendStatus(403)
     }
+    finally {
+        const changereputation = await client.query(
+            `UPDATE users SET reputation = reputation + 100 where users.user_id = $1 
+            `,
+            [req.session.user.user_id]
+        )
+    }
 });
 
 
@@ -462,7 +478,6 @@ user_answered_question - question_id, user_id, answer,
 app.post('/user_answered_question', async (req, res) => {
     const { question_id, body } = req.body
     console.log(req.session.user)
-    console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1")
 
     if (!(req.sessionID && req.session.user)) {
         console.log("no user")
@@ -490,6 +505,13 @@ app.post('/user_answered_question', async (req, res) => {
     } catch (e) {
         console.error(e)
         return res.sendStatus(403)
+    }
+    finally {
+        const changereputation = await client.query(
+            `UPDATE users SET reputation = reputation + 50 where users.user_id = $1 
+            `,
+            [req.session.user.user_id]
+        )
     }
 });
 
@@ -532,6 +554,14 @@ app.post('/user_commented_question', async (req, res) => {
         console.error(e)
         return res.sendStatus(403)
     }
+    finally {
+        const changereputation = await client.query(
+            `UPDATE users SET reputation = reputation + 10 where users.user_id = $1 
+            `,
+            [req.session.user.user_id]
+        )
+    }
+
 });
 
 
@@ -572,6 +602,13 @@ app.post('/user_commented_answer', async (req, res) => {
         console.error(e)
         return res.sendStatus(403)
     }
+    finally {
+        const changereputation = await client.query(
+            `UPDATE users SET reputation = reputation + 10 where users.user_id = $1 
+            `,
+            [req.session.user.user_id]
+        )
+    }
 });
 
 
@@ -600,11 +637,11 @@ app.post('/user_liked_question', async (req, res) => {
                 ) VALUES ($1, $2, $3) RETURNING *`,
             [like_type, question_id, req.session.user.user_id]
         )
-
         if (data.rows.length === 0) {
+            console.log("vote question insert failed")
             return res.sendStatus(403)
         }
-        console.log("like for question add successful")
+        console.log("vote for question add successful")
         console.log(data.rows[0])
 
         res.status(200)
@@ -612,6 +649,21 @@ app.post('/user_liked_question', async (req, res) => {
     } catch (e) {
         console.error(e)
         return res.sendStatus(403)
+    }
+    finally {
+        const votechange = await client.query(
+            `UPDATE questions SET upvotes = CASE WHEN $2 = 1 THEN upvotes + 1 ELSE upvotes END,
+            downvotes = CASE WHEN $2 = 0 THEN downvotes + 1 ELSE downvotes END
+            where questions.question_id = $1;
+            `,
+            [question_id, like_type]
+        )
+        const changereputation = await client.query(
+            `UPDATE users SET reputation = CASE WHEN $2 = 1 THEN reputation + 1 ELSE reputation - 1 END 
+            from questions where questions.question_id = $1 and users.user_id = questions.user_id;
+            `,
+            [question_id, like_type]
+        )
     }
 });
 
@@ -632,10 +684,12 @@ app.post('/user_liked_answer', async (req, res) => {
             [like_type, answer_id, req.session.user.user_id]
         )
 
+
         if (data.rows.length === 0) {
+            console.log("vote question insert failed")
             return res.sendStatus(403)
         }
-        console.log("like for answer add successful")
+        console.log("vote for answer add successful")
         console.log(data.rows[0])
 
         res.status(200)
@@ -644,8 +698,63 @@ app.post('/user_liked_answer', async (req, res) => {
         console.error(e)
         return res.sendStatus(403)
     }
+    finally {
+        const votechange = await client.query(
+            `UPDATE answers SET upvotes = CASE WHEN $2 = 1 THEN upvotes + 1 ELSE upvotes END,
+            downvotes = CASE WHEN $2 = 0 THEN downvotes + 1 ELSE downvotes END
+            where answers.answer_id = $1;
+            `,
+            [answer_id, like_type]
+        )
+        const changereputation = await client.query(
+            `UPDATE users SET reputation = CASE WHEN $2 = 1 THEN reputation + 1 ELSE reputation - 1 END 
+            from answers where answers.answer_id = $1 and users.user_id = answers.user_id;
+            `,
+            [answer_id, like_type]
+        )
+    }
 });
 
+app.get("/user_liked_questions/:question_id", async (req, res) => {
+
+    const question_id = req.params.question_id;
+
+    try {
+        const data = await client.query(
+            `SELECT like_type from question_likes where user_id=$1 and question_id = $2;`,
+            [req.session.user.user_id, question_id,]
+        )
+        res.json(data.rows);
+
+    } catch (e) {
+        console.error(e)
+    }
+});
+
+
+app.get("/user_liked_answers/:question_id", async (req, res) => {
+
+    const question_id = req.params.question_id;
+    try {
+        const data = await client.query(
+            `SELECT like_type,answer_id from answer_likes where user_id=$1 and answer_id in (select answer_id from answers where question_id = $2);`,
+            [req.session.user.user_id, question_id,]
+        )
+        res.json(data.rows);
+
+    } catch (e) {
+        console.error(e)
+    }
+});
+
+app.get("/tags", async (req, res) => {
+    try {
+        const allTodos = await client.query(`SELECT tag_name from tags_courses;`)
+        res.json(allTodos.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
 
 var server = app.listen(5000, function () {
     var host = server.address().address
