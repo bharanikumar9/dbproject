@@ -20,7 +20,7 @@ create table if not exists users
     about varchar,
     creation_date timestamp with time zone default now(),
     is_instructor int not null,
-    reputation int,
+    reputation int default 0,
     upvotes int,
     downvotes int,
     views int
@@ -117,7 +117,7 @@ create table if not exists question_likes(
     like_type int,
     question_id int,
     user_id int,
-
+    primary key (user_id,question_id),
     foreign key (question_id) references questions (question_id),
     foreign key (user_id) references users (user_id)
 );
@@ -127,7 +127,7 @@ create table if not exists answer_likes(
     like_type int,
     answer_id int,
     user_id int,
-
+    primary key (user_id,answer_id),
     foreign key (answer_id) references answers (answer_id),
     foreign key (user_id) references users (user_id)
 );
