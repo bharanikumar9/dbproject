@@ -1,6 +1,8 @@
+
 const express = require("express");
 const cors = require("cors");
 require('dotenv').config({ path: __dirname + '/dbproj.env' })
+var bcrypt = require('bcryptjs');
 
 const session = require('express-session')
 
@@ -14,6 +16,9 @@ app.use(
 )
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+
+
 
 PGHOST = process.env.host
 PGUSER = process.env.username
@@ -63,7 +68,7 @@ app.post('/register', async (req, res) => {
     const { display_name, password, age, location, about, is_instructor, reputation, upvotes, downvotes, views } = req.body
 
 
-    // console.log(req)
+    console.log(req.body)
 
     if (
         display_name == null ||
@@ -78,10 +83,11 @@ app.post('/register', async (req, res) => {
 
     try {
         // const hashedPassword = bcrypt.hashSync(req.body.password, 10)
+        // console.log(hashedPassword)
         const data = await client.query(
             `INSERT INTO users (display_name, password, age, location, about, is_instructor, reputation, upvotes, downvotes, views
-                ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING *`,
-            [display_name, password, age, location, about, is_instructor, reputation, upvotes, downvotes, views]
+                ) VALUES ($1, $2, $3, $4, $5, $6, 0,0,0,0) RETURNING *`,
+            [display_name, password, age, location, about, is_instructor]
         )
         console.log(data)
         if (data.rows.length === 0) {
@@ -112,8 +118,8 @@ app.post('/login', async (req, res) => {
 
     try {
         const data = await client.query(
-            'SELECT user_id, display_name FROM users WHERE display_name = $1',
-            [username]
+            'SELECT user_id, display_name FROM users WHERE display_name = $1 and password = $2',
+            [username, password]
         )
 
         if (data.rows.length === 0) {
@@ -147,19 +153,42 @@ app.post('/login', async (req, res) => {
 });
 
 
+app.post('/createtag', async (req, res) => {
+    const { tag_name } = req.body
+    console.log(req.body)
+
+    if (tag_name == '') {
+        return res.sendStatus(403)
+    }
+
+    try {
+        const data = await client.query(
+            `INSERT INTO tags_courses (tag_name,course_id
+                ) VALUES ($1, $2) RETURNING *`,
+            [tag_name, 30]
+        )
+        if (data.rows.length === 0) {
+            console.log("tag insert failed")
+            return res.sendStatus(403)
+        }
+        console.log("tag add successful")
+        console.log(data.rows[0])
+
+        res.status(200)
+        return res.json({ data: data })
+    } catch (e) {
+        console.error(e)
+        return res.sendStatus(403)
+    }
+});
+
 app.post('/logout', async (req, res) => {
-
-    // const { display_name } = req.body
-    // if (display_name == null) {
-    //     return res.sendStatus(403)
-    // }
-
 
 
     try {
         await req.session.destroy()
         console.log("logout user successful")
-        console.log(req.session.user)
+        // console.log(req.session.user)
         return res.sendStatus(200)
     } catch (e) {
         console.log("logout user failed")
@@ -167,6 +196,12 @@ app.post('/logout', async (req, res) => {
         return res.sendStatus(500)
     }
 });
+
+
+
+
+
+
 app.get('/fetch-user', async (req, res) => {
 
     if (req.sessionID && req.session.user) {
@@ -174,6 +209,17 @@ app.get('/fetch-user', async (req, res) => {
         console.log("fetch user successful")
         res.status(200)
         return res.json([req.session.user])
+    }
+    return res.sendStatus(403)
+})
+
+app.get('/fetch-user-reputation', async (req, res) => {
+
+    if (req.sessionID && req.session.user) {
+        const allTodos = await client.query(`SELECT reputation from users where users.user_id = $1`
+        , [req.session.user.user_id]);
+        console.log(allTodos.rows)
+        return res.json([allTodos.rows[0]]);
     }
     return res.sendStatus(403)
 })
@@ -401,7 +447,7 @@ app.get("/user_tags/:user_id", async (req, res) => {
 app.get("/user_questions/:user_id", async (req, res) => {
     try {
         const user_id = req.params.user_id;
-        const allTodos = await client.query(`SELECT * from questions where user_id=$1 order by view_count desc limit 5;`, [user_id]);
+        const allTodos = await client.query(`SELECT *, substring(CAST(questions.creation_date as varchar),0,11) as date from questions where user_id=$1 order by view_count desc limit 5;`, [user_id]);
         res.json(allTodos.rows);
     } catch (err) {
         console.error(err.message);
@@ -417,6 +463,10 @@ user_posted_question - token(user_id), question_title, question_body, tags
 */
 
 app.post('/user_posted_question', async (req, res) => {
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
     let { title, body, tag_1, tag_2, tag_3, tag_4, tag_5, tag_6 } = req.body
     console.log(req.body)
 
@@ -476,6 +526,10 @@ user_answered_question - question_id, user_id, answer,
 
 
 app.post('/user_answered_question', async (req, res) => {
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
     const { question_id, body } = req.body
     console.log(req.session.user)
 
@@ -528,6 +582,10 @@ user_commented_question - question_id, user_id, comment,
 
 
 app.post('/user_commented_question', async (req, res) => {
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
     const { question_id, body } = req.body
     console.log(req.body)
 
@@ -576,6 +634,10 @@ comment_id,body,creation_date,answer_id,user_id,score
 */
 
 app.post('/user_commented_answer', async (req, res) => {
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
     const { answer_id, body } = req.body
     console.log(req.body)
 
@@ -624,6 +686,10 @@ user_liked_answer - answer_id, like_type, user_id
 
 
 app.post('/user_liked_question', async (req, res) => {
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
     const { question_id, like_type } = req.body
     console.log(req.body)
 
@@ -670,6 +736,10 @@ app.post('/user_liked_question', async (req, res) => {
 
 
 app.post('/user_liked_answer', async (req, res) => {
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
     const { answer_id, like_type } = req.body
     console.log(req.body)
 
@@ -716,6 +786,10 @@ app.post('/user_liked_answer', async (req, res) => {
 });
 
 app.get("/user_liked_questions/:question_id", async (req, res) => {
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
 
     const question_id = req.params.question_id;
 
@@ -733,6 +807,10 @@ app.get("/user_liked_questions/:question_id", async (req, res) => {
 
 
 app.get("/user_liked_answers/:question_id", async (req, res) => {
+    if (!(req.sessionID && req.session.user)) {
+        console.log("no user")
+        return res.sendStatus(403)
+    }
 
     const question_id = req.params.question_id;
     try {
@@ -754,6 +832,40 @@ app.get("/tags", async (req, res) => {
     } catch (err) {
         console.error(err.message);
     }
+});
+
+app.post('/searchwithtag', async (req, res) => {
+
+    
+    let { tags } = req.body
+    console.log(req.body)
+    console.log(tags)
+    let tag = []
+tags.forEach(element => {
+    tag.push("'"+element+"'");
+});
+console.log(tag)
+
+    try {
+        const data = await client.query(
+            `Select question_id, body, title,users.display_name, users.user_id ,  questions.view_count , substring(CAST(questions.creation_date as varchar),0,11) as creation_date ,questions.upvotes ,questions.downvotes ,tag_1 ,     tag_2
+                ,     tag_3      ,tag_4  ,  tag_5  ,tag_6,  count(*) from questions,tags_courses, users where( tags_courses.tag_name = tag_1 OR 
+            tags_courses.tag_name = tag_2 OR tags_courses.tag_name = tag_3
+             OR tags_courses.tag_name = tag_4 OR tags_courses.tag_name = tag_5 OR tags_courses.tag_name = tag_6) and users.user_id = questions.user_id and tag_name in (${tag}) 
+             group by users.display_name,question_id, body, title, users.user_id , view_count , questions.creation_date,questions.upvotes ,questions.downvotes ,tag_1 ,     tag_2
+             ,     tag_3      ,tag_4  ,  tag_5  ,tag_6 order by count desc `,
+        )
+
+        // console.log(data)
+
+        res.status(200)
+        return res.json(data.rows)
+    } catch (e) {
+        console.error(e)
+        return res.sendStatus(403)
+    }
+ 
+    
 });
 
 var server = app.listen(5000, function () {
