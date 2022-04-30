@@ -12,9 +12,9 @@ DROP TABLE IF EXISTS users;
 
 create table if not exists users
 (
-    user_id serial primary key,
+    user_id int,
     display_name text not null,
-    password varchar(50) not null,
+    password text not null,
     age int not null,
     location text,
     about varchar,
@@ -23,7 +23,8 @@ create table if not exists users
     reputation int default 0,
     upvotes int,
     downvotes int,
-    views int
+    views int,
+    primary key(display_name)
 );
 
 create table if not exists courses(
@@ -153,6 +154,9 @@ alter table users alter user_id set default nextval('users_seq');
 
 CREATE SEQUENCE  if not exists answers_seq START WITH 62459100  INCREMENT BY 1;
 alter table answers alter answer_id set default nextval('answers_seq');
+
+CREATE SEQUENCE  if not exists tag_id_seq START WITH 974  INCREMENT BY 1;
+alter table tags_courses alter tag_id set default nextval('tag_id_seq');
 
 
 CREATE SEQUENCE  if not exists questions_seq START WITH 505990 INCREMENT BY 1;
