@@ -61,17 +61,17 @@ function Main_page() {
       <Home />
 
       <div className='container-body'>
-        <ToggleButtonGroup style={{ marginLeft: '470px' }} type="radio" name="options" defaultValue={1} onChange={handleChange}>
-          <ToggleButton id="tbg-radio-1" value={1}>
+      <ToggleButtonGroup variant="dark" style={{ marginLeft: '470px' }} type="radio" name="options" defaultValue={1} onChange={handleChange}>
+          <ToggleButton variant="outline-secondary" id="tbg-radio-1" value={1}>
             Popular questions
           </ToggleButton> <h3>&nbsp;</h3>
-          <ToggleButton id="tbg-radio-2" value={2}>
+          <ToggleButton variant="outline-secondary" id="tbg-radio-2" value={2}>
             Recent questions
           </ToggleButton> <h3>&nbsp;</h3>
-          <ToggleButton id="tbg-radio-3" value={3}>
+          <ToggleButton variant="outline-secondary" id="tbg-radio-3" value={3}>
             Popular users
           </ToggleButton> <h3>&nbsp;</h3>
-          <ToggleButton id="tbg-radio-4" value={4}>
+          <ToggleButton variant="outline-secondary" id="tbg-radio-4" value={4}>
             Popular tags
           </ToggleButton>
         </ToggleButtonGroup>
@@ -163,7 +163,7 @@ function Main_page() {
 
                     <Card style={{ marginLeft: '0px', marginRight: '10px' }}>
                       <Card.Body>
-                        <a style={{ textDecoration: 'none' }} href={`/user/${item.user_id}`}>
+                        <a style={{ textDecoration: 'none' }} href={`/users/${item.user_id}`}>
                           <Card.Title>
                             {item.display_name}
                           </Card.Title>

@@ -21,6 +21,11 @@ function Ask_question() {
 
     const [info2, setInfo2] = useState([{}]);
     const [data, setdata] = useState([]);
+    const [tagdata, settagdata] = useState({
+        tag_name: '',
+        
+    });
+    const [user_reputation, setuser_reputation] = useState([]);
     const [errors, seterros] = useState({})
     const [formData, setFormData] = useState({
         title: '',
@@ -43,73 +48,127 @@ function Ask_question() {
             });
             setdata(coin)
         })
+        const api2 = `http://localhost:5000/users/`;
+        fetchdata(api2).then(data => {
+            setInfo2(data)
+            console.log(data)
+            let coin = []
+            data.forEach(element => {
+                coin.push(element.tag_name)
+            });
+            setdata(coin)
+        })
+        axios.get('http://localhost:5000/fetch-user-reputation/', {
+            withCredentials: true,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+            },
+        }).then(res => {
+            // console.log(res)
+            // setuser_id(res.data[0].user_id)
+            // console.log("user_id")
+            // console.log(user_id)
+
+            console.log("res")
+            console.log(res)
+            setuser_reputation(res.data[0].reputation)
+            console.log("reputation")
+            console.log(user_reputation)
+        }).catch(err => console.log(err));
     }, [])
 
 
 
 
-   const handleValidation = ()=> {
+    const handleValidation = () => {
         let fields = formData;
         let errors = {};
         let formIsValid = true;
-    
+
         if (!fields["title"]) {
-          formIsValid = false;
-          errors["title"] = "Cannot be empty";
+            formIsValid = false;
+            errors["title"] = "Cannot be empty";
         }
-    
-    
-    
+
+
+
         if (!fields["body"]) {
-          formIsValid = false;
-          errors["body"] = "Cannot be empty";
+            formIsValid = false;
+            errors["body"] = "Cannot be empty";
         }
-    
-       
-    
+
+
+
         if (!fields["tag_1"]) {
-          formIsValid = false;
-          errors["tag_1"] = "Cannot be empty";
+            formIsValid = false;
+            errors["tag_1"] = "Cannot be empty";
         }
         console.log(data)
-        if(!data.includes(fields['tag_1'])){
+        if (!data.includes(fields['tag_1'])) {
             errors["tag_1"] = "tag_1 must be a valid tag";
         }
 
-        if( fields['tag_2'] != "" && !data.includes(fields['tag_2'])){
+        if (fields['tag_2'] != "" && !data.includes(fields['tag_2'])) {
             formIsValid = false;
             errors["tag_2"] = "tag_2 is not valid tag";
         }
-        if( fields['tag_3'] != "" && !data.includes(fields['tag_3'])){
+        if (fields['tag_3'] != "" && !data.includes(fields['tag_3'])) {
             formIsValid = false;
             errors["tag_3"] = "tag_3 is not valid tag";
         }
-        if( fields['tag_4'] != "" && !data.includes(fields['tag_4'])){
+        if (fields['tag_4'] != "" && !data.includes(fields['tag_4'])) {
             formIsValid = false;
             errors["tag_4"] = "tag_4 is not valid tag";
         }
-        if( fields['tag_5'] != "" && !data.includes(fields['tag_5'])){
+        if (fields['tag_5'] != "" && !data.includes(fields['tag_5'])) {
             formIsValid = false;
             errors["tag_5"] = "tag_5 is not valid tag";
         }
-        if( fields['tag_6'] != "" && !data.includes(fields['tag_6'])){
+        if (fields['tag_6'] != "" && !data.includes(fields['tag_6'])) {
             formIsValid = false;
             errors["tag_6"] = "tag_6 is not valid tag";
         }
-    
-    
+
+
         seterros(errors)
         return formIsValid;
-      }
+    }
 
 
     const contactSubmit = () => {
         console.log(formData);
-if(handleValidation())  {
-          // setLoading(true)
-        //   setFormData({ ...formData, body:formData.body+"\n"})  
-                axios
-            .post('http://localhost:5000/user_posted_question', formData, {
+        if (handleValidation()) {
+            // setLoading(true)
+            //   setFormData({ ...formData, body:formData.body+"\n"})  
+            axios
+                .post('http://localhost:5000/user_posted_question', formData, {
+                    withCredentials: true,
+                    headers: {
+                        'Access-Control-Allow-Origin': '*',
+                    },
+                })
+                .then((response) => {
+                    if (response.status === 200) {
+                        console.log(response.data)
+                        window.location.reload(false)
+
+                    } else {
+                        throw new Error()
+                    }
+                })
+                .catch((error) => {
+                    console.log(error)
+                })
+            //     .finally(() => {
+            //         setLoading(false)
+            //     })   
+        }
+    }
+
+    const tagSubmit = () => {
+        console.log(tagdata);
+        axios
+            .post('http://localhost:5000/createtag', tagdata, {
                 withCredentials: true,
                 headers: {
                     'Access-Control-Allow-Origin': '*',
@@ -125,13 +184,12 @@ if(handleValidation())  {
                 }
             })
             .catch((error) => {
-               console.log(error)
+                console.log(error)
             })
-        //     .finally(() => {
-        //         setLoading(false)
-        //     })   
-}     
+        
     }
+
+
     return (
         <div>
             <Home />
@@ -168,13 +226,35 @@ if(handleValidation())  {
                             </div>
 
 
+                            <br>
+                            </br>
 
-                            <br />
+                            {user_reputation >  1000 ? (
+                                <div>
+                                    <label for="ice-cream-choice">You can add a new tag here</label>
+                                    {/* <br></br> */}
+                                    &nbsp;
+                                    <input onChange={(e) => settagdata({ ...tagdata, tag_name: e.target.value })}
+                                        value={tagdata.tag_name} id="ice-cream-choice" name="ice-cream-choice" size="35" />
+                                    {/* <br></br> */}
+                                    {/* &nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+
+                                    <Button onClick={tagSubmit} style={{ marginLeft: '20px' }}  variant="success">Create tag</Button>
+
+
+                                </div>
+                                    
+
+                            ) : null}
+
+                            <br></br>
+
                             <label for="ice-cream-choice">Tag_1:</label>
                             &nbsp;
                             <input onChange={(e) => setFormData({ ...formData, tag_1: e.target.value })}
                                 value={formData.tag_1} list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" size="35" />
-           &nbsp;
+                            &nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <label for="ice-cream-choice">Tag_2:</label>
                             &nbsp;

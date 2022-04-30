@@ -22,6 +22,7 @@ function User_profile() {
 
 
     const [info1, setInfo1] = useState([{}]);
+
     useEffect(() => {
         const api1 = `http://localhost:5000/user/${user_id}`;
         fetchdata(api1).then(data => {

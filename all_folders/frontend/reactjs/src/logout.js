@@ -20,9 +20,9 @@ function Logout() {
                         </Nav>
 
                         <div className="float-right">
-                            <Button href="/register" variant="success">Register new</Button>
+                            <Button href="/register" variant="outline-secondary">Register</Button>
                             &nbsp;
-                            <Button href="/login" variant="secondary">Login</Button>
+                            <Button href="/login" variant="outline-secondary">Login</Button>
                         </div>
                     </Container>
 

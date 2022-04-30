@@ -154,6 +154,8 @@ function QuestionDetails() {
                 }
             })
             .catch((error) => {
+                alert("login to add answer")
+
                 console.error(`Couldn't log the user out: ${error}`)
             })
             .finally(() => {
@@ -191,6 +193,8 @@ function QuestionDetails() {
                 }
             })
             .catch((error) => {
+                alert("login to add comments")
+
                 console.error(`Couldn't log the user out: ${error}`)
             })
             .finally(() => {
@@ -221,10 +225,14 @@ function QuestionDetails() {
                     console.log(response);
                     window.location.reload(false)
                 } else {
+                    console.log("*******")
+                    alert("login to add comments")
                     throw new Error()
                 }
             })
             .catch((error) => {
+                alert("login to add comments")
+
                 console.error(`Couldn't log the user out: ${error}`)
             })
             .finally(() => {
@@ -268,6 +276,8 @@ function QuestionDetails() {
                 }
             })
             .catch((error) => {
+                alert("login to like")
+
                 console.error(`Couldn't liket: ${error}`)
             })
 

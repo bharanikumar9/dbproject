@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import App from './App'
 import ReactDOM from 'react-dom';
+import { useNavigate } from 'react-router-dom'
+
 import { Navbar, Nav, Form, Button, Container, FormControl } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FiThumbsUp, FiThumbsDown, FiUser } from "react-icons/fi"
@@ -13,6 +15,34 @@ export default function Home() {
     return json
   }
 
+  const [loading, setLoading] = useState(false)
+const navigate = useNavigate()
+  const logout = () => {
+      setLoading(true)
+      axios
+          .post('http://localhost:5000/logout', null, {
+              withCredentials: true,
+              headers: {
+                  'Access-Control-Allow-Origin': '*',
+              },
+          })
+          .then((response) => {
+            console.log(response)
+            console.log("QQQQQQQQQQQQQWWWWWWWWWWWWW")
+              if (response.status === 200) {
+                  navigate('/logout')
+              } else {
+                  throw new Error()
+              }
+          })
+          .catch((error) => {
+            console.log("QQQQQQQQQ66666666666WWWWWWWWWWW")
+              console.error(`Couldn't log the user out: ${error}`)
+          })
+          .finally(() => {
+              setLoading(false)
+          })
+  }
 
   const [user_id, setuser_id] = useState({});
   useEffect(() => {
@@ -51,7 +81,7 @@ export default function Home() {
             <div className="float-right">
               <Button href="/questions/ask" variant="success">Ask a question</Button>
               &nbsp;
-              <Button href="/logout" variant="secondary">Log out</Button>
+              <Button  onClick={logout}  loading = {loading}  variant="outline-secondary">Log out</Button>
               <Button variant="light"><a href={`/userprofile/${user_id}`}> <FiUser size="25px" /></a></Button>
               
               {/* ${info1.user_id} */}
@@ -72,11 +102,13 @@ export default function Home() {
 
 
       <div className="container">
-        <ul className="sidebar">
+        <ul className="sidebar" style =  {{height: '290px'}}>
           <li><a href='/'> <span>Home</span> </a></li>
           <li><a href='/questions'> <span>Questions</span> </a></li>
           <li><a href='/users'> <span>Users</span> </a></li>
           <li><a href='/tags'> <span>Tags</span> </a></li>
+          <li><a href='/search'> <span>Search</span> </a></li>
+
         </ul>
       </div>
 
@@ -96,7 +128,7 @@ export default function Home() {
             padding-left: 0px;
             padding-top: 50px;
             position: fixed;
-            height: 250px;
+            height: 290px;
             width: 200px;
             z-index: 10;
             text-align: center;

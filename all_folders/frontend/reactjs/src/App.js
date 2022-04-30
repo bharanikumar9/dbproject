@@ -21,6 +21,7 @@ import Users from "./users";
 import Add_User from "./register";
 import User_profile from "./user_profile";
 import Edit_profile from "./edit_profile";
+import Search from "./search";
 
 export default function App() {
 	return (
@@ -33,6 +34,7 @@ export default function App() {
 					<Route exact path="/questions/" element={<Questions />} />
 					<Route exact path="/questions/:question_id" element={<QuestionDetails />} />
 					<Route exact path="/users/" element={<Users />} />
+					<Route exact path="/search/" element={<Search />} />
 					<Route exact path="/tags/" element={<Tags />} />
 					<Route exact path="/users/:user_id" element={<View_profile />} />
 					<Route exact path="/tags/:tag_id" element={<TagDetails />} />
@@ -50,4 +52,3 @@ export default function App() {
 		</BrowserRouter>
 	);
 }
-

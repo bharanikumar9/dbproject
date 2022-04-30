@@ -1,201 +1,232 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'reactstrap';
+import './index.css'
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom'
 
+//@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
 
-class Add_User extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      fields: {},
-      errors: {}
-    }
+function Add_User() {
+  const fetchdata = async (api) => {
+    const res = await fetch(api)
+    const json = await res.json();
+    return json
   }
 
 
 
-  handleValidation() {
-    let fields = this.state.fields;
-    let errors = {};
-    let formIsValid = true;
 
-    if (!fields["display_name"]) {
-      formIsValid = false;
-      errors["display_name"] = "Cannot be empty";
+  const navigate = useNavigate();
+
+  const [Username, setName] = useState('');
+  const [Confirm_Password, setPassword2] = useState('');
+  const [Password, setPassword] = useState('');
+  const [Age, setAge] = useState('');
+  const [About, setAbout] = useState('');
+
+  const [Location, setLocation] = useState('');
+  const [Is_instuctor, setIs_instuctor] = useState(0);
+
+
+  // States for checking the errors
+  const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
+  const [error2, setError2] = useState(false);
+
+  // Handling the name change
+  const handleUserName = (e) => {
+    setName(e.target.value);
+    setSubmitted(false);
+  };
+
+  // Handling the email change
+  const handlePassword2 = (e) => {
+    setPassword2(e.target.value);
+    setSubmitted(false);
+  };
+
+  // Handling the password change
+  const handlePassword = (e) => {
+    setPassword(e.target.value);
+    setSubmitted(false);
+  };
+
+  const handleAge = (e) => {
+    setAge(e.target.value);
+    setSubmitted(false);
+  };
+  const handleAbout = (e) => {
+    setAbout(e.target.value);
+    setSubmitted(false);
+  };
+  const handleLocation = (e) => {
+    setLocation(e.target.value);
+    setSubmitted(false);
+  };
+  const handleIs_Instructor = (e) => {
+    if (e.target.value == 'Student') {
+      setIs_instuctor(0);
     }
+    else setIs_instuctor(1);
+    setSubmitted(false);
+  };
 
-    if (typeof fields["display_name"] !== "undefined") {
-      if (!fields["display_name"].match(/^[a-zA-Z0-9]+$/)) {
-        formIsValid = false;
-        errors["display_name"] = "Invalid Format of display_name";
-      }
-    }
-
-    if (!fields["password"]) {
-      formIsValid = false;
-      errors["password"] = "Cannot be empty";
-    }
-
-    if (typeof fields["password"] !== "undefined") {
-      if (!fields["password"].match(/^[0-9]+$/)) {
-        formIsValid = false;
-        errors["password"] = "password must contain atleast one lower case , one upper case, special character";
-      }
-    }
-
-    if (!fields["age"]) {
-      formIsValid = false;
-      errors["age"] = "Cannot be empty";
-    }
-
-    if (typeof fields["age"] !== "undefined") {
-      if (!fields["age"].match(/^[0-9]+$/)) {
-        formIsValid = false;
-        errors["age"] = "Only numbers";
-      }
-    }
-
-    if (!fields["is_instructor"]) {
-      formIsValid = false;
-      errors["is_instructor"] = "Cannot be empty";
-    }
-
-    if (typeof fields["is_instructor"] !== "undefined") {
-      if (!fields["is_instructor"].match(/[yes|no]$/)) {
-        formIsValid = false;
-        errors["is_instructor"] = "Only either yes or no";
-      }
-    }
-    if (!fields["Location"]) {
-      formIsValid = false;
-      errors["Location"] = "Cannot be empty";
-    }
-
-    if (typeof fields["Location"] !== "undefined") {
-      if (!fields["Location"].match(/^[0-9]+$/)) {
-        formIsValid = false;
-        errors["Location"] = "Only numbers";
-      }
-    }
-
-
-    if (!fields["About"]) {
-      formIsValid = false;
-      errors["About"] = "Cannot be empty";
-    }
-
-    if (typeof fields["About"] !== "undefined") {
-      if (!fields["About"].match(/^.*?/)) {
-        formIsValid = false;
-        errors["About"] = "";
-      }
-    }
-
-
-
-
-    this.setState({ errors: errors });
-    return formIsValid;
-  }
-
-  contactSubmit(e) {
+  // Handling the form submission
+  const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log(this.state.fields);
-
-    if (this.handleValidation()) {
-      fetch('http://localhost:5000/register', {  // Enter your IP address here
-        headers: { 'Content-Type': 'application/json' },
-        method: 'POST',
-        body: JSON.stringify(this.state.fields)
-      })
-      alert("Successfully signed up");
-    } else {
-      alert("Form has errors.")
+    setError2(false);
+    setError(false);
+    if (Username === '' || Password === '' || Confirm_Password === '' || Age === '' || Location === '') {
+      setError(true);
     }
+    else if (Password !== Confirm_Password) {
+      setError2(true);
+    }
+    else {
+      setSubmitted(true);
+      setError(false);
+      var data = { display_name: Username, password: Password, age: Age, location: Location, about: About, is_instructor: Is_instuctor }
+      console.log(data)
+      axios.post('http://localhost:5000/register', data, {
+        withCredentials: true,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+        },
+      })
+        .then((response) => {
+          if (response.status === 200) {
+            console.log(response.data)
+            navigate("/")
 
-  }
+          } else {
+            throw new Error()
+          }
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+    }
+  };
 
-  handleChange(field, e) {
-    let fields = this.state.fields;
-    fields[field] = e.target.value;
-    this.setState({ fields });
-  }
 
-  render() {
+  // Showing success message
+  const successMessage = () => {
+    // alert("User "+Username+" successfully registered!!");
     return (
-      <div>
-        <div id='vspace'></div>
-        <div id='vspace'></div>
+      <div
+        className="success"
+        style={{
+          display: submitted ? '' : 'none',
+        }}>
 
-        <form name="contactform" className="contactform" onSubmit={this.contactSubmit.bind(this)}>
+      </div>
+    );
+  };
 
-          <div id="main">
-            <img src="logo1.png" alt="Discussion logo" width="128" height="128" />
-
-
-
-            <fieldset>
-              <div id='vspace'></div>
-              <div id='vspace'></div>
-              <label>
-                display_name: <input type="text" size="30" onChange={this.handleChange.bind(this, "display_name")} value={this.state.fields["display_name"]} />
-                <span className="error">{this.state.errors["display_name"]}</span>
-                <br />
-              </label>
-              <div id="vspace"></div>
-
-              <label>
-                password: <input type="text" size="30" onChange={this.handleChange.bind(this, "password")} value={this.state.fields["password"]} />
-                <span className="error">{this.state.errors["password"]}</span>
-                <br />
-              </label>
-              <div id="vspace"></div>
-
-              <label>
-                age: <input type="number" size="30" onChange={this.handleChange.bind(this, "age")} value={this.state.fields["age"]} />
-                <span className="error">{this.state.errors["age"]}</span>
-                <br />
-              </label>
-              <div id="vspace"></div>
-
-
-              <label>
-                IS INSTRUCTOR: <input type="text" size="30" onChange={this.handleChange.bind(this, "is_instructor")} value={this.state.fields["is_instructor"]} />
-                <span className="error">{this.state.errors["is_instructor"]}</span>
-                <br />
-              </label>
-              <div id='vspace'></div>
-
-              <label>
-                LOCATION: <input type="text" size="30" onChange={this.handleChange.bind(this, "Location")} value={this.state.fields["Location"]} />
-                <span className="error">{this.state.errors["Location"]}</span>
-                <br />
-              </label>
-              <div id='vspace'></div>
-
-              <label>
-                ABOUT : <input type="text" size="30" onChange={this.handleChange.bind(this, "About")} value={this.state.fields["About"]} />
-                <span className="error">{this.state.errors["About"]}</span>
-                <br />
-              </label>
-              <div id='vspace'></div>
-
-              <button className="btn info" id="submit" value="Submit">Sign Up</button>
-              <br />
-              <br />
-            </fieldset>
-            <div id="vspace"></div>
+  // Showing error message if error is true
+  const errorMessage = () => {
+    return (
+      <div
+        className="error"
+        style={{
+          display: error ? '' : 'none',
+        }}>
+        <h1>Please enter all the fields</h1>
+      </div>
+    );
+  };
 
 
 
+  const errorMessage2 = () => {
+    return (
+      <div
+        className="error"
+        style={{
+          display: error2 ? '' : 'none',
+        }}>
+        <h1>Passwords don't match</h1>
+      </div>
+    );
+  };
+  return (
+    <div class="colorfull">
+      <div id='vspace'></div>
+      <div id='vspace'></div>
+      <div className="form">
 
+        {/* Calling to the methods */}
+        <div className="messages">
+          {errorMessage()}
+          {successMessage()}
+          {errorMessage2()}
+        </div>
+
+        <form>
+          <h3>Register</h3>
+
+          <div className="form-group">
+            <label>Username</label>
+            <input type="text" className="form-control" placeholder="Username" onChange={handleUserName}
+              value={Username} />
           </div>
 
+          <div className="form-group">
+            <label>Password</label>
+            <input type="password" className="form-control" placeholder="Password" onChange={handlePassword}
+              value={Password} />
+          </div>
+
+          <div className="form-group">
+            <label>Confirm Password</label>
+            <input type="password" className="form-control" placeholder="Confirm Password" onChange={handlePassword2}
+              value={Confirm_Password} />
+          </div>
+
+          <div className="form-group">
+            <label>Age</label>
+            <input type="number" className="form-control" placeholder="Age" onChange={handleAge}
+              value={Age} />
+          </div>
+          <div className="form-group">
+            <label>Location</label>
+            <input type="text" className="form-control" placeholder="Location" onChange={handleLocation}
+              value={Location} />
+          </div>
+          <div className="form-group">
+            <label>About</label>
+            <input type="text" className="form-control" placeholder="About" onChange={handleAbout} />
+          </div>
+
+          <label>
+            Role
+            <br />
+            <input list="ice-cream-flavors" className="form-control" placeholder="Role" onChange={handleIs_Instructor} name="ice-cream-choice" size="90" />
+            <datalist id="ice-cream-flavors">
+
+              <option value="Student" />
+              <option value="Instructor" />
+
+            </datalist>
+
+          </label>
+
+          <br />
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <button onClick={handleSubmit} className="btn info" type="submit">
+            Register
+          </button>
+          <p className="forgot-password text-right">
+            Already registered <a href="/login">log in?</a>
+          </p>
         </form>
+      </div>
+
+      <style jsx>{`
 
 
-
-        <style jsx>{`
               h3{
                   text-align: center;
               }
@@ -217,6 +248,13 @@ class Add_User extends React.Component {
               #vspace {
                 height: 30px;
               }
+              form {
+                border-style: solid;
+                background-color:  rgb(140, 166, 180);
+                opacity: 0.7;
+                width: 600px
+              
+              }
               .btn{
                 padding: 10px;
                 border: 1px solid #d8d8d8;
@@ -226,6 +264,7 @@ class Add_User extends React.Component {
               .info {
                 border-color: #2196F3;
                 color: dodgerblue
+                opacity:2;
               }
               
               .info:hover {
@@ -235,9 +274,9 @@ class Add_User extends React.Component {
               
             `}</style>
 
-      </div>
-    )
-  }
+    </div>
+  )
 }
 
-export default Add_User;  
+
+export default Add_User;
